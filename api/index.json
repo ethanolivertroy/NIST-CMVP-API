@@ -1,0 +1,11 @@
+{
+  "name": "NIST CMVP Data API",
+  "description": "Static API for NIST Cryptographic Module Validation Program validated modules",
+  "endpoints": {
+    "modules": "/api/modules.json",
+    "metadata": "/api/metadata.json"
+  },
+  "last_updated": null,
+  "total_modules": 0,
+  "status": "pending_first_run"
+}
