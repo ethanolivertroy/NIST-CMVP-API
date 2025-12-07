@@ -4,6 +4,10 @@ NIST CMVP Data Scraper
 
 This script scrapes the NIST Cryptographic Module Validation Program (CMVP)
 validated modules database and saves the data as JSON files for a static API.
+
+Environment Variables:
+    NIST_SEARCH_PATH: Override the search path (default: /all)
+                      Example: export NIST_SEARCH_PATH="/all"
 """
 
 import json
@@ -17,6 +21,8 @@ from bs4 import BeautifulSoup
 
 
 BASE_URL = "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search"
+# Allow override via environment variable for flexibility
+SEARCH_PATH = os.getenv("NIST_SEARCH_PATH", "/all")
 USER_AGENT = "NIST-CMVP-Data-Scraper/1.0 (GitHub Project)"
 
 
@@ -133,13 +139,15 @@ def scrape_all_modules() -> List[Dict]:
     """
     all_modules = []
     
-    # Start with the main search page
-    url = f"{BASE_URL}/all"
+    # Construct the search URL using BASE_URL and SEARCH_PATH
+    url = f"{BASE_URL}{SEARCH_PATH}"
     print(f"Fetching: {url}")
+    print(f"Note: If this URL is incorrect, set NIST_SEARCH_PATH environment variable")
     
     html = fetch_page(url)
     if not html:
         print("Failed to fetch main page", file=sys.stderr)
+        print(f"Verify the URL is correct: {url}", file=sys.stderr)
         return all_modules
     
     modules = parse_modules_table(html)
