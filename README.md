@@ -18,19 +18,26 @@ https://<username>.github.io/nist-CMVP-data/api/
 
 - **`/api/index.json`** - API information and status
 - **`/api/modules.json`** - Complete list of all validated modules with metadata
+- **`/api/historical-modules.json`** - Complete list of historical (expired/revoked) modules
 - **`/api/metadata.json`** - Metadata about the dataset (last update, total count, etc.)
 
 ### Example Usage
 
 ```bash
-# Get all modules
+# Get all validated modules
 curl https://<username>.github.io/nist-CMVP-data/api/modules.json
+
+# Get all historical modules
+curl https://<username>.github.io/nist-CMVP-data/api/historical-modules.json
 
 # Get metadata
 curl https://<username>.github.io/nist-CMVP-data/api/metadata.json
 
 # Using jq to filter results
 curl https://<username>.github.io/nist-CMVP-data/api/modules.json | jq '.modules[] | select(.Vendor == "Microsoft")'
+
+# Filter historical modules by vendor
+curl https://<username>.github.io/nist-CMVP-data/api/historical-modules.json | jq '.modules[] | select(."Vendor Name" == "Microsoft")'
 ```
 
 ## 🚀 Setup Instructions
@@ -85,9 +92,10 @@ python scraper.py
 ```
 
 This will:
-1. Fetch data from the NIST CMVP website
-2. Parse the validated modules information
-3. Generate JSON files in the `api/` directory
+1. Fetch validated modules data from the NIST CMVP website
+2. Fetch historical modules data from the NIST CMVP website
+3. Parse the modules information
+4. Generate JSON files in the `api/` directory
 
 ## 📁 Repository Structure
 
@@ -99,8 +107,10 @@ This will:
 ├── api/                        # Static API data (generated)
 │   ├── index.json             # API index
 │   ├── metadata.json          # Dataset metadata
-│   └── modules.json           # All validated modules
+│   ├── modules.json           # All validated modules
+│   └── historical-modules.json # All historical modules
 ├── scraper.py                 # Web scraper script
+├── test_scraper.py            # Test suite for scraper
 ├── requirements.txt           # Python dependencies
 ├── .gitignore                # Git ignore rules
 └── README.md                 # This file

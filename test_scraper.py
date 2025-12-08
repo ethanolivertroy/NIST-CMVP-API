@@ -106,6 +106,56 @@ def test_parse_empty_table():
     print("✓ Empty table test passed")
 
 
+def test_parse_historical_modules_table():
+    """Test parsing a table with historical modules format."""
+    html = """
+    <html>
+        <body>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Certificate Number</th>
+                        <th>Vendor Name</th>
+                        <th>Module Name</th>
+                        <th>Module Type</th>
+                        <th>Validation Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="/cert/9999">9999</a></td>
+                        <td>Historical Vendor</td>
+                        <td>Historical Crypto Module</td>
+                        <td>Software</td>
+                        <td>01/01/2010</td>
+                    </tr>
+                    <tr>
+                        <td><a href="/cert/8888">8888</a></td>
+                        <td>Old Corp</td>
+                        <td>Legacy Module</td>
+                        <td>Hardware</td>
+                        <td>12/31/2009</td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+    </html>
+    """
+    
+    modules = parse_modules_table(html)
+    
+    assert len(modules) == 2, f"Expected 2 modules, got {len(modules)}"
+    assert modules[0]["Certificate Number"] == "9999", "First historical module certificate mismatch"
+    assert modules[0]["Vendor Name"] == "Historical Vendor", "First historical module vendor mismatch"
+    assert modules[0]["Module Name"] == "Historical Crypto Module", "First historical module name mismatch"
+    assert "Certificate Number_url" in modules[0], "Expected URL field for certificate number"
+    
+    assert modules[1]["Certificate Number"] == "8888", "Second historical module certificate mismatch"
+    assert modules[1]["Validation Date"] == "12/31/2009", "Second historical module date mismatch"
+    
+    print("✓ Historical modules table test passed")
+
+
 def main():
     """Run all tests."""
     print("=" * 60)
@@ -117,6 +167,7 @@ def main():
         test_parse_simple_table()
         test_parse_table_without_thead()
         test_parse_empty_table()
+        test_parse_historical_modules_table()
         
         print()
         print("=" * 60)

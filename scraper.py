@@ -23,6 +23,7 @@ from bs4 import BeautifulSoup
 BASE_URL = "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search"
 # Allow override via environment variable for flexibility
 SEARCH_PATH = os.getenv("NIST_SEARCH_PATH", "/all")
+HISTORICAL_SEARCH_PARAMS = "?SearchMode=Advanced&CertificateStatus=Historical&ValidationYear=0"
 USER_AGENT = "NIST-CMVP-Data-Scraper/1.0 (GitHub Project)"
 
 
@@ -162,6 +163,33 @@ def scrape_all_modules() -> List[Dict]:
     return all_modules
 
 
+def scrape_historical_modules() -> List[Dict]:
+    """
+    Scrape historical modules from NIST CMVP.
+    
+    Returns:
+        List of all historical modules found
+    """
+    all_modules = []
+    
+    # Construct the URL for historical modules
+    url = f"{BASE_URL}{HISTORICAL_SEARCH_PARAMS}"
+    print(f"Fetching historical modules: {url}")
+    
+    html = fetch_page(url)
+    if not html:
+        print("Failed to fetch historical modules page", file=sys.stderr)
+        print(f"Verify the URL is correct: {url}", file=sys.stderr)
+        return all_modules
+    
+    modules = parse_modules_table(html)
+    all_modules.extend(modules)
+    
+    print(f"Found {len(modules)} historical modules on page")
+    
+    return all_modules
+
+
 def save_json(data: Dict, filepath: str) -> None:
     """
     Save data to a JSON file.
@@ -185,14 +213,21 @@ def main():
     print("=" * 60)
     print()
     
-    # Scrape all modules
+    # Scrape all validated modules
+    print("Scraping validated modules...")
     modules = scrape_all_modules()
     
     if not modules:
         print("No modules found!", file=sys.stderr)
         sys.exit(1)
     
-    print(f"\nTotal modules scraped: {len(modules)}")
+    print(f"\nTotal validated modules scraped: {len(modules)}")
+    
+    # Scrape historical modules
+    print("\nScraping historical modules...")
+    historical_modules = scrape_historical_modules()
+    
+    print(f"Total historical modules scraped: {len(historical_modules)}")
     
     # Prepare output directory
     output_dir = "api"
@@ -201,16 +236,24 @@ def main():
     metadata = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "total_modules": len(modules),
+        "total_historical_modules": len(historical_modules),
         "source": BASE_URL,
         "version": "1.0"
     }
     
-    # Save main modules data
+    # Save main modules data (validated)
     main_data = {
         "metadata": metadata,
         "modules": modules
     }
     save_json(main_data, f"{output_dir}/modules.json")
+    
+    # Save historical modules data
+    historical_data = {
+        "metadata": metadata,
+        "modules": historical_modules
+    }
+    save_json(historical_data, f"{output_dir}/historical-modules.json")
     
     # Save metadata separately for quick access
     save_json(metadata, f"{output_dir}/metadata.json")
@@ -221,10 +264,12 @@ def main():
         "description": "Static API for NIST Cryptographic Module Validation Program validated modules",
         "endpoints": {
             "modules": "/api/modules.json",
+            "historical_modules": "/api/historical-modules.json",
             "metadata": "/api/metadata.json"
         },
         "last_updated": metadata["generated_at"],
-        "total_modules": len(modules)
+        "total_modules": len(modules),
+        "total_historical_modules": len(historical_modules)
     }
     save_json(index_data, f"{output_dir}/index.json")
     
