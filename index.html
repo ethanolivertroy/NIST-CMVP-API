@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIST CMVP Data API</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            padding: 40px;
+        }
+        
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+        
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        
+        .status {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .endpoints {
+            margin: 30px 0;
+        }
+        
+        .endpoint {
+            background: #f8f9fa;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #e9ecef;
+        }
+        
+        .endpoint-url {
+            font-family: 'Courier New', monospace;
+            color: #667eea;
+            word-break: break-all;
+            font-size: 0.9em;
+        }
+        
+        .endpoint-desc {
+            color: #666;
+            margin-top: 5px;
+            font-size: 0.9em;
+        }
+        
+        code {
+            background: #f1f3f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+        }
+        
+        .button {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 10px 10px 0;
+            transition: background 0.3s;
+        }
+        
+        .button:hover {
+            background: #5568d3;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+            color: #666;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        
+        .section {
+            margin: 30px 0;
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        ul {
+            margin-left: 20px;
+        }
+        
+        li {
+            margin: 8px 0;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔐 NIST CMVP Data API</h1>
+        <p class="subtitle">Static API for NIST Cryptographic Module Validation Program validated modules</p>
+        
+        <div class="status">
+            <strong>📊 API Status:</strong> <span id="status">Checking...</span><br>
+            <strong>📅 Last Updated:</strong> <span id="lastUpdated">Loading...</span><br>
+            <strong>📦 Total Modules:</strong> <span id="totalModules">Loading...</span>
+        </div>
+
+        <div class="section">
+            <h2>API Endpoints</h2>
+            <p>Access the following JSON endpoints to query the NIST CMVP data:</p>
+            
+            <div class="endpoints">
+                <div class="endpoint">
+                    <div class="endpoint-url" id="indexUrl">./api/index.json</div>
+                    <div class="endpoint-desc">API information and available endpoints</div>
+                </div>
+                
+                <div class="endpoint">
+                    <div class="endpoint-url" id="metadataUrl">./api/metadata.json</div>
+                    <div class="endpoint-desc">Metadata about the dataset (last update, total count, etc.)</div>
+                </div>
+                
+                <div class="endpoint">
+                    <div class="endpoint-url" id="modulesUrl">./api/modules.json</div>
+                    <div class="endpoint-desc">Complete list of all validated modules</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Quick Start</h2>
+            <p>Try these examples to get started:</p>
+            
+            <h3 style="margin-top: 20px; color: #555;">Using curl:</h3>
+            <code style="display: block; padding: 10px; margin: 10px 0;">
+                curl <span id="curlUrl">./api/metadata.json</span>
+            </code>
+            
+            <h3 style="margin-top: 20px; color: #555;">Using JavaScript:</h3>
+            <code style="display: block; padding: 10px; margin: 10px 0; white-space: pre;">
+fetch('./api/modules.json')
+  .then(r => r.json())
+  .then(data => console.log(data));
+            </code>
+        </div>
+
+        <div class="section">
+            <h2>Features</h2>
+            <ul>
+                <li>✅ Automatically updated every other day</li>
+                <li>✅ Static JSON API (no server required)</li>
+                <li>✅ CORS-enabled for browser access</li>
+                <li>✅ Free hosting via GitHub Pages</li>
+                <li>✅ Version controlled data</li>
+            </ul>
+        </div>
+
+        <div class="warning">
+            <strong>⚠️ Disclaimer:</strong> This is an unofficial project and is not affiliated with or endorsed by NIST. 
+            Always refer to the <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules" 
+            target="_blank" rel="noopener">official NIST CMVP website</a> for the most accurate and up-to-date information.
+        </div>
+
+        <div style="margin-top: 20px;">
+            <a href="./api/index.json" class="button" target="_blank">View API Index</a>
+            <a href="./api/modules.json" class="button" target="_blank">View All Modules</a>
+            <a href="https://github.com/ethanolivertroy/nist-CMVP-data" class="button" target="_blank">GitHub Repository</a>
+        </div>
+
+        <div class="footer">
+            <p>Data sourced from <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" 
+               target="_blank" rel="noopener">NIST CMVP</a></p>
+            <p>Built with ❤️ using GitHub Actions and GitHub Pages</p>
+        </div>
+    </div>
+
+    <script>
+        // Fetch and display API status
+        fetch('./api/metadata.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('status').textContent = '✅ Online';
+                document.getElementById('status').style.color = '#28a745';
+                
+                if (data.generated_at) {
+                    const date = new Date(data.generated_at);
+                    document.getElementById('lastUpdated').textContent = date.toLocaleString();
+                } else {
+                    document.getElementById('lastUpdated').textContent = 'Pending first run';
+                }
+                
+                document.getElementById('totalModules').textContent = data.total_modules || '0';
+            })
+            .catch(error => {
+                document.getElementById('status').textContent = '⚠️ Offline or pending first run';
+                document.getElementById('status').style.color = '#dc3545';
+                document.getElementById('lastUpdated').textContent = 'N/A';
+                document.getElementById('totalModules').textContent = 'N/A';
+            });
+    </script>
+</body>
+</html>
