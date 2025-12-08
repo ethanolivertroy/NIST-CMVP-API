@@ -170,22 +170,19 @@ def scrape_modules_in_process() -> List[Dict]:
     Returns:
         List of all modules in process found
     """
-    modules_in_process = []
-    
     print(f"Fetching: {MODULES_IN_PROCESS_URL}")
     
     html = fetch_page(MODULES_IN_PROCESS_URL)
     if not html:
         print("Failed to fetch modules in process page", file=sys.stderr)
         print(f"Verify the URL is correct: {MODULES_IN_PROCESS_URL}", file=sys.stderr)
-        return modules_in_process
+        return []
     
     modules = parse_modules_table(html)
-    modules_in_process.extend(modules)
     
     print(f"Found {len(modules)} modules in process on page")
     
-    return modules_in_process
+    return modules
 
 
 def save_json(data: Dict, filepath: str) -> None:
