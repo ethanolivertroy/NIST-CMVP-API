@@ -18,6 +18,7 @@ https://<username>.github.io/nist-CMVP-data/api/
 
 - **`/api/index.json`** - API information and status
 - **`/api/modules.json`** - Complete list of all validated modules with metadata
+- **`/api/modules-in-process.json`** - List of modules currently in the validation process
 - **`/api/metadata.json`** - Metadata about the dataset (last update, total count, etc.)
 
 ### Example Usage
@@ -25,6 +26,9 @@ https://<username>.github.io/nist-CMVP-data/api/
 ```bash
 # Get all modules
 curl https://<username>.github.io/nist-CMVP-data/api/modules.json
+
+# Get modules in process
+curl https://<username>.github.io/nist-CMVP-data/api/modules-in-process.json
 
 # Get metadata
 curl https://<username>.github.io/nist-CMVP-data/api/metadata.json
@@ -99,7 +103,8 @@ This will:
 ├── api/                        # Static API data (generated)
 │   ├── index.json             # API index
 │   ├── metadata.json          # Dataset metadata
-│   └── modules.json           # All validated modules
+│   ├── modules.json           # All validated modules
+│   └── modules-in-process.json # Modules in validation process
 ├── scraper.py                 # Web scraper script
 ├── requirements.txt           # Python dependencies
 ├── .gitignore                # Git ignore rules
@@ -150,5 +155,6 @@ This is an unofficial project and is not affiliated with or endorsed by NIST. Al
 
 - [NIST CMVP Official Site](https://csrc.nist.gov/projects/cryptographic-module-validation-program)
 - [NIST Validated Modules Search](https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search)
+- [NIST Modules in Process List](https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list)
 - [FIPS 140-2 Standard](https://csrc.nist.gov/publications/detail/fips/140/2/final)
 - [FIPS 140-3 Standard](https://csrc.nist.gov/publications/detail/fips/140/3/final)

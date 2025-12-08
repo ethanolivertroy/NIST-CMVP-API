@@ -106,6 +106,48 @@ def test_parse_empty_table():
     print("✓ Empty table test passed")
 
 
+def test_parse_modules_in_process():
+    """Test parsing modules in process table structure."""
+    html = """
+    <html>
+        <body>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lab Code</th>
+                        <th>Vendor Name</th>
+                        <th>Module Name</th>
+                        <th>Module Type</th>
+                        <th>Module Version</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1234</td>
+                        <td>Test Vendor</td>
+                        <td><a href="/modules/test">Test Module In Process</a></td>
+                        <td>Software</td>
+                        <td>1.0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+    </html>
+    """
+    
+    modules = parse_modules_table(html)
+    
+    assert len(modules) == 1, f"Expected 1 module, got {len(modules)}"
+    assert modules[0]["Lab Code"] == "1234", "Lab Code mismatch"
+    assert modules[0]["Vendor Name"] == "Test Vendor", "Vendor Name mismatch"
+    assert modules[0]["Module Name"] == "Test Module In Process", "Module Name mismatch"
+    assert modules[0]["Module Type"] == "Software", "Module Type mismatch"
+    assert modules[0]["Module Version"] == "1.0", "Module Version mismatch"
+    assert "Module Name_url" in modules[0], "Expected URL field for module name"
+    
+    print("✓ Modules in process table test passed")
+
+
 def main():
     """Run all tests."""
     print("=" * 60)
@@ -117,6 +159,7 @@ def main():
         test_parse_simple_table()
         test_parse_table_without_thead()
         test_parse_empty_table()
+        test_parse_modules_in_process()
         
         print()
         print("=" * 60)

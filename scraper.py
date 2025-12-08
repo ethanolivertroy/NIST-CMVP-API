@@ -21,6 +21,7 @@ from bs4 import BeautifulSoup
 
 
 BASE_URL = "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search"
+MODULES_IN_PROCESS_URL = "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list"
 # Allow override via environment variable for flexibility
 SEARCH_PATH = os.getenv("NIST_SEARCH_PATH", "/all")
 USER_AGENT = "NIST-CMVP-Data-Scraper/1.0 (GitHub Project)"
@@ -162,6 +163,31 @@ def scrape_all_modules() -> List[Dict]:
     return all_modules
 
 
+def scrape_modules_in_process() -> List[Dict]:
+    """
+    Scrape modules in process from NIST CMVP.
+    
+    Returns:
+        List of all modules in process found
+    """
+    modules_in_process = []
+    
+    print(f"Fetching: {MODULES_IN_PROCESS_URL}")
+    
+    html = fetch_page(MODULES_IN_PROCESS_URL)
+    if not html:
+        print("Failed to fetch modules in process page", file=sys.stderr)
+        print(f"Verify the URL is correct: {MODULES_IN_PROCESS_URL}", file=sys.stderr)
+        return modules_in_process
+    
+    modules = parse_modules_table(html)
+    modules_in_process.extend(modules)
+    
+    print(f"Found {len(modules)} modules in process on page")
+    
+    return modules_in_process
+
+
 def save_json(data: Dict, filepath: str) -> None:
     """
     Save data to a JSON file.
@@ -185,14 +211,21 @@ def main():
     print("=" * 60)
     print()
     
-    # Scrape all modules
+    # Scrape all validated modules
+    print("Scraping validated modules...")
     modules = scrape_all_modules()
     
     if not modules:
-        print("No modules found!", file=sys.stderr)
+        print("No validated modules found!", file=sys.stderr)
         sys.exit(1)
     
-    print(f"\nTotal modules scraped: {len(modules)}")
+    print(f"\nTotal validated modules scraped: {len(modules)}")
+    
+    # Scrape modules in process
+    print("\nScraping modules in process...")
+    modules_in_process = scrape_modules_in_process()
+    
+    print(f"Total modules in process scraped: {len(modules_in_process)}")
     
     # Prepare output directory
     output_dir = "api"
@@ -201,7 +234,9 @@ def main():
     metadata = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "total_modules": len(modules),
+        "total_modules_in_process": len(modules_in_process),
         "source": BASE_URL,
+        "modules_in_process_source": MODULES_IN_PROCESS_URL,
         "version": "1.0"
     }
     
@@ -212,6 +247,13 @@ def main():
     }
     save_json(main_data, f"{output_dir}/modules.json")
     
+    # Save modules in process data
+    modules_in_process_data = {
+        "metadata": metadata,
+        "modules_in_process": modules_in_process
+    }
+    save_json(modules_in_process_data, f"{output_dir}/modules-in-process.json")
+    
     # Save metadata separately for quick access
     save_json(metadata, f"{output_dir}/metadata.json")
     
@@ -221,10 +263,12 @@ def main():
         "description": "Static API for NIST Cryptographic Module Validation Program validated modules",
         "endpoints": {
             "modules": "/api/modules.json",
+            "modules_in_process": "/api/modules-in-process.json",
             "metadata": "/api/metadata.json"
         },
         "last_updated": metadata["generated_at"],
-        "total_modules": len(modules)
+        "total_modules": len(modules),
+        "total_modules_in_process": len(modules_in_process)
     }
     save_json(index_data, f"{output_dir}/index.json")
     
