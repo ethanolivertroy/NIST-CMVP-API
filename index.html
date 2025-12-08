@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIST CMVP Data API Documentation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #cdd6f4;
+            background: #1e1e2e;
+            display: flex;
+            min-height: 100vh;
+        }
+        
+        /* Sidebar */
+        .sidebar {
+            width: 280px;
+            background: #181825;
+            border-right: 1px solid #313244;
+            padding: 20px 0;
+            overflow-y: auto;
+            position: fixed;
+            height: 100vh;
+        }
+        
+        .sidebar h1 {
+            color: #cba6f7;
+            font-size: 1.5em;
+            margin: 0 20px 20px 20px;
+            border-bottom: 2px solid #313244;
+            padding-bottom: 10px;
+        }
+        
+        .nav-section {
+            margin: 20px 0;
+        }
+        
+        .nav-section h3 {
+            color: #fab387;
+            font-size: 0.9em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 0 20px 10px 20px;
+            font-weight: 600;
+        }
+        
+        .nav-link {
+            display: block;
+            color: #a6adc8;
+            text-decoration: none;
+            padding: 8px 20px;
+            border-left: 3px solid transparent;
+            transition: all 0.2s ease;
+        }
+        
+        .nav-link:hover {
+            background: #313244;
+            color: #cdd6f4;
+            border-left-color: #cba6f7;
+        }
+        
+        .nav-link.active {
+            background: #313244;
+            color: #cdd6f4;
+            border-left-color: #cba6f7;
+        }
+        
+        /* Main Content */
+        .main-content {
+            flex: 1;
+            margin-left: 280px;
+            display: flex;
+        }
+        
+        .content {
+            flex: 1;
+            padding: 40px;
+            max-width: 800px;
+        }
+        
+        .code-examples {
+            width: 400px;
+            background: #181825;
+            border-left: 1px solid #313244;
+            padding: 40px 20px;
+            overflow-y: auto;
+            position: fixed;
+            right: 0;
+            height: 100vh;
+        }
+        
+        /* Typography */
+        h1 {
+            color: #cba6f7;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        
+        h2 {
+            color: #fab387;
+            font-size: 1.8em;
+            margin: 40px 0 20px 0;
+            border-bottom: 2px solid #313244;
+            padding-bottom: 10px;
+        }
+        
+        h3 {
+            color: #a6e3a1;
+            font-size: 1.3em;
+            margin: 30px 0 15px 0;
+        }
+        
+        p {
+            margin-bottom: 16px;
+            line-height: 1.7;
+        }
+        
+        .lead {
+            font-size: 1.2em;
+            color: #a6adc8;
+            margin-bottom: 30px;
+        }
+        
+        /* Code Blocks */
+        .code-block {
+            background: #45475a;
+            border-radius: 6px;
+            padding: 20px;
+            margin: 20px 0;
+            overflow-x: auto;
+        }
+        
+        .code-block pre {
+            color: #f38ba8;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            line-height: 1.5;
+        }
+        
+        .language-tabs {
+            display: flex;
+            background: #313244;
+            border-radius: 6px 6px 0 0;
+            margin: 20px 0 0 0;
+        }
+        
+        .language-tab {
+            padding: 10px 20px;
+            background: #313244;
+            color: #a6adc8;
+            border: none;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            border-radius: 6px 6px 0 0;
+        }
+        
+        .language-tab.active {
+            background: #45475a;
+            color: #cdd6f4;
+        }
+        
+        .tab-content {
+            display: none;
+            background: #45475a;
+            padding: 20px;
+            border-radius: 0 0 6px 6px;
+            margin: 0 0 20px 0;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        /* Status Badge */
+        .status-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .status-online {
+            background: #a6e3a1;
+            color: #1e1e2e;
+        }
+        
+        .status-offline {
+            background: #f38ba8;
+            color: #1e1e2e;
+        }
+        
+        /* API Endpoints */
+        .endpoint {
+            background: #313244;
+            padding: 20px;
+            border-radius: 6px;
+            margin: 20px 0;
+            border-left: 4px solid #74c7ec;
+        }
+        
+        .endpoint-method {
+            display: inline-block;
+            background: #a6e3a1;
+            color: #1e1e2e;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.8em;
+            font-weight: 600;
+            margin-right: 10px;
+        }
+        
+        .endpoint-url {
+            font-family: 'Courier New', monospace;
+            color: #74c7ec;
+            font-size: 1.1em;
+        }
+        
+        .endpoint-desc {
+            color: #a6adc8;
+            margin-top: 10px;
+        }
+        
+        /* Tables */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            background: #313244;
+            border-radius: 6px;
+            overflow: hidden;
+        }
+        
+        th, td {
+            padding: 12px 16px;
+            text-align: left;
+            border-bottom: 1px solid #45475a;
+        }
+        
+        th {
+            background: #45475a;
+            color: #fab387;
+            font-weight: 600;
+        }
+        
+        td {
+            color: #cdd6f4;
+        }
+        
+        tr:last-child td {
+            border-bottom: none;
+        }
+        
+        /* Notices */
+        .notice {
+            background: #45475a;
+            border-left: 4px solid #f9e2af;
+            padding: 16px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+        
+        .notice-warning {
+            border-left-color: #f9e2af;
+        }
+        
+        .notice-info {
+            border-left-color: #74c7ec;
+        }
+        
+        .notice-success {
+            border-left-color: #a6e3a1;
+        }
+        
+        /* Links */
+        a {
+            color: #74c7ec;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        /* Footer */
+        .footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #313244;
+            color: #6c7086;
+            font-size: 0.9em;
+            text-align: center;
+        }
+        
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .code-examples {
+                display: none;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <nav class="sidebar">
+        <h1>🔐 CMVP API</h1>
+        
+        <div class="nav-section">
+            <h3>Getting Started</h3>
+            <a href="#introduction" class="nav-link active">Introduction</a>
+            <a href="#quick-start" class="nav-link">Quick Start</a>
+            <a href="#authentication" class="nav-link">Authentication</a>
+        </div>
+        
+        <div class="nav-section">
+            <h3>API Reference</h3>
+            <a href="#endpoints" class="nav-link">Endpoints</a>
+            <a href="#modules" class="nav-link">Validated Modules</a>
+            <a href="#historical" class="nav-link">Historical Modules</a>
+            <a href="#in-process" class="nav-link">Modules in Process</a>
+            <a href="#metadata" class="nav-link">Metadata</a>
+        </div>
+        
+        <div class="nav-section">
+            <h3>Schema</h3>
+            <a href="#data-schema" class="nav-link">Data Schema</a>
+            <a href="#response-format" class="nav-link">Response Format</a>
+        </div>
+        
+        <div class="nav-section">
+            <h3>Examples</h3>
+            <a href="#examples" class="nav-link">Usage Examples</a>
+            <a href="#best-practices" class="nav-link">Best Practices</a>
+        </div>
+        
+        <div style="margin-top: 40px; padding: 0 20px; font-size: 0.8em; color: #6c7086;">
+            <p><a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program" style="color: #74c7ec;">Official NIST CMVP</a></p>
+            <p><a href="https://github.com/ethanolivertroy/NIST-CMVP-API" style="color: #74c7ec;">GitHub Repository</a></p>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="content">
+            <section id="introduction">
+                <h1>NIST CMVP Data API</h1>
+                <p class="lead">A comprehensive, static API for accessing NIST Cryptographic Module Validation Program (CMVP) data.</p>
+                
+                <div class="notice notice-info">
+                    <strong>📊 API Status:</strong> <span class="status-badge status-online" id="status">Online</span><br>
+                    <strong>📅 Last Updated:</strong> <span id="lastUpdated">Loading...</span><br>
+                    <strong>📦 Validated Modules:</strong> <span id="totalModules">Loading...</span><br>
+                    <strong>📜 Historical Modules:</strong> <span id="totalHistoricalModules">Loading...</span><br>
+                    <strong>⚙️ Modules in Process:</strong> <span id="totalModulesInProcess">Loading...</span>
+                </div>
+                
+                <h2>What is CMVP?</h2>
+                <p>The Cryptographic Module Validation Program (CMVP) is a joint effort between NIST and the Canadian Centre for Cyber Security (CCCS) to validate cryptographic modules to FIPS 140-2 and FIPS 140-3 standards.</p>
+                
+                <h2>Features</h2>
+                <ul style="margin-left: 20px; color: #a6adc8;">
+                    <li>🔄 Automatically updated every other day via GitHub Actions</li>
+                    <li>📊 Static JSON API with no server infrastructure required</li>
+                    <li>🌐 CORS-enabled for direct browser access</li>
+                    <li>🆓 Free hosting via GitHub Pages</li>
+                    <li>📝 Version controlled with complete change history</li>
+                </ul>
+                
+                <div class="notice notice-warning">
+                    <strong>⚠️ Disclaimer:</strong> This is an unofficial project and is not affiliated with or endorsed by NIST. Always refer to the <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">official NIST CMVP website</a> for the most accurate and up-to-date information.
+                </div>
+            </section>
+            
+            <section id="quick-start">
+                <h2>Quick Start</h2>
+                <p>Get started with the NIST CMVP API in seconds. All endpoints are available at:</p>
+                
+                <div class="code-block">
+                    <pre><strong>Base URL:</strong> https://ethanolivertroy.github.io/NIST-CMVP-API/api/</pre>
+                </div>
+                
+                <h3>Get API Information</h3>
+                <div class="language-tabs">
+                    <button class="language-tab active" onclick="showTab(event, 'curl-index')">cURL</button>
+                    <button class="language-tab" onclick="showTab(event, 'js-index')">JavaScript</button>
+                    <button class="language-tab" onclick="showTab(event, 'python-index')">Python</button>
+                </div>
+                
+                <div id="curl-index" class="tab-content active">
+                    <pre><code>curl https://ethanolivertroy.github.io/NIST-CMVP-API/api/index.json</code></pre>
+                </div>
+                
+                <div id="js-index" class="tab-content">
+                    <pre><code>fetch('https://ethanolivertroy.github.io/NIST-CMVP-API/api/index.json')
+  .then(response => response.json())
+  .then(data => console.log(data));</code></pre>
+                </div>
+                
+                <div id="python-index" class="tab-content">
+                    <pre><code>import requests
+
+response = requests.get('https://ethanolivertroy.github.io/NIST-CMVP-API/api/index.json')
+data = response.json()
+print(data)</code></pre>
+                </div>
+            </section>
+            
+            <section id="endpoints">
+                <h2>API Endpoints</h2>
+                <p>The API provides several endpoints to access different types of CMVP data:</p>
+                
+                <div class="endpoint">
+                    <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/index.json</span></div>
+                    <div class="endpoint-desc">Get API information and available endpoints</div>
+                </div>
+                
+                <div class="endpoint">
+                    <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/metadata.json</span></div>
+                    <div class="endpoint-desc">Get metadata about the dataset (counts, last update, etc.)</div>
+                </div>
+                
+                <div class="endpoint">
+                    <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/modules.json</span></div>
+                    <div class="endpoint-desc">Get all currently validated cryptographic modules</div>
+                </div>
+                
+                <div class="endpoint">
+                    <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/historical-modules.json</span></div>
+                    <div class="endpoint-desc">Get all historical (expired/revoked) modules</div>
+                </div>
+                
+                <div class="endpoint">
+                    <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/modules-in-process.json</span></div>
+                    <div class="endpoint-desc">Get modules currently in the validation process</div>
+                </div>
+            </section>
+            
+            <section id="data-schema">
+                <h2>Data Schema</h2>
+                
+                <h3>Validated Module Object</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Field</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Certificate Number</td>
+                            <td>String</td>
+                            <td>Unique certificate identifier</td>
+                        </tr>
+                        <tr>
+                            <td>Vendor</td>
+                            <td>String</td>
+                            <td>Module vendor/manufacturer</td>
+                        </tr>
+                        <tr>
+                            <td>Module Name</td>
+                            <td>String</td>
+                            <td>Official module name</td>
+                        </tr>
+                        <tr>
+                            <td>Validation Date</td>
+                            <td>String</td>
+                            <td>Date of validation (MM/DD/YYYY)</td>
+                        </tr>
+                        <tr>
+                            <td>Standard</td>
+                            <td>String</td>
+                            <td>FIPS standard (140-2 or 140-3)</td>
+                        </tr>
+                        <tr>
+                            <td>Status</td>
+                            <td>String</td>
+                            <td>Current status (typically "Active")</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            
+            <section id="examples">
+                <h2>Usage Examples</h2>
+                
+                <h3>Search by Vendor</h3>
+                <p>Find all modules from a specific vendor:</p>
+                
+                <div class="language-tabs">
+                    <button class="language-tab active" onclick="showTab(event, 'curl-search')">cURL</button>
+                    <button class="language-tab" onclick="showTab(event, 'js-search')">JavaScript</button>
+                    <button class="language-tab" onclick="showTab(event, 'python-search')">Python</button>
+                </div>
+                
+                <div id="curl-search" class="tab-content active">
+                    <pre><code># Search for Microsoft modules
+curl -s https://ethanolivertroy.github.io/NIST-CMVP-API/api/modules.json | \
+  jq '.modules[] | select(.Vendor | contains("Microsoft"))'</code></pre>
+                </div>
+                
+                <div id="js-search" class="tab-content">
+                    <pre><code>// Search for vendor across all endpoints
+async function findVendorModules(vendorName) {
+  const response = await fetch('/api/modules.json');
+  const data = await response.json();
+  
+  return data.modules.filter(module =>
+    module.Vendor.toLowerCase().includes(vendorName.toLowerCase())
+  );
+}
+
+const microsoftModules = await findVendorModules('Microsoft');
+console.log(`Found ${microsoftModules.length} Microsoft modules`);</code></pre>
+                </div>
+                
+                <div id="python-search" class="tab-content">
+                    <pre><code>import requests
+
+def find_vendor_modules(vendor_name):
+    response = requests.get('/api/modules.json')
+    data = response.json()
+    
+    return [module for module in data['modules']
+            if vendor_name.lower() in module.get('Vendor', '').lower()]
+
+microsoft_modules = find_vendor_modules('Microsoft')
+print(f"Found {len(microsoft_modules)} Microsoft modules")</code></pre>
+                </div>
+            </section>
+            
+            <div class="footer">
+                <p>Data sourced from <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">NIST CMVP</a></p>
+                <p>Documentation inspired by modern API documentation standards</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Code Examples Sidebar -->
+    <div class="code-examples">
+        <h3 style="color: #fab387; margin-bottom: 20px;">Try It Now</h3>
+        
+        <div style="margin-bottom: 30px;">
+            <h4 style="color: #a6e3a1; margin-bottom: 10px;">API Status</h4>
+            <div class="code-block">
+                <pre><code id="live-status">Loading...</code></pre>
+            </div>
+        </div>
+        
+        <div style="margin-bottom: 30px;">
+            <h4 style="color: #a6e3a1; margin-bottom: 10px;">Sample Response</h4>
+            <div class="code-block">
+                <pre><code>{
+  "metadata": {
+    "generated_at": "2025-12-08T13:52:16Z",
+    "total_modules": 1107,
+    "version": "1.0"
+  },
+  "modules": [
+    {
+      "Certificate Number": "4747",
+      "Vendor": "Microsoft Corporation",
+      "Module Name": "Windows 11 Crypto Library",
+      "Validation Date": "11/15/2024",
+      "Standard": "FIPS 140-3",
+      "Status": "Active"
+    }
+  ]
+}</code></pre>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Tab functionality
+        function showTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            var container = evt.target.parentNode.parentNode;
+            
+            tabcontent = container.querySelectorAll(".tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            
+            tablinks = container.querySelectorAll(".language-tab");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            
+            document.getElementById(tabName).classList.add("active");
+            evt.target.classList.add("active");
+        }
+        
+        // Navigation functionality
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Remove active from all nav links
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                
+                // Add active to clicked link
+                this.classList.add('active');
+                
+                // Scroll to section
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+                if (targetSection) {
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
+        });
+        
+        // Fetch and display API status
+        fetch('./api/metadata.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('status').textContent = 'Online';
+                document.getElementById('status').className = 'status-badge status-online';
+                
+                if (data.generated_at) {
+                    const date = new Date(data.generated_at);
+                    document.getElementById('lastUpdated').textContent = date.toLocaleString();
+                } else {
+                    document.getElementById('lastUpdated').textContent = 'Pending first run';
+                }
+                
+                document.getElementById('totalModules').textContent = data.total_modules || '0';
+                document.getElementById('totalHistoricalModules').textContent = data.total_historical_modules || '0';
+                document.getElementById('totalModulesInProcess').textContent = data.total_modules_in_process || '0';
+                
+                // Update live status in sidebar
+                document.getElementById('live-status').textContent = JSON.stringify({
+                    status: 'online',
+                    total_modules: data.total_modules,
+                    last_updated: data.generated_at
+                }, null, 2);
+            })
+            .catch(error => {
+                document.getElementById('status').textContent = 'Offline';
+                document.getElementById('status').className = 'status-badge status-offline';
+                document.getElementById('lastUpdated').textContent = 'N/A';
+                document.getElementById('totalModules').textContent = 'N/A';
+                document.getElementById('totalHistoricalModules').textContent = 'N/A';
+                document.getElementById('totalModulesInProcess').textContent = 'N/A';
+                
+                document.getElementById('live-status').textContent = 'API temporarily unavailable';
+            });
+    </script>
+</body>
+</html>
