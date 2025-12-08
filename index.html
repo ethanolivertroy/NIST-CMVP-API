@@ -329,7 +329,7 @@
 <body>
     <!-- Sidebar Navigation -->
     <nav class="sidebar">
-        <h1>🔐 CMVP API</h1>
+        <h1>CMVP API</h1>
         
         <div class="nav-section">
             <h3>Getting Started</h3>
@@ -370,39 +370,28 @@
         <div class="content">
             <section id="introduction">
                 <h1>NIST CMVP Data API</h1>
-                <p class="lead">A comprehensive, static API for accessing NIST Cryptographic Module Validation Program (CMVP) data.</p>
+                <p class="lead">Static JSON API for NIST CMVP data. Updated daily.</p>
                 
                 <div class="notice notice-info">
-                    <strong>📊 API Status:</strong> <span class="status-badge status-online" id="status">Online</span><br>
-                    <strong>📅 Last Updated:</strong> <span id="lastUpdated">Loading...</span><br>
-                    <strong>📦 Validated Modules:</strong> <span id="totalModules">Loading...</span><br>
-                    <strong>📜 Historical Modules:</strong> <span id="totalHistoricalModules">Loading...</span><br>
-                    <strong>⚙️ Modules in Process:</strong> <span id="totalModulesInProcess">Loading...</span>
+                    <strong>Status:</strong> <span class="status-badge status-online" id="status">Online</span><br>
+                    <strong>Updated:</strong> <span id="lastUpdated">Loading...</span><br>
+                    <strong>Validated:</strong> <span id="totalModules">Loading...</span><br>
+                    <strong>Historical:</strong> <span id="totalHistoricalModules">Loading...</span><br>
+                    <strong>In Process:</strong> <span id="totalModulesInProcess">Loading...</span>
                 </div>
                 
-                <h2>What is CMVP?</h2>
-                <p>The Cryptographic Module Validation Program (CMVP) is a joint effort between NIST and the Canadian Centre for Cyber Security (CCCS) to validate cryptographic modules to FIPS 140-2 and FIPS 140-3 standards.</p>
-                
-                <h2>Features</h2>
-                <ul style="margin-left: 20px; color: #a6adc8;">
-                    <li>🔄 Automatically updated every other day via GitHub Actions</li>
-                    <li>📊 Static JSON API with no server infrastructure required</li>
-                    <li>🌐 CORS-enabled for direct browser access</li>
-                    <li>🆓 Free hosting via GitHub Pages</li>
-                    <li>📝 Version controlled with complete change history</li>
-                </ul>
+                <h2>About</h2>
+                <p>CMVP validates cryptographic modules to FIPS 140-2/140-3 standards. Joint program between NIST and CCCS.</p>
                 
                 <div class="notice notice-warning">
-                    <strong>⚠️ Disclaimer:</strong> This is an unofficial project and is not affiliated with or endorsed by NIST. Always refer to the <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">official NIST CMVP website</a> for the most accurate and up-to-date information.
+                    <strong>Disclaimer:</strong> Unofficial project. Not affiliated with NIST. See <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">official source</a> for authoritative data.
                 </div>
             </section>
             
             <section id="quick-start">
                 <h2>Quick Start</h2>
-                <p>Get started with the NIST CMVP API in seconds. All endpoints are available at:</p>
-                
                 <div class="code-block">
-                    <pre><strong>Base URL:</strong> https://ethanolivertroy.github.io/NIST-CMVP-API/api/</pre>
+                    <pre>https://ethanolivertroy.github.io/NIST-CMVP-API/api/</pre>
                 </div>
                 
                 <h3>Get API Information</h3>
@@ -432,32 +421,31 @@ print(data)</code></pre>
             </section>
             
             <section id="endpoints">
-                <h2>API Endpoints</h2>
-                <p>The API provides several endpoints to access different types of CMVP data:</p>
+                <h2>Endpoints</h2>
                 
                 <div class="endpoint">
                     <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/index.json</span></div>
-                    <div class="endpoint-desc">Get API information and available endpoints</div>
+                    <div class="endpoint-desc">API info</div>
                 </div>
                 
                 <div class="endpoint">
                     <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/metadata.json</span></div>
-                    <div class="endpoint-desc">Get metadata about the dataset (counts, last update, etc.)</div>
+                    <div class="endpoint-desc">Dataset metadata</div>
                 </div>
                 
                 <div class="endpoint">
                     <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/modules.json</span></div>
-                    <div class="endpoint-desc">Get all currently validated cryptographic modules</div>
+                    <div class="endpoint-desc">Active validated modules</div>
                 </div>
                 
                 <div class="endpoint">
                     <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/historical-modules.json</span></div>
-                    <div class="endpoint-desc">Get all historical (expired/revoked) modules</div>
+                    <div class="endpoint-desc">Expired/revoked modules</div>
                 </div>
                 
                 <div class="endpoint">
                     <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/modules-in-process.json</span></div>
-                    <div class="endpoint-desc">Get modules currently in the validation process</div>
+                    <div class="endpoint-desc">Pending validation</div>
                 </div>
             </section>
             
@@ -509,10 +497,9 @@ print(data)</code></pre>
             </section>
             
             <section id="examples">
-                <h2>Usage Examples</h2>
-                
-                <h3>Search by Vendor</h3>
-                <p>Find all modules from a specific vendor:</p>
+                <h2>Examples</h2>
+
+                <h3>Filter by Vendor</h3>
                 
                 <div class="language-tabs">
                     <button class="language-tab active" onclick="showTab(event, 'curl-search')">cURL</button>
@@ -557,8 +544,7 @@ print(f"Found {len(microsoft_modules)} Microsoft modules")</code></pre>
             </section>
             
             <div class="footer">
-                <p>Data sourced from <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">NIST CMVP</a></p>
-                <p>Documentation inspired by modern API documentation standards</p>
+                <p>Data: <a href="https://csrc.nist.gov/projects/cryptographic-module-validation-program">NIST CMVP</a></p>
             </div>
         </div>
     </div>
