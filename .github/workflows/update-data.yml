@@ -5,6 +5,12 @@ on:
     # Run daily at 2 AM UTC (0 2 * * *)
     - cron: '0 2 * * *'
   workflow_dispatch: # Allow manual triggering
+    inputs:
+      skip_algorithms:
+        description: 'Skip algorithm extraction (faster run)'
+        required: false
+        default: 'false'
+        type: boolean
   push:
     branches:
       - main
@@ -19,31 +25,43 @@ permissions:
 jobs:
   scrape-and-update:
     runs-on: ubuntu-latest
-    
+    timeout-minutes: 120  # Algorithm extraction can take a while (~1100 certs * ~3s each)
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.12'
           cache: 'pip'
-      
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      
+
+      - name: Install Playwright browsers (for crawl4ai)
+        run: |
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run crawl4ai setup
+        run: |
+          crawl4ai-setup || echo "crawl4ai setup completed (or already set up)"
+
       - name: Run scraper
+        env:
+          SKIP_ALGORITHMS: ${{ github.event.inputs.skip_algorithms == 'true' && '1' || '0' }}
         run: |
           python scraper.py
-      
+
       - name: Check for changes
         id: git-check
         run: |
           git diff --exit-code api/ || echo "changes=true" >> $GITHUB_OUTPUT
-      
+
       - name: Commit and push changes
         if: steps.git-check.outputs.changes == 'true'
         run: |
@@ -52,8 +70,18 @@ jobs:
           git add api/
           git commit -m "Update NIST CMVP data - $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
           git push
-      
+
       - name: No changes detected
         if: steps.git-check.outputs.changes != 'true'
         run: |
           echo "No changes detected in the data"
+
+      - name: Upload artifacts on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: scraper-logs
+          path: |
+            api/
+            *.log
+          retention-days: 7

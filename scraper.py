@@ -5,37 +5,70 @@ NIST CMVP Data Scraper
 This script scrapes the NIST Cryptographic Module Validation Program (CMVP)
 validated modules database and saves the data as JSON files for a static API.
 
+Features:
+- Scrapes validated, historical, and in-process modules
+- Extracts algorithm information from certificate detail pages using crawl4ai
+- Can import algorithm data from existing NIST-CMVP-ReportGen database
+- Generates security policy PDF URLs
+
 Environment Variables:
     NIST_SEARCH_PATH: Override the search path (default: /all)
                       Example: export NIST_SEARCH_PATH="/all"
+    SKIP_ALGORITHMS: Set to "1" to skip algorithm extraction (faster scraping)
+    CMVP_DB_PATH: Path to existing cmvp.db from NIST-CMVP-ReportGen project
+                  If set, algorithm data will be imported from this database
 """
 
+import asyncio
 import json
 import os
+import re
+import sqlite3
 import sys
 from datetime import datetime
-from typing import Dict, List, Optional
+from pathlib import Path
+from typing import Dict, List, Optional, Tuple
 
 import requests
 from bs4 import BeautifulSoup
 
+# Crawl4AI imports (for algorithm extraction)
+try:
+    from crawl4ai import AsyncWebCrawler, CrawlerRunConfig, CacheMode
+    CRAWL4AI_AVAILABLE = True
+except ImportError:
+    CRAWL4AI_AVAILABLE = False
+
 
 BASE_URL = "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search"
+CERTIFICATE_DETAIL_URL = "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate"
+SECURITY_POLICY_BASE_URL = "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies"
 MODULES_IN_PROCESS_URL = "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list"
 # Allow override via environment variable for flexibility
 SEARCH_PATH = os.getenv("NIST_SEARCH_PATH", "/all")
 HISTORICAL_SEARCH_PARAMS = "?SearchMode=Advanced&CertificateStatus=Historical&ValidationYear=0"
 USER_AGENT = "NIST-CMVP-Data-Scraper/1.0 (GitHub Project)"
+SKIP_ALGORITHMS = os.getenv("SKIP_ALGORITHMS", "0") == "1"
+
+# Path to NIST-CMVP-ReportGen database (if available for importing algorithms)
+CMVP_DB_PATH = os.getenv("CMVP_DB_PATH", "")
+
+# Algorithm keywords to look for when parsing
+ALGORITHM_KEYWORDS = [
+    'AES', 'SHA', 'RSA', 'ECDSA', 'ECDH', 'HMAC', 'DRBG',
+    'KDF', 'DES', 'DSA', 'CVL', 'KAS', 'KTS', 'PBKDF',
+    'SHS', 'TLS', 'SSH', 'EDDSA', 'ML-KEM', 'ML-DSA'
+]
 
 
 def fetch_page(url: str, timeout: int = 30) -> Optional[str]:
     """
     Fetch a web page and return its HTML content.
-    
+
     Args:
         url: The URL to fetch
         timeout: Request timeout in seconds
-        
+
     Returns:
         HTML content as string, or None if request fails
     """
@@ -47,6 +80,176 @@ def fetch_page(url: str, timeout: int = 30) -> Optional[str]:
     except requests.RequestException as e:
         print(f"Error fetching {url}: {e}", file=sys.stderr)
         return None
+
+
+def get_security_policy_url(cert_number: int) -> str:
+    """
+    Get the URL for a certificate's Security Policy PDF.
+
+    Args:
+        cert_number: The certificate number
+
+    Returns:
+        URL to the security policy PDF
+    """
+    return f"{SECURITY_POLICY_BASE_URL}/140sp{cert_number}.pdf"
+
+
+def get_certificate_detail_url(cert_number: int) -> str:
+    """
+    Get the URL for a certificate's detail page.
+
+    Args:
+        cert_number: The certificate number
+
+    Returns:
+        URL to the certificate detail page
+    """
+    return f"{CERTIFICATE_DETAIL_URL}/{cert_number}"
+
+
+def parse_algorithms_from_markdown(markdown: str) -> List[str]:
+    """
+    Extract algorithm names from markdown text.
+
+    Args:
+        markdown: Markdown text from certificate detail page
+
+    Returns:
+        List of unique algorithm names found
+    """
+    algorithms = []
+
+    for line in markdown.split('\n'):
+        line_upper = line.upper()
+        for kw in ALGORITHM_KEYWORDS:
+            if kw in line_upper:
+                # Extract algorithm patterns like "AES", "AES-256", "SHA-256", "AES-256-GCM"
+                # Handle various formats: AES-256, AES 256, SHA-3-256, HMAC-SHA-256
+                pattern = rf'\b{kw}(?:[-\s]?\d+)?(?:[-\s]?(?:CBC|GCM|CTR|XTS|CCM|ECB|PSS|OAEP|ECC|FFC|CFB|OFB|KW|KWP))?\b'
+                matches = re.findall(pattern, line, re.IGNORECASE)
+                for match in matches:
+                    algo = match.upper().replace(' ', '-').strip()
+                    if algo and algo not in algorithms:
+                        algorithms.append(algo)
+
+    return algorithms
+
+
+async def crawl_certificate_page(crawler, cert_number: int) -> str:
+    """
+    Crawl a certificate page and return markdown.
+
+    Args:
+        crawler: AsyncWebCrawler instance
+        cert_number: Certificate number to crawl
+
+    Returns:
+        Markdown content of the page, or empty string on failure
+    """
+    url = get_certificate_detail_url(cert_number)
+    try:
+        result = await crawler.arun(
+            url=url,
+            config=CrawlerRunConfig(
+                cache_mode=CacheMode.BYPASS,
+                delay_before_return_html=2.0  # Wait for JS to load dynamic content
+            )
+        )
+        return result.markdown if result.success else ""
+    except Exception:
+        return ""
+
+
+def import_algorithms_from_database(db_path: str) -> Dict[int, List[str]]:
+    """
+    Import algorithm data from an existing CMVP database.
+
+    Args:
+        db_path: Path to the cmvp.db SQLite database
+
+    Returns:
+        Dictionary mapping certificate numbers to lists of algorithms
+    """
+    algorithms_map = {}
+
+    if not os.path.exists(db_path):
+        print(f"Warning: Database not found at {db_path}", file=sys.stderr)
+        return algorithms_map
+
+    try:
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+
+        # Check if the table exists
+        cursor.execute("SELECT name FROM sqlite_master WHERE type='table' AND name='certificate_algorithms'")
+        if not cursor.fetchone():
+            print("Warning: certificate_algorithms table not found in database", file=sys.stderr)
+            conn.close()
+            return algorithms_map
+
+        # Fetch all algorithm data
+        cursor.execute("SELECT cert_number, algorithm_name FROM certificate_algorithms ORDER BY cert_number")
+        rows = cursor.fetchall()
+
+        for cert_num, algo_name in rows:
+            if cert_num not in algorithms_map:
+                algorithms_map[cert_num] = []
+            algorithms_map[cert_num].append(algo_name)
+
+        conn.close()
+        print(f"Imported algorithms for {len(algorithms_map)} certificates from database")
+
+    except Exception as e:
+        print(f"Error importing from database: {e}", file=sys.stderr)
+
+    return algorithms_map
+
+
+async def extract_algorithms_for_certificates(cert_numbers: List[int]) -> Dict[int, List[str]]:
+    """
+    Extract algorithms for a list of certificates using crawl4ai.
+
+    Args:
+        cert_numbers: List of certificate numbers to process
+
+    Returns:
+        Dictionary mapping certificate numbers to lists of algorithms
+    """
+    if not CRAWL4AI_AVAILABLE:
+        print("Warning: crawl4ai not available. Skipping algorithm extraction.", file=sys.stderr)
+        print("Install with: pip install crawl4ai && crawl4ai-setup", file=sys.stderr)
+        return {}
+
+    algorithms_map = {}
+    total = len(cert_numbers)
+    success = 0
+    failed = 0
+
+    print(f"\nExtracting algorithms from {total} certificate pages...")
+
+    async with AsyncWebCrawler() as crawler:
+        for i, cert_num in enumerate(cert_numbers, 1):
+            try:
+                markdown = await crawl_certificate_page(crawler, cert_num)
+                if markdown:
+                    algorithms = parse_algorithms_from_markdown(markdown)
+                    if algorithms:
+                        algorithms_map[cert_num] = algorithms
+                    success += 1
+                else:
+                    failed += 1
+            except Exception:
+                failed += 1
+
+            if i % 50 == 0 or i == total:
+                print(f"  Progress: {i}/{total} ({success} success, {failed} failed)")
+
+            # Small delay to avoid rate limiting
+            await asyncio.sleep(0.3)
+
+    print(f"Algorithm extraction complete: {len(algorithms_map)} certificates with algorithms found")
+    return algorithms_map
 
 
 def parse_modules_table(html: str) -> List[Dict]:
@@ -229,93 +432,243 @@ def save_json(data: Dict, filepath: str) -> None:
     print(f"Saved: {filepath}")
 
 
+def enrich_modules_with_urls(modules: List[Dict]) -> List[Dict]:
+    """
+    Add security policy URLs and certificate detail URLs to modules.
+
+    Args:
+        modules: List of module dictionaries
+
+    Returns:
+        List of modules with added URL fields
+    """
+    for module in modules:
+        cert_num_str = module.get("Certificate Number", "")
+        if cert_num_str:
+            try:
+                cert_num = int(cert_num_str)
+                module["security_policy_url"] = get_security_policy_url(cert_num)
+                module["certificate_detail_url"] = get_certificate_detail_url(cert_num)
+            except ValueError:
+                pass
+    return modules
+
+
+def enrich_modules_with_algorithms(modules: List[Dict], algorithms_map: Dict[int, List[str]]) -> List[Dict]:
+    """
+    Add algorithms to modules from the algorithms map.
+
+    Args:
+        modules: List of module dictionaries
+        algorithms_map: Dictionary mapping certificate numbers to algorithm lists
+
+    Returns:
+        List of modules with added algorithms field
+    """
+    for module in modules:
+        cert_num_str = module.get("Certificate Number", "")
+        if cert_num_str:
+            try:
+                cert_num = int(cert_num_str)
+                if cert_num in algorithms_map:
+                    module["algorithms"] = algorithms_map[cert_num]
+            except ValueError:
+                pass
+    return modules
+
+
+def create_algorithms_summary(algorithms_map: Dict[int, List[str]]) -> Dict:
+    """
+    Create a summary of all algorithms across all certificates.
+
+    Args:
+        algorithms_map: Dictionary mapping certificate numbers to algorithm lists
+
+    Returns:
+        Dictionary with algorithm statistics
+    """
+    algo_counts = {}
+    for cert_num, algos in algorithms_map.items():
+        for algo in algos:
+            if algo not in algo_counts:
+                algo_counts[algo] = {"count": 0, "certificates": []}
+            algo_counts[algo]["count"] += 1
+            algo_counts[algo]["certificates"].append(cert_num)
+
+    # Sort by count descending
+    sorted_algos = dict(sorted(algo_counts.items(), key=lambda x: x[1]["count"], reverse=True))
+
+    return {
+        "total_unique_algorithms": len(sorted_algos),
+        "total_certificate_algorithm_pairs": sum(len(algos) for algos in algorithms_map.values()),
+        "algorithms": sorted_algos
+    }
+
+
 def main():
     """Main entry point for the scraper."""
     print("=" * 60)
     print("NIST CMVP Data Scraper")
     print("=" * 60)
     print()
-    
+
+    # Check algorithm extraction options
+    algorithm_source = "none"
+    if CMVP_DB_PATH:
+        print(f"Note: Will import algorithms from database: {CMVP_DB_PATH}")
+        algorithm_source = "database"
+    elif not SKIP_ALGORITHMS:
+        if CRAWL4AI_AVAILABLE:
+            print("Note: Will extract algorithms using crawl4ai (this may take a while)")
+            algorithm_source = "crawl4ai"
+        else:
+            print("Note: crawl4ai not installed. Algorithm extraction will be skipped.")
+            print("Install with: pip install crawl4ai && crawl4ai-setup")
+    else:
+        print("Note: SKIP_ALGORITHMS=1 set. Algorithm extraction will be skipped.")
+    print()
+
     # Scrape all validated modules
     print("Scraping validated modules...")
     modules = scrape_all_modules()
-    
+
     if not modules:
         print("No validated modules found!", file=sys.stderr)
         sys.exit(1)
-    
+
     print(f"\nTotal validated modules scraped: {len(modules)}")
-    
+
     # Scrape historical modules
     print("\nScraping historical modules...")
     historical_modules = scrape_historical_modules()
-    
+
     print(f"Total historical modules scraped: {len(historical_modules)}")
-    
+
     # Scrape modules in process
     print("\nScraping modules in process...")
     modules_in_process = scrape_modules_in_process()
-    
+
     print(f"Total modules in process scraped: {len(modules_in_process)}")
-    
+
+    # Add security policy and detail URLs to all modules
+    print("\nEnriching modules with URLs...")
+    modules = enrich_modules_with_urls(modules)
+    historical_modules = enrich_modules_with_urls(historical_modules)
+
+    # Get algorithms (from database or by crawling)
+    algorithms_map = {}
+
+    if algorithm_source == "database":
+        # Import from existing database (fast)
+        print("\nImporting algorithms from database...")
+        algorithms_map = import_algorithms_from_database(CMVP_DB_PATH)
+        modules = enrich_modules_with_algorithms(modules, algorithms_map)
+        # Also enrich historical modules with algorithms
+        historical_modules = enrich_modules_with_algorithms(historical_modules, algorithms_map)
+
+    elif algorithm_source == "crawl4ai":
+        # Extract algorithms via crawl4ai (slow but works standalone)
+        cert_numbers = []
+        for module in modules:
+            cert_num_str = module.get("Certificate Number", "")
+            if cert_num_str:
+                try:
+                    cert_numbers.append(int(cert_num_str))
+                except ValueError:
+                    pass
+
+        if cert_numbers:
+            algorithms_map = asyncio.run(extract_algorithms_for_certificates(cert_numbers))
+            modules = enrich_modules_with_algorithms(modules, algorithms_map)
+
     # Prepare output directory
     output_dir = "api"
-    
+
     # Create metadata
     metadata = {
         "generated_at": datetime.utcnow().isoformat() + "Z",
         "total_modules": len(modules),
         "total_historical_modules": len(historical_modules),
         "total_modules_in_process": len(modules_in_process),
+        "total_certificates_with_algorithms": len(algorithms_map),
         "source": BASE_URL,
         "modules_in_process_source": MODULES_IN_PROCESS_URL,
-        "version": "1.0"
+        "algorithm_source": algorithm_source,
+        "version": "2.0"
     }
-    
+
     # Save main modules data (validated)
     main_data = {
         "metadata": metadata,
         "modules": modules
     }
     save_json(main_data, f"{output_dir}/modules.json")
-    
+
     # Save historical modules data
     historical_data = {
         "metadata": metadata,
         "modules": historical_modules
     }
     save_json(historical_data, f"{output_dir}/historical-modules.json")
-    
+
     # Save modules in process data
     modules_in_process_data = {
         "metadata": metadata,
         "modules_in_process": modules_in_process
     }
     save_json(modules_in_process_data, f"{output_dir}/modules-in-process.json")
-    
+
+    # Save algorithms summary (if available)
+    if algorithms_map:
+        algorithms_summary = create_algorithms_summary(algorithms_map)
+        algorithms_summary["metadata"] = {
+            "generated_at": metadata["generated_at"],
+            "total_certificates_processed": len(algorithms_map),
+            "source": algorithm_source
+        }
+        save_json(algorithms_summary, f"{output_dir}/algorithms.json")
+
     # Save metadata separately for quick access
     save_json(metadata, f"{output_dir}/metadata.json")
-    
+
     # Create index page
+    endpoints = {
+        "modules": "/api/modules.json",
+        "historical_modules": "/api/historical-modules.json",
+        "modules_in_process": "/api/modules-in-process.json",
+        "metadata": "/api/metadata.json"
+    }
+    if algorithms_map:
+        endpoints["algorithms"] = "/api/algorithms.json"
+
     index_data = {
         "name": "NIST CMVP Data API",
-        "description": "Static API for NIST Cryptographic Module Validation Program validated modules",
-        "endpoints": {
-            "modules": "/api/modules.json",
-            "historical_modules": "/api/historical-modules.json",
-            "modules_in_process": "/api/modules-in-process.json",
-            "metadata": "/api/metadata.json"
-        },
+        "description": "Static API for NIST Cryptographic Module Validation Program validated modules with algorithm information and security policy links",
+        "endpoints": endpoints,
         "last_updated": metadata["generated_at"],
         "total_modules": len(modules),
         "total_historical_modules": len(historical_modules),
-        "total_modules_in_process": len(modules_in_process)
+        "total_modules_in_process": len(modules_in_process),
+        "total_certificates_with_algorithms": len(algorithms_map),
+        "features": {
+            "security_policy_urls": True,
+            "certificate_detail_urls": True,
+            "algorithm_extraction": algorithm_source != "none"
+        }
     }
     save_json(index_data, f"{output_dir}/index.json")
-    
+
     print("\n" + "=" * 60)
     print("Scraping completed successfully!")
     print("=" * 60)
+    print(f"\nSummary:")
+    print(f"  - Validated modules: {len(modules)}")
+    print(f"  - Historical modules: {len(historical_modules)}")
+    print(f"  - Modules in process: {len(modules_in_process)}")
+    if algorithms_map:
+        print(f"  - Certificates with algorithms: {len(algorithms_map)}")
+    print(f"  - Algorithm source: {algorithm_source}")
+    print(f"\nOutput files saved to: {output_dir}/")
 
 
 if __name__ == "__main__":

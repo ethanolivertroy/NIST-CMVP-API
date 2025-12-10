@@ -1,14 +1,21 @@
 {
   "name": "NIST CMVP Data API",
-  "description": "Static API for NIST Cryptographic Module Validation Program validated modules",
+  "description": "Static API for NIST Cryptographic Module Validation Program validated modules with algorithm information and security policy links",
   "endpoints": {
     "modules": "/api/modules.json",
     "historical_modules": "/api/historical-modules.json",
     "modules_in_process": "/api/modules-in-process.json",
-    "metadata": "/api/metadata.json"
+    "metadata": "/api/metadata.json",
+    "algorithms": "/api/algorithms.json"
   },
-  "last_updated": "2025-12-10T02:40:36.564047Z",
-  "total_modules": 1106,
-  "total_historical_modules": 3988,
-  "total_modules_in_process": 260
+  "last_updated": "2025-12-10T18:53:02.300115Z",
+  "total_modules": 1105,
+  "total_historical_modules": 3989,
+  "total_modules_in_process": 260,
+  "total_certificates_with_algorithms": 988,
+  "features": {
+    "security_policy_urls": true,
+    "certificate_detail_urls": true,
+    "algorithm_extraction": true
+  }
 }
