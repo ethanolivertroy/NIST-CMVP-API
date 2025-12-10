@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2025-12-09T02:39:02.176171Z",
-    "total_modules": 1108,
-    "total_historical_modules": 3985,
-    "total_modules_in_process": 261,
+    "generated_at": "2025-12-10T02:40:36.564047Z",
+    "total_modules": 1106,
+    "total_historical_modules": 3988,
+    "total_modules_in_process": 260,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "version": "1.0"
@@ -384,6 +384,15 @@
       "Vendor Name": "Certicom Corp.",
       "Module Name": "Security Builder FIPS Java Module",
       "Module Type": "Software",
+      "Validation Date": "08/31/2023",
+      "Status": "Historical"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4572",
+      "Certificate Number": "4572",
+      "Vendor Name": "Aruba, a Hewlett Packard Enterprise Company",
+      "Module Name": "Aruba 2930F, 2930M, 3810M and 5400R zl2 Switch Series",
+      "Module Type": "Hardware",
       "Validation Date": "08/31/2023",
       "Status": "Historical"
     },
@@ -2698,6 +2707,24 @@
       "Module Name": "REDCOM OpenSSL Cryptographic Module",
       "Module Type": "Software",
       "Validation Date": "12/14/2020",
+      "Status": "Historical"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3766",
+      "Certificate Number": "3766",
+      "Vendor Name": "Entrust",
+      "Module Name": "nShield Solo XC F3 & nShield Solo XC F3 for nShield Connect XC and for nShield HSMi",
+      "Module Type": "Hardware",
+      "Validation Date": "12/10/202002/25/2022",
+      "Status": "Historical"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3765",
+      "Certificate Number": "3765",
+      "Vendor Name": "Entrust",
+      "Module Name": "nShield Solo XC F2",
+      "Module Type": "Hardware",
+      "Validation Date": "12/10/202002/09/2022",
       "Status": "Historical"
     },
     {
