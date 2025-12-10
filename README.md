@@ -1,6 +1,6 @@
 # NIST CMVP API
 
-Static JSON API for NIST Cryptographic Module Validation Program data. Auto-updates daily via GitHub Actions.
+Static JSON API for NIST Cryptographic Module Validation Program data. Auto-updates weekly via GitHub Actions.
 
 ## Features
 
@@ -37,6 +37,14 @@ Base URL: `https://ethanolivertroy.github.io/NIST-CMVP-API/api/`
   "Validation Date": "12/09/2025",
   "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/.../140sp5104.pdf",
   "certificate_detail_url": "https://csrc.nist.gov/projects/.../certificate/5104",
+  "standard": "FIPS 140-3",
+  "status": "Active",
+  "overall_level": 1,
+  "sunset_date": "12/8/2030",
+  "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys)",
+  "embodiment": "Multi-Chip Stand Alone",
+  "description": "A software library that contains cryptographic functionality...",
+  "lab": "DEKRA Cybersecurity Certification Laboratory",
   "algorithms": ["AES", "SHA-256", "RSA", "ECDSA", "HMAC", "DRBG"]
 }
 ```
@@ -103,7 +111,8 @@ SKIP_ALGORITHMS=1 python scraper.py
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `NIST_SEARCH_PATH` | `/all` | Override the search path for modules |
-| `SKIP_ALGORITHMS` | `0` | Set to `1` to skip algorithm extraction |
+| `SKIP_ALGORITHMS` | `0` | Set to `1` to skip algorithm/detail extraction |
+| `CMVP_DB_PATH` | - | Path to cmvp.db for algorithm import (faster than crawl4ai) |
 
 ## Source
 
