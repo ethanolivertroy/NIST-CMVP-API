@@ -136,6 +136,71 @@ def parse_algorithms_from_markdown(markdown: str) -> List[str]:
     return algorithms
 
 
+def parse_certificate_details_from_markdown(markdown: str) -> Dict:
+    """
+    Extract certificate details from markdown text.
+
+    Args:
+        markdown: Markdown text from certificate detail page
+
+    Returns:
+        Dictionary with certificate details
+    """
+    details = {}
+    lines = markdown.split('\n')
+
+    # Field patterns to look for (label: field_name)
+    field_patterns = {
+        'module name': 'module_name',
+        'standard': 'standard',
+        'status': 'status',
+        'sunset date': 'sunset_date',
+        'overall level': 'overall_level',
+        'caveat': 'caveat',
+        'module type': 'module_type',
+        'embodiment': 'embodiment',
+        'description': 'description',
+        'validation date': 'validation_date',
+        'laboratory': 'lab',
+        'vendor': 'vendor_name',
+    }
+
+    for i, line in enumerate(lines):
+        line_lower = line.lower().strip()
+
+        for pattern, field in field_patterns.items():
+            if pattern in line_lower:
+                # Try to extract value from same line (after colon or pipe)
+                if '|' in line:
+                    parts = line.split('|')
+                    if len(parts) >= 2:
+                        value = parts[-1].strip()
+                        if value and value != '---':
+                            details[field] = value
+                elif ':' in line:
+                    parts = line.split(':', 1)
+                    if len(parts) == 2:
+                        value = parts[1].strip()
+                        if value:
+                            details[field] = value
+                # Also check next line for value
+                elif i + 1 < len(lines):
+                    next_line = lines[i + 1].strip()
+                    if next_line and not any(p in next_line.lower() for p in field_patterns.keys()):
+                        details[field] = next_line
+
+    # Extract overall level as integer
+    if 'overall_level' in details:
+        match = re.search(r'\d+', str(details['overall_level']))
+        if match:
+            details['overall_level'] = int(match.group())
+
+    # Extract algorithms
+    details['algorithms'] = parse_algorithms_from_markdown(markdown)
+
+    return details
+
+
 async def crawl_certificate_page(crawler, cert_number: int) -> str:
     """
     Crawl a certificate page and return markdown.
@@ -206,36 +271,36 @@ def import_algorithms_from_database(db_path: str) -> Dict[int, List[str]]:
     return algorithms_map
 
 
-async def extract_algorithms_for_certificates(cert_numbers: List[int]) -> Dict[int, List[str]]:
+async def extract_certificate_details(cert_numbers: List[int]) -> Dict[int, Dict]:
     """
-    Extract algorithms for a list of certificates using crawl4ai.
+    Extract full details for a list of certificates using crawl4ai.
 
     Args:
         cert_numbers: List of certificate numbers to process
 
     Returns:
-        Dictionary mapping certificate numbers to lists of algorithms
+        Dictionary mapping certificate numbers to detail dictionaries
     """
     if not CRAWL4AI_AVAILABLE:
-        print("Warning: crawl4ai not available. Skipping algorithm extraction.", file=sys.stderr)
+        print("Warning: crawl4ai not available. Skipping detail extraction.", file=sys.stderr)
         print("Install with: pip install crawl4ai && crawl4ai-setup", file=sys.stderr)
         return {}
 
-    algorithms_map = {}
+    details_map = {}
     total = len(cert_numbers)
     success = 0
     failed = 0
 
-    print(f"\nExtracting algorithms from {total} certificate pages...")
+    print(f"\nExtracting details from {total} certificate pages...")
 
     async with AsyncWebCrawler() as crawler:
         for i, cert_num in enumerate(cert_numbers, 1):
             try:
                 markdown = await crawl_certificate_page(crawler, cert_num)
                 if markdown:
-                    algorithms = parse_algorithms_from_markdown(markdown)
-                    if algorithms:
-                        algorithms_map[cert_num] = algorithms
+                    details = parse_certificate_details_from_markdown(markdown)
+                    if details:
+                        details_map[cert_num] = details
                     success += 1
                 else:
                     failed += 1
@@ -248,8 +313,8 @@ async def extract_algorithms_for_certificates(cert_numbers: List[int]) -> Dict[i
             # Small delay to avoid rate limiting
             await asyncio.sleep(0.3)
 
-    print(f"Algorithm extraction complete: {len(algorithms_map)} certificates with algorithms found")
-    return algorithms_map
+    print(f"Detail extraction complete: {len(details_map)} certificates processed")
+    return details_map
 
 
 def parse_modules_table(html: str) -> List[Dict]:
@@ -477,6 +542,33 @@ def enrich_modules_with_algorithms(modules: List[Dict], algorithms_map: Dict[int
     return modules
 
 
+def enrich_modules_with_details(modules: List[Dict], details_map: Dict[int, Dict]) -> List[Dict]:
+    """
+    Add full certificate details to modules from the details map.
+
+    Args:
+        modules: List of module dictionaries
+        details_map: Dictionary mapping certificate numbers to detail dictionaries
+
+    Returns:
+        List of modules with added detail fields
+    """
+    for module in modules:
+        cert_num_str = module.get("Certificate Number", "")
+        if cert_num_str:
+            try:
+                cert_num = int(cert_num_str)
+                if cert_num in details_map:
+                    details = details_map[cert_num]
+                    # Add all detail fields to module
+                    for key, value in details.items():
+                        if value:  # Only add non-empty values
+                            module[key] = value
+            except ValueError:
+                pass
+    return modules
+
+
 def create_algorithms_summary(algorithms_map: Dict[int, List[str]]) -> Dict:
     """
     Create a summary of all algorithms across all certificates.
@@ -567,7 +659,7 @@ def main():
         historical_modules = enrich_modules_with_algorithms(historical_modules, algorithms_map)
 
     elif algorithm_source == "crawl4ai":
-        # Extract algorithms via crawl4ai (slow but works standalone)
+        # Extract full certificate details via crawl4ai (slow but comprehensive)
         cert_numbers = []
         for module in modules:
             cert_num_str = module.get("Certificate Number", "")
@@ -578,8 +670,14 @@ def main():
                     pass
 
         if cert_numbers:
-            algorithms_map = asyncio.run(extract_algorithms_for_certificates(cert_numbers))
-            modules = enrich_modules_with_algorithms(modules, algorithms_map)
+            # Extract full details including algorithms, caveats, etc.
+            details_map = asyncio.run(extract_certificate_details(cert_numbers))
+            modules = enrich_modules_with_details(modules, details_map)
+
+            # Build algorithms_map from details for the summary
+            for cert_num, details in details_map.items():
+                if 'algorithms' in details and details['algorithms']:
+                    algorithms_map[cert_num] = details['algorithms']
 
     # Prepare output directory
     output_dir = "api"

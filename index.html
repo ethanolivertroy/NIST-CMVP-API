@@ -344,6 +344,7 @@
             <a href="#modules" class="nav-link">Validated Modules</a>
             <a href="#historical" class="nav-link">Historical Modules</a>
             <a href="#in-process" class="nav-link">Modules in Process</a>
+            <a href="#algorithms" class="nav-link">Algorithms</a>
             <a href="#metadata" class="nav-link">Metadata</a>
         </div>
         
@@ -377,7 +378,8 @@
                     <strong>Updated:</strong> <span id="lastUpdated">Loading...</span><br>
                     <strong>Validated:</strong> <span id="totalModules">Loading...</span><br>
                     <strong>Historical:</strong> <span id="totalHistoricalModules">Loading...</span><br>
-                    <strong>In Process:</strong> <span id="totalModulesInProcess">Loading...</span>
+                    <strong>In Process:</strong> <span id="totalModulesInProcess">Loading...</span><br>
+                    <strong>With Algorithms:</strong> <span id="totalWithAlgorithms">Loading...</span>
                 </div>
                 
                 <h2>About</h2>
@@ -447,6 +449,11 @@ print(data)</code></pre>
                     <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/modules-in-process.json</span></div>
                     <div class="endpoint-desc">Pending validation</div>
                 </div>
+
+                <div class="endpoint">
+                    <div><span class="endpoint-method">GET</span> <span class="endpoint-url">/api/algorithms.json</span></div>
+                    <div class="endpoint-desc">Algorithm usage statistics across all certificates</div>
+                </div>
             </section>
             
             <section id="data-schema">
@@ -468,7 +475,12 @@ print(data)</code></pre>
                             <td>Unique certificate identifier</td>
                         </tr>
                         <tr>
-                            <td>Vendor</td>
+                            <td>Certificate Number_url</td>
+                            <td>String</td>
+                            <td>Link to NIST certificate page</td>
+                        </tr>
+                        <tr>
+                            <td>Vendor Name</td>
                             <td>String</td>
                             <td>Module vendor/manufacturer</td>
                         </tr>
@@ -478,19 +490,97 @@ print(data)</code></pre>
                             <td>Official module name</td>
                         </tr>
                         <tr>
+                            <td>Module Type</td>
+                            <td>String</td>
+                            <td>Software, Hardware, Firmware, or Hybrid</td>
+                        </tr>
+                        <tr>
                             <td>Validation Date</td>
                             <td>String</td>
                             <td>Date of validation (MM/DD/YYYY)</td>
                         </tr>
                         <tr>
-                            <td>Standard</td>
+                            <td>security_policy_url</td>
                             <td>String</td>
-                            <td>FIPS standard (140-2 or 140-3)</td>
+                            <td>Direct link to Security Policy PDF</td>
                         </tr>
                         <tr>
-                            <td>Status</td>
+                            <td>certificate_detail_url</td>
                             <td>String</td>
-                            <td>Current status (typically "Active")</td>
+                            <td>Link to certificate detail page</td>
+                        </tr>
+                        <tr>
+                            <td>algorithms</td>
+                            <td>Array</td>
+                            <td>List of approved algorithms (e.g., ["AES", "SHA-256", "RSA"])</td>
+                        </tr>
+                        <tr>
+                            <td>standard</td>
+                            <td>String</td>
+                            <td>FIPS standard (e.g., "FIPS 140-3")</td>
+                        </tr>
+                        <tr>
+                            <td>status</td>
+                            <td>String</td>
+                            <td>Certificate status (Active, Historical, Revoked)</td>
+                        </tr>
+                        <tr>
+                            <td>overall_level</td>
+                            <td>Number</td>
+                            <td>Security level (1-4)</td>
+                        </tr>
+                        <tr>
+                            <td>sunset_date</td>
+                            <td>String</td>
+                            <td>Certificate expiration date</td>
+                        </tr>
+                        <tr>
+                            <td>caveat</td>
+                            <td>String</td>
+                            <td>Operational caveat/limitations (important security warnings)</td>
+                        </tr>
+                        <tr>
+                            <td>embodiment</td>
+                            <td>String</td>
+                            <td>Module embodiment type</td>
+                        </tr>
+                        <tr>
+                            <td>description</td>
+                            <td>String</td>
+                            <td>Module description</td>
+                        </tr>
+                        <tr>
+                            <td>lab</td>
+                            <td>String</td>
+                            <td>Testing laboratory name</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>Algorithm Summary Object</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Field</th>
+                            <th>Type</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>total_unique_algorithms</td>
+                            <td>Number</td>
+                            <td>Count of unique algorithms</td>
+                        </tr>
+                        <tr>
+                            <td>total_certificate_algorithm_pairs</td>
+                            <td>Number</td>
+                            <td>Total algorithm entries across all certs</td>
+                        </tr>
+                        <tr>
+                            <td>algorithms</td>
+                            <td>Object</td>
+                            <td>Map of algorithm name to {count, certificates[]}</td>
                         </tr>
                     </tbody>
                 </table>
@@ -564,19 +654,20 @@ print(f"Found {len(microsoft_modules)} Microsoft modules")</code></pre>
             <h4 style="color: #a6e3a1; margin-bottom: 10px;">Sample Response</h4>
             <div class="code-block">
                 <pre><code>{
-  "metadata": {
-    "generated_at": "2025-12-08T13:52:16Z",
-    "total_modules": 1107,
-    "version": "1.0"
-  },
   "modules": [
     {
-      "Certificate Number": "4747",
-      "Vendor": "Microsoft Corporation",
-      "Module Name": "Windows 11 Crypto Library",
-      "Validation Date": "11/15/2024",
-      "Standard": "FIPS 140-3",
-      "Status": "Active"
+      "Certificate Number": "5104",
+      "Vendor Name": "Google, LLC",
+      "Module Name": "BoringCrypto",
+      "Module Type": "Software",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "overall_level": 1,
+      "sunset_date": "12/8/2030",
+      "caveat": "When operated...",
+      "algorithms": ["AES", "SHA"],
+      "security_policy_url": "...",
+      "description": "A software..."
     }
   ]
 }</code></pre>
@@ -641,6 +732,7 @@ print(f"Found {len(microsoft_modules)} Microsoft modules")</code></pre>
                 document.getElementById('totalModules').textContent = data.total_modules || '0';
                 document.getElementById('totalHistoricalModules').textContent = data.total_historical_modules || '0';
                 document.getElementById('totalModulesInProcess').textContent = data.total_modules_in_process || '0';
+                document.getElementById('totalWithAlgorithms').textContent = data.total_certificates_with_algorithms || '0';
                 
                 // Update live status in sidebar
                 document.getElementById('live-status').textContent = JSON.stringify({
@@ -656,6 +748,7 @@ print(f"Found {len(microsoft_modules)} Microsoft modules")</code></pre>
                 document.getElementById('totalModules').textContent = 'N/A';
                 document.getElementById('totalHistoricalModules').textContent = 'N/A';
                 document.getElementById('totalModulesInProcess').textContent = 'N/A';
+                document.getElementById('totalWithAlgorithms').textContent = 'N/A';
                 
                 document.getElementById('live-status').textContent = 'API temporarily unavailable';
             });
