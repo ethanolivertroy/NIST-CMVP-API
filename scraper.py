@@ -27,7 +27,7 @@ import sqlite3
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Set, Tuple
 
 import requests
 from bs4 import BeautifulSoup
@@ -54,10 +54,11 @@ SKIP_ALGORITHMS = os.getenv("SKIP_ALGORITHMS", "0") == "1"
 CMVP_DB_PATH = os.getenv("CMVP_DB_PATH", "")
 
 # Algorithm keywords to look for when parsing
+# Order matters: more specific keywords should come before general ones (HMAC before SHA)
 ALGORITHM_KEYWORDS = [
-    'AES', 'SHA', 'RSA', 'ECDSA', 'ECDH', 'HMAC', 'DRBG',
+    'HMAC', 'AES', 'RSA', 'ECDSA', 'ECDH', 'DRBG',
     'KDF', 'DES', 'DSA', 'CVL', 'KAS', 'KTS', 'PBKDF',
-    'SHS', 'TLS', 'SSH', 'EDDSA', 'ML-KEM', 'ML-DSA'
+    'SHS', 'SHA', 'TLS', 'SSH', 'EDDSA', 'ML-KEM', 'ML-DSA'
 ]
 
 
@@ -108,32 +109,49 @@ def get_certificate_detail_url(cert_number: int) -> str:
     return f"{CERTIFICATE_DETAIL_URL}/{cert_number}"
 
 
-def parse_algorithms_from_markdown(markdown: str) -> List[str]:
+def parse_algorithms_from_markdown(markdown: str) -> Tuple[List[str], List[str]]:
     """
-    Extract algorithm names from markdown text.
+    Extract algorithm information from markdown text.
+
+    Returns both detailed algorithm entries (full names with parameters)
+    and simplified categories for display.
 
     Args:
         markdown: Markdown text from certificate detail page
 
     Returns:
-        List of unique algorithm names found
+        Tuple of (detailed_algorithms, categories)
+        - detailed_algorithms: Full algorithm names like "HMAC-SHA2-256", "ECDSA SigGen (FIPS186-4)"
+        - categories: Simplified names like "HMAC", "ECDSA", "AES"
     """
-    algorithms = []
+    detailed: List[str] = []
+    categories: Set[str] = set()
 
+    # Find lines that look like algorithm entries
+    # On NIST pages, algorithms appear as plain text lines before [Axxxx] validation links
     for line in markdown.split('\n'):
+        line = line.strip()
+
+        # Skip empty lines, markdown links, headers, and table separators
+        if not line or line.startswith('[') or line.startswith('#') or line.startswith('|') or line == '---':
+            continue
+
+        # Skip lines that are just numbers or very short
+        if len(line) < 3:
+            continue
+
+        # Check if this line contains an algorithm keyword
         line_upper = line.upper()
         for kw in ALGORITHM_KEYWORDS:
             if kw in line_upper:
-                # Extract algorithm patterns like "AES", "AES-256", "SHA-256", "AES-256-GCM"
-                # Handle various formats: AES-256, AES 256, SHA-3-256, HMAC-SHA-256
-                pattern = rf'\b{kw}(?:[-\s]?\d+)?(?:[-\s]?(?:CBC|GCM|CTR|XTS|CCM|ECB|PSS|OAEP|ECC|FFC|CFB|OFB|KW|KWP))?\b'
-                matches = re.findall(pattern, line, re.IGNORECASE)
-                for match in matches:
-                    algo = match.upper().replace(' ', '-').strip()
-                    if algo and algo not in algorithms:
-                        algorithms.append(algo)
+                # This looks like an algorithm entry - add the full line as detailed
+                if line not in detailed:
+                    detailed.append(line)
+                # Add the category
+                categories.add(kw)
+                break
 
-    return algorithms
+    return detailed, sorted(categories)
 
 
 def parse_certificate_details_from_markdown(markdown: str) -> Dict:
@@ -195,8 +213,10 @@ def parse_certificate_details_from_markdown(markdown: str) -> Dict:
         if match:
             details['overall_level'] = int(match.group())
 
-    # Extract algorithms
-    details['algorithms'] = parse_algorithms_from_markdown(markdown)
+    # Extract algorithms (both detailed and categories)
+    detailed_algorithms, categories = parse_algorithms_from_markdown(markdown)
+    details['algorithms'] = categories  # Simplified categories for display
+    details['algorithms_detailed'] = detailed_algorithms  # Full algorithm entries
 
     return details
 
