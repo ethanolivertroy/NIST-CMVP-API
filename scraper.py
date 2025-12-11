@@ -187,12 +187,20 @@ def parse_certificate_details_from_markdown(markdown: str) -> Dict:
         line_lower = line.lower().strip()
 
         for pattern, field in field_patterns.items():
-            if pattern in line_lower:
+            # Match pattern at start of line or as table cell (not just anywhere in line)
+            # This prevents matching "nist-information-quality-standards" when looking for "standard"
+            is_field_label = (
+                line_lower.startswith(pattern) or
+                line_lower.startswith(f'| {pattern}')
+            )
+
+            if is_field_label:
                 # Try to extract value from same line (after colon or pipe)
                 if '|' in line:
-                    parts = line.split('|')
+                    parts = [p.strip() for p in line.split('|') if p.strip()]
+                    # In table format "| Field | Value |", parts would be ['Field', 'Value']
                     if len(parts) >= 2:
-                        value = parts[-1].strip()
+                        value = parts[1]  # Second non-empty part is the value
                         if value and value != '---':
                             details[field] = value
                 elif ':' in line:
