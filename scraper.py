@@ -61,6 +61,14 @@ ALGORITHM_KEYWORDS = [
     'SHS', 'SHA', 'TLS', 'SSH', 'EDDSA', 'ML-KEM', 'ML-DSA'
 ]
 
+# Patterns to skip (UI elements, page chrome, not actual algorithms)
+SKIP_PATTERNS = [
+    'lock', 'padlock', 'https://', 'website', 'official',
+    'share sensitive', 'connected to', '.gov', 'information only',
+    'government', 'browser', 'cookies', 'description',
+    'the module', 'provides', 'language api', 'functionality',
+]
+
 
 def fetch_page(url: str, timeout: int = 30) -> Optional[str]:
     """
@@ -132,12 +140,19 @@ def parse_algorithms_from_markdown(markdown: str) -> Tuple[List[str], List[str]]
     for line in markdown.split('\n'):
         line = line.strip()
 
-        # Skip empty lines, markdown links, headers, and table separators
-        if not line or line.startswith('[') or line.startswith('#') or line.startswith('|') or line == '---':
+        # Skip empty lines, markdown links, headers, tables, and bullets
+        if not line or len(line) < 3:
+            continue
+        if line.startswith(('[', '#', '|', '---', '*')):
             continue
 
-        # Skip lines that are just numbers or very short
-        if len(line) < 3:
+        # Skip lines with UI/junk patterns (page chrome, not algorithms)
+        line_lower = line.lower()
+        if any(pattern in line_lower for pattern in SKIP_PATTERNS):
+            continue
+
+        # Skip overly long lines (likely sentences, not algorithm names)
+        if len(line) > 80:
             continue
 
         # Check if this line contains an algorithm keyword
