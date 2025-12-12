@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2025-12-11T03:35:24.676590Z",
-    "total_modules": 1105,
+    "generated_at": "2025-12-12T01:20:39.004201Z",
+    "total_modules": 1108,
     "total_historical_modules": 3989,
-    "total_modules_in_process": 260,
-    "total_certificates_with_algorithms": 1105,
+    "total_modules_in_process": 262,
+    "total_certificates_with_algorithms": 637,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",

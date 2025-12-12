@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2025-12-11T03:35:24.676590Z",
-    "total_modules": 1105,
+    "generated_at": "2025-12-12T01:20:39.004201Z",
+    "total_modules": 1108,
     "total_historical_modules": 3989,
-    "total_modules_in_process": 260,
-    "total_certificates_with_algorithms": 1105,
+    "total_modules_in_process": 262,
+    "total_certificates_with_algorithms": 637,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -677,6 +677,13 @@
       "Status": "Review Pending  (8/5/2025)"
     },
     {
+      "Module Name": "B227 True Random Number Generator (TRNG) Cryptographic Module",
+      "Vendor Name_url": "#d13501",
+      "Vendor Name": "Google, LLCView Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (12/10/2025)"
+    },
+    {
       "Module Name": "BoringCrypto",
       "Vendor Name_url": "#d13186",
       "Vendor Name": "Google, LLCView Contacts",
@@ -712,11 +719,11 @@
       "Status": "Review Pending  (10/31/2025)"
     },
     {
-      "Module Name": "Non-Volatile Memory express (NVMe) Data Path Security Cluster (DPSC) Module",
-      "Vendor Name_url": "#d13600",
+      "Module Name": "Integrated Compute Complex (ICC)",
+      "Vendor Name_url": "#d13500",
       "Vendor Name": "Google, LLCView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (10/23/2025)"
+      "Status": "Review Pending  (12/10/2025)"
     },
     {
       "Module Name": "Non-Volatile Memory express (NVMe) Data Path Security Cluster (DPSC) Module",
@@ -724,6 +731,13 @@
       "Vendor Name": "Google, LLCView Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (10/31/2025)"
+    },
+    {
+      "Module Name": "Non-Volatile Memory express (NVMe) Data Path Security Cluster (DPSC) Module",
+      "Vendor Name_url": "#d13600",
+      "Vendor Name": "Google, LLCView Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (10/23/2025)"
     },
     {
       "Module Name": "River Redux Cryptographic Module",
@@ -1266,17 +1280,17 @@
     },
     {
       "Module Name": "Qualcomm® Pseudo Random Number Generator",
-      "Vendor Name_url": "#d13191",
-      "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (12/9/2025)"
-    },
-    {
-      "Module Name": "Qualcomm® Pseudo Random Number Generator",
       "Vendor Name_url": "#d13459",
       "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (6/18/2025)"
+    },
+    {
+      "Module Name": "Qualcomm® Pseudo Random Number Generator",
+      "Vendor Name_url": "#d13191",
+      "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (12/9/2025)"
     },
     {
       "Module Name": "Rajant In-Line Security Module (RiSM)",
@@ -1297,7 +1311,7 @@
       "Vendor Name_url": "#d12952",
       "Vendor Name": "Red Hat, Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "In Review  (12/9/2025)"
+      "Status": "Coordination  (12/10/2025)"
     },
     {
       "Module Name": "Red Hat Enterprise Linux 9 Kernel Cryptographic API",
@@ -1350,14 +1364,14 @@
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs BM1743 Series",
-      "Vendor Name_url": "#d13329",
+      "Vendor Name_url": "#d13295",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (11/12/2025)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs BM1743 Series",
-      "Vendor Name_url": "#d13295",
+      "Vendor Name_url": "#d13329",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (11/12/2025)"
@@ -1378,24 +1392,10 @@
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
-      "Vendor Name_url": "#d13508",
+      "Vendor Name_url": "#d13612",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (8/1/2025)"
-    },
-    {
-      "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
-      "Vendor Name_url": "#d13563",
-      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (9/19/2025)"
-    },
-    {
-      "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
-      "Vendor Name_url": "#d13275",
-      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (11/13/2025)"
+      "Status": "Review Pending  (11/26/2025)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
@@ -1406,10 +1406,24 @@
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
-      "Vendor Name_url": "#d13612",
+      "Vendor Name_url": "#d13563",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (11/26/2025)"
+      "Status": "Review Pending  (9/19/2025)"
+    },
+    {
+      "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
+      "Vendor Name_url": "#d13508",
+      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (8/1/2025)"
+    },
+    {
+      "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
+      "Vendor Name_url": "#d13275",
+      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (11/13/2025)"
     },
     {
       "Module Name": "Samsung SAS TCG Enterprise SSC SEDs PM1653a Series",
@@ -1577,7 +1591,7 @@
       "Vendor Name_url": "#d13070",
       "Vendor Name": "SUSE LLCView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "In Review  (12/9/2025)"
+      "Status": "Coordination  (12/10/2025)"
     },
     {
       "Module Name": "SUSE Linux Enterprise OpenSSL 1 Cryptographic Module",
