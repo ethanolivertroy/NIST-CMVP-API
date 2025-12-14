@@ -1,6 +1,6 @@
 {
   "total_unique_algorithms": 15,
-  "total_certificate_algorithm_pairs": 2444,
+  "total_certificate_algorithm_pairs": 2448,
   "algorithms": {
     "AES": {
       "count": 327,
@@ -335,7 +335,7 @@
       ]
     },
     "SHA": {
-      "count": 313,
+      "count": 314,
       "certificates": [
         5088,
         5084,
@@ -395,6 +395,7 @@
         4967,
         4965,
         4962,
+        4958,
         4956,
         4954,
         4953,
@@ -653,7 +654,7 @@
       ]
     },
     "KAS": {
-      "count": 313,
+      "count": 314,
       "certificates": [
         5084,
         5083,
@@ -701,6 +702,7 @@
         4967,
         4965,
         4962,
+        4958,
         4954,
         4953,
         4951,
@@ -971,7 +973,7 @@
       ]
     },
     "KDF": {
-      "count": 257,
+      "count": 258,
       "certificates": [
         5088,
         5084,
@@ -1022,6 +1024,7 @@
         4967,
         4965,
         4962,
+        4958,
         4956,
         4954,
         4953,
@@ -2287,7 +2290,7 @@
       ]
     },
     "KTS": {
-      "count": 83,
+      "count": 84,
       "certificates": [
         5088,
         5084,
@@ -2309,6 +2312,7 @@
         4975,
         4974,
         4962,
+        4958,
         4954,
         4943,
         4912,
@@ -2523,8 +2527,8 @@
     }
   },
   "metadata": {
-    "generated_at": "2025-12-12T01:20:39.004201Z",
-    "total_certificates_processed": 637,
+    "generated_at": "2025-12-14T03:47:55.664643Z",
+    "total_certificates_processed": 638,
     "source": "crawl4ai"
   }
 }

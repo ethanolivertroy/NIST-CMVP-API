@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2025-12-12T01:20:39.004201Z",
-    "total_modules": 1108,
-    "total_historical_modules": 3989,
-    "total_modules_in_process": 262,
-    "total_certificates_with_algorithms": 637,
+    "generated_at": "2025-12-14T03:47:55.664643Z",
+    "total_modules": 1109,
+    "total_historical_modules": 3988,
+    "total_modules_in_process": 259,
+    "total_certificates_with_algorithms": 638,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -5887,6 +5887,36 @@
       "module_type": "Hardware",
       "embodiment": "Multi-Chip Stand Alone",
       "description": "The cryptographic module provides for an encrypted connection, using SSH, between the management station and the module. The cryptographic module also provides for an encrypted connection, using MACsec, between devices."
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4958",
+      "Certificate Number": "4958",
+      "Vendor Name": "Tellabs Enterprise, Inc.",
+      "Module Name": "Tellabs Panorama PON Manager Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "02/06/2025",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4958.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4958",
+      "module_name": "Tellabs Panorama PON Manager Cryptographic Module",
+      "standard": "FIPS 140-2",
+      "status": "Active",
+      "sunset_date": "2/22/2026",
+      "overall_level": 1,
+      "caveat": "When installed, initialized and configured as specified in the Security Policy Section 3 and operated in FIPS mode. The module generates cryptographic keys whose strengths are modified by available entropy",
+      "module_type": "Software",
+      "embodiment": "Multi-Chip Stand Alone",
+      "algorithms": [
+        "KAS",
+        "KDF",
+        "KTS",
+        "SHA"
+      ],
+      "algorithms_detailed": [
+        "KAS-SSC | vendor affirmed",
+        "KTS | vendor affirmed",
+        "PBKDF | vendor affirmed",
+        "SHA-3-Customized | SHA-3 Cert. #A2720, vendor affirmed"
+      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4957",
@@ -24735,7 +24765,7 @@
       "Vendor Name": "",
       "Module Name": "",
       "Module Type": "Hardware",
-      "Validation Date": "10/20/2022",
+      "Validation Date": "10/20/202212/12/2025",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4343.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4343",
       "standard": "FIPS 140-2",

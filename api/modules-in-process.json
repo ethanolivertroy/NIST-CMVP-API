@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2025-12-12T01:20:39.004201Z",
-    "total_modules": 1108,
-    "total_historical_modules": 3989,
-    "total_modules_in_process": 262,
-    "total_certificates_with_algorithms": 637,
+    "generated_at": "2025-12-14T03:47:55.664643Z",
+    "total_modules": 1109,
+    "total_historical_modules": 3988,
+    "total_modules_in_process": 259,
+    "total_certificates_with_algorithms": 638,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -170,7 +170,7 @@
       "Vendor Name_url": "#d13041",
       "Vendor Name": "Apple Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Coordination  (11/3/2025)"
+      "Status": "Finalization  (12/12/2025)"
     },
     {
       "Module Name": "Apple corecrypto Module v18.3 [Intel, Kernel, Software, SL1]",
@@ -450,7 +450,7 @@
       "Vendor Name_url": "#d12912",
       "Vendor Name": "Cloud Software GroupView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Coordination  (6/30/2025)"
+      "Status": "Finalization  (12/12/2025)"
     },
     {
       "Module Name": "NetScaler VPX",
@@ -685,17 +685,17 @@
     },
     {
       "Module Name": "BoringCrypto",
-      "Vendor Name_url": "#d13186",
-      "Vendor Name": "Google, LLCView Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (11/4/2025)"
-    },
-    {
-      "Module Name": "BoringCrypto",
       "Vendor Name_url": "#d13434",
       "Vendor Name": "Google, LLCView Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (6/13/2025)"
+    },
+    {
+      "Module Name": "BoringCrypto",
+      "Vendor Name_url": "#d13186",
+      "Vendor Name": "Google, LLCView Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (11/4/2025)"
     },
     {
       "Module Name": "BoringCrypto",
@@ -706,17 +706,17 @@
     },
     {
       "Module Name": "Inline Crypto Engine (ICE)",
-      "Vendor Name_url": "#d13599",
-      "Vendor Name": "Google, LLCView Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (10/23/2025)"
-    },
-    {
-      "Module Name": "Inline Crypto Engine (ICE)",
       "Vendor Name_url": "#d13497",
       "Vendor Name": "Google, LLCView Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (10/31/2025)"
+    },
+    {
+      "Module Name": "Inline Crypto Engine (ICE)",
+      "Vendor Name_url": "#d13599",
+      "Vendor Name": "Google, LLCView Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (10/23/2025)"
     },
     {
       "Module Name": "Integrated Compute Complex (ICC)",
@@ -727,17 +727,17 @@
     },
     {
       "Module Name": "Non-Volatile Memory express (NVMe) Data Path Security Cluster (DPSC) Module",
-      "Vendor Name_url": "#d13499",
-      "Vendor Name": "Google, LLCView Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (10/31/2025)"
-    },
-    {
-      "Module Name": "Non-Volatile Memory express (NVMe) Data Path Security Cluster (DPSC) Module",
       "Vendor Name_url": "#d13600",
       "Vendor Name": "Google, LLCView Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (10/23/2025)"
+    },
+    {
+      "Module Name": "Non-Volatile Memory express (NVMe) Data Path Security Cluster (DPSC) Module",
+      "Vendor Name_url": "#d13499",
+      "Vendor Name": "Google, LLCView Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (10/31/2025)"
     },
     {
       "Module Name": "River Redux Cryptographic Module",
@@ -1090,18 +1090,18 @@
       "Status": "Review Pending  (2/21/2025)"
     },
     {
-      "Module Name": "Motorola Solutions Advanced Crypto Engine (MACE) HSM – Security Level 2",
+      "Module Name": "Motorola Solutions Advanced Crypto Engine (MACE) HSM - Security Level 2",
       "Vendor Name_url": "#d13224",
       "Vendor Name": "Motorola Solutions, Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (11/5/2025)"
+      "Status": "Review Pending  (2/4/2025)"
     },
     {
-      "Module Name": "Motorola Solutions Advanced Crypto Engine (MACE) HSM – Security Level 3",
+      "Module Name": "Motorola Solutions Advanced Crypto Engine (MACE) HSM - Security Level 3",
       "Vendor Name_url": "#d13225",
       "Vendor Name": "Motorola Solutions, Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (11/5/2025)"
+      "Status": "Review Pending  (1/30/2025)"
     },
     {
       "Module Name": "Nokia SR Cryptographic Module (SRCM)",
@@ -1280,24 +1280,24 @@
     },
     {
       "Module Name": "Qualcomm® Pseudo Random Number Generator",
-      "Vendor Name_url": "#d13459",
-      "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (6/18/2025)"
-    },
-    {
-      "Module Name": "Qualcomm® Pseudo Random Number Generator",
       "Vendor Name_url": "#d13191",
       "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (12/9/2025)"
     },
     {
+      "Module Name": "Qualcomm® Pseudo Random Number Generator",
+      "Vendor Name_url": "#d13459",
+      "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (6/18/2025)"
+    },
+    {
       "Module Name": "Rajant In-Line Security Module (RiSM)",
       "Vendor Name_url": "#d12681",
       "Vendor Name": "Rajant CorporationView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Coordination  (8/26/2025)"
+      "Status": "Finalization  (12/12/2025)"
     },
     {
       "Module Name": "Red Hat Enterprise Linux 8 Kernel Cryptographic API",
@@ -1364,14 +1364,14 @@
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs BM1743 Series",
-      "Vendor Name_url": "#d13295",
+      "Vendor Name_url": "#d13329",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (11/12/2025)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs BM1743 Series",
-      "Vendor Name_url": "#d13329",
+      "Vendor Name_url": "#d13295",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (11/12/2025)"
@@ -1392,24 +1392,17 @@
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
-      "Vendor Name_url": "#d13612",
-      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (11/26/2025)"
-    },
-    {
-      "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
-      "Vendor Name_url": "#d13609",
-      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (11/3/2025)"
-    },
-    {
-      "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
       "Vendor Name_url": "#d13563",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Review Pending  (9/19/2025)"
+    },
+    {
+      "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
+      "Vendor Name_url": "#d13275",
+      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (11/13/2025)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
@@ -1420,10 +1413,17 @@
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
-      "Vendor Name_url": "#d13275",
+      "Vendor Name_url": "#d13609",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (11/13/2025)"
+      "Status": "Review Pending  (11/3/2025)"
+    },
+    {
+      "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
+      "Vendor Name_url": "#d13612",
+      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review Pending  (11/26/2025)"
     },
     {
       "Module Name": "Samsung SAS TCG Enterprise SSC SEDs PM1653a Series",
@@ -1524,25 +1524,11 @@
       "Status": "In Review  (11/24/2025)"
     },
     {
-      "Module Name": "IPC Cryptographic Module",
-      "Vendor Name_url": "#d12607",
-      "Vendor Name": "ST Engineering Urban Solutions Ltd.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Finalization  (11/18/2025)"
-    },
-    {
-      "Module Name": "Triton 2 Cryptographic Module",
-      "Vendor Name_url": "#d12624",
-      "Vendor Name": "ST Engineering Urban Solutions Ltd.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Finalization  (11/28/2025)"
-    },
-    {
       "Module Name": "Trusted Platform Module ST33KTPM2X / ST33KTPM2XSPI",
       "Vendor Name_url": "#d13164",
       "Vendor Name": "STMicroelectronicsView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Coordination  (11/13/2025)"
+      "Status": "Finalization  (12/12/2025)"
     },
     {
       "Module Name": "Stryker Badge Cryptographic Module",
@@ -1746,13 +1732,6 @@
       "Vendor Name": "WatchGuard Technologies, Inc.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Coordination  (8/25/2025)"
-    },
-    {
-      "Module Name": "Intrepid Cryptographic Firmware Module",
-      "Vendor Name_url": "#d13229",
-      "Vendor Name": "Western Digital Technologies, IncView Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Review Pending  (4/30/2025)"
     },
     {
       "Module Name": "Ultrastar® DC SN650 BiCS5 NVMe® TCG Opal SSD, SED",
