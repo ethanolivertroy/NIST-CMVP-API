@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2025-12-14T03:47:55.664643Z",
-    "total_modules": 1109,
-    "total_historical_modules": 3988,
-    "total_modules_in_process": 259,
-    "total_certificates_with_algorithms": 638,
+    "generated_at": "2025-12-21T03:43:52.347875Z",
+    "total_modules": 1108,
+    "total_historical_modules": 3996,
+    "total_modules_in_process": 263,
+    "total_certificates_with_algorithms": 632,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -109,6 +109,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4655.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4655"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4644",
+      "Certificate Number": "4644",
+      "Vendor Name": "Cisco Systems, Inc.",
+      "Module Name": "Cisco ASR 1000 Series Routers with MACSEC",
+      "Module Type": "Hardware",
+      "Validation Date": "10/25/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4644.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4644"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4639",
@@ -230,6 +241,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4616.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4616"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4615",
+      "Certificate Number": "4615",
+      "Vendor Name": "Acronis SCS",
+      "Module Name": "Acronis SCS Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "09/27/202304/05/2024",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4615.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4615"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4604",
@@ -463,6 +485,17 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4575"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4573",
+      "Certificate Number": "4573",
+      "Vendor Name": "ICU Medical, Inc.",
+      "Module Name": "LifeCare PCA™ Infusion Pump",
+      "Module Type": "Hardware",
+      "Validation Date": "08/31/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4573.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4573"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4572",
       "Certificate Number": "4572",
       "Vendor Name": "Aruba, a Hewlett Packard Enterprise Company",
@@ -648,6 +681,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4510.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4510"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4508",
+      "Certificate Number": "4508",
+      "Vendor Name": "SUSE, LLC",
+      "Module Name": "SUSE Linux Enterprise Server Kernel Crypto API Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "05/05/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4508.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4508"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4505",
@@ -3158,6 +3202,17 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3787"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3784",
+      "Certificate Number": "3784",
+      "Vendor Name": "Red Hat®, Inc.",
+      "Module Name": "Red Hat Enterprise Linux 8 libgcrypt Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "12/21/2020",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3784.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3784"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3783",
       "Certificate Number": "3783",
       "Vendor Name": "Fujitsu Network Communications, Inc.",
@@ -3202,6 +3257,28 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3780"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3779",
+      "Certificate Number": "3779",
+      "Vendor Name": "Juniper Networks, Inc.",
+      "Module Name": "Junos Space Network Management Platform, with or without Network Director and with or without Security Director in Virtual Appliance",
+      "Module Type": "Software",
+      "Validation Date": "12/21/2020",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3779.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3779"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3778",
+      "Certificate Number": "3778",
+      "Vendor Name": "FP InovoLabs GmbH",
+      "Module Name": "Postal NRevenector GB 2019",
+      "Module Type": "Hardware",
+      "Validation Date": "12/18/2020",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3778.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3778"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3777",
       "Certificate Number": "3777",
       "Vendor Name": "Draeger Medical Systems, Inc.",
@@ -3211,6 +3288,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3777.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3777"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3776",
+      "Certificate Number": "3776",
+      "Vendor Name": "Dolby Laboratories, Inc.",
+      "Module Name": "IMS3-SM",
+      "Module Type": "Hardware",
+      "Validation Date": "12/18/2020",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3776.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3776"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3775",
