@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2025-12-21T03:43:52.347875Z",
+    "generated_at": "2025-12-28T03:53:16.558214Z",
     "total_modules": 1108,
     "total_historical_modules": 3996,
-    "total_modules_in_process": 263,
+    "total_modules_in_process": 269,
     "total_certificates_with_algorithms": 632,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
@@ -952,7 +952,7 @@
       "Vendor Name": "Kanguru Solutions",
       "Module Name": "Kanguru Defender SED300",
       "Module Type": "Hardware",
-      "Validation Date": "09/10/2022",
+      "Validation Date": "09/10/202212/22/2025",
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4295.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4295"
