@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2025-12-28T03:53:16.558214Z",
-    "total_modules": 1108,
-    "total_historical_modules": 3996,
-    "total_modules_in_process": 269,
+    "generated_at": "2026-01-04T03:50:08.561358Z",
+    "total_modules": 1106,
+    "total_historical_modules": 3998,
+    "total_modules_in_process": 274,
     "total_certificates_with_algorithms": 632,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
@@ -3200,6 +3200,28 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3787.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3787"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3786",
+      "Certificate Number": "3786",
+      "Vendor Name": "Samsung Electronics Co., Ltd.",
+      "Module Name": "Samsung SAS 12G TCG Enterprise SSC SEDs PM1643a/PM1645a Series",
+      "Module Type": "Hardware",
+      "Validation Date": "12/30/202011/30/202112/31/202102/03/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3786.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3786"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3785",
+      "Certificate Number": "3785",
+      "Vendor Name": "Novachips Co., Ltd.",
+      "Module Name": "NS361/NS371/NS561 (2.5\" & M.2) SSD",
+      "Module Type": "Hardware",
+      "Validation Date": "12/30/2020",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3785.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3785"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3784",

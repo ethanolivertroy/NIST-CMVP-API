@@ -1,8 +1,8 @@
 {
-  "generated_at": "2025-12-28T03:53:16.558214Z",
-  "total_modules": 1108,
-  "total_historical_modules": 3996,
-  "total_modules_in_process": 269,
+  "generated_at": "2026-01-04T03:50:08.561358Z",
+  "total_modules": 1106,
+  "total_historical_modules": 3998,
+  "total_modules_in_process": 274,
   "total_certificates_with_algorithms": 632,
   "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
   "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
