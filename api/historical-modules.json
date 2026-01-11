@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-01-04T03:50:08.561358Z",
-    "total_modules": 1106,
-    "total_historical_modules": 3998,
-    "total_modules_in_process": 274,
+    "generated_at": "2026-01-11T03:48:32.169982Z",
+    "total_modules": 1107,
+    "total_historical_modules": 4002,
+    "total_modules_in_process": 270,
     "total_certificates_with_algorithms": 632,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
@@ -749,6 +749,17 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4481"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4478",
+      "Certificate Number": "4478",
+      "Vendor Name": "Samsung Electronics Co., Ltd.",
+      "Module Name": "Samsung SCrypto Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "04/17/202308/28/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4478.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4478"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4477",
       "Certificate Number": "4477",
       "Vendor Name": "F5, Inc.",
@@ -1154,6 +1165,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4222.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4222"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4218",
+      "Certificate Number": "4218",
+      "Vendor Name": "Marvell Semiconductor, Inc.",
+      "Module Name": "NITROXIII CNN35XX-NFBE HSM Family",
+      "Module Type": "Hardware",
+      "Validation Date": "05/09/202210/14/202208/15/202302/11/2025",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4218.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4218"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4217",
@@ -1836,6 +1858,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4037.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4037"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4036",
+      "Certificate Number": "4036",
+      "Vendor Name": "Cisco Systems, Inc.",
+      "Module Name": "Cisco FIPS Object Module",
+      "Module Type": "Firmware",
+      "Validation Date": "09/23/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4036.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4036"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4035",
@@ -7303,6 +7336,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3402.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3402"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3401",
+      "Certificate Number": "3401",
+      "Vendor Name": "Honeywell International Inc.",
+      "Module Name": "Honeywell Pseudo Random Number Generator",
+      "Module Type": "Hardware",
+      "Validation Date": "03/13/201901/11/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3401.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3401"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3400",
