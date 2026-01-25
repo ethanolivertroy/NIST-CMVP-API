@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-01-18T03:49:20.454070Z",
-    "total_modules": 1127,
-    "total_historical_modules": 4003,
-    "total_modules_in_process": 266,
-    "total_certificates_with_algorithms": 648,
+    "generated_at": "2026-01-25T03:52:18.649767Z",
+    "total_modules": 1124,
+    "total_historical_modules": 4009,
+    "total_modules_in_process": 268,
+    "total_certificates_with_algorithms": 644,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -538,6 +538,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4565.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4565"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4564",
+      "Certificate Number": "4564",
+      "Vendor Name": "HID Global and Giesecke+Devrient Mobile Security America Inc.",
+      "Module Name": "HID Global ActivID Applet Suite v2.7.5 and v2.7.6 on Giesecke & Devrient Sm@rtCafé Expert 7.0",
+      "Module Type": "Hardware",
+      "Validation Date": "08/30/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4564.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4564"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4563",
@@ -3158,6 +3169,39 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3799"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3798",
+      "Certificate Number": "3798",
+      "Vendor Name": "Trellix",
+      "Module Name": "Network Security Platform Sensor NS3500",
+      "Module Type": "Hardware",
+      "Validation Date": "01/25/202106/28/202106/29/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3798.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3798"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3797",
+      "Certificate Number": "3797",
+      "Vendor Name": "SUSE, LLC",
+      "Module Name": "SUSE Linux Enterprise Server OpenSSL Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "01/25/202111/28/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3797.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3797"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3796",
+      "Certificate Number": "3796",
+      "Vendor Name": "Thales",
+      "Module Name": "IDPrime 930 / 3930",
+      "Module Type": "Hardware",
+      "Validation Date": "01/25/202107/05/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3796.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3796"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3795",
       "Certificate Number": "3795",
       "Vendor Name": "Cisco Systems, Inc.",
@@ -3178,6 +3222,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3794.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3794"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3793",
+      "Certificate Number": "3793",
+      "Vendor Name": "iStorage Ltd.",
+      "Module Name": "iStorage datAshur PRO² Level 3 Secure Storage Drive",
+      "Module Type": "Hardware",
+      "Validation Date": "01/20/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3793.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3793"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3792",
@@ -18600,6 +18655,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2328.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2328"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2327",
+      "Certificate Number": "2327",
+      "Vendor Name": "Giesecke+Devrient Mobile Security GmbH",
+      "Module Name": "Sm@rtCafé Expert 7.0",
+      "Module Type": "Hardware",
+      "Validation Date": "02/10/201507/03/201708/04/201703/07/201801/21/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2327.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2327"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2326",

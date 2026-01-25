@@ -8,11 +8,11 @@
     "metadata": "/api/metadata.json",
     "algorithms": "/api/algorithms.json"
   },
-  "last_updated": "2026-01-18T03:49:20.454070Z",
-  "total_modules": 1127,
-  "total_historical_modules": 4003,
-  "total_modules_in_process": 266,
-  "total_certificates_with_algorithms": 648,
+  "last_updated": "2026-01-25T03:52:18.649767Z",
+  "total_modules": 1124,
+  "total_historical_modules": 4009,
+  "total_modules_in_process": 268,
+  "total_certificates_with_algorithms": 644,
   "features": {
     "security_policy_urls": true,
     "certificate_detail_urls": true,
