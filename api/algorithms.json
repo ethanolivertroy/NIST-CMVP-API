@@ -1,10 +1,11 @@
 {
   "total_unique_algorithms": 15,
-  "total_certificate_algorithm_pairs": 2587,
+  "total_certificate_algorithm_pairs": 2592,
   "algorithms": {
     "AES": {
-      "count": 341,
+      "count": 340,
       "certificates": [
+        5148,
         5142,
         5140,
         5139,
@@ -338,8 +339,6 @@
         3862,
         3861,
         3810,
-        3803,
-        3800,
         3252,
         2545,
         2503,
@@ -349,8 +348,9 @@
       ]
     },
     "SHA": {
-      "count": 330,
+      "count": 331,
       "certificates": [
+        5148,
         5142,
         5140,
         5139,
@@ -684,8 +684,9 @@
       ]
     },
     "KAS": {
-      "count": 327,
+      "count": 325,
       "certificates": [
+        5148,
         5142,
         5140,
         5139,
@@ -879,7 +880,6 @@
         4678,
         4675,
         4669,
-        4662,
         4661,
         4660,
         4656,
@@ -1010,14 +1010,13 @@
         3822,
         3816,
         3811,
-        3804,
-        3801,
         3187
       ]
     },
     "KDF": {
-      "count": 272,
+      "count": 273,
       "certificates": [
+        5148,
         5142,
         5140,
         5139,
@@ -1293,8 +1292,9 @@
       ]
     },
     "HMAC": {
-      "count": 271,
+      "count": 272,
       "certificates": [
+        5148,
         5142,
         5140,
         5139,
@@ -1569,8 +1569,9 @@
       ]
     },
     "RSA": {
-      "count": 248,
+      "count": 249,
       "certificates": [
+        5148,
         5142,
         5140,
         5139,
@@ -1822,8 +1823,9 @@
       ]
     },
     "DRBG": {
-      "count": 242,
+      "count": 243,
       "certificates": [
+        5148,
         5142,
         5139,
         5133,
@@ -2069,8 +2071,9 @@
       ]
     },
     "ECDSA": {
-      "count": 209,
+      "count": 210,
       "certificates": [
+        5148,
         5142,
         5140,
         5139,
@@ -2406,8 +2409,9 @@
       ]
     },
     "KTS": {
-      "count": 96,
+      "count": 97,
       "certificates": [
+        5148,
         5142,
         5131,
         5130,
@@ -2507,8 +2511,9 @@
       ]
     },
     "DSA": {
-      "count": 73,
+      "count": 74,
       "certificates": [
+        5148,
         5142,
         5131,
         5130,
@@ -2666,8 +2671,8 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-01-25T03:52:18.649767Z",
-    "total_certificates_processed": 644,
+    "generated_at": "2026-02-01T04:10:56.658544Z",
+    "total_certificates_processed": 640,
     "source": "crawl4ai"
   }
 }

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-01-25T03:52:18.649767Z",
-    "total_modules": 1124,
-    "total_historical_modules": 4009,
-    "total_modules_in_process": 268,
-    "total_certificates_with_algorithms": 644,
+    "generated_at": "2026-02-01T04:10:56.658544Z",
+    "total_modules": 1126,
+    "total_historical_modules": 4015,
+    "total_modules_in_process": 272,
+    "total_certificates_with_algorithms": 640,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -87,6 +87,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4663.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4663"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4662",
+      "Certificate Number": "4662",
+      "Vendor Name": "Juniper Networks, Inc",
+      "Module Name": "Juniper Networks EX4650, QFX5120 and QFX5210 Ethernet Switches",
+      "Module Type": "Hardware",
+      "Validation Date": "11/28/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4662.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4662"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4658",
@@ -3147,6 +3158,39 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3806"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3805",
+      "Certificate Number": "3805",
+      "Vendor Name": "Motorola Solutions, Inc.",
+      "Module Name": "Key Variable Loader (KVL) 4000 PIKE2",
+      "Module Type": "Hardware",
+      "Validation Date": "02/01/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3805.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3805"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3804",
+      "Certificate Number": "3804",
+      "Vendor Name": "PreVeil, Inc.",
+      "Module Name": "PreVeil Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "01/29/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3804.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3804"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3803",
+      "Certificate Number": "3803",
+      "Vendor Name": "Hitachi, Ltd.",
+      "Module Name": "Hitachi Virtual Storage Platform (VSP) Encryption Module for NVMe",
+      "Module Type": "Hardware",
+      "Validation Date": "01/28/202104/13/202105/25/202307/30/2024",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3803.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3803"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3802",
       "Certificate Number": "3802",
       "Vendor Name": "Juniper Networks, Inc",
@@ -3156,6 +3200,28 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3802.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3802"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3801",
+      "Certificate Number": "3801",
+      "Vendor Name": "Trellix",
+      "Module Name": "Network Security Platform Sensor NS9500",
+      "Module Type": "Hardware",
+      "Validation Date": "01/26/202106/28/202106/29/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3801.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3801"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3800",
+      "Certificate Number": "3800",
+      "Vendor Name": "Dell EMC",
+      "Module Name": "VNX 6 Gb/s SAS I/O Module with Encryption",
+      "Module Type": "Hardware",
+      "Validation Date": "01/26/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3800.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3800"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3799",
