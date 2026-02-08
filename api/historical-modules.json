@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-02-01T04:10:56.658544Z",
-    "total_modules": 1126,
-    "total_historical_modules": 4015,
-    "total_modules_in_process": 272,
-    "total_certificates_with_algorithms": 640,
+    "generated_at": "2026-02-08T04:08:20.528512Z",
+    "total_modules": 1121,
+    "total_historical_modules": 4021,
+    "total_modules_in_process": 273,
+    "total_certificates_with_algorithms": 636,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -263,6 +263,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4615.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4615"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4614",
+      "Certificate Number": "4614",
+      "Vendor Name": "Fortinet, Inc.",
+      "Module Name": "FortiOS 6.2",
+      "Module Type": "Firmware",
+      "Validation Date": "09/27/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4614.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4614"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4604",
@@ -1011,6 +1022,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4285.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4285"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4283",
+      "Certificate Number": "4283",
+      "Vendor Name": "Ezurio",
+      "Module Name": "Summit Linux FIPS Core Crypto Module",
+      "Module Type": "Software-Hybrid",
+      "Validation Date": "08/24/202204/17/2024",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4283.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4283"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4281",
@@ -3125,6 +3147,39 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3813"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3812",
+      "Certificate Number": "3812",
+      "Vendor Name": "Palo Alto Networks",
+      "Module Name": "Palo Alto Networks Cortex XSOAR Module",
+      "Module Type": "Software",
+      "Validation Date": "02/05/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3812.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3812"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3811",
+      "Certificate Number": "3811",
+      "Vendor Name": "Apple Inc.",
+      "Module Name": "Apple Secure Key Store Cryptographic Module, v10.0",
+      "Module Type": "Hardware",
+      "Validation Date": "02/05/202103/11/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3811.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3811"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3810",
+      "Certificate Number": "3810",
+      "Vendor Name": "Hewlett Packard Enterprise Company",
+      "Module Name": "HPE XP8 Encrypt Backend 4pk NVMe I/O Mod (eDKBN)",
+      "Module Type": "Hardware",
+      "Validation Date": "02/03/202105/25/202105/25/202307/30/2024",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3810.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3810"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3809",
       "Certificate Number": "3809",
       "Vendor Name": "Cisco Systems, Inc.",
@@ -3134,6 +3189,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3809.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3809"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3808",
+      "Certificate Number": "3808",
+      "Vendor Name": "Western Digital Corporation",
+      "Module Name": "Ultrastar® DC SS540 TCG Enterprise SSD",
+      "Module Type": "Hardware",
+      "Validation Date": "02/02/202106/21/202110/24/2024",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3808.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3808"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3807",

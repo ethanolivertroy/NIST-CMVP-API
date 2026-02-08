@@ -1,16 +1,35 @@
 {
   "metadata": {
-    "generated_at": "2026-02-01T04:10:56.658544Z",
-    "total_modules": 1126,
-    "total_historical_modules": 4015,
-    "total_modules_in_process": 272,
-    "total_certificates_with_algorithms": 640,
+    "generated_at": "2026-02-08T04:08:20.528512Z",
+    "total_modules": 1121,
+    "total_historical_modules": 4021,
+    "total_modules_in_process": 273,
+    "total_certificates_with_algorithms": 636,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
     "version": "2.0"
   },
   "modules": [
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5152",
+      "Certificate Number": "5152",
+      "Vendor Name": "HPE Aruba Networking",
+      "Module Name": "HPE Aruba Networking AOS-CX Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "02/04/2026",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5152.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5152",
+      "module_name": "HPE Aruba Networking AOS-CX Cryptographic Module",
+      "standard": "FIPS 140-2",
+      "status": "Active",
+      "sunset_date": "9/21/2026",
+      "overall_level": 1,
+      "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+      "module_type": "Software",
+      "embodiment": "Multi-Chip Stand Alone",
+      "description": "The HPE Aruba Networking AOS-CX Cryptographic Module is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality."
+    },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5151",
       "Certificate Number": "5151",
@@ -10434,7 +10453,7 @@
       "module_name": "SafeZone FIPS SW Cryptographic Module",
       "standard": "FIPS 140-3",
       "status": "Active",
-      "sunset_date": "11/21/2026",
+      "sunset_date": "11/21/2029",
       "overall_level": 1,
       "caveat": "Interim Validation. When operated in approved mode",
       "module_type": "Software",
@@ -10724,7 +10743,7 @@
       "module_name": "Canonical Ltd. Ubuntu 22.04 Kernel Crypto API Cryptographic Module",
       "standard": "FIPS 140-3",
       "status": "Active",
-      "sunset_date": "11/20/2026",
+      "sunset_date": "11/20/2029",
       "overall_level": 1,
       "caveat": "Interim validation. When operated in approved mode. When installed, initialized and configured as specified in Section 11.1 of the Security Policy.",
       "module_type": "Software",
@@ -21788,31 +21807,6 @@
       "description": "OpenSSL is an open-source library of various cryptographic algorithms written mainly in C."
     },
     {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4614",
-      "Certificate Number": "4614",
-      "Vendor Name": "Fortinet, Inc.",
-      "Module Name": "FortiOS 6.2",
-      "Module Type": "Firmware",
-      "Validation Date": "09/27/2023",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4614.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4614",
-      "module_name": "FortiOS 6.2",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/7/2026",
-      "overall_level": 1,
-      "caveat": "When operated in FIPS mode and installed, initialized and configured as specified in the FIPS 140-2 Compliant Operation Section of the Security Policy. Authentication at level 3 is only applicable when identity-based authentication is enforced for the User role.",
-      "module_type": "Firmware",
-      "embodiment": "Multi-Chip Stand Alone",
-      "description": "The FortiOS is a firmware based operating system that runs exclusively on Fortinet's FortiGate/FortiWiFi product family. The FortiOS provides integrated firewall, VPN, antivirus, antispam, intrusion prevention, content filtering and traffic shaping and HA capabilities.",
-      "algorithms": [
-        "CVL"
-      ],
-      "algorithms_detailed": [
-        "KAS | KAS-SSC Cert. #A1187, CVL Certs. #C1575, #C1576 and #C1578"
-      ]
-    },
-    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4613",
       "Certificate Number": "4613",
       "Vendor Name": "Fortinet, Inc.",
@@ -27883,25 +27877,6 @@
       "module_type": "Software-Hybrid",
       "embodiment": "Multi-Chip Stand Alone",
       "description": "The Qumulo Secure v1.0 cryptographic module is a component of the Qumulo Core software solution (versions 3.x.x and later). Qumulo Secure offers symmetric encryption/decryption, digital signature generation/verification, hashing, cryptographic key generation, random number generation, message authentication, and key establishment functions to secure data-at-rest/data-in-flight and to support secure communications protocols (including TLS 1.2)."
-    },
-    {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4283",
-      "Certificate Number": "4283",
-      "Vendor Name": "Ezurio",
-      "Module Name": "Summit Linux FIPS Core Crypto Module",
-      "Module Type": "Software-Hybrid",
-      "Validation Date": "08/24/202204/17/2024",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4283.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4283",
-      "module_name": "Summit Linux FIPS Core Crypto Module",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/1/2026",
-      "overall_level": 1,
-      "caveat": "When operated in FIPS mode. When installed, initialized and configured as specified in Section 10.1 of the Security Policy.",
-      "module_type": "Software-Hybrid",
-      "embodiment": "Multi-Chip Stand Alone",
-      "description": "Ezurio's 60 Series SOM and WB50NBT bring all of Ezurio's industry competence and capabilities into one solution. The SOM provides superior enterprise-class Wi-Fi and Bluetooth connectivity. This solution is equipped with a Cortex A5 applications processor, wireless and wired connectivity, enterprise-grade security, LCD support for the 60 Series SOM, and comprehensive Linux board support package (BSP). The 60 SOM is the ideal system-on-module, and the WB50NBT, the ideal wireless bridge for devices that require superior connectivity."
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4282",
@@ -34303,103 +34278,6 @@
       ],
       "algorithms_detailed": [
         "KAS-SSC | vendor affirmed"
-      ]
-    },
-    {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3812",
-      "Certificate Number": "3812",
-      "Vendor Name": "Palo Alto Networks",
-      "Module Name": "Palo Alto Networks Cortex XSOAR Module",
-      "Module Type": "Software",
-      "Validation Date": "02/05/2021",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3812.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3812",
-      "module_name": "Palo Alto Networks Cortex XSOAR Module",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/4/2026",
-      "overall_level": 1,
-      "caveat": "When operated in FIPS mode. The module generates cryptographic keys whose strengths are modified by available entropy.",
-      "module_type": "Software",
-      "embodiment": "Multi-Chip Stand Alone",
-      "description": "Cortex™ XSOAR by Palo Alto Networks is a comprehensive security orchestration, automation and response (SOAR) platform that unifies case management, automation, real-time collaboration and threat intel management to serve security teams across the incident lifecycle."
-    },
-    {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3811",
-      "Certificate Number": "3811",
-      "Vendor Name": "Apple Inc.",
-      "Module Name": "Apple Secure Key Store Cryptographic Module, v10.0",
-      "Module Type": "Hardware",
-      "Validation Date": "02/05/202103/11/2021",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3811.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3811",
-      "module_name": "Apple Secure Key Store Cryptographic Module, v10.0",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/4/2026",
-      "overall_level": 2,
-      "caveat": "When operated in FIPS mode",
-      "module_type": "Hardware",
-      "embodiment": "Single Chip",
-      "description": "The Apple Secure Key Store Cryptographic Module is a single-chip standalone hardware cryptographic module running on a multi-chip device and provides services intended to protect data in transit and at rest.",
-      "algorithms": [
-        "KAS",
-        "KDF",
-        "SHA"
-      ],
-      "algorithms_detailed": [
-        "KAS-SSC | vendor affirmed",
-        "PBKDF | vendor affirmed",
-        "Shawn Geddis"
-      ]
-    },
-    {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3810",
-      "Certificate Number": "3810",
-      "Vendor Name": "Hewlett Packard Enterprise Company",
-      "Module Name": "HPE XP8 Encrypt Backend 4pk NVMe I/O Mod (eDKBN)",
-      "Module Type": "Hardware",
-      "Validation Date": "02/03/202105/25/202105/25/202307/30/2024",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3810.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3810",
-      "module_name": "HPE XP8 Encrypt Backend 4pk NVMe I/O Mod (eDKBN)",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/2/2026",
-      "overall_level": 2,
-      "caveat": "The tamper evident seals installed as indicated in the Security Policy",
-      "module_type": "Hardware",
-      "embodiment": "Multi-Chip Embedded",
-      "algorithms": [
-        "AES"
-      ],
-      "algorithms_detailed": [
-        "KTS | AES Cert. #C1594"
-      ]
-    },
-    {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3808",
-      "Certificate Number": "3808",
-      "Vendor Name": "Western Digital Corporation",
-      "Module Name": "Ultrastar® DC SS540 TCG Enterprise SSD",
-      "Module Type": "Hardware",
-      "Validation Date": "02/02/202106/21/202110/24/2024",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3808.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3808",
-      "module_name": "Ultrastar® DC SS540 TCG Enterprise SSD",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/1/2026",
-      "overall_level": 2,
-      "caveat": "When operated in FIPS mode, installed, initialized and configured as specified in Sections 2.1 and 7.2 of the Security Policy. The module generates cryptographic keys whose strengths are modified by available entropy",
-      "module_type": "Hardware",
-      "embodiment": "Multi-Chip Embedded",
-      "description": "Western Digital's Ultrastar® Self-Encrypting TCG Enterprise drives meet or exceed the most demanding performance and security requirements. The Ultrastar DC SS540, Western Digital's 6th generation SAS SSD drive, leverages 96-layer 3D TLC NAND technology to deliver performance and a proven reliability track record. The Ultrastar DC SS540 is available in capacities from 400GB to 15.36TB and delivers up to 470K/240K Random Read/Random Wright IOPS. Desired features, power options and multiple endurance SKUs make it a best value for ultra high performance tier-0 enterprise storage, HPC and SDS.",
-      "algorithms": [
-        "KDF"
-      ],
-      "algorithms_detailed": [
-        "PBKDF | vendor affirmed"
       ]
     },
     {
