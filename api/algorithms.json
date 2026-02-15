@@ -1,10 +1,11 @@
 {
   "total_unique_algorithms": 15,
-  "total_certificate_algorithm_pairs": 2586,
+  "total_certificate_algorithm_pairs": 2595,
   "algorithms": {
     "AES": {
-      "count": 339,
+      "count": 340,
       "certificates": [
+        5153,
         5148,
         5142,
         5140,
@@ -347,8 +348,9 @@
       ]
     },
     "SHA": {
-      "count": 330,
+      "count": 331,
       "certificates": [
+        5153,
         5148,
         5142,
         5140,
@@ -684,6 +686,7 @@
     "KAS": {
       "count": 324,
       "certificates": [
+        5153,
         5148,
         5142,
         5140,
@@ -1006,13 +1009,13 @@
         3840,
         3830,
         3822,
-        3816,
         3187
       ]
     },
     "HMAC": {
-      "count": 272,
+      "count": 273,
       "certificates": [
+        5153,
         5148,
         5142,
         5140,
@@ -1288,8 +1291,9 @@
       ]
     },
     "KDF": {
-      "count": 271,
+      "count": 272,
       "certificates": [
+        5153,
         5148,
         5142,
         5140,
@@ -1564,8 +1568,10 @@
       ]
     },
     "RSA": {
-      "count": 249,
+      "count": 251,
       "certificates": [
+        5161,
+        5153,
         5148,
         5142,
         5140,
@@ -1818,8 +1824,9 @@
       ]
     },
     "DRBG": {
-      "count": 243,
+      "count": 244,
       "certificates": [
+        5153,
         5148,
         5142,
         5139,
@@ -2066,8 +2073,9 @@
       ]
     },
     "ECDSA": {
-      "count": 210,
+      "count": 211,
       "certificates": [
+        5153,
         5148,
         5142,
         5140,
@@ -2281,7 +2289,7 @@
       ]
     },
     "CVL": {
-      "count": 117,
+      "count": 116,
       "certificates": [
         4694,
         4691,
@@ -2295,7 +2303,6 @@
         4667,
         4660,
         4654,
-        4651,
         4649,
         4643,
         4641,
@@ -2505,8 +2512,9 @@
       ]
     },
     "DSA": {
-      "count": 74,
+      "count": 75,
       "certificates": [
+        5153,
         5148,
         5142,
         5131,
@@ -2584,8 +2592,9 @@
       ]
     },
     "DES": {
-      "count": 38,
+      "count": 39,
       "certificates": [
+        5153,
         5046,
         5026,
         5006,
@@ -2665,7 +2674,7 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-02-08T04:08:20.528512Z",
+    "generated_at": "2026-02-15T04:07:34.878954Z",
     "total_certificates_processed": 636,
     "source": "crawl4ai"
   }

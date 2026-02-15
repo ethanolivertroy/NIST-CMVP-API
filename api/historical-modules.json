@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "generated_at": "2026-02-08T04:08:20.528512Z",
-    "total_modules": 1121,
-    "total_historical_modules": 4021,
-    "total_modules_in_process": 273,
+    "generated_at": "2026-02-15T04:07:34.878954Z",
+    "total_modules": 1128,
+    "total_historical_modules": 4023,
+    "total_modules_in_process": 272,
     "total_certificates_with_algorithms": 636,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
@@ -120,6 +120,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4655.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4655"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4651",
+      "Certificate Number": "4651",
+      "Vendor Name": "Cisco Systems, Inc.",
+      "Module Name": "Cisco ISR 4000 Series Routers with MACSEC",
+      "Module Type": "Hardware",
+      "Validation Date": "11/02/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4651.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4651"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4644",
@@ -3112,6 +3123,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3817.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3817"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3816",
+      "Certificate Number": "3816",
+      "Vendor Name": "Juniper Networks, Inc.",
+      "Module Name": "Junos Space Network Management Platform, with or without Network Director and with or without Security Director in JA2500",
+      "Module Type": "Hardware",
+      "Validation Date": "02/09/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3816.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3816"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3815",
