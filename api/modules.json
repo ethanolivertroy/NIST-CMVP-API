@@ -1,16 +1,79 @@
 {
   "metadata": {
-    "generated_at": "2026-02-15T04:07:34.878954Z",
-    "total_modules": 1128,
-    "total_historical_modules": 4023,
-    "total_modules_in_process": 272,
-    "total_certificates_with_algorithms": 636,
+    "generated_at": "2026-02-22T04:08:27.316355Z",
+    "total_modules": 1127,
+    "total_historical_modules": 4027,
+    "total_modules_in_process": 275,
+    "total_certificates_with_algorithms": 635,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
     "version": "2.0"
   },
   "modules": [
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5164",
+      "Certificate Number": "5164",
+      "Vendor Name": "Zebra Technologies Corporation",
+      "Module Name": "Zebra 9098 Cryptographic Module",
+      "Module Type": "Firmware-hybrid",
+      "Validation Date": "02/20/2026",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5164.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5164",
+      "module_name": "Zebra 9098 Cryptographic Module",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "sunset_date": "2/19/2031",
+      "overall_level": 1,
+      "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+      "module_type": "Firmware-hybrid",
+      "embodiment": "MultiChipStand",
+      "description": "The Zebra 9098 Cryptographic Module implements cryptographic support for Zebra wireless devices."
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5163",
+      "Certificate Number": "5163",
+      "Vendor Name": "Canonical Ltd.",
+      "Module Name": "Canonical Ltd. Ubuntu 24.04 GnuTLS Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "02/20/2026",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5163.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5163",
+      "module_name": "Canonical Ltd. Ubuntu 24.04 GnuTLS Cryptographic Module",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "sunset_date": "2/19/2031",
+      "overall_level": 1,
+      "caveat": "When operated in approved mode. When installed, initialized and configured as specified in Section 11 of the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+      "module_type": "Software",
+      "embodiment": "MultiChipStand",
+      "description": "The Canonical Ltd. Ubuntu 24.04 GnuTLS Cryptographic Module provides a C language application program interface (API) for use by other applications that require cryptographic functionality.",
+      "algorithms": [
+        "TLS"
+      ],
+      "algorithms_detailed": [
+        "Canonical Ltd. Ubuntu 24.04 GnuTLS Cryptographic Module"
+      ]
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5162",
+      "Certificate Number": "5162",
+      "Vendor Name": "Arista Networks, Inc.",
+      "Module Name": "Arista Crypto Module Lvl2 [Software, Software IPsec]",
+      "Module Type": "Software",
+      "Validation Date": "02/17/2026",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5162.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5162",
+      "module_name": "Arista Crypto Module Lvl2 [Software, Software IPsec]",
+      "standard": "FIPS 140-3",
+      "status": "Active",
+      "sunset_date": "2/16/2031",
+      "overall_level": 2,
+      "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+      "module_type": "Software",
+      "embodiment": "MultiChipStand",
+      "description": "Arista's crypto library is a comprehensive suite of FIPS Approved algorithms. Many key sizes and modes have been implemented to allow flexibility and efficiency."
+    },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5161",
       "Certificate Number": "5161",
@@ -17373,7 +17436,7 @@
       "module_name": "IBM® Crypto for C",
       "standard": "FIPS 140-3",
       "status": "Active",
-      "sunset_date": "8/8/2026",
+      "sunset_date": "8/8/2029",
       "overall_level": 1,
       "caveat": "Interim validation. When operated in the approved mode. When installed, initialized and configured as specified in sections 11.1 and 11.2 of the Security Policy",
       "module_type": "Software",
@@ -20302,44 +20365,6 @@
       ]
     },
     {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4697",
-      "Certificate Number": "4697",
-      "Vendor Name": "Dell Australia Pty Limited, BSAFE Product Team",
-      "Module Name": "BSAFE™ Java Crypto Module 6.3",
-      "Module Type": "Software",
-      "Validation Date": "04/30/2024",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4697.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4697",
-      "module_name": "BSAFE™ Java Crypto Module 6.3",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/16/2026",
-      "overall_level": 1,
-      "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-      "module_type": "Software",
-      "embodiment": "Multi-Chip Stand Alone",
-      "description": "Crypto-J software library is designed for developers to incorporate FIPS 140-2 approved cryptography into Java-based products. Crypto-J security software helps protect sensitive data as it is stored, using strong encryption techniques that ease integration with existing data models. Using the capabilities of Crypto-J software in applications helps provide a persistent level of protection for data, lessening the risk of internal, as well as external, compromise."
-    },
-    {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4696",
-      "Certificate Number": "4696",
-      "Vendor Name": "Dell Australia Pty Limited, BSAFE Product Team",
-      "Module Name": "BSAFE™ Java Crypto Module 6.3",
-      "Module Type": "Software",
-      "Validation Date": "04/30/2024",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4696.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4696",
-      "module_name": "BSAFE™ Java Crypto Module 6.3",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/16/2026",
-      "overall_level": 1,
-      "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-      "module_type": "Software",
-      "embodiment": "Multi-Chip Stand Alone",
-      "description": "Crypto-J software library is designed for developers to incorporate FIPS 140-2 approved cryptography into Java-based products. Crypto-J security software helps protect sensitive data as it is stored, using strong encryption techniques that ease integration with existing data models. Using the capabilities of Crypto-J software in applications helps provide a persistent level of protection for data, lessening the risk of internal, as well as external, compromise."
-    },
-    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4695",
       "Certificate Number": "4695",
       "Vendor Name": "A10 Networks, Inc.",
@@ -21537,58 +21562,6 @@
       "module_type": "Hardware",
       "embodiment": "Single Chip",
       "description": "Qualcomm Crypto Engine Core is a general purpose cryptographic hardware engine capable of securely processing various confidentiality and integrity algorithms across multiple execution environments."
-    },
-    {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4646",
-      "Certificate Number": "4646",
-      "Vendor Name": "Dell Australia Pty Limited, BSAFE Product Team",
-      "Module Name": "RSA BSAFE® Crypto-J JSAFE and JCE Software Module 6.2.5",
-      "Module Type": "Software",
-      "Validation Date": "10/25/202312/21/2023",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4646.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4646",
-      "module_name": "RSA BSAFE® Crypto-J JSAFE and JCE Software Module 6.2.5",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/16/2026",
-      "overall_level": 1,
-      "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-      "module_type": "Software",
-      "embodiment": "Multi-Chip Stand Alone",
-      "algorithms": [
-        "KDF",
-        "RSA"
-      ],
-      "algorithms_detailed": [
-        "RSA BSAFE® Crypto-J JSAFE and JCE Software Module 6.2.5",
-        "PBKDF | vendor affirmed"
-      ]
-    },
-    {
-      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4645",
-      "Certificate Number": "4645",
-      "Vendor Name": "Dell Australia Pty Limited, BSAFE Product Team",
-      "Module Name": "RSA BSAFE® Crypto-J JSAFE and JCE Software Module 6.2.5",
-      "Module Type": "Software",
-      "Validation Date": "10/25/202312/21/2023",
-      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4645.pdf",
-      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4645",
-      "module_name": "RSA BSAFE® Crypto-J JSAFE and JCE Software Module 6.2.5",
-      "standard": "FIPS 140-2",
-      "status": "Active",
-      "sunset_date": "2/16/2026",
-      "overall_level": 1,
-      "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
-      "module_type": "Software",
-      "embodiment": "Multi-Chip Stand Alone",
-      "algorithms": [
-        "KDF",
-        "RSA"
-      ],
-      "algorithms_detailed": [
-        "RSA BSAFE® Crypto-J JSAFE and JCE Software Module 6.2.5",
-        "PBKDF | vendor affirmed"
-      ]
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4643",

@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "generated_at": "2026-02-15T04:07:34.878954Z",
-    "total_modules": 1128,
-    "total_historical_modules": 4023,
-    "total_modules_in_process": 272,
-    "total_certificates_with_algorithms": 636,
+    "generated_at": "2026-02-22T04:08:27.316355Z",
+    "total_modules": 1127,
+    "total_historical_modules": 4027,
+    "total_modules_in_process": 275,
+    "total_certificates_with_algorithms": 635,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -43,6 +43,28 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4781.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4781"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4697",
+      "Certificate Number": "4697",
+      "Vendor Name": "Dell Australia Pty Limited, BSAFE Product Team",
+      "Module Name": "BSAFE™ Java Crypto Module 6.3",
+      "Module Type": "Software",
+      "Validation Date": "04/30/2024",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4697.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4697"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4696",
+      "Certificate Number": "4696",
+      "Vendor Name": "Dell Australia Pty Limited, BSAFE Product Team",
+      "Module Name": "BSAFE™ Java Crypto Module 6.3",
+      "Module Type": "Software",
+      "Validation Date": "04/30/2024",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4696.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4696"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4692",
@@ -131,6 +153,28 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4651.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4651"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4646",
+      "Certificate Number": "4646",
+      "Vendor Name": "Dell Australia Pty Limited, BSAFE Product Team",
+      "Module Name": "RSA BSAFE® Crypto-J JSAFE and JCE Software Module 6.2.5",
+      "Module Type": "Software",
+      "Validation Date": "10/25/202312/21/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4646.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4646"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4645",
+      "Certificate Number": "4645",
+      "Vendor Name": "Dell Australia Pty Limited, BSAFE Product Team",
+      "Module Name": "RSA BSAFE® Crypto-J JSAFE and JCE Software Module 6.2.5",
+      "Module Type": "Software",
+      "Validation Date": "10/25/202312/21/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4645.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4645"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4644",
