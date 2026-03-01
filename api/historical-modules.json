@@ -1,16 +1,27 @@
 {
   "metadata": {
-    "generated_at": "2026-02-22T04:08:27.316355Z",
-    "total_modules": 1127,
-    "total_historical_modules": 4027,
-    "total_modules_in_process": 275,
-    "total_certificates_with_algorithms": 635,
+    "generated_at": "2026-03-01T04:06:22.711794Z",
+    "total_modules": 1099,
+    "total_historical_modules": 4055,
+    "total_modules_in_process": 273,
+    "total_certificates_with_algorithms": 610,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
     "version": "2.0"
   },
   "modules": [
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4958",
+      "Certificate Number": "4958",
+      "Vendor Name": "Tellabs Enterprise, Inc.",
+      "Module Name": "Tellabs Panorama PON Manager Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "02/06/2025",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4958.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4958"
+    },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4932",
       "Certificate Number": "4932",
@@ -45,6 +56,17 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4781"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4769",
+      "Certificate Number": "4769",
+      "Vendor Name": "Gigamon Inc.",
+      "Module Name": "Gigamon's SL-FJA (SafeLogic FIPS Java API)",
+      "Module Type": "Software",
+      "Validation Date": "08/20/2024",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4769.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4769"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4697",
       "Certificate Number": "4697",
       "Vendor Name": "Dell Australia Pty Limited, BSAFE Product Team",
@@ -65,6 +87,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4696.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4696"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4693",
+      "Certificate Number": "4693",
+      "Vendor Name": "CyberArk Software Ltd",
+      "Module Name": "CyberArk Cryptographic Module for Java",
+      "Module Type": "Software",
+      "Validation Date": "04/16/2024",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4693.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4693"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4692",
@@ -120,6 +153,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4662.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4662"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4660",
+      "Certificate Number": "4660",
+      "Vendor Name": "SafeLogic, Inc.",
+      "Module Name": "CryptoComply for Java",
+      "Module Type": "Software",
+      "Validation Date": "11/28/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4660.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4660"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4658",
@@ -252,6 +296,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4630.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4630"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4629",
+      "Certificate Number": "4629",
+      "Vendor Name": "Aruba, a Hewlett Packard Enterprise company",
+      "Module Name": "Aruba AP-504, AP-505, AP-514, AP-515, AP-534, AP-535 and AP-555 Wireless Access Points with ArubaOS FIPS Firmware",
+      "Module Type": "Hardware",
+      "Validation Date": "10/05/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4629.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4629"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4628",
@@ -826,6 +881,17 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4485"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4482",
+      "Certificate Number": "4482",
+      "Vendor Name": "Quantum Knight, INC.",
+      "Module Name": "CLEAR Cryptosystem",
+      "Module Type": "Software",
+      "Validation Date": "04/17/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4482.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4482"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4481",
       "Certificate Number": "4481",
       "Vendor Name": "Worldline SA/NV",
@@ -958,6 +1024,61 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4377"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4375",
+      "Certificate Number": "4375",
+      "Vendor Name": "Radiant Logic Inc.",
+      "Module Name": "Radiant Logic Cryptographic Module for Java",
+      "Module Type": "Software",
+      "Validation Date": "11/16/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4375.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4375"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4374",
+      "Certificate Number": "4374",
+      "Vendor Name": "HID Global Corporation",
+      "Module Name": "HID Global Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "11/16/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4374.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4374"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4373",
+      "Certificate Number": "4373",
+      "Vendor Name": "Hewlett Packard Enterprise",
+      "Module Name": "OneView Java Crypto Module",
+      "Module Type": "Software",
+      "Validation Date": "11/16/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4373.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4373"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4372",
+      "Certificate Number": "4372",
+      "Vendor Name": "Forcepoint",
+      "Module Name": "Forcepoint Java Crypto Module",
+      "Module Type": "Software",
+      "Validation Date": "11/16/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4372.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4372"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4371",
+      "Certificate Number": "4371",
+      "Vendor Name": "Proofpoint Inc.",
+      "Module Name": "Proofpoint Cryptographic Module for Java",
+      "Module Type": "Software",
+      "Validation Date": "11/16/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4371.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4371"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4370",
       "Certificate Number": "4370",
       "Vendor Name": "Okta, Inc.",
@@ -967,6 +1088,39 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4370.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4370"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4369",
+      "Certificate Number": "4369",
+      "Vendor Name": "Zscaler Inc.",
+      "Module Name": "Zscaler Java Crypto Module",
+      "Module Type": "Software",
+      "Validation Date": "11/16/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4369.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4369"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4368",
+      "Certificate Number": "4368",
+      "Vendor Name": "Trend Micro Inc.",
+      "Module Name": "Trend Micro Java Crypto Module",
+      "Module Type": "Software",
+      "Validation Date": "11/16/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4368.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4368"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4359",
+      "Certificate Number": "4359",
+      "Vendor Name": "Rubrik Inc.",
+      "Module Name": "Rubrik Cryptographic Library for Java",
+      "Module Type": "Software",
+      "Validation Date": "11/08/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4359.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4359"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4358",
@@ -1022,6 +1176,94 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4320.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4320"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4319",
+      "Certificate Number": "4319",
+      "Vendor Name": "Raytheon Technologies",
+      "Module Name": "Raytheon Cryptographic Module for Java",
+      "Module Type": "Software",
+      "Validation Date": "10/04/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4319.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4319"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4318",
+      "Certificate Number": "4318",
+      "Vendor Name": "CTERA Networks Ltd.",
+      "Module Name": "CTERA Crypto Module™ (Java)",
+      "Module Type": "Software",
+      "Validation Date": "10/04/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4318.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4318"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4317",
+      "Certificate Number": "4317",
+      "Vendor Name": "Saviynt",
+      "Module Name": "Saviynt Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "10/04/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4317.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4317"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4316",
+      "Certificate Number": "4316",
+      "Vendor Name": "Singlewire Software",
+      "Module Name": "InformaCast Java Crypto Library",
+      "Module Type": "Software",
+      "Validation Date": "10/04/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4316.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4316"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4315",
+      "Certificate Number": "4315",
+      "Vendor Name": "Veritas Technologies LLC",
+      "Module Name": "Veritas Cryptographic Module for Java",
+      "Module Type": "Software",
+      "Validation Date": "10/04/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4315.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4315"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4314",
+      "Certificate Number": "4314",
+      "Vendor Name": "Plantronics, Inc.",
+      "Module Name": "Poly Crypto Module for Java",
+      "Module Type": "Software",
+      "Validation Date": "10/04/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4314.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4314"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4313",
+      "Certificate Number": "4313",
+      "Vendor Name": "Cloudera, Inc.",
+      "Module Name": "Cloudera Cryptographic Module for Java",
+      "Module Type": "Software",
+      "Validation Date": "10/04/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4313.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4313"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4311",
+      "Certificate Number": "4311",
+      "Vendor Name": "CGI Federal Inc.",
+      "Module Name": "CGI Momentum™ Java Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "09/26/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4311.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4311"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4308",
@@ -1198,6 +1440,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4244.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4244"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4240",
+      "Certificate Number": "4240",
+      "Vendor Name": "SafeLogic Inc.",
+      "Module Name": "CryptoComply for Java",
+      "Module Type": "Software",
+      "Validation Date": "06/01/202208/04/202212/14/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4240.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4240"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4239",
@@ -3070,6 +3323,17 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3831"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3830",
+      "Certificate Number": "3830",
+      "Vendor Name": "Pitney Bowes, Inc.",
+      "Module Name": "X4i Hardware Security Module (HSM)",
+      "Module Type": "Hardware",
+      "Validation Date": "02/26/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3830.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3830"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3829",
       "Certificate Number": "3829",
       "Vendor Name": "SafeLogic Inc.",
@@ -3092,6 +3356,17 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3828"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3827",
+      "Certificate Number": "3827",
+      "Vendor Name": "QSC, LLC",
+      "Module Name": "CMS-5000",
+      "Module Type": "Hardware",
+      "Validation Date": "02/24/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3827.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3827"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3826",
       "Certificate Number": "3826",
       "Vendor Name": "Aruba, a Hewlett Packard Enterprise company",
@@ -3103,6 +3378,28 @@
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3826"
     },
     {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3825",
+      "Certificate Number": "3825",
+      "Vendor Name": "VMware, Inc.",
+      "Module Name": "VMware’s Linux Cryptographic Module",
+      "Module Type": "Software",
+      "Validation Date": "02/24/202112/29/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3825.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3825"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3824",
+      "Certificate Number": "3824",
+      "Vendor Name": "",
+      "Module Name": "",
+      "Module Type": "Hardware",
+      "Validation Date": "02/24/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3824.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3824"
+    },
+    {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3823",
       "Certificate Number": "3823",
       "Vendor Name": "Cisco Systems, Inc.",
@@ -3112,6 +3409,17 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3823.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3823"
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3822",
+      "Certificate Number": "3822",
+      "Vendor Name": "Juniper Networks, Inc.",
+      "Module Name": "Juniper Networks EX4300-48MP Ethernet Switch",
+      "Module Type": "Hardware",
+      "Validation Date": "02/23/2021",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3822.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3822"
     },
     {
       "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3821",
