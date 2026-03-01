@@ -1,0 +1,418 @@
+openapi: 3.0.3
+info:
+  title: NIST CMVP Data API
+  description: |
+    Static JSON API for NIST Cryptographic Module Validation Program (CMVP) data.
+    Updated weekly via GitHub Actions.
+
+    **Disclaimer:** Unofficial project. Not affiliated with NIST.
+    See the [official NIST CMVP source](https://csrc.nist.gov/projects/cryptographic-module-validation-program) for authoritative data.
+  version: "2.0"
+  contact:
+    url: https://github.com/ethanolivertroy/NIST-CMVP-API
+  license:
+    name: MIT
+    url: https://github.com/ethanolivertroy/NIST-CMVP-API/blob/main/LICENSE
+
+servers:
+  - url: https://ethanolivertroy.github.io/NIST-CMVP-API
+    description: GitHub Pages (production)
+
+tags:
+  - name: API Info
+    description: API index and metadata
+  - name: Modules
+    description: Validated cryptographic modules
+  - name: Algorithms
+    description: Algorithm usage statistics
+
+paths:
+  /api/index.json:
+    get:
+      tags:
+        - API Info
+      summary: API Index
+      description: Returns the API index with endpoint listing, last update time, and feature flags.
+      operationId: getIndex
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/IndexResponse"
+              example:
+                name: NIST CMVP Data API
+                description: Static API for NIST Cryptographic Module Validation Program validated modules
+                endpoints:
+                  modules: /api/modules.json
+                  historical_modules: /api/historical-modules.json
+                  modules_in_process: /api/modules-in-process.json
+                  metadata: /api/metadata.json
+                  algorithms: /api/algorithms.json
+                last_updated: "2026-02-22T04:08:27.316355Z"
+                total_modules: 1127
+                total_historical_modules: 4027
+                total_modules_in_process: 275
+                total_certificates_with_algorithms: 635
+                features:
+                  security_policy_urls: true
+                  certificate_detail_urls: true
+                  algorithm_extraction: true
+
+  /api/metadata.json:
+    get:
+      tags:
+        - API Info
+      summary: Dataset Metadata
+      description: Returns metadata about the dataset including generation time, counts, and source information.
+      operationId: getMetadata
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/MetadataResponse"
+              example:
+                generated_at: "2026-02-22T04:08:27.316355Z"
+                total_modules: 1127
+                total_historical_modules: 4027
+                total_modules_in_process: 275
+                total_certificates_with_algorithms: 635
+                source: https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search
+                version: "2.0"
+
+  /api/modules.json:
+    get:
+      tags:
+        - Modules
+      summary: Validated Modules
+      description: Returns all currently active FIPS 140-2/140-3 validated cryptographic modules.
+      operationId: getModules
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ModulesResponse"
+              example:
+                metadata:
+                  generated_at: "2026-02-22T04:08:27.316355Z"
+                  total_modules: 1127
+                modules:
+                  - Certificate Number: "5164"
+                    Certificate Number_url: https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5164
+                    Vendor Name: Zebra Technologies Corporation
+                    Module Name: Zebra 9098 Cryptographic Module
+                    Module Type: Firmware-hybrid
+                    Validation Date: 02/20/2026
+                    security_policy_url: https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5164.pdf
+                    certificate_detail_url: https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5164
+                    standard: FIPS 140-3
+                    status: Active
+                    overall_level: 1
+                    sunset_date: 2/19/2031
+                    caveat: No assurance of minimum security of SSPs
+                    embodiment: MultiChipStand
+                    description: The Zebra 9098 Cryptographic Module implements cryptographic support for Zebra wireless devices.
+
+  /api/historical-modules.json:
+    get:
+      tags:
+        - Modules
+      summary: Historical Modules
+      description: Returns expired and revoked FIPS-validated cryptographic modules.
+      operationId: getHistoricalModules
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/HistoricalModulesResponse"
+              example:
+                metadata:
+                  generated_at: "2026-02-22T04:08:27.316355Z"
+                  total_historical_modules: 4027
+                modules:
+                  - Certificate Number: "3512"
+                    Vendor Name: Example Corp
+                    Module Name: Example Crypto Module
+                    Module Type: Software
+                    Validation Date: 01/01/2015
+                    Status: Historical
+                    security_policy_url: https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3512.pdf
+                    certificate_detail_url: https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3512
+
+  /api/modules-in-process.json:
+    get:
+      tags:
+        - Modules
+      summary: Modules In Process
+      description: Returns cryptographic modules currently undergoing CMVP validation.
+      operationId: getModulesInProcess
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ModulesInProcessResponse"
+              example:
+                metadata:
+                  generated_at: "2026-02-22T04:08:27.316355Z"
+                  total_modules_in_process: 275
+                modules_in_process:
+                  - Module Name: Samsung NVMe TCG Opal SSC SEDs PM9D3a Series
+                    Vendor Name: Samsung Electronics Co., Ltd.
+                    Standard: FIPS 140-3
+                    Status: Review Pending (11/18/2025)
+
+  /api/algorithms.json:
+    get:
+      tags:
+        - Algorithms
+      summary: Algorithm Statistics
+      description: Returns algorithm usage statistics across all validated certificates, including per-algorithm certificate counts.
+      operationId: getAlgorithms
+      responses:
+        "200":
+          description: Successful response
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/AlgorithmsResponse"
+              example:
+                total_unique_algorithms: 45
+                total_certificate_algorithm_pairs: 8500
+                algorithms:
+                  AES:
+                    count: 340
+                    certificates: [5153, 5148, 5142]
+                  SHA:
+                    count: 331
+                    certificates: [5153, 5148, 5140]
+
+components:
+  schemas:
+    IndexResponse:
+      type: object
+      properties:
+        name:
+          type: string
+          description: API name
+        description:
+          type: string
+          description: API description
+        endpoints:
+          type: object
+          additionalProperties:
+            type: string
+          description: Map of endpoint names to paths
+        last_updated:
+          type: string
+          format: date-time
+          description: Timestamp of the last data update
+        total_modules:
+          type: integer
+          description: Total number of validated modules
+        total_historical_modules:
+          type: integer
+          description: Total number of historical modules
+        total_modules_in_process:
+          type: integer
+          description: Total number of modules currently in validation
+        total_certificates_with_algorithms:
+          type: integer
+          description: Number of certificates with extracted algorithm data
+        features:
+          type: object
+          properties:
+            security_policy_urls:
+              type: boolean
+            certificate_detail_urls:
+              type: boolean
+            algorithm_extraction:
+              type: boolean
+
+    MetadataResponse:
+      type: object
+      properties:
+        generated_at:
+          type: string
+          format: date-time
+          description: Timestamp when the data was generated
+        total_modules:
+          type: integer
+        total_historical_modules:
+          type: integer
+        total_modules_in_process:
+          type: integer
+        total_certificates_with_algorithms:
+          type: integer
+        source:
+          type: string
+          format: uri
+          description: Source URL for the data
+        version:
+          type: string
+
+    Module:
+      type: object
+      properties:
+        Certificate Number:
+          type: string
+          description: Unique certificate identifier
+        Certificate Number_url:
+          type: string
+          format: uri
+          description: Link to the NIST certificate page
+        Vendor Name:
+          type: string
+          description: Module vendor or manufacturer name
+        Module Name:
+          type: string
+          description: Official module name
+        Module Type:
+          type: string
+          description: "Module type (e.g., Software, Hardware, Firmware, Hybrid)"
+        Validation Date:
+          type: string
+          description: Date of validation (MM/DD/YYYY)
+        security_policy_url:
+          type: string
+          format: uri
+          description: Direct link to the Security Policy PDF
+        certificate_detail_url:
+          type: string
+          format: uri
+          description: Link to the certificate detail page
+        standard:
+          type: string
+          description: "FIPS standard (e.g., FIPS 140-2, FIPS 140-3)"
+        status:
+          type: string
+          description: "Certificate status (e.g., Active)"
+        overall_level:
+          type: integer
+          description: Security level (1-4)
+        sunset_date:
+          type: string
+          description: Certificate expiration date
+        caveat:
+          type: string
+          description: Operational caveats or limitations
+        embodiment:
+          type: string
+          description: Module embodiment type
+        description:
+          type: string
+          description: Module description
+        lab:
+          type: string
+          description: Testing laboratory name
+        algorithms:
+          type: array
+          items:
+            type: string
+          description: "List of approved algorithms (e.g., AES, SHA-256, RSA)"
+
+    ModulesResponse:
+      type: object
+      properties:
+        metadata:
+          $ref: "#/components/schemas/MetadataResponse"
+        modules:
+          type: array
+          items:
+            $ref: "#/components/schemas/Module"
+
+    HistoricalModule:
+      type: object
+      properties:
+        Certificate Number:
+          type: string
+        Certificate Number_url:
+          type: string
+          format: uri
+        Vendor Name:
+          type: string
+        Module Name:
+          type: string
+        Module Type:
+          type: string
+        Validation Date:
+          type: string
+        Status:
+          type: string
+          description: "Status (e.g., Historical, Revoked)"
+        security_policy_url:
+          type: string
+          format: uri
+        certificate_detail_url:
+          type: string
+          format: uri
+
+    HistoricalModulesResponse:
+      type: object
+      properties:
+        metadata:
+          $ref: "#/components/schemas/MetadataResponse"
+        modules:
+          type: array
+          items:
+            $ref: "#/components/schemas/HistoricalModule"
+
+    ModuleInProcess:
+      type: object
+      properties:
+        Module Name:
+          type: string
+        Vendor Name:
+          type: string
+        Standard:
+          type: string
+        Status:
+          type: string
+          description: Validation status and date
+
+    ModulesInProcessResponse:
+      type: object
+      properties:
+        metadata:
+          $ref: "#/components/schemas/MetadataResponse"
+        modules_in_process:
+          type: array
+          items:
+            $ref: "#/components/schemas/ModuleInProcess"
+
+    AlgorithmEntry:
+      type: object
+      properties:
+        count:
+          type: integer
+          description: Number of certificates using this algorithm
+        certificates:
+          type: array
+          items:
+            type: integer
+          description: List of certificate numbers using this algorithm
+
+    AlgorithmsResponse:
+      type: object
+      properties:
+        total_unique_algorithms:
+          type: integer
+          description: Count of unique algorithm types
+        total_certificate_algorithm_pairs:
+          type: integer
+          description: Total algorithm entries across all certificates
+        algorithms:
+          type: object
+          additionalProperties:
+            $ref: "#/components/schemas/AlgorithmEntry"
+          description: Map of algorithm name to usage data
+        metadata:
+          $ref: "#/components/schemas/MetadataResponse"
