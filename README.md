@@ -10,6 +10,10 @@ Static JSON API for NIST Cryptographic Module Validation Program data. Auto-upda
 - **Algorithm Extraction**: Approved algorithms extracted from certificate detail pages using [crawl4ai](https://github.com/unclecode/crawl4ai)
 - **Security Policy Links**: Direct URLs to Security Policy PDF documents
 
+## API Documentation
+
+Interactive Swagger UI: [https://ethanolivertroy.github.io/NIST-CMVP-API/](https://ethanolivertroy.github.io/NIST-CMVP-API/)
+
 ## Endpoints
 
 Base URL: `https://ethanolivertroy.github.io/NIST-CMVP-API/api/`
