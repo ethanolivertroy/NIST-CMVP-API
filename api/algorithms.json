@@ -1,6 +1,6 @@
 {
   "total_unique_algorithms": 15,
-  "total_certificate_algorithm_pairs": 2493,
+  "total_certificate_algorithm_pairs": 2487,
   "algorithms": {
     "AES": {
       "count": 339,
@@ -347,8 +347,9 @@
       ]
     },
     "SHA": {
-      "count": 308,
+      "count": 305,
       "certificates": [
+        5197,
         5153,
         5148,
         5142,
@@ -637,7 +638,6 @@
         4389,
         4352,
         4312,
-        4200,
         4191,
         4158,
         4155,
@@ -653,15 +653,13 @@
         3858,
         3855,
         3316,
-        3305,
-        3212,
-        2886,
-        2577
+        2886
       ]
     },
     "KAS": {
       "count": 298,
       "certificates": [
+        5196,
         5153,
         5148,
         5142,
@@ -958,7 +956,6 @@
         3869,
         3864,
         3863,
-        3844,
         3187
       ]
     },
@@ -1494,7 +1491,7 @@
       ]
     },
     "KDF": {
-      "count": 248,
+      "count": 247,
       "certificates": [
         5153,
         5148,
@@ -1742,7 +1739,6 @@
         3898,
         3887,
         3858,
-        3848,
         2686
       ]
     },
@@ -2490,7 +2486,7 @@
       ]
     },
     "DES": {
-      "count": 38,
+      "count": 36,
       "certificates": [
         5153,
         5046,
@@ -2525,10 +2521,8 @@
         4530,
         4422,
         4352,
-        4200,
         4003,
         3979,
-        3212,
         2788
       ]
     },
@@ -2572,8 +2566,8 @@
     }
   },
   "metadata": {
-    "generated_at": "2026-03-08T04:06:55.987007Z",
-    "total_certificates_processed": 607,
+    "generated_at": "2026-03-15T04:05:49.559640Z",
+    "total_certificates_processed": 603,
     "source": "crawl4ai"
   }
 }
