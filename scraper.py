@@ -29,6 +29,7 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional, Set, Tuple
+from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
@@ -130,6 +131,394 @@ def get_certificate_detail_url(cert_number: int) -> str:
         URL to the certificate detail page
     """
     return f"{CERTIFICATE_DETAIL_URL}/{cert_number}"
+
+
+def normalize_whitespace(value: str) -> str:
+    """Collapse repeated whitespace into single spaces."""
+    return re.sub(r"\s+", " ", value.replace("\xa0", " ")).strip()
+
+
+def make_absolute_url(url: str) -> str:
+    """Resolve a CSRC-relative URL to an absolute URL."""
+    return urljoin("https://csrc.nist.gov", url)
+
+
+def decode_cloudflare_email(encoded: str) -> str:
+    """
+    Decode Cloudflare's data-cfemail obfuscation.
+
+    Args:
+        encoded: Hex-encoded cfemail payload
+
+    Returns:
+        Decoded email, or empty string on failure
+    """
+    if not encoded:
+        return ""
+
+    try:
+        key = int(encoded[:2], 16)
+        chars = [
+            chr(int(encoded[i:i + 2], 16) ^ key)
+            for i in range(2, len(encoded), 2)
+        ]
+        return "".join(chars)
+    except Exception:
+        return ""
+
+
+def find_panel_by_title(soup: BeautifulSoup, title: str):
+    """Find a CMVP page panel by its heading text."""
+    heading = soup.find(
+        lambda tag: tag.name in {"h2", "h3", "h4"}
+        and normalize_whitespace(tag.get_text(" ", strip=True)) == title
+    )
+    return heading.find_parent("div", class_="panel") if heading else None
+
+
+def parse_detail_rows(panel_body) -> Dict[str, object]:
+    """
+    Parse the label/value rows in the NIST certificate Details panel.
+
+    Args:
+        panel_body: BeautifulSoup node for the Details panel body
+
+    Returns:
+        Dictionary of parsed certificate detail fields
+    """
+    detail_fields: Dict[str, object] = {}
+    field_map = {
+        "Module Name": "module_name",
+        "Standard": "standard",
+        "Status": "status",
+        "Sunset Date": "sunset_date",
+        "Overall Level": "overall_level",
+        "Caveat": "caveat",
+        "Module Type": "module_type",
+        "Embodiment": "embodiment",
+        "Description": "description",
+    }
+
+    for row in panel_body.find_all("div", class_="row"):
+        columns = row.find_all("div", recursive=False)
+        if len(columns) < 2:
+            continue
+
+        label = normalize_whitespace(columns[0].get_text(" ", strip=True)).rstrip(":")
+        value_cell = columns[1]
+
+        if label == "Security Level Exceptions":
+            exceptions = [
+                normalize_whitespace(item.get_text(" ", strip=True))
+                for item in value_cell.find_all("li")
+                if normalize_whitespace(item.get_text(" ", strip=True))
+            ]
+            if exceptions:
+                detail_fields["security_level_exceptions"] = exceptions
+            continue
+
+        field_name = field_map.get(label)
+        if not field_name:
+            continue
+
+        value = normalize_whitespace(value_cell.get_text(" ", strip=True))
+        if not value:
+            continue
+
+        if field_name == "overall_level":
+            match = re.search(r"\d+", value)
+            detail_fields[field_name] = int(match.group()) if match else value
+        else:
+            detail_fields[field_name] = value
+
+    return detail_fields
+
+
+def parse_vendor_panel(panel) -> Dict[str, object]:
+    """
+    Parse the vendor/contact block from a certificate page.
+
+    Args:
+        panel: BeautifulSoup node for the Vendor panel
+
+    Returns:
+        Structured vendor information
+    """
+    body = panel.find("div", class_="panel-body") if panel else None
+    if not body:
+        return {}
+
+    vendor_name = ""
+    vendor_website_url = None
+    vendor_link = body.find("a", href=True)
+    if vendor_link:
+        vendor_name = normalize_whitespace(vendor_link.get_text(" ", strip=True))
+        vendor_website_url = make_absolute_url(vendor_link["href"])
+
+    address_lines = [
+        normalize_whitespace(span.get_text(" ", strip=True))
+        for span in body.find_all("span", class_="indent", recursive=False)
+        if normalize_whitespace(span.get_text(" ", strip=True))
+    ]
+
+    contact_name = ""
+    contact_email = None
+    contact_phone = None
+    contact_block = body.find("div", style=lambda value: value and "font-size" in value)
+    if contact_block:
+        contact_span = contact_block.find("span")
+        if contact_span:
+            pieces = []
+            for child in contact_span.contents:
+                if getattr(child, "name", None) == "br":
+                    break
+                if isinstance(child, str):
+                    pieces.append(child)
+                else:
+                    pieces.append(child.get_text(" ", strip=True))
+            contact_name = normalize_whitespace(" ".join(pieces))
+
+        email_link = contact_block.find("a", href=True)
+        if email_link:
+            if email_link.get("data-cfemail"):
+                contact_email = decode_cloudflare_email(email_link["data-cfemail"])
+            elif email_link["href"].startswith("mailto:"):
+                contact_email = email_link["href"].split(":", 1)[1].strip()
+            else:
+                email_text = normalize_whitespace(email_link.get_text(" ", strip=True))
+                if email_text and "[email" not in email_text.lower():
+                    contact_email = email_text
+
+        lines = [
+            normalize_whitespace(line)
+            for line in contact_block.get_text("\n", strip=True).splitlines()
+            if normalize_whitespace(line)
+        ]
+        for line in lines:
+            if line.lower().startswith("phone:"):
+                contact_phone = line.split(":", 1)[1].strip()
+                break
+
+    return {
+        "name": vendor_name,
+        "website_url": vendor_website_url,
+        "address_lines": address_lines,
+        "country": address_lines[-1] if address_lines else None,
+        "contact_name": contact_name or None,
+        "contact_email": contact_email or None,
+        "contact_phone": contact_phone or None,
+    }
+
+
+def parse_related_files_panel(panel) -> List[Dict[str, str]]:
+    """
+    Parse the Related Files panel.
+
+    Args:
+        panel: BeautifulSoup node for the Related Files panel
+
+    Returns:
+        List of labeled file links
+    """
+    body = panel.find("div", class_="panel-body") if panel else None
+    if not body:
+        return []
+
+    files = []
+    seen = set()
+    for link in body.find_all("a", href=True):
+        label = normalize_whitespace(link.get_text(" ", strip=True))
+        url = make_absolute_url(link["href"])
+        if not label or not url or url in seen:
+            continue
+        seen.add(url)
+        files.append({
+            "label": label,
+            "url": url,
+        })
+
+    return files
+
+
+def parse_validation_history_panel(panel) -> List[Dict[str, str]]:
+    """
+    Parse the Validation History table.
+
+    Args:
+        panel: BeautifulSoup node for the Validation History panel
+
+    Returns:
+        Ordered list of validation history rows
+    """
+    body = panel.find("div", class_="panel-body") if panel else None
+    if not body:
+        return []
+
+    table = body.find("table")
+    if not table:
+        return []
+
+    history = []
+    tbody = table.find("tbody")
+    rows = tbody.find_all("tr") if tbody else table.find_all("tr")
+    for row in rows:
+        cells = row.find_all("td")
+        if len(cells) < 3:
+            continue
+        date = normalize_whitespace(cells[0].get_text(" ", strip=True))
+        event_type = normalize_whitespace(cells[1].get_text(" ", strip=True))
+        lab = normalize_whitespace(cells[2].get_text(" ", strip=True))
+        if not date and not event_type and not lab:
+            continue
+        history.append({
+            "date": date,
+            "type": event_type,
+            "lab": lab,
+        })
+
+    return history
+
+
+def parse_certificate_detail_page(
+    html: str,
+    cert_number: int,
+    summary_module: Optional[Dict] = None,
+    dataset: str = "active",
+    generated_at: Optional[str] = None,
+) -> Dict:
+    """
+    Parse a NIST CMVP certificate page into a structured detail record.
+
+    Args:
+        html: Raw HTML for the certificate page
+        cert_number: Certificate number
+        summary_module: Optional summary module row for fallback values
+        dataset: Source dataset label (active or historical)
+        generated_at: Upstream generation timestamp
+
+    Returns:
+        Structured certificate detail record
+    """
+    summary_module = summary_module or {}
+    soup = BeautifulSoup(html, "lxml")
+
+    details_panel = find_panel_by_title(soup, "Details")
+    vendor_panel = find_panel_by_title(soup, "Vendor")
+    related_files_panel = find_panel_by_title(soup, "Related Files")
+    validation_history_panel = find_panel_by_title(soup, "Validation History")
+
+    detail_fields = parse_detail_rows(details_panel.find("div", class_="panel-body")) if details_panel else {}
+    vendor = parse_vendor_panel(vendor_panel)
+    related_files = parse_related_files_panel(related_files_panel)
+    validation_history = parse_validation_history_panel(validation_history_panel)
+    validation_dates = []
+    seen_dates = set()
+    for entry in validation_history:
+        date = entry.get("date", "")
+        if date and date not in seen_dates:
+            seen_dates.add(date)
+            validation_dates.append(date)
+
+    security_policy_url = summary_module.get("security_policy_url")
+    if not security_policy_url:
+        security_policy = next(
+            (item["url"] for item in related_files if item["label"].lower() == "security policy"),
+            None,
+        )
+        security_policy_url = security_policy
+
+    module_name = detail_fields.get("module_name") or summary_module.get("Module Name")
+    standard = detail_fields.get("standard") or summary_module.get("standard") or summary_module.get("Standard")
+    status = detail_fields.get("status") or summary_module.get("status") or summary_module.get("Status")
+    module_type = detail_fields.get("module_type") or summary_module.get("module_type") or summary_module.get("Module Type")
+    vendor_name = vendor.get("name") or summary_module.get("Vendor Name")
+    algorithms = summary_module.get("algorithms") or []
+
+    return {
+        "certificate_number": str(cert_number),
+        "dataset": dataset,
+        "generated_at": generated_at,
+        "nist_page_url": get_certificate_detail_url(cert_number),
+        "certificate_detail_url": get_certificate_detail_url(cert_number),
+        "security_policy_url": security_policy_url,
+        "vendor_name": vendor_name,
+        "module_name": module_name,
+        "standard": standard,
+        "status": status,
+        "module_type": module_type,
+        "embodiment": detail_fields.get("embodiment") or summary_module.get("embodiment"),
+        "overall_level": detail_fields.get("overall_level") or summary_module.get("overall_level"),
+        "validation_date": ", ".join(validation_dates) if validation_dates else summary_module.get("Validation Date"),
+        "validation_dates": validation_dates,
+        "sunset_date": detail_fields.get("sunset_date") or summary_module.get("sunset_date"),
+        "caveat": detail_fields.get("caveat") or summary_module.get("caveat"),
+        "description": detail_fields.get("description") or summary_module.get("description"),
+        "security_level_exceptions": detail_fields.get("security_level_exceptions", []),
+        "related_files": related_files,
+        "validation_history": validation_history,
+        "vendor": vendor,
+        "algorithms": algorithms,
+    }
+
+
+def build_certificate_detail_payloads(
+    modules: List[Dict],
+    dataset: str,
+    generated_at: str,
+) -> Dict[int, Dict]:
+    """
+    Fetch and parse NIST detail pages into static per-certificate JSON payloads.
+
+    Args:
+        modules: Summary module rows for a dataset
+        dataset: Dataset label (active or historical)
+        generated_at: Shared generation timestamp for this scraper run
+
+    Returns:
+        Dictionary keyed by certificate number
+    """
+    payloads: Dict[int, Dict] = {}
+    total = len(modules)
+    success = 0
+    failed = 0
+
+    print(f"\nGenerating {dataset} certificate detail records ({total} certificates)...")
+
+    for index, module in enumerate(modules, 1):
+        cert_num_str = str(module.get("Certificate Number", "")).strip()
+        if not cert_num_str:
+            continue
+
+        try:
+            cert_num = int(cert_num_str)
+        except ValueError:
+            failed += 1
+            continue
+
+        html = fetch_page(get_certificate_detail_url(cert_num), timeout=30, retries=3)
+        if not html:
+            failed += 1
+            continue
+
+        try:
+            payloads[cert_num] = parse_certificate_detail_page(
+                html,
+                cert_num,
+                summary_module=module,
+                dataset=dataset,
+                generated_at=generated_at,
+            )
+            success += 1
+        except Exception as exc:
+            failed += 1
+            print(f"Warning: Failed to parse certificate {cert_num}: {exc}", file=sys.stderr)
+
+        if index % 100 == 0 or index == total:
+            print(f"  Progress: {index}/{total} ({success} success, {failed} failed)")
+
+        time.sleep(0.1)
+
+    return payloads
 
 
 def parse_algorithms_from_markdown(markdown: str) -> Tuple[List[str], List[str]]:
@@ -674,7 +1063,7 @@ def validate_module_count(modules: List[Dict], label: str, min_expected: int = 1
         sys.exit(1)
 
 
-def generate_openapi_spec(modules: List[Dict], metadata: Dict) -> Dict:
+def generate_openapi_spec(modules: List[Dict], metadata: Dict, sample_certificate_detail: Optional[Dict] = None) -> Dict:
     """
     Generate an OpenAPI 3.0.3 spec from the actual scraped data schema.
 
@@ -707,6 +1096,41 @@ def generate_openapi_spec(modules: List[Dict], metadata: Dict) -> Dict:
             module_properties[key] = {
                 "type": "string",
                 "example": str(value)
+            }
+
+    detail_properties = {}
+    for key, value in (sample_certificate_detail or {}).items():
+        if isinstance(value, list):
+            item_example = value[0] if value else {}
+            if isinstance(item_example, dict):
+                detail_properties[key] = {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "additionalProperties": True
+                    }
+                }
+            else:
+                detail_properties[key] = {
+                    "type": "array",
+                    "items": {"type": "string"},
+                    "example": value[:3] if value else []
+                }
+        elif isinstance(value, dict):
+            detail_properties[key] = {
+                "type": "object",
+                "additionalProperties": True
+            }
+        elif isinstance(value, int):
+            detail_properties[key] = {
+                "type": "integer",
+                "example": value
+            }
+        else:
+            detail_properties[key] = {
+                "type": "string",
+                "nullable": value is None,
+                "example": str(value) if value is not None else ""
             }
 
     spec = {
@@ -825,6 +1249,34 @@ def generate_openapi_spec(modules: List[Dict], metadata: Dict) -> Dict:
                         }
                     }
                 }
+            },
+            "/api/certificates/{certificate}.json": {
+                "get": {
+                    "summary": "Full certificate detail record",
+                    "operationId": "getCertificateDetail",
+                    "parameters": [
+                        {
+                            "name": "certificate",
+                            "in": "path",
+                            "required": True,
+                            "schema": {"type": "string"},
+                            "description": "Numeric CMVP certificate number"
+                        }
+                    ],
+                    "responses": {
+                        "200": {
+                            "description": "Certificate detail payload mirroring the NIST certificate page sections",
+                            "content": {
+                                "application/json": {
+                                    "schema": {"$ref": "#/components/schemas/CertificateDetailResponse"}
+                                }
+                            }
+                        },
+                        "404": {
+                            "description": "Certificate detail record not found"
+                        }
+                    }
+                }
             }
         },
         "components": {
@@ -837,6 +1289,7 @@ def generate_openapi_spec(modules: List[Dict], metadata: Dict) -> Dict:
                         "total_historical_modules": {"type": "integer", "example": metadata.get("total_historical_modules", 0)},
                         "total_modules_in_process": {"type": "integer", "example": metadata.get("total_modules_in_process", 0)},
                         "total_certificates_with_algorithms": {"type": "integer", "example": metadata.get("total_certificates_with_algorithms", 0)},
+                        "total_certificate_details": {"type": "integer", "example": metadata.get("total_certificate_details", 0)},
                         "source": {"type": "string", "example": metadata.get("source", "")},
                         "algorithm_source": {"type": "string", "example": metadata.get("algorithm_source", "")},
                         "version": {"type": "string", "example": metadata.get("version", "")}
@@ -887,6 +1340,25 @@ def generate_openapi_spec(modules: List[Dict], metadata: Dict) -> Dict:
                         }
                     }
                 },
+                "CertificateDetail": {
+                    "type": "object",
+                    "description": "Structured certificate detail record derived from the NIST certificate page",
+                    "properties": detail_properties,
+                },
+                "CertificateDetailResponse": {
+                    "type": "object",
+                    "properties": {
+                        "metadata": {
+                            "type": "object",
+                            "properties": {
+                                "generated_at": {"type": "string", "format": "date-time"},
+                                "dataset": {"type": "string"},
+                                "source": {"type": "string"},
+                            }
+                        },
+                        "certificate": {"$ref": "#/components/schemas/CertificateDetail"}
+                    }
+                },
                 "Index": {
                     "type": "object",
                     "properties": {
@@ -929,6 +1401,8 @@ def main():
     else:
         print("Note: SKIP_ALGORITHMS=1 set. Algorithm extraction will be skipped.")
     print()
+
+    generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ")
 
     # Scrape all validated modules
     print("Scraping validated modules...")
@@ -994,16 +1468,34 @@ def main():
                 if 'algorithms' in details and details['algorithms']:
                     algorithms_map[cert_num] = details['algorithms']
 
+    certificate_detail_payloads = {}
+    if modules:
+        certificate_detail_payloads.update(
+            build_certificate_detail_payloads(modules, "active", generated_at)
+        )
+    if historical_modules:
+        certificate_detail_payloads.update(
+            build_certificate_detail_payloads(historical_modules, "historical", generated_at)
+        )
+
+    for module in modules:
+        cert = str(module.get("Certificate Number", "")).strip()
+        module["detail_available"] = cert.isdigit() and int(cert) in certificate_detail_payloads
+    for module in historical_modules:
+        cert = str(module.get("Certificate Number", "")).strip()
+        module["detail_available"] = cert.isdigit() and int(cert) in certificate_detail_payloads
+
     # Prepare output directory
     output_dir = "api"
 
     # Create metadata
     metadata = {
-        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.%fZ"),
+        "generated_at": generated_at,
         "total_modules": len(modules),
         "total_historical_modules": len(historical_modules),
         "total_modules_in_process": len(modules_in_process),
         "total_certificates_with_algorithms": len(algorithms_map),
+        "total_certificate_details": len(certificate_detail_payloads),
         "source": BASE_URL,
         "modules_in_process_source": MODULES_IN_PROCESS_URL,
         "algorithm_source": algorithm_source,
@@ -1031,6 +1523,17 @@ def main():
     }
     save_json(modules_in_process_data, f"{output_dir}/modules-in-process.json")
 
+    for cert_number, certificate_payload in certificate_detail_payloads.items():
+        detail_response = {
+            "metadata": {
+                "generated_at": generated_at,
+                "dataset": certificate_payload.get("dataset", "active"),
+                "source": certificate_payload.get("nist_page_url", get_certificate_detail_url(cert_number)),
+            },
+            "certificate": certificate_payload,
+        }
+        save_json(detail_response, f"{output_dir}/certificates/{cert_number}.json")
+
     # Save algorithms summary (if available)
     if algorithms_map:
         algorithms_summary = create_algorithms_summary(algorithms_map)
@@ -1049,7 +1552,8 @@ def main():
         "modules": "/api/modules.json",
         "historical_modules": "/api/historical-modules.json",
         "modules_in_process": "/api/modules-in-process.json",
-        "metadata": "/api/metadata.json"
+        "metadata": "/api/metadata.json",
+        "certificate_detail_template": "/api/certificates/{certificate}.json",
     }
     if algorithms_map:
         endpoints["algorithms"] = "/api/algorithms.json"
@@ -1063,17 +1567,20 @@ def main():
         "total_historical_modules": len(historical_modules),
         "total_modules_in_process": len(modules_in_process),
         "total_certificates_with_algorithms": len(algorithms_map),
+        "total_certificate_details": len(certificate_detail_payloads),
         "features": {
             "security_policy_urls": True,
             "certificate_detail_urls": True,
-            "algorithm_extraction": algorithm_source != "none"
+            "algorithm_extraction": algorithm_source != "none",
+            "certificate_detail_records": True,
         }
     }
     save_json(index_data, f"{output_dir}/index.json")
 
     # Generate OpenAPI spec from actual data schema
     print("\nGenerating OpenAPI spec...")
-    openapi_spec = generate_openapi_spec(modules, metadata)
+    sample_certificate_detail = next(iter(certificate_detail_payloads.values()), None)
+    openapi_spec = generate_openapi_spec(modules, metadata, sample_certificate_detail)
     # Save as YAML-formatted JSON (valid YAML is a superset of JSON)
     # Using JSON since we already have the json module and it's valid YAML
     save_json(openapi_spec, "openapi.json")
@@ -1087,6 +1594,7 @@ def main():
     print(f"  - Modules in process: {len(modules_in_process)}")
     if algorithms_map:
         print(f"  - Certificates with algorithms: {len(algorithms_map)}")
+    print(f"  - Certificate detail records: {len(certificate_detail_payloads)}")
     print(f"  - Algorithm source: {algorithm_source}")
     print(f"  - OpenAPI spec: openapi.json")
     print(f"\nOutput files saved to: {output_dir}/")

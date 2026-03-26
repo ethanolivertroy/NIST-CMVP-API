@@ -6,7 +6,7 @@ Tests the parsing logic with sample HTML.
 
 import json
 import sys
-from scraper import parse_modules_table
+from scraper import parse_certificate_detail_page, parse_modules_table
 
 
 def test_parse_simple_table():
@@ -198,6 +198,140 @@ def test_parse_modules_in_process():
     print("✓ Modules in process table test passed")
 
 
+def test_parse_certificate_detail_page():
+    """Test parsing a NIST-style certificate detail page."""
+    html = """
+    <html>
+      <body>
+        <div class="panel panel-default">
+          <div class="panel-heading"><h4 class="panel-title">Details</h4></div>
+          <div class="panel-body">
+            <div class="row padrow">
+              <div class="col-md-3"><span>Module Name</span></div>
+              <div class="col-md-9" id="module-name">OVHCloud OKMS Provider based on the OpenSSL FIPS Provider</div>
+            </div>
+            <div class="row padrow">
+              <div class="col-md-3">Standard</div>
+              <div class="col-md-9" id="module-standard">FIPS 140-3</div>
+            </div>
+            <div class="row padrow">
+              <div class="col-md-3">Status</div>
+              <div class="col-md-9">Active</div>
+            </div>
+            <div class="row padrow">
+              <div class="col-md-3"><span>Sunset Date</span></div>
+              <div class="col-md-9">3/10/2030</div>
+            </div>
+            <div class="row padrow">
+              <div class="col-md-3"><span>Overall Level</span></div>
+              <div class="col-md-9">1</div>
+            </div>
+            <div class="row padrow">
+              <div class="col-md-3"><span>Caveat</span></div>
+              <div class="col-md-9"><span class="alert-danger">When operated in approved mode.</span></div>
+            </div>
+            <div class="row padrow">
+              <div class="col-md-3"><span>Security Level Exceptions</span></div>
+              <div class="col-md-9">
+                <ul class="list-left15pxPadding">
+                  <li>Physical security: N/A</li>
+                  <li>Life-cycle assurance: Level 3</li>
+                </ul>
+              </div>
+            </div>
+            <div class="row padrow">
+              <div class="col-md-3"><span>Module Type</span></div>
+              <div class="col-md-9">Software</div>
+            </div>
+            <div class="row padrow">
+              <div class="col-md-3"><span>Embodiment</span></div>
+              <div class="col-md-9" id="embodiment-name">MultiChipStand</div>
+            </div>
+            <div class="row padrow">
+              <div class="col-md-3"><span>Description</span></div>
+              <div class="col-md-9">A software library providing cryptographic functionality.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading"><h4 class="panel-title">Vendor</h4></div>
+          <div class="panel-body">
+            <a href="https://corporate.ovhcloud.com/en/">OVH SAS</a><br />
+            <span class="indent">2 RUE KELLERMANN</span><br />
+            <span class="indent">ROUBAIX 59100</span><br />
+            <span class="indent">FRANCE</span><br /><br />
+            <div style="font-size: 0.9em;">
+              <span>
+                Data security team<br />
+                <span class="indent"><a class="__cf_email__" data-cfemail="b5daded8c6ead3dcc5c6f5dac3dd9bdbd0c1" href="/cdn-cgi/l/email-protection">[email&#160;protected]</a></span><br />
+                <span class="indent">Phone: +33 3 20 82 73 32</span><br />
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading"><h4 class="panel-title">Related Files</h4></div>
+          <div class="panel-body">
+            <a href="/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5203.pdf">Security Policy</a><br />
+            <a href="https://example.test/other.pdf">Implementation Guidance</a>
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading"><h4 class="panel-title">Validation History</h4></div>
+          <div class="panel-body">
+            <table class="table table-condensed table-striped nolinetable" id="validation-history-table">
+              <thead>
+                <tr><th>Date</th><th>Type</th><th>Lab</th></tr>
+              </thead>
+              <tbody>
+                <tr><td class="text-nowrap">3/21/2026</td><td>Initial</td><td>Lightship Security, Inc.</td></tr>
+                <tr><td class="text-nowrap">4/01/2026</td><td>Updated</td><td>Lightship Security, Inc.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </body>
+    </html>
+    """
+
+    payload = parse_certificate_detail_page(
+        html,
+        5203,
+        summary_module={
+            "Vendor Name": "OVH SAS",
+            "Module Name": "OVHCloud OKMS Provider based on the OpenSSL FIPS Provider",
+            "algorithms": ["AES", "HMAC"],
+            "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5203.pdf",
+        },
+        dataset="active",
+        generated_at="2026-03-26T00:00:00.000000Z",
+    )
+
+    assert payload["certificate_number"] == "5203", "Certificate number mismatch"
+    assert payload["dataset"] == "active", "Dataset mismatch"
+    assert payload["module_name"] == "OVHCloud OKMS Provider based on the OpenSSL FIPS Provider", "Module name mismatch"
+    assert payload["standard"] == "FIPS 140-3", "Standard mismatch"
+    assert payload["status"] == "Active", "Status mismatch"
+    assert payload["sunset_date"] == "3/10/2030", "Sunset date mismatch"
+    assert payload["overall_level"] == 1, "Overall level mismatch"
+    assert payload["security_level_exceptions"] == ["Physical security: N/A", "Life-cycle assurance: Level 3"], "Security level exceptions mismatch"
+    assert payload["vendor"]["name"] == "OVH SAS", "Vendor name mismatch"
+    assert payload["vendor"]["contact_name"] == "Data security team", "Vendor contact mismatch"
+    assert payload["vendor"]["contact_email"] == "okms_fips@ovh.net", "Vendor email mismatch"
+    assert payload["vendor"]["contact_phone"] == "+33 3 20 82 73 32", "Vendor phone mismatch"
+    assert payload["related_files"][0]["label"] == "Security Policy", "Related file label mismatch"
+    assert payload["related_files"][0]["url"].endswith("140sp5203.pdf"), "Related file URL mismatch"
+    assert len(payload["validation_history"]) == 2, "Validation history row count mismatch"
+    assert payload["validation_history"][1]["type"] == "Updated", "Validation history type mismatch"
+    assert payload["validation_dates"] == ["3/21/2026", "4/01/2026"], "Validation dates mismatch"
+    assert payload["algorithms"] == ["AES", "HMAC"], "Algorithm list mismatch"
+
+    print("✓ Certificate detail page test passed")
+
+
 def main():
     """Run all tests."""
     print("=" * 60)
@@ -211,6 +345,7 @@ def main():
         test_parse_empty_table()
         test_parse_historical_modules_table()
         test_parse_modules_in_process()
+        test_parse_certificate_detail_page()
         
         print()
         print("=" * 60)

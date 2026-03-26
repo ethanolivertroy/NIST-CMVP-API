@@ -9,6 +9,7 @@ Static JSON API for NIST Cryptographic Module Validation Program data. Auto-upda
 - **Modules In Process**: Modules currently in validation
 - **Algorithm Extraction**: Approved algorithms extracted from certificate detail pages using [crawl4ai](https://github.com/unclecode/crawl4ai)
 - **Security Policy Links**: Direct URLs to Security Policy PDF documents
+- **Certificate Detail Records**: Per-certificate JSON with vendor, related files, validation history, and security level exceptions
 
 ## Endpoints
 
@@ -22,6 +23,7 @@ Base URL: `https://ethanolivertroy.github.io/NIST-CMVP-API/api/`
 | `algorithms.json` | Algorithm summary with usage statistics across all certificates |
 | `metadata.json` | Dataset info (last update, counts, feature flags) |
 | `index.json` | API index with all endpoints and feature information |
+| `certificates/{certificate}.json` | Structured detail record for one CMVP certificate |
 
 ## Data Structure
 
@@ -68,6 +70,55 @@ Base URL: `https://ethanolivertroy.github.io/NIST-CMVP-API/api/`
 }
 ```
 
+### Certificate Detail (`certificates/{certificate}.json`)
+
+```json
+{
+  "metadata": {
+    "generated_at": "2026-03-26T00:00:00.000000Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5203"
+  },
+  "certificate": {
+    "certificate_number": "5203",
+    "dataset": "active",
+    "generated_at": "2026-03-26T00:00:00.000000Z",
+    "vendor_name": "OVH SAS",
+    "module_name": "OVHCloud OKMS Provider based on the OpenSSL FIPS Provider",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "overall_level": 1,
+    "validation_dates": ["3/21/2026"],
+    "sunset_date": "3/10/2030",
+    "security_level_exceptions": ["Physical security: N/A"],
+    "vendor": {
+      "name": "OVH SAS",
+      "website_url": "https://corporate.ovhcloud.com/en/",
+      "address_lines": ["2 RUE KELLERMANN", "ROUBAIX 59100", "FRANCE"],
+      "country": "FRANCE",
+      "contact_name": "Data security team",
+      "contact_email": "okms_fips@ovh.net",
+      "contact_phone": "+33 3 20 82 73 32"
+    },
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5203.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/21/2026",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "algorithms": ["AES", "HMAC"]
+  }
+}
+```
+
 ## Usage
 
 ```bash
@@ -85,6 +136,9 @@ curl -s https://ethanolivertroy.github.io/NIST-CMVP-API/api/modules.json | \
 # Get all certificates using a specific algorithm
 curl -s https://ethanolivertroy.github.io/NIST-CMVP-API/api/algorithms.json | \
   jq '.algorithms["AES"].certificates'
+
+# Get the full detail page payload for one certificate
+curl -s https://ethanolivertroy.github.io/NIST-CMVP-API/api/certificates/5203.json | jq '.certificate'
 
 # Check last update
 curl -s https://ethanolivertroy.github.io/NIST-CMVP-API/api/metadata.json | jq '.generated_at'
