@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4364"
+  },
+  "certificate": {
+    "certificate_number": "4364",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4364",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4364",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4364.pdf",
+    "vendor_name": "Nutanix, Inc.",
+    "module_name": "Nutanix Cryptographic Module for OpenSSH Client",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/14/2022",
+    "validation_dates": [
+      "11/14/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode and configured as specified in Section 3 of the Security Policy with the Nutanix Cryptographic Module for OpenSSL validated to FIPS 140-2 under Cert. #4249 operating in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "The Nutanix Cryptographic Module for OpenSSH Client is a cryptographic software module, designated as a multi-chip standalone embodiment, and used in Nutanix solutions to provide FIPS 140-2 Approved SSH client-side secure communication.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4364.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/14/2022",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Nutanix, Inc.",
+      "website_url": "http://www.nutanix.com",
+      "address_lines": [
+        "1740 Technology Drive",
+        "Suite 150",
+        "San Jose, CA 95110",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Matt Keller",
+      "contact_email": "fips@nutanix.com",
+      "contact_phone": null
+    },
+    "algorithms": [
+      "SSH"
+    ]
+  }
+}

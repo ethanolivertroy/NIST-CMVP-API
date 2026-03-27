@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/544"
+  },
+  "certificate": {
+    "certificate_number": "544",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/544",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/544",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp544.pdf",
+    "vendor_name": "Juniper Networks, Inc.",
+    "module_name": "Juniper Networks NetScreen-5200",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "6/2/2005, 6/10/2005, 12/2/2005, 1/26/2006, 6/20/2006, 12/11/2013",
+    "validation_dates": [
+      "6/2/2005",
+      "6/10/2005",
+      "12/2/2005",
+      "1/26/2006",
+      "6/20/2006",
+      "12/11/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Juniper Networks NetScreen-5200 is a purpose-built, highperformance security system designed to deliver a new level of highperformance capabilities for large enterprise, carrier, and data center networks. The NetScreen-5200 security system integrates firewall, DoS and DDoS protection, VPN, and traffic management functionality in lowprofile modular chassis.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp544.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt544.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/2/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/10/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/2/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/26/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/20/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/11/2013",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Juniper Networks, Inc.",
+      "website_url": "http://www.juniper.net",
+      "address_lines": [
+        "1194 Mathilda Ave.",
+        "Sunnyvale, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Claudio Baserga",
+      "contact_email": "cbaserga@juniper.net",
+      "contact_phone": "408-936-0961"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/960"
+  },
+  "certificate": {
+    "certificate_number": "960",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/960",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/960",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp960.pdf",
+    "vendor_name": "Pitney Bowes, Inc.",
+    "module_name": "Cygnus X3 PSD Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 3,
+    "validation_date": "6/5/2008, 5/18/2009",
+    "validation_dates": [
+      "6/5/2008",
+      "5/18/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "When configured with the listed FIPS-Approved algorithms",
+    "description": "The Pitney Bowes Cygnus X3 Postal Security Device (PSD) has been designed in compliance with FIPS 140-2 and IPMAR security protection profile in order to support the USPS IBIP and international digital indicia standards globally. The Cygnus X3 PSD Cryptographic Module employs strong encryption, decryption, and digital signature techniques for the protection of customer funds in Pitney Bowes Postage Metering products.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3 + EFP"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp960.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt960.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/5/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/18/2009",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Pitney Bowes, Inc.",
+      "website_url": "http://www.pb.com",
+      "address_lines": [
+        "35 Waterview Drive",
+        "Shelton, CT 06484-8000",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Douglas Clark",
+      "contact_email": "douglas.clark@pb.com",
+      "contact_phone": "203-924-3206"
+    },
+    "algorithms": []
+  }
+}

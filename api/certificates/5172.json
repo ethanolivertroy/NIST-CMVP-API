@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5172"
+  },
+  "certificate": {
+    "certificate_number": "5172",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5172",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5172",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5172.pdf",
+    "vendor_name": "Thales Alenia Space",
+    "module_name": "Thales Alenia Space Cryptographic Module for Microsemi RTG4 FPGA",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "MultiChipEmbed",
+    "overall_level": 1,
+    "validation_date": "3/6/2026",
+    "validation_dates": [
+      "3/6/2026"
+    ],
+    "sunset_date": "3/5/2031",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "This cryptographic module has been developed by Thales Alenia Space and it has been implemented within the Near-Earth Object Surveyor (NEOS) transponder unit. The aim of this cryptographic module is to enable NASA to encrypt communications at the GCP, and decrypt and authenticate them at the transponder unit using AES-GCM.",
+    "security_level_exceptions": [
+      "Software/Firmware security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5172.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/6/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Thales Alenia Space",
+      "website_url": "http://www.thalesgroup.com/es/espana/espacio",
+      "address_lines": [
+        "Calle Einstein 7",
+        "Tres Cantos, Madrid 28760",
+        "Spain"
+      ],
+      "country": "Spain",
+      "contact_name": "Bruno Lestriez",
+      "contact_email": "bruno.lestriez@thalesaleniaspace.com",
+      "contact_phone": "918077900"
+    },
+    "algorithms": []
+  }
+}

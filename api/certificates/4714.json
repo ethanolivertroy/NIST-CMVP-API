@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4714"
+  },
+  "certificate": {
+    "certificate_number": "4714",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4714",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4714",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4714.pdf",
+    "vendor_name": "Informatica",
+    "module_name": "Informatica Crypto Platform (ICP) Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/28/2024",
+    "validation_dates": [
+      "6/28/2024"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys",
+    "description": "The Informatica Crypto Platform (ICP) Library is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4714.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2024_010724_1153.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/28/2024",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Informatica",
+      "website_url": "http://www.informatica.com",
+      "address_lines": [
+        "2100 Seaport Blvd",
+        "Redwood City, CA 94063",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Informatica Cryptography FIPS Team",
+      "contact_email": "InfaFIPS@informatica.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

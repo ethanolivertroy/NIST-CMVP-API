@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4811"
+  },
+  "certificate": {
+    "certificate_number": "4811",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4811",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4811",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4811.pdf",
+    "vendor_name": "The OpenSSL Project",
+    "module_name": "OpenSSL FIPS Provider",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/24/2024",
+    "validation_dates": [
+      "9/24/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The OpenSSL FIPS Provider is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4811.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2024_011024_0217.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/24/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "The OpenSSL Project",
+      "website_url": "https://www.openssl.org/",
+      "address_lines": [],
+      "country": null,
+      "contact_name": "OpenSSL Management Committee",
+      "contact_email": "osf-contact@openssl.org",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

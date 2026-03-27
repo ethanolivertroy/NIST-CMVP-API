@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4202"
+  },
+  "certificate": {
+    "certificate_number": "4202",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4202",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4202",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4202.pdf",
+    "vendor_name": "IQVIA",
+    "module_name": "IQVIA Java Crypto Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/22/2022",
+    "validation_dates": [
+      "4/22/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The output of the DRBG shall not be used to generate keys",
+    "description": "The cryptographic module is a single Java Archive (JAR) binary, named DvSecurityAPI.jar, that provides cryptographic and secure communication services for other applications developed by IQVIA. In this document, those applications will be referred to as the calling application. The module is a standalone cryptographic library that can be called to provide encryption, decryption, hash generation and verification, certificate generation and verification, random bit generation, and message authentication functions.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4202.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/22/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "IQVIA",
+      "website_url": "http://www.iqvia.com",
+      "address_lines": [
+        "2235 Sheppard Avenue East, Suite 1700",
+        "Toronto, Ontario M2J5B5",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Toan Tran",
+      "contact_email": "toan.tran@iqvia.com",
+      "contact_phone": "703-992-1043"
+    },
+    "algorithms": []
+  }
+}

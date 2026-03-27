@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2404"
+  },
+  "certificate": {
+    "certificate_number": "2404",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2404",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2404",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2404.pdf",
+    "vendor_name": "Digital Defence Ltd",
+    "module_name": "Secure Mobile",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/6/2015",
+    "validation_dates": [
+      "7/6/2015"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated with the Microsoft Windows CE, Windows Mobile, and Windows Embedded Handheld Enhanced Cryptographic Provider (RSAENH) validated to FIPS 140-2 under Cert. #560 operating in FIPS mode",
+    "description": "Secure Mobile Cryptographic Module provides core cryptographic functionality in a Windows Embedded Handheld environment. It supports XTS-AES-128 cipher mode for storage encryption, KDF acc. to NIST SP 800-108 to derive the storage encryption key, and HMAC-SHA-256 for integrity protection of its binaries and settings. For generation of XTS tweak values a validated RNG (Cert. #286) contained in \"Windows CE and Windows Mobile Enhanced Cryptographic Provider (RSAENH)\" , which is a FIPS 140-2 certified cryptographic software module contained in the platform.",
+    "security_level_exceptions": [
+      "Physical Security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2404.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0055.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/6/2015",
+        "type": "Initial",
+        "lab": "TUVIT Evaluation Body for IT Security"
+      }
+    ],
+    "vendor": {
+      "name": "Digital Defence Ltd",
+      "website_url": "http://www.digital-defence.com",
+      "address_lines": [
+        "400 Pavilion Drive",
+        "Northampton Business Park",
+        "Northampton NN4 7PA",
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "contact_name": "Ben Earl",
+      "contact_email": "ben@digital-defence.com",
+      "contact_phone": "+44-1604-521-108"
+    },
+    "algorithms": []
+  }
+}

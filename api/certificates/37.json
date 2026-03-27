@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/37"
+  },
+  "certificate": {
+    "certificate_number": "37",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/37",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/37",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp37.pdf",
+    "vendor_name": "Motorola, Inc.",
+    "module_name": "KVL 3000",
+    "standard": "FIPS 140-1",
+    "status": "Revoked",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/25/1998",
+    "validation_dates": [
+      "11/25/1998"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode by selection of the DES algorithm",
+    "description": null,
+    "security_level_exceptions": [
+      "Roles and Services: Level 2"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp37.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt37.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/25/1998",
+        "type": "Initial",
+        "lab": "DOMUS"
+      }
+    ],
+    "vendor": {
+      "name": "Motorola, Inc.",
+      "website_url": "http://www.mot.com",
+      "address_lines": [
+        "Secure Design Center",
+        "IL02 Room 0509A",
+        "1301 East Algonquin Rd",
+        "Schaumburg, IL 60196",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jennifer Mitchell",
+      "contact_email": null,
+      "contact_phone": "847-576-7251"
+    },
+    "algorithms": []
+  }
+}

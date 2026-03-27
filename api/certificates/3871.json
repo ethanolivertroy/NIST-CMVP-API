@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3871"
+  },
+  "certificate": {
+    "certificate_number": "3871",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3871",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3871",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3871.pdf",
+    "vendor_name": "Trellix",
+    "module_name": "Network Security Platform Sensor NS9100 and NS9200",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "3/29/2021, 6/28/2021, 6/29/2022",
+    "validation_dates": [
+      "3/29/2021",
+      "6/28/2021",
+      "6/29/2022"
+    ],
+    "sunset_date": "3/28/2026",
+    "caveat": "When operated with the tamper evident seals installed as indicated in the Security Policy",
+    "description": "Network Security Platform products (formerly known as IntruShield) are Intrusion Prevention Systems (IPS) that protect network infrastructures and endpoints from intrusions such as zero-day, DoS, spyware, VoIP, botnet, malware, phishing, and encrypted attacks with highly accurate, enterprise-class risk-aware intrusion prevention. The Network Security Management system manages the sensor deployments and permits the customer to receive real-time network status updates and alerts, implement customized security policies and incident response plans, and perform forensic analysis of attacks.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3871.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2021_010421_0724_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/29/2021",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "6/28/2021",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "6/29/2022",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Trellix",
+      "website_url": "http://www.trellix.com",
+      "address_lines": [
+        "6220 America Center Drive",
+        "San Jose, CA 95005",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Product Certifications",
+      "contact_email": "sec_certs@mcafee.com",
+      "contact_phone": "888-847-8766"
+    },
+    "algorithms": []
+  }
+}

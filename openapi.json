@@ -75,7 +75,7 @@
         "operationId": "getHistoricalModules",
         "responses": {
           "200": {
-            "description": "Currently 4115 historical modules",
+            "description": "Currently 4125 historical modules",
             "content": {
               "application/json": {
                 "schema": {
@@ -93,7 +93,7 @@
         "operationId": "getModulesInProcess",
         "responses": {
           "200": {
-            "description": "Currently 331 modules in process",
+            "description": "Currently 333 modules in process",
             "content": {
               "application/json": {
                 "schema": {
@@ -122,6 +122,38 @@
           }
         }
       }
+    },
+    "/api/certificates/{certificate}.json": {
+      "get": {
+        "summary": "Full certificate detail record",
+        "operationId": "getCertificateDetail",
+        "parameters": [
+          {
+            "name": "certificate",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            },
+            "description": "Numeric CMVP certificate number"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Certificate detail payload mirroring the NIST certificate page sections",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CertificateDetailResponse"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Certificate detail record not found"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -132,7 +164,7 @@
           "generated_at": {
             "type": "string",
             "format": "date-time",
-            "example": "2026-03-22T04:00:30.734476Z"
+            "example": "2026-03-26T23:35:03.340331Z"
           },
           "total_modules": {
             "type": "integer",
@@ -140,15 +172,19 @@
           },
           "total_historical_modules": {
             "type": "integer",
-            "example": 4115
+            "example": 4125
           },
           "total_modules_in_process": {
             "type": "integer",
-            "example": 331
+            "example": 333
           },
           "total_certificates_with_algorithms": {
             "type": "integer",
-            "example": 378
+            "example": 375
+          },
+          "total_certificate_details": {
+            "type": "integer",
+            "example": 5202
           },
           "source": {
             "type": "string",
@@ -170,19 +206,19 @@
         "properties": {
           "Certificate Number_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5203"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5213"
           },
           "Certificate Number": {
             "type": "string",
-            "example": "5203"
+            "example": "5213"
           },
           "Vendor Name": {
             "type": "string",
-            "example": "OVH SAS"
+            "example": "NETSCOUT Systems, Inc."
           },
           "Module Name": {
             "type": "string",
-            "example": "OVHCloud OKMS Provider based on the OpenSSL FIPS Provider"
+            "example": "NETSCOUT FIPS Provider based on the OpenSSL FIPS Provider"
           },
           "Module Type": {
             "type": "string",
@@ -190,19 +226,19 @@
           },
           "Validation Date": {
             "type": "string",
-            "example": "03/21/2026"
+            "example": "03/26/2026"
           },
           "security_policy_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5203.pdf"
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5213.pdf"
           },
           "certificate_detail_url": {
             "type": "string",
-            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5203"
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5213"
           },
           "module_name": {
             "type": "string",
-            "example": "OVHCloud OKMS Provider based on the OpenSSL FIPS Provider"
+            "example": "NETSCOUT FIPS Provider based on the OpenSSL FIPS Provider"
           },
           "standard": {
             "type": "string",
@@ -234,7 +270,11 @@
           },
           "description": {
             "type": "string",
-            "example": "The OVHCloud OKMS Provider based on the OpenSSL FIPS Provider is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality."
+            "example": "The NETSCOUT FIPS Provider based on the OpenSSL FIPS Provider is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality."
+          },
+          "detail_available": {
+            "type": "integer",
+            "example": true
           }
         }
       },
@@ -291,6 +331,164 @@
                 }
               }
             }
+          }
+        }
+      },
+      "CertificateDetail": {
+        "type": "object",
+        "description": "Structured certificate detail record derived from the NIST certificate page",
+        "properties": {
+          "certificate_number": {
+            "type": "string",
+            "nullable": false,
+            "example": "5213"
+          },
+          "dataset": {
+            "type": "string",
+            "nullable": false,
+            "example": "active"
+          },
+          "generated_at": {
+            "type": "string",
+            "nullable": false,
+            "example": "2026-03-26T23:35:03.340331Z"
+          },
+          "nist_page_url": {
+            "type": "string",
+            "nullable": false,
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5213"
+          },
+          "certificate_detail_url": {
+            "type": "string",
+            "nullable": false,
+            "example": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5213"
+          },
+          "security_policy_url": {
+            "type": "string",
+            "nullable": false,
+            "example": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5213.pdf"
+          },
+          "vendor_name": {
+            "type": "string",
+            "nullable": false,
+            "example": "NETSCOUT Systems, Inc."
+          },
+          "module_name": {
+            "type": "string",
+            "nullable": false,
+            "example": "NETSCOUT FIPS Provider based on the OpenSSL FIPS Provider"
+          },
+          "standard": {
+            "type": "string",
+            "nullable": false,
+            "example": "FIPS 140-3"
+          },
+          "status": {
+            "type": "string",
+            "nullable": false,
+            "example": "Active"
+          },
+          "module_type": {
+            "type": "string",
+            "nullable": false,
+            "example": "Software"
+          },
+          "embodiment": {
+            "type": "string",
+            "nullable": false,
+            "example": "MultiChipStand"
+          },
+          "overall_level": {
+            "type": "integer",
+            "example": 1
+          },
+          "validation_date": {
+            "type": "string",
+            "nullable": false,
+            "example": "3/26/2026"
+          },
+          "validation_dates": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "example": [
+              "3/26/2026"
+            ]
+          },
+          "sunset_date": {
+            "type": "string",
+            "nullable": false,
+            "example": "3/10/2030"
+          },
+          "caveat": {
+            "type": "string",
+            "nullable": false,
+            "example": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys)."
+          },
+          "description": {
+            "type": "string",
+            "nullable": false,
+            "example": "The NETSCOUT FIPS Provider based on the OpenSSL FIPS Provider is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality."
+          },
+          "security_level_exceptions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "example": [
+              "Physical security: N/A",
+              "Non-invasive security: N/A",
+              "Life-cycle assurance: Level 3"
+            ]
+          },
+          "related_files": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          },
+          "validation_history": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          },
+          "vendor": {
+            "type": "object",
+            "additionalProperties": true
+          },
+          "algorithms": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": true
+            }
+          }
+        }
+      },
+      "CertificateDetailResponse": {
+        "type": "object",
+        "properties": {
+          "metadata": {
+            "type": "object",
+            "properties": {
+              "generated_at": {
+                "type": "string",
+                "format": "date-time"
+              },
+              "dataset": {
+                "type": "string"
+              },
+              "source": {
+                "type": "string"
+              }
+            }
+          },
+          "certificate": {
+            "$ref": "#/components/schemas/CertificateDetail"
           }
         }
       },

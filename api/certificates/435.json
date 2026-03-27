@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/435"
+  },
+  "certificate": {
+    "certificate_number": "435",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/435",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/435",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp435.pdf",
+    "vendor_name": "SafeNet, Inc.",
+    "module_name": "SafeEnterprise™ Link Encryptors NRZ - H[1], NRZ - L[2], T1[3], E1 75ohm[4], E1 120ohm[5], RS-232[6], T3[7] and HSSI[8]",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "5/28/2004, 6/10/2004",
+    "validation_dates": [
+      "5/28/2004",
+      "6/10/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode) (Note: Refer to the cryptographic module’s security policy for the details on the letter x designation",
+    "description": "The SafeNet™ SafeEnterprise™ Link Encryptor's (SLE's) secure sensitive data transmitted over high-speed, point-to-point communication links. The system supports synchronous, full-duplex data rates up to 8 Mbps, and employs FIPS approved AES or Triple-DES algorithms. The SLE can be locally controlled or managed using the SafeNet™ SafeEnterprise™ Security Management Center (SMC), an SNMP-based security management system.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp435.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt435.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/28/2004",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "6/10/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SafeNet, Inc.",
+      "website_url": "http://www.safenet-inc.com",
+      "address_lines": [
+        "951 Aviation Pkwy",
+        "Suite 300",
+        "Morrisville, NC 27560",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Glenn Constable",
+      "contact_email": "gconstable@safenet-inc.com",
+      "contact_phone": "919-462-1900 x212"
+    },
+    "algorithms": []
+  }
+}

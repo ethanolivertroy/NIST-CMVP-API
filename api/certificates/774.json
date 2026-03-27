@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/774"
+  },
+  "certificate": {
+    "certificate_number": "774",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/774",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/774",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp774.pdf",
+    "vendor_name": "Sagem Orga",
+    "module_name": "J-IDMark 64 PIV",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "5/18/2007, 4/29/2008, 2/6/2014",
+    "validation_dates": [
+      "5/18/2007",
+      "4/29/2008",
+      "2/6/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The J-IDMark 64 PIV is a single chip cryptographic module, which combines a PIV FIPS 201 compliant applet (SP 800-73) loaded on J-IDMark 64 Open, a dual (contact & contactless) interface platform compliant with the latest Java CardTM 2.2/Global Platform 2.1.1 specifications, FIPS 140-2 Level 3 Approved and Level 4 Approved for physical security. Thus J-IDMark 64 PIV module is a reliable and standardized solution for PIV systems, which allow managing physical and logical access to Federal government facilities and systems, by help of identity credentials.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 4",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp774.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt774.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/18/2007",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/29/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/6/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Sagem Orga",
+      "website_url": "http://www.sagem-orga.com",
+      "address_lines": [
+        "Heinz-Nixdorf-Ring 1",
+        "33106 Paderborn",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "Swantje Missfeldt",
+      "contact_email": "info@sagem-orga.com",
+      "contact_phone": "+49 52 51 88 90"
+    },
+    "algorithms": []
+  }
+}

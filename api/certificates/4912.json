@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4912"
+  },
+  "certificate": {
+    "certificate_number": "4912",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4912",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4912",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4912.pdf",
+    "vendor_name": "SafeLogic Inc.",
+    "module_name": "CryptoComply for Java 140-3",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/5/2024, 5/23/2025",
+    "validation_dates": [
+      "12/5/2024",
+      "5/23/2025"
+    ],
+    "sunset_date": "7/28/2029",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "SafeLogic’s CryptoComply for Java 140-3 is designed to provide FIPS 140-3 validated cryptographic functionality and is available for licensing",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4912.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/5/2024",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "5/23/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "SafeLogic Inc.",
+      "website_url": "https://www.safelogic.com/",
+      "address_lines": [
+        "530 Lytton Ave",
+        "Suite 200",
+        "Palo Alto, CA 94301",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "SafeLogic Inside Sales",
+      "contact_email": "sales@safelogic.com",
+      "contact_phone": "844-436-2797"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

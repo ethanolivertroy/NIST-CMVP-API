@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4764"
+  },
+  "certificate": {
+    "certificate_number": "4764",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4764",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4764",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4764.pdf",
+    "vendor_name": "Samsung Electronics Co., Ltd.",
+    "module_name": "Samsung Kernel Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/16/2024, 7/9/2025, 9/8/2025",
+    "validation_dates": [
+      "8/16/2024",
+      "7/9/2025",
+      "9/8/2025"
+    ],
+    "sunset_date": "8/15/2029",
+    "caveat": "Interim Validation. When operated in approved mode",
+    "description": "Provides general purpose cryptographic services to services in the Linux kernel and user-space applications, intended to protect data in transit and at rest.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4764.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2024_010924_0336.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/16/2024",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      },
+      {
+        "date": "7/9/2025",
+        "type": "Update",
+        "lab": "Gossamer Security Solutions"
+      },
+      {
+        "date": "9/8/2025",
+        "type": "Update",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Samsung Electronics Co., Ltd.",
+      "website_url": "http://www.samsung.com",
+      "address_lines": [
+        "129, Samsung-ro, Yeongtong-gu",
+        "Suwon-si, Gyeonggi-do 16677",
+        "Korea"
+      ],
+      "country": "Korea",
+      "contact_name": "Dongwhan Lee",
+      "contact_email": "dw0603.lee@samsung.com",
+      "contact_phone": "82-10-3290-2156"
+    },
+    "algorithms": [
+      "AES",
+      "HMAC",
+      "SHA"
+    ]
+  }
+}

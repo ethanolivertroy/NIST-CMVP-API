@@ -1,10 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-22T04:00:30.734476Z",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
     "total_modules": 1077,
-    "total_historical_modules": 4115,
-    "total_modules_in_process": 331,
-    "total_certificates_with_algorithms": 378,
+    "total_historical_modules": 4125,
+    "total_modules_in_process": 333,
+    "total_certificates_with_algorithms": 375,
+    "total_certificate_details": 5202,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -184,21 +185,21 @@
       "Vendor Name_url": "#d13305",
       "Vendor Name": "Apple Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab  (2/13/2026)"
+      "Status": "Comment Resolution - CMVP  (3/25/2026)"
     },
     {
       "Module Name": "Apple corecrypto Module v18.3 [Intel, Kernel, Software, SL1]",
       "Vendor Name_url": "#d13262",
       "Vendor Name": "Apple Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab  (2/24/2026)"
+      "Status": "Comment Resolution - CMVP  (3/25/2026)"
     },
     {
       "Module Name": "Apple corecrypto Module v18.3 [Intel, User, Software, SL1]",
       "Vendor Name_url": "#d13261",
       "Vendor Name": "Apple Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP  (3/20/2026)"
+      "Status": "Comment Resolution - CMVP  (3/25/2026)"
     },
     {
       "Module Name": "Arista Crypto Module v3.0 [Software, Software IPsec, Web Portal]",
@@ -269,6 +270,13 @@
       "Vendor Name": "Barco n.v.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Comment Resolution - CMVP  (2/20/2026)"
+    },
+    {
+      "Module Name": "TASS Crypto Engine",
+      "Vendor Name_url": "#d13725",
+      "Vendor Name": "Beijing JN TASS Technology Co., Ltd.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Cost Recovery  (3/25/2026)"
     },
     {
       "Module Name": "VMware’s Linux Kernel Cryptographic Module",
@@ -387,7 +395,7 @@
       "Vendor Name_url": "#d13119",
       "Vendor Name": "Cisco Systems IncView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Resubmission  (2/13/2026)"
+      "Status": "Pending Review  (3/25/2026)"
     },
     {
       "Module Name": "CiscoSSL FIPS Provider",
@@ -660,7 +668,7 @@
       "Vendor Name_url": "#d13199",
       "Vendor Name": "DigiCert, Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP  (3/4/2026)"
+      "Status": "Comment Resolution - Lab  (3/23/2026)"
     },
     {
       "Module Name": "TM400ENB",
@@ -751,7 +759,7 @@
       "Vendor Name_url": "#d13074",
       "Vendor Name": "Fortinet Technologies IncView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Resubmission  (2/27/2026)"
+      "Status": "Pending Review  (3/23/2026)"
     },
     {
       "Module Name": "FortiAP 7.4",
@@ -867,17 +875,17 @@
     },
     {
       "Module Name": "BoringCrypto",
-      "Vendor Name_url": "#d13186",
-      "Vendor Name": "Google, LLCView Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Pending Resubmission  (11/4/2025)"
-    },
-    {
-      "Module Name": "BoringCrypto",
       "Vendor Name_url": "#d13434",
       "Vendor Name": "Google, LLCView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Resubmission  (2/13/2026)"
+      "Status": "Review  (3/23/2026)"
+    },
+    {
+      "Module Name": "BoringCrypto",
+      "Vendor Name_url": "#d13186",
+      "Vendor Name": "Google, LLCView Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Review  (3/23/2026)"
     },
     {
       "Module Name": "Inline Crypto Engine (ICE)",
@@ -989,7 +997,7 @@
       "Vendor Name_url": "#d13099",
       "Vendor Name": "IBM CorporationView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review  (3/19/2026)"
+      "Status": "Comment Resolution - Lab  (3/23/2026)"
     },
     {
       "Module Name": "IBM® Crypto for C",
@@ -1010,7 +1018,7 @@
       "Vendor Name_url": "#d12801",
       "Vendor Name": "Infinidat, Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP  (2/19/2026)"
+      "Status": "Finalization  (3/23/2026)"
     },
     {
       "Module Name": "Crypto Module for Intel® Alder Point PCH Converged Security and Manageability Engine (CSME)",
@@ -1227,7 +1235,7 @@
       "Vendor Name_url": "#d13479",
       "Vendor Name": "Legion of the Bouncy Castle Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (3/11/2026)"
+      "Status": "Review  (3/23/2026)"
     },
     {
       "Module Name": "OpenFIPS201 v2.0 PIV Applet on NXP P71D600",
@@ -1298,6 +1306,13 @@
       "Vendor Name": "Microsoft CorporationView Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Comment Resolution - Lab  (2/17/2026)"
+    },
+    {
+      "Module Name": "Microsoft HSM Cryptographic Module",
+      "Vendor Name_url": "#d13722",
+      "Vendor Name": "Microsoft CorporationView Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Cost Recovery  (3/25/2026)"
     },
     {
       "Module Name": "Microsoft SymCrypt Cryptographic Library",
@@ -1633,14 +1648,14 @@
       "Vendor Name_url": "#d13643",
       "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (12/11/2025)"
+      "Status": "Pending Resubmission  (3/25/2026)"
     },
     {
       "Module Name": "Qualcomm® Inline Crypto Engine (UFS)",
-      "Vendor Name_url": "#d13509",
+      "Vendor Name_url": "#d-9000",
       "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (3/6/2026)"
+      "Status": "Review  (12/15/2025)"
     },
     {
       "Module Name": "Qualcomm® Inline Crypto Engine (UFS)",
@@ -1651,10 +1666,10 @@
     },
     {
       "Module Name": "Qualcomm® Inline Crypto Engine (UFS)",
-      "Vendor Name_url": "#d-9000",
+      "Vendor Name_url": "#d13509",
       "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review  (12/15/2025)"
+      "Status": "Review  (3/23/2026)"
     },
     {
       "Module Name": "Qualcomm® Pseudo Random Number Generator",
@@ -1662,13 +1677,6 @@
       "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
       "Standard": "FIPS 140-3",
       "Status": "Pending Review  (12/1/2025)"
-    },
-    {
-      "Module Name": "Qualcomm® Pseudo Random Number Generator",
-      "Vendor Name_url": "#d13512",
-      "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (8/16/2025)"
     },
     {
       "Module Name": "Qualcomm® Pseudo Random Number Generator",
@@ -1689,7 +1697,21 @@
       "Vendor Name_url": "#d13191",
       "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP  (3/10/2026)"
+      "Status": "Finalization  (3/23/2026)"
+    },
+    {
+      "Module Name": "Qualcomm® Pseudo Random Number Generator",
+      "Vendor Name_url": "#d13721",
+      "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Cost Recovery  (3/23/2026)"
+    },
+    {
+      "Module Name": "Qualcomm® Pseudo Random Number Generator",
+      "Vendor Name_url": "#d13512",
+      "Vendor Name": "Qualcomm Technologies, Inc.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Pending Resubmission  (3/25/2026)"
     },
     {
       "Module Name": "Red Hat Enterprise Linux 9 - OpenSSL FIPS Provider",
@@ -1763,13 +1785,6 @@
     },
     {
       "Module Name": "Samsung Kernel Cryptographic Module",
-      "Vendor Name_url": "#d13357",
-      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (12/11/2025)"
-    },
-    {
-      "Module Name": "Samsung Kernel Cryptographic Module",
       "Vendor Name_url": "#d13555",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
@@ -1783,32 +1798,39 @@
       "Status": "Pending Review  (9/9/2025)"
     },
     {
+      "Module Name": "Samsung Kernel Cryptographic Module",
+      "Vendor Name_url": "#d13357",
+      "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
+      "Standard": "FIPS 140-3",
+      "Status": "Pending Review  (12/11/2025)"
+    },
+    {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs BM1743 Series",
       "Vendor Name_url": "#d13280",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review  (3/9/2026)"
+      "Status": "Comment Resolution - Lab  (3/24/2026)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs BM1743 Series",
       "Vendor Name_url": "#d13329",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review  (3/9/2026)"
+      "Status": "Comment Resolution - Lab  (3/24/2026)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs BM1743 Series",
       "Vendor Name_url": "#d13295",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review  (3/9/2026)"
+      "Status": "Comment Resolution - Lab  (3/24/2026)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
-      "Vendor Name_url": "#d13563",
+      "Vendor Name_url": "#d13612",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (11/25/2025)"
+      "Status": "Pending Review  (1/1/2026)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
@@ -1826,24 +1848,24 @@
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
-      "Vendor Name_url": "#d13612",
+      "Vendor Name_url": "#d13563",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (1/1/2026)"
+      "Status": "Review  (3/25/2026)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
       "Vendor Name_url": "#d13508",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (8/9/2025)"
+      "Status": "Review  (3/25/2026)"
     },
     {
       "Module Name": "Samsung NVMe TCG Opal SSC SEDs PM1753 Series",
       "Vendor Name_url": "#d13275",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review  (3/9/2026)"
+      "Status": "Comment Resolution - Lab  (3/24/2026)"
     },
     {
       "Module Name": "Samsung SAS TCG Enterprise SSC SEDs PM1653a Series",
@@ -1857,7 +1879,7 @@
       "Vendor Name_url": "#d13543",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (8/30/2025)"
+      "Status": "Review  (3/25/2026)"
     },
     {
       "Module Name": "Samsung SCrypto Cryptographic Module",
@@ -1871,7 +1893,7 @@
       "Vendor Name_url": "#d13206",
       "Vendor Name": "Samsung Electronics Co., Ltd.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - Lab  (3/18/2026)"
+      "Status": "Comment Resolution - CMVP  (3/23/2026)"
     },
     {
       "Module Name": "Ultrastar® DC SN650 BiCS5 NVMe® TCG Opal SSD, SED",
@@ -1913,14 +1935,14 @@
       "Vendor Name_url": "#d13220",
       "Vendor Name": "SEALSQView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (3/20/2026)"
+      "Status": "Review  (3/23/2026)"
     },
     {
       "Module Name": "VaultIC408 1.2.4 - Level 2",
       "Vendor Name_url": "#d13221",
       "Vendor Name": "SEALSQView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (3/20/2026)"
+      "Status": "Review  (3/23/2026)"
     },
     {
       "Module Name": "Securosys Primus HSM",
@@ -2032,7 +2054,7 @@
       "Vendor Name_url": "#d13068",
       "Vendor Name": "SUSE LLCView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Review  (1/15/2026)"
+      "Status": "Comment Resolution - Lab  (3/23/2026)"
     },
     {
       "Module Name": "SUSE Linux Enterprise Libica Cryptographic Module",
@@ -2186,7 +2208,7 @@
       "Vendor Name_url": "#d13153",
       "Vendor Name": "TrellixView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP  (1/12/2026)"
+      "Status": "Comment Resolution - Lab  (3/23/2026)"
     },
     {
       "Module Name": "Trellix Intrusion Prevention System Sensor NS7600",
@@ -2221,7 +2243,7 @@
       "Vendor Name_url": "#d13228",
       "Vendor Name": "Utimaco IS GmbHView Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP  (3/17/2026)"
+      "Status": "Comment Resolution - Lab  (3/23/2026)"
     },
     {
       "Module Name": "u.trust Anchor CSe",
@@ -2287,13 +2309,6 @@
       "Status": "Comment Resolution - CMVP  (3/17/2026)"
     },
     {
-      "Module Name": "WinMagic Cryptographic Module for Windows",
-      "Vendor Name_url": "#d13056",
-      "Vendor Name": "WinMagic CorpView Contacts",
-      "Standard": "FIPS 140-3",
-      "Status": "Comment Resolution - CMVP  (3/17/2026)"
-    },
-    {
       "Module Name": "wolfCrypt",
       "Vendor Name_url": "#d12904",
       "Vendor Name": "wolfSSL Inc.View Contacts",
@@ -2305,7 +2320,7 @@
       "Vendor Name_url": "#d13217",
       "Vendor Name": "Yubico, Inc.View Contacts",
       "Standard": "FIPS 140-3",
-      "Status": "Pending Review  (3/11/2026)"
+      "Status": "Review  (3/25/2026)"
     },
     {
       "Module Name": "YubiKey 5 Cryptographic Module",

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5045"
+  },
+  "certificate": {
+    "certificate_number": "5045",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5045",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5045",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5045.pdf",
+    "vendor_name": "F5, Inc.",
+    "module_name": "F5OS-A Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "7/23/2025",
+    "validation_dates": [
+      "7/23/2025"
+    ],
+    "sunset_date": "7/22/2030",
+    "caveat": "When operated in approved mode and when installed, initialized, and configured as specified in Section 11 of the Security Policy with tamper evident labels contained in F5-ADD-BIG-FIPS140 kit and installed as indicated in the Security Policy section 7.",
+    "description": "F5OS-A Cryptographic Module Platform layer services for F5 appliance platforms",
+    "security_level_exceptions": [
+      "Software/Firmware security: N/A",
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5045.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/23/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "F5, Inc.",
+      "website_url": "https://csrc.nist.gov/f5.com",
+      "address_lines": [
+        "801 Fifth Ave",
+        "Seattle, WA 98104",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Maryrita Steinhour",
+      "contact_email": "fipsf5osa@f5.com",
+      "contact_phone": "206-272-735"
+    },
+    "algorithms": []
+  }
+}

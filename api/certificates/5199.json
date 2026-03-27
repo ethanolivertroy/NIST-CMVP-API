@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5199"
+  },
+  "certificate": {
+    "certificate_number": "5199",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5199",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5199",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5199.pdf",
+    "vendor_name": "HP Inc",
+    "module_name": "HP Anyware Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/18/2026",
+    "validation_dates": [
+      "3/18/2026"
+    ],
+    "sunset_date": "7/10/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "The HP Anyware Cryptographic Module is a comprehensive suite of FIPS Approved algorithms. All key sizes and modes have been implemented to allow flexibility and efficiency.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5199.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/18/2026",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "HP Inc",
+      "website_url": "http://www.hp.com/us-en/services/workforce-solutions/workforce-computing/digital-workspaces/anyware-trust-center.html",
+      "address_lines": [
+        "1501 Page Mill Rd",
+        "Palo Alto, CA 94304",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Paul Pavlik",
+      "contact_email": "Paul.pavlik@hp.com",
+      "contact_phone": "289-374-6180"
+    },
+    "algorithms": []
+  }
+}

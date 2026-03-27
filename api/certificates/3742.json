@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3742"
+  },
+  "certificate": {
+    "certificate_number": "3742",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3742",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3742",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3742.pdf",
+    "vendor_name": "Samsung Electronics Co., Ltd.",
+    "module_name": "Samsung NVMe TCG Opal SSC SEDs PM983 Series",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "11/13/2020",
+    "validation_dates": [
+      "11/13/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in the Security Rules Section of the Security Policy",
+    "description": "Samsung NVMe TCG Opal SSC SEDs PM983 Series are a high-performance Self-Encrypting SSDs supporting NVMe Interface that provides on-the-fly encryption/decryption of user data without performance loss. It implements AES256-XTS for user data encryption, ECDSA P-256 for FW authentication, and Hash_DRBG for key generation.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3742.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2020_011220_0856_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/13/2020",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Samsung Electronics Co., Ltd.",
+      "website_url": "http://www.samsung.com",
+      "address_lines": [
+        "1-1, Samsungjeonja-ro",
+        "Hwaseong-si, Gyeonggi-do 18448",
+        "Korea"
+      ],
+      "country": "Korea",
+      "contact_name": "Jisoo Kim",
+      "contact_email": "jisoo74.kim@samsung.com",
+      "contact_phone": "82-31-8096-2832"
+    },
+    "algorithms": []
+  }
+}

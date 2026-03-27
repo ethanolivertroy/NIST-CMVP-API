@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/367"
+  },
+  "certificate": {
+    "certificate_number": "367",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/367",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/367",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp367.pdf",
+    "vendor_name": "3e Technologies International, Inc.",
+    "module_name": "3e-010F Cryptographic Client Software and 3e-010F-C Cryptographic Client Software for Intel® PRO/Wireless 2200BG Network Connection and Intel® PRO/Wireless 2915ABG Network Connection",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "12/16/2003, 1/20/2004, 1/29/2004, 5/25/2004, 5/27/2004, 11/4/2004, 11/18/2004",
+    "validation_dates": [
+      "12/16/2003",
+      "1/20/2004",
+      "1/29/2004",
+      "5/25/2004",
+      "5/27/2004",
+      "11/4/2004",
+      "11/18/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The 3e-010f Crypto Client Software provides advanced wireless RF data security with AES/3DES encryption plus Dynamic Key generation plus session protection. The advanced security options include the standards as established by FIPS-140-2 -- the Federal Information Processing Standards mandated by the US Department of Defense for use in wireless environments.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp367.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt367.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/16/2003",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "1/20/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/29/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/25/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/27/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "11/4/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "11/18/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "3e Technologies International, Inc.",
+      "website_url": "http://www.3eti.com",
+      "address_lines": [
+        "700 King Farm Blvd.",
+        "Suite 600",
+        "Rockville, MD 20850",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ryon Coleman",
+      "contact_email": "rcoleman@3eti.com",
+      "contact_phone": "301-944-1403"
+    },
+    "algorithms": []
+  }
+}

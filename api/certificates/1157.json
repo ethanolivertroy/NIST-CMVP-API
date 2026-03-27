@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1157"
+  },
+  "certificate": {
+    "certificate_number": "1157",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1157",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1157",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1157.pdf",
+    "vendor_name": "Oracle Corporation",
+    "module_name": "Sun StorageTek™ T10000A Tape Drive",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/16/2009, 9/2/2009, 5/5/2010",
+    "validation_dates": [
+      "7/16/2009",
+      "9/2/2009",
+      "5/5/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Sun StorageTek™ T10000A tape drive provides 500 GB native capacity and 120 MB/sec throughput. The T10000A is designed for maximum security and performance in enterprise-level applications. It employs AES-256 encryption to protect and authenticate customer data while also using AES-256 to provide secure and authenticated transmission of key material. Designed for maximum performance, the drive allows the use of multiple keys per tape with a cache memory to minimize the overhead of key transmission. Works seamlessly with the Sun KMA 2.x to provide a secure end-to-end management solution.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Design Assurance: Level 2"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1157.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1157.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/16/2009",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/2/2009",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/5/2010",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Oracle Corporation",
+      "website_url": "http://www.oracle.com",
+      "address_lines": [
+        "500 Eldorado Blvd.",
+        "Bldg 5",
+        "Broomfield, CO 80021",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Hostetter",
+      "contact_email": "david.hostetter@oracle.com",
+      "contact_phone": "303-272-7126"
+    },
+    "algorithms": []
+  }
+}

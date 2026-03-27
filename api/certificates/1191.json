@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1191"
+  },
+  "certificate": {
+    "certificate_number": "1191",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1191",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1191",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1191.pdf",
+    "vendor_name": "SanDisk Corporation",
+    "module_name": "TrustedFlash v1.0 - microSD",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "9/21/2009, 11/20/2009",
+    "validation_dates": [
+      "9/21/2009",
+      "11/20/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "TrustedFlash™ v1.0 - microSD is SanDisk's proprietary TrustedFlash v1.0 security technology implemented on the microSD form factor which provides a platform for the implementation of an advance security technology that complies with FIPS 140-2 level 3 requirements. TrustedFlash provides authentication and data encryption that can be used with secured applications including e-commerce, protected digital content distribution and enabling users to play protected content, services and applications on authorized TrustedFlash-enabled devices, such as mobile phones, portable media players, etc.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1191.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1191.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/21/2009",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "11/20/2009",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SanDisk Corporation",
+      "website_url": "http://www.sandisk.com",
+      "address_lines": [
+        "601 McCarthy Boulevard",
+        "Milpitas, CA 95035",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Rotem Sela",
+      "contact_email": "rotem.sela@sandisk.com",
+      "contact_phone": "+972-4-9078811"
+    },
+    "algorithms": []
+  }
+}

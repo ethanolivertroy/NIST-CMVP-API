@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4321"
+  },
+  "certificate": {
+    "certificate_number": "4321",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4321",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4321",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4321.pdf",
+    "vendor_name": "Dell, Inc.",
+    "module_name": "Dell Crypto Library for Dell iDRAC and Dell OME-M",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/6/2022",
+    "validation_dates": [
+      "10/6/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "The Dell Crypto Library for Dell iDRAC and Dell OME-M provides cryptography to Dell iDRAC and Dell OME-M lifecycle controllers providing them with the protection afforded by industry-standard, government-approved algorithms to ensure secure, remote management. Dell iDRAC, Dell CMC, and Dell OME-M leverage the Dell Crypto Library for Dell iDRAC and Dell OME-M to ensure use of FIPS 140-2 validated cryptography.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4321.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2022_021122_1233_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/6/2022",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Dell, Inc.",
+      "website_url": "http://www.dell.com",
+      "address_lines": [
+        "1 Dell Way",
+        "Round Rock, TX 78682",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Colby Harper",
+      "contact_email": "colby.harper@dell.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

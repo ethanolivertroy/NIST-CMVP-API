@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/510"
+  },
+  "certificate": {
+    "certificate_number": "510",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/510",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/510",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp510.pdf",
+    "vendor_name": "AEP Networks",
+    "module_name": "SmartGate",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "2/28/2005, 3/2/2005, 5/23/2006",
+    "validation_dates": [
+      "2/28/2005",
+      "3/2/2005",
+      "5/23/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "SmartGate is one of the most comprehensive security products on the market. It is a virtual private network (VPN) software that provides secure encrypted channels between users outside your network and the applications and data contained within your network. Fine-grain access control ensures that authorized users are allowed access to specific applications only.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp510.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt510.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/28/2005",
+        "type": "Initial",
+        "lab": "Aspect"
+      },
+      {
+        "date": "3/2/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/23/2006",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "AEP Networks",
+      "website_url": "http://www.v-one.com",
+      "address_lines": [
+        "40 West Gude Drive",
+        "Suite 100",
+        "Rockville, MD 20850",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chris Brook",
+      "contact_email": "cbrook@v-one.com",
+      "contact_phone": "240-399-1214"
+    },
+    "algorithms": []
+  }
+}

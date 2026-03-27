@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4469"
+  },
+  "certificate": {
+    "certificate_number": "4469",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4469",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4469",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4469.pdf",
+    "vendor_name": "HP, Inc.",
+    "module_name": "HPI Unified Communications Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware-Hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/10/2023, 1/21/2026",
+    "validation_dates": [
+      "4/10/2023",
+      "1/21/2026"
+    ],
+    "sunset_date": "5/20/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The HPI Unified Cryptographic Library is a component of HPI's Unified Communications products and solutions. It provides the underlying cryptographic primitives as well as the functionality necessary to support the use of industry-standard secure communications protocols.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4469.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2023_010523_0646.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/10/2023",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "1/21/2026",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "HP, Inc.",
+      "website_url": "http://www.hp.com",
+      "address_lines": [
+        "345 Encinal Street",
+        "Santa Cruz, CA 95060",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

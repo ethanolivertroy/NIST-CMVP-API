@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4572"
+  },
+  "certificate": {
+    "certificate_number": "4572",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4572",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4572",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4572.pdf",
+    "vendor_name": "Aruba, a Hewlett Packard Enterprise Company",
+    "module_name": "Aruba 2930F, 2930M, 3810M and 5400R zl2 Switch Series",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/31/2023",
+    "validation_dates": [
+      "8/31/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. When initialized and configured as specified in Section 10 of the Security Policy",
+    "description": "The Aruba 2930F, 2930M and 3810M Switch Series are designed for customers creating digital workplaces that are optimized for mobile users with an integrated wired and wireless approach. The 2930F is basic Layer 3 switch that supports 10GbE uplinks, PoE+, robust QoS, RIP Routing, Access OSPF, and IPV6, ACLs. The module delivers consistent wired/wireless user experience with unified management tools such as Aruba ClearPass Policy Manager and Aruba Airwave. The 2930M and 3810M are Layer 3 access switches that support 10GbE and 40GbE uplinks, Dual Modular Power Supplies, full PoE+, HPE Smart Rat",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4572.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2023_010923_0844.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/31/2023",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Aruba, a Hewlett Packard Enterprise Company",
+      "website_url": "http://www.arubanetworks.com",
+      "address_lines": [
+        "6280 America Center Dr.",
+        "San Jose, CA 95002",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kevin Micciche",
+      "contact_email": "aruba-product-security@hpe.com",
+      "contact_phone": "404-648-0062"
+    },
+    "algorithms": []
+  }
+}

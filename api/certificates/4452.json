@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4452"
+  },
+  "certificate": {
+    "certificate_number": "4452",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4452",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4452",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4452.pdf",
+    "vendor_name": "Symantec, A Division of Broadcom",
+    "module_name": "Symantec Management Center Virtual Appliance",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "3/15/2023",
+    "validation_dates": [
+      "3/15/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode.",
+    "description": "Symantec Management Center is a powerful, unified management platform that gives you centralized visibility over Symantec’s product portfolio. With a single pane of glass, you can see your Symantec deployments, including ProxySG, SSL Visibility Appliance, Content Analysis, Malware Analysis and Reporter. You can also scale deployments and apply powerful proxy policies throughout your environment that address your specific needs and ensure the consistent application of web security and governance.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4452.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2023_030423_0646.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/15/2023",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Symantec, A Division of Broadcom",
+      "website_url": "http://www.broadcom.com",
+      "address_lines": [
+        "1320 Ridder Park Dr.",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ian Hall",
+      "contact_email": "symc-fed-certs.pdl@broadcom.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

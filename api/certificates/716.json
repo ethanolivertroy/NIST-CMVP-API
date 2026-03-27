@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/716"
+  },
+  "certificate": {
+    "certificate_number": "716",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/716",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/716",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp716.pdf",
+    "vendor_name": "D'Crypt Private Limited",
+    "module_name": "d'Cryptor ZE Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "11/6/2006",
+    "validation_dates": [
+      "11/6/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The d'Cryptor ZE Cryptographic Module is a micro-token targeted at high security embedded applications. Central to the next generation of d'Cryptor products where it serves as a secure coprocessor, the ZE provides cryptographic/key management services, secure key storage and supports interfaces such as UARTs, SSP, infrared, contact/contactless Smartcard and GPIOs.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp716.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt716.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/6/2006",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "D'Crypt Private Limited",
+      "website_url": "http://www.d-crypt.com",
+      "address_lines": [
+        "20 Ayer Rajah Crescent",
+        "#08-08 Technopreneur Centre",
+        "Singapore 139964",
+        "Singapore"
+      ],
+      "country": "Singapore",
+      "contact_name": "Quek Gim Chye",
+      "contact_email": "gim_chye@d-crypt.com",
+      "contact_phone": "(65) 6776-9210"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5174"
+  },
+  "certificate": {
+    "certificate_number": "5174",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5174",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5174",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5174.pdf",
+    "vendor_name": "N-able Technologies Inc.",
+    "module_name": "N-able Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/9/2026",
+    "validation_dates": [
+      "3/9/2026"
+    ],
+    "sunset_date": "8/26/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The N-able Cryptographic Module is a standards-based cryptographic engine for N-able Take Control. The module delivers core cryptographic functions which are used in the context of remote control sessions.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5174.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/9/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "N-able Technologies Inc.",
+      "website_url": "https://www.n-able.com",
+      "address_lines": [
+        "30 Corporate Drive",
+        "Suite 400",
+        "Burlington, MA 01803",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Brett Hennington",
+      "contact_email": "brett.hennington@n-able.com",
+      "contact_phone": "828-238-3281"
+    },
+    "algorithms": []
+  }
+}

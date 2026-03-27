@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1346"
+  },
+  "certificate": {
+    "certificate_number": "1346",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1346",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1346",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1346.pdf",
+    "vendor_name": "Tripwire, Inc.",
+    "module_name": "Tripwire Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "6/22/2010, 7/2/2010",
+    "validation_dates": [
+      "6/22/2010",
+      "7/2/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Tripwire Cryptographic Module supports many FIPS approved cryptographic operations, providing other Tripwire products and Java-based applications access to these algorithms.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1346.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1346.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/22/2010",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "7/2/2010",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Tripwire, Inc.",
+      "website_url": "http://www.tripwire.com",
+      "address_lines": [
+        "101 SW Main St.",
+        "Suite 1500",
+        "Portland, OR 97204",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Will Claridge / Sr. Dir. Engineering",
+      "contact_email": "cwill@tripwire.com",
+      "contact_phone": "503-276-7594"
+    },
+    "algorithms": []
+  }
+}

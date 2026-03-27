@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5191"
+  },
+  "certificate": {
+    "certificate_number": "5191",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5191",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5191",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5191.pdf",
+    "vendor_name": "Greymatter.io Inc.",
+    "module_name": "Greymatter.io Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/13/2026",
+    "validation_dates": [
+      "3/13/2026"
+    ],
+    "sunset_date": "8/26/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Greymatter.io Cryptographic Module is a standards-based cryptographic engine for servers and appliances. The module delivers core cryptographic functions to server platforms and features robust algorithm support.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5191.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/13/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Greymatter.io Inc.",
+      "website_url": "https://greymatter.io",
+      "address_lines": [
+        "4201 Wilson Blvd, 3rd Floor",
+        "Arlington, VA 22203",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Christopher Holmes",
+      "contact_email": "chris.holmes@greymatter.io",
+      "contact_phone": "703-772-0862"
+    },
+    "algorithms": []
+  }
+}

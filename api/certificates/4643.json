@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4643"
+  },
+  "certificate": {
+    "certificate_number": "4643",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4643",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4643",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4643.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco ASR 1000 Series Routers without MACSEC",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/25/2023",
+    "validation_dates": [
+      "10/25/2023"
+    ],
+    "sunset_date": "7/18/2026",
+    "caveat": "When operated in FIPS mode, installed, initialized and configured as specified in Section 9 of the Security Policy",
+    "description": "The Cisco ASR 1000 Series Routers accelerate services by offering performance and resiliency with optimized, intelligent services; establishing a benchmark for price-to-performance offerings in the enterprise routing, service provider edge, and broadband aggregation segments; facilitating significant network innovations in areas such as secure WAN aggregation, managed customer-premises-equipment services, and service provider edge services; reducing operating expenses and capital expenditures by facilitating managed or hosted services over identical architectures and operating environments.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4643.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2023_011123_0711.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/25/2023",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Dr.",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Laura Stubbs",
+      "contact_email": "Lastubbs@cisco.com",
+      "contact_phone": "+1 (703) 362-9377"
+    },
+    "algorithms": []
+  }
+}

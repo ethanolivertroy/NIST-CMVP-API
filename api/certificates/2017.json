@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2017"
+  },
+  "certificate": {
+    "certificate_number": "2017",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2017",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2017",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2017.pdf",
+    "vendor_name": "Motorola Solutions, Inc.",
+    "module_name": "AP 71xx Series Wireless Access Points - AP 7131N, AP 7131N-GR, AP 7161, AP 7181",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/7/2013, 12/20/2013",
+    "validation_dates": [
+      "11/7/2013",
+      "12/20/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The AP-71xx Series 802.11n Wireless Access Points deliver the high throughput, coverage, and resiliency required to build an all-wireless enterprise. The dual and tri-radio options provide simultaneous support for high-speed wireless voice and data services, self-healing mesh networking and wireless intrusion detection/prevention services.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 2",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2017.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0035.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/7/2013",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "12/20/2013",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Motorola Solutions, Inc.",
+      "website_url": "http://www.motorolasolutions.com",
+      "address_lines": [
+        "6480 Via Del Oro",
+        "San Jose, CA 95119",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Udayan Borkar",
+      "contact_email": "Udayan.Borkar@motorolasolutions.com",
+      "contact_phone": "408-528-2361"
+    },
+    "algorithms": []
+  }
+}

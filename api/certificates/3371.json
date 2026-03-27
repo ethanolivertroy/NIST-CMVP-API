@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3371"
+  },
+  "certificate": {
+    "certificate_number": "3371",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3371",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3371",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3371.pdf",
+    "vendor_name": "Geotab Inc.",
+    "module_name": "Geotab Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "2/12/2019, 4/26/2023",
+    "validation_dates": [
+      "2/12/2019",
+      "4/26/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Geotab Cryptographic Module provides a library of functions to perform general purpose cryptographic services.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3371.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FebConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/12/2019",
+        "type": "Initial",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "4/26/2023",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Geotab Inc.",
+      "website_url": "http://www.geotab.com",
+      "address_lines": [
+        "2440 Winston Park Drive",
+        "Oakville, Ontario L6H 7V2",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Alex Sukhov",
+      "contact_email": "embeddedsecurity@geotab.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

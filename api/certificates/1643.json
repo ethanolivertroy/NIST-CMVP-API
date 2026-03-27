@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1643"
+  },
+  "certificate": {
+    "certificate_number": "1643",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1643",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1643",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1643.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco Common Cryptographic Module (C3M)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/29/2011, 2/23/2012",
+    "validation_dates": [
+      "11/29/2011",
+      "2/23/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Cisco Common Cryptographic Module (C3M) is a software library that provides cryptographic services to a vast array of Cisco's networking and collaboration products. The module provides FIPS validated cryptographic algorithms for services such as sRTP, SSH, TLS, 802.1x etc. The module does not implement any of the protocols directly. Instead, it provides the cryptographic primitives and functions to allow a developer to implement various protocols.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1643.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0011.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/29/2011",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "2/23/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Drive",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

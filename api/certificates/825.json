@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/825"
+  },
+  "certificate": {
+    "certificate_number": "825",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/825",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/825",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp825.pdf",
+    "vendor_name": "Microsoft Corporation",
+    "module_name": "Microsoft Windows CE and Windows Mobile Enhanded Cryptographic Provider 6.00.1937 and Microsoft Windows Embedded Compact Enhanced Cryptographic Provider 7.00.1687",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "8/27/2007, 11/26/2007, 2/21/2008, 1/16/2012",
+    "validation_dates": [
+      "8/27/2007",
+      "11/26/2007",
+      "2/21/2008",
+      "1/16/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Microsoft Windows Embedded Compact Enhanced Cryptographic Provider 7.00.1687 and the Microsoft Windows CE and Windows Mobile Enhanced Cryptographic Provider 6.00.1937 (RSAENH) are general-purpose, software-based, cryptographic modules for Windows Embedded Compact. Like cryptographic providers that ship with Microsoft Windows Embedded Compact, RSAENH encapsulates several different cryptographic algorithms in an easy-to-use cryptographic module accessible via the Microsoft CryptoAPI. It can be dynamically linked into applications by software developers to permit the use of general-purpose cryptography. RSAENH meets the Level 1 FIPS 140-2 Validation requirements.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp825.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt825.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/27/2007",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "11/26/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/21/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/16/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Microsoft Corporation",
+      "website_url": "http://www.microsoft.com",
+      "address_lines": [
+        "One Microsoft Way",
+        "Redmond, WA 98052-6399",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kevin Michelizzi",
+      "contact_email": "kevin.michelizzi@microsoft.com",
+      "contact_phone": "425-707-1227"
+    },
+    "algorithms": []
+  }
+}

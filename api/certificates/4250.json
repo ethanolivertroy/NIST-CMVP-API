@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4250"
+  },
+  "certificate": {
+    "certificate_number": "4250",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4250",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4250",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4250.pdf",
+    "vendor_name": "Crypto4A Technologies Inc.",
+    "module_name": "QASM Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "6/13/2022",
+    "validation_dates": [
+      "6/13/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode with the tamper evident seals installed as indicated in the Security Policy",
+    "description": "The QASM Cryptographic Module is a high-assurance, tamper-resistant Hardware Security Module (HSM) which secures sensitive data and critical applications by storing, protecting and managing cryptographic keys. It provides end users with industry-leading security and performance. The QASM can be embedded into the QxEDGE family of security appliances for FIPS 140-2 validated key security or be used as a standalone co-processor for an external computing system using a docking-station adapter.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4250.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2022_010722_0704_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/13/2022",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Crypto4A Technologies Inc.",
+      "website_url": "http://crypto4a.com",
+      "address_lines": [
+        "1550A Laperriere Ave",
+        "Suite 201",
+        "Ottawa, ON K1Z 7T2",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Bruno Couillard",
+      "contact_email": "bruno@crypto4a.com",
+      "contact_phone": "+1(819) 743-0381"
+    },
+    "algorithms": []
+  }
+}

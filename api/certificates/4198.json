@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4198"
+  },
+  "certificate": {
+    "certificate_number": "4198",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4198",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4198",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4198.pdf",
+    "vendor_name": "Ezurio",
+    "module_name": "Summit Linux FIPS Core Crypto Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/21/2022, 4/12/2024",
+    "validation_dates": [
+      "4/21/2022",
+      "4/12/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. When installed, initialized and configured as specified in Section 10.1 of the Security Policy.",
+    "description": "The Summit FIPS Core Crypto Module is defined as a Software, Multi-chip Standalone module running on Ezurio's WB45NBT wireless bridge. This solution is equipped with a Microchip AT91SAM9G (ARM926EJ-S) processor.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4198.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/21/2022",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "4/12/2024",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Ezurio",
+      "website_url": "http://www.ezurio.com",
+      "address_lines": [
+        "50 South Main Street",
+        "Suite 1100",
+        "Akron, OH 44308",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dan Kephart",
+      "contact_email": "PSIRT.FIPS@ezurio.com",
+      "contact_phone": "(330) 434-7929"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4713"
+  },
+  "certificate": {
+    "certificate_number": "4713",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4713",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4713",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4713.pdf",
+    "vendor_name": "Utility Associates, Inc",
+    "module_name": "Utility Associates Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/28/2024",
+    "validation_dates": [
+      "6/28/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys",
+    "description": "Utility Associates Cryptographic Module is a standards-based cryptographic engine for servers and appliances. The module delivers core cryptographic functions to server platforms and features robust algorithm support. Utility Associates Cryptographic Module offloads functions for secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4713.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2024_010724_1153.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/28/2024",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Utility Associates, Inc",
+      "website_url": "http://www.utility.com",
+      "address_lines": [
+        "250 E. Ponce de Leon Avenue",
+        "Decatur, GA 30030",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Garrett Basil",
+      "contact_email": "gbasil@utility.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

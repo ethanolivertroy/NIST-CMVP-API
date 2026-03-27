@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4734"
+  },
+  "certificate": {
+    "certificate_number": "4734",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4734",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4734",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4734.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Firepower Next-Generation IPS Virtual VMware Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/22/2024",
+    "validation_dates": [
+      "7/22/2024"
+    ],
+    "sunset_date": "7/21/2029",
+    "caveat": "Interim validation. When installed, initialized and configured as specified in section \"Secure Operation\" of the Security Policy and operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "The virtualized offering of the Cisco FirePOWER next-generation IPS (NGIPS) solution providing the Industry-leading threat protection. Real-time contextual awareness. Full-stack visibility. Intelligent security automation. This virtualized highly effective intrusion prevention system provides reliable performance and a low total cost of ownership. Threat protection can be expanded with optional subscription licenses to provide Advanced Malware Protection (AMP), application visibility and control, and URL filtering capabilities.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4734.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2024_010824_1146.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/22/2024",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 W Tasman Drive",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": "984-216-2022"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

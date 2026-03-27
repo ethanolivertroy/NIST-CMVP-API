@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1999"
+  },
+  "certificate": {
+    "certificate_number": "1999",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1999",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1999",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1999.pdf",
+    "vendor_name": "Thales Communications, Inc.",
+    "module_name": "Liberty™ Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "9/17/2013",
+    "validation_dates": [
+      "9/17/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS Mode",
+    "description": "The Liberty™ Cryptographic Module is a firmware stand alone executable module which provides FIPS 140-2 Level 1 certified cryptographic functionality for devices that utilize the APCO project 25 standard. The Liberty™ Cryptographic Module uses Green Hills Integrity™ address space seperation to provide secure isolation of the cryptographic module without requiring a separate cryptographic hardware module.",
+    "security_level_exceptions": [
+      "Tested: Thales Liberty Radio PRC7332 with Green Hills INTEGRITY Version 5.0.10"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1999.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0033.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/17/2013",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Thales Communications, Inc.",
+      "website_url": "http://www.thalescomminc.com",
+      "address_lines": [
+        "22605 Gateway Center Drive",
+        "Clarksburg, MD 20871",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Darlo Concepcion",
+      "contact_email": "Darlo.Concepcion@thalescomminc.com",
+      "contact_phone": "240-864-7866"
+    },
+    "algorithms": []
+  }
+}

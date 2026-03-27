@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1237"
+  },
+  "certificate": {
+    "certificate_number": "1237",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1237",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1237",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1237.pdf",
+    "vendor_name": "Research In Motion Ltd.",
+    "module_name": "BlackBerry Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "12/7/2009",
+    "validation_dates": [
+      "12/7/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "BlackBerry® is the leading wireless enterprise solution that allows users to stay connected with secure, wireless access to email, corporate data, phone, web and organizer features. BlackBerry® is a totally integrated package that includes hardware, software and service, providing a complete end-to-end solution. The BlackBerry½ Cryptographic Library is a software module that provides cryptographic services to many BlackBerry½ desktop products such as the BlackBerry½ Enterprise Server, BlackBerry½ Desktop Software, and many other BlackBerry½ products.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1237.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1237.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/7/2009",
+        "type": "Initial",
+        "lab": "DOMUS"
+      }
+    ],
+    "vendor": {
+      "name": "Research In Motion Ltd.",
+      "website_url": "http://www.rim.com",
+      "address_lines": [
+        "295 Phillip Street",
+        "Waterloo, Ontario N2L 3W8",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Certifications Team",
+      "contact_email": "certifications@rim.com",
+      "contact_phone": "519-888-7465 x72921"
+    },
+    "algorithms": []
+  }
+}

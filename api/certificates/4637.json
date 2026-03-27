@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4637"
+  },
+  "certificate": {
+    "certificate_number": "4637",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4637",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4637",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4637.pdf",
+    "vendor_name": "Aruba, a Hewlett Packard Enterprise company",
+    "module_name": "Aruba Virtual and Hardware Mobility Master Appliances with ArubaOS FIPS Firmware",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/12/2023",
+    "validation_dates": [
+      "10/12/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. When installed, initialized and configured as specified in Section 9 of the Security Policy",
+    "description": "Aruba's family of Mobility Masters simplify the management of multiple Aruba controllers running ArubaOS. Key features include a centralized dashboard to easily see and manage controllers, configuration hierarchy to customize deployments for various sites, and live firmware and feature upgrades to improve network reliability during active user sessions. The addition of licensing pools simplifies the transfer of licenses between different controllers to quickly address expanded deployment needs.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4637.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2023_011123_0711.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/12/2023",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Aruba, a Hewlett Packard Enterprise company",
+      "website_url": "http://www.arubanetworks.com",
+      "address_lines": [
+        "6280 America Center Dr",
+        "San Jose, CA 95002",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kevin Micciche",
+      "contact_email": "kevin.micciche@hpe.com",
+      "contact_phone": "404-648-0062"
+    },
+    "algorithms": []
+  }
+}

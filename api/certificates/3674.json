@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3674"
+  },
+  "certificate": {
+    "certificate_number": "3674",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3674",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3674",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3674.pdf",
+    "vendor_name": "FUJIFILM Business Innovation Corp.",
+    "module_name": "FUJIFILM BI Cryptographic Kernel Module for A57",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/23/2020, 4/16/2021, 4/28/2021",
+    "validation_dates": [
+      "6/23/2020",
+      "4/16/2021",
+      "4/28/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The FUJIFILM BI Cryptographic Kernel Module for A57 is a kernel module which operates as callback functions of WindRiver® Linux CryptoAPI.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3674.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2020_010720_0752.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/23/2020",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      },
+      {
+        "date": "4/16/2021",
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
+      },
+      {
+        "date": "4/28/2021",
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "FUJIFILM Business Innovation Corp.",
+      "website_url": "http://www.fujifilm.com/fb/eng",
+      "address_lines": [
+        "6-1, Minatomirai, Nishi-ku",
+        "Yokohama-shi, Kanagawa 220-8668",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "Yoshinori Ando",
+      "contact_email": "yoshinori.ando.tk@fujifilm.com",
+      "contact_phone": "+81-45-755-5504"
+    },
+    "algorithms": []
+  }
+}

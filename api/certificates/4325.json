@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4325"
+  },
+  "certificate": {
+    "certificate_number": "4325",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4325",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4325",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4325.pdf",
+    "vendor_name": "Rambus Inc.",
+    "module_name": "CryptoManager Root of Trust (CMRT)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "10/10/2022",
+    "validation_dates": [
+      "10/10/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "CMRT is a Silicon IP Security Module with a secure asset store protecting all valuable assets on your device. It is a stand-alone Root of Trust that offers key management and crypto functions needed for platform and application security. CMRT offers all security services to manage your device securely through its lifecycle. These include Secure Debug, Secure Provisioning, Identity protection and secure authentication services. Secure Boot and Communication protocols such as TLS can leverage CMRT to secure the boot process and protect private communication keys.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4325.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2022_021122_1233_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/10/2022",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Rambus Inc.",
+      "website_url": "http://www.rambus.com",
+      "address_lines": [
+        "4453 North First Street, Suite 100",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Stuart Kincaid",
+      "contact_email": "skincaid@rambus.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

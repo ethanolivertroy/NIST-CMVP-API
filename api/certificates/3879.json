@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3879"
+  },
+  "certificate": {
+    "certificate_number": "3879",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3879",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3879",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3879.pdf",
+    "vendor_name": "IBM® Corporation",
+    "module_name": "IBM® NVMe FlashCore™ Module 2",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "4/1/2021",
+    "validation_dates": [
+      "4/1/2021"
+    ],
+    "sunset_date": "3/31/2026",
+    "caveat": "When operated in FIPS mode. When installed, initialized and configured as specified in Section 7 of the Security Policy",
+    "description": "The IBM® NVMe FlashCore™ Module2 is a NVMe-connected self-encrypting non-volatile storage module.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3879.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2021_030521_0757_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/1/2021",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "IBM® Corporation",
+      "website_url": "http://www.ibm.com",
+      "address_lines": [
+        "10777 Westheimer Rd",
+        "Houston, TX 77042",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Glen Jaquette",
+      "contact_email": "jaquette@us.ibm.com",
+      "contact_phone": "713-278-6279"
+    },
+    "algorithms": []
+  }
+}

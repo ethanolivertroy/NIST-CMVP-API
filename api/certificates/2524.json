@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2524"
+  },
+  "certificate": {
+    "certificate_number": "2524",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2524",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2524",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2524.pdf",
+    "vendor_name": "HyTrust, Inc.",
+    "module_name": "HyTrust KeyControl (TM) Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/5/2016",
+    "validation_dates": [
+      "1/5/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "HyTrust KeyControl is a key management system that is available in three different formats (ISO, OVA and AMI) and can be run on physical x86 based hardware as a virtual machine and on one of a number of different hypervisor platforms or as a combination of both when running in clustered mode.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2524.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJan2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/5/2016",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "HyTrust, Inc.",
+      "website_url": "http://www.hytrust.com",
+      "address_lines": [
+        "1975 W El Camino Real, Suite 203",
+        "Mountain View, CA 94040",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Bill Hackenberger",
+      "contact_email": "billh@hytrust.com",
+      "contact_phone": "650-681-8120"
+    },
+    "algorithms": []
+  }
+}

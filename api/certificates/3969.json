@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3969"
+  },
+  "certificate": {
+    "certificate_number": "3969",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3969",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3969",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3969.pdf",
+    "vendor_name": "Motorola Solutions, Inc.",
+    "module_name": "Motorola GGM 8000 Gateway",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "7/6/2021",
+    "validation_dates": [
+      "7/6/2021"
+    ],
+    "sunset_date": "7/5/2026",
+    "caveat": "When operated in FIPS mode with tamper evident seals installed as indicated in the Security Policy",
+    "description": "The module is a modular purpose-build gateway that can be configured to support a variety of public safety network applications.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3969.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2021_020821_0740_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/6/2021",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Motorola Solutions, Inc.",
+      "website_url": "http://www.motorolasolutions.com",
+      "address_lines": [
+        "500 W Monroe Street",
+        "Suite 4400",
+        "Chicago, IL 60661-3781",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Wojciech Klimala",
+      "contact_email": "k.klimala@motorolasolutions.com",
+      "contact_phone": "+48 12 29 79 000"
+    },
+    "algorithms": [
+      "HMAC"
+    ]
+  }
+}

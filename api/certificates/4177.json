@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4177"
+  },
+  "certificate": {
+    "certificate_number": "4177",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4177",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4177",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4177.pdf",
+    "vendor_name": "Amazon Web Services, Inc.",
+    "module_name": "AWS Key Management Service HSM",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "3/15/2022",
+    "validation_dates": [
+      "3/15/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section 3 of the Security Policy",
+    "description": "The Amazon AWS Key Management Service HSM is a multi-chip standalone hardware cryptographic appliance designed to provide dedicated cryptographic functions to meet the security and scalability requirements of the AWS Key Management Service (KMS). The cryptographic boundary is defined as the secure chassis of the appliance. All key materials are maintained exclusively in volatile memory in the appliance and are erased immediately upon detection of physical tampering.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4177.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2022_010422_0648_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/15/2022",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Amazon Web Services, Inc.",
+      "website_url": "https://aws.amazon.com/kms/",
+      "address_lines": [
+        "410 Terry Ave N",
+        "Ste 1200",
+        "Seattle, WA 98109-5210",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kelvin Yiu",
+      "contact_email": "kelvinyi@amazon.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

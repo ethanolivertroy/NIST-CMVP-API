@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3915"
+  },
+  "certificate": {
+    "certificate_number": "3915",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3915",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3915",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3915.pdf",
+    "vendor_name": "ZOLL Medical Corporation",
+    "module_name": "ZOLL Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "5/3/2021, 9/22/2022",
+    "validation_dates": [
+      "5/3/2021",
+      "9/22/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys. This validation entry is a non-security relevant modification to Cert. #3273.",
+    "description": "The ZOLL Cryptographic Module provides cryptographic functionality for the R Series product suite.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3915.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2021_010621_0658.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/3/2021",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "9/22/2022",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "ZOLL Medical Corporation",
+      "website_url": "http://www.zoll.com",
+      "address_lines": [
+        "269 Mill Road",
+        "Chelmsford, MA 01824",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Natalie England, Sr. Manager Regulatory Affairs",
+      "contact_email": "nengland@zoll.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/498"
+  },
+  "certificate": {
+    "certificate_number": "498",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/498",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/498",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp498.pdf",
+    "vendor_name": "Pitney Bowes, Inc.",
+    "module_name": "Compliant Meter Postal Security Device (CoMet PSD)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 3,
+    "validation_date": "1/18/2005",
+    "validation_dates": [
+      "1/18/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Pitney Bowes Compliant Meter Postal Security Device (PSD) has been designed in compliance with the United States Postal Service (USPS), Information-Based Indicia Program (IBIP) and with the Canada Post Corporation’s Digital Meter Indicia Specification 3457. It employs strong encryption, decryption, and digital signature techniques for the protection of customer funds in Pitney Bowes IBIP Metering products. The PSD is a secure module employed within the metering product which performs high-speed cryptographic functions, funds management, and printer administration functions that preclude unauthorized disbursing of indicia. The PSD has been designed to support international postal markets and their rapidly evolving requirements for digital indicia.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp498.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt498.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/18/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Pitney Bowes, Inc.",
+      "website_url": "http://www.pb.com",
+      "address_lines": [
+        "35 Waterview Drive",
+        "Shelton, CT 06484-8000",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dennis Crowe",
+      "contact_email": "dennis.crowe@pb.com",
+      "contact_phone": "203-924-3612"
+    },
+    "algorithms": []
+  }
+}

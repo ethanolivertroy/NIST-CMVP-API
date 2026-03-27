@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1133"
+  },
+  "certificate": {
+    "certificate_number": "1133",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1133",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1133",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1133.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "FlagStone Core",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 2,
+    "validation_date": "5/22/2009, 6/1/2009, 1/6/2010, 6/21/2011, 7/27/2011",
+    "validation_dates": [
+      "5/22/2009",
+      "6/1/2009",
+      "1/6/2010",
+      "6/21/2011",
+      "7/27/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The FlagStone Core is a multi-chip embedded cryptographic module used within the Eclypt and the Eclypt Freedom Drives. The FlagStone Core, and subsequently the Eclypt and Eclypt Freedom Drives utilising the FlagStone Core, provide access control and data encryption services to protect access to data stored on a HDD (Hard Disk Drive). All accessible sectors on a HDD connected to a FlagStone Core are encrypted.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1133.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1133.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/22/2009",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "6/1/2009",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/6/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/21/2011",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "7/27/2011",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "Sanford Lane",
+        "Wareham, Dorset BH20 4DY",
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "contact_name": "Tim D. Stone",
+      "contact_email": "Tim.Stone@stonewood.co.uk",
+      "contact_phone": "+44 1929 55 44 00"
+    },
+    "algorithms": []
+  }
+}

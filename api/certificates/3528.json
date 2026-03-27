@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3528"
+  },
+  "certificate": {
+    "certificate_number": "3528",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3528",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3528",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3528.pdf",
+    "vendor_name": "SECUREDATA, Inc.",
+    "module_name": "SecureUSB BT",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "9/18/2019, 3/5/2021",
+    "validation_dates": [
+      "9/18/2019",
+      "3/5/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Hardware encrypted USB 3.0 SATA drive with Bluetooth interface for authentication and configuration.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3528.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/SeptConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/18/2019",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      },
+      {
+        "date": "3/5/2021",
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "SECUREDATA, Inc.",
+      "website_url": "http://www.securedrive.com",
+      "address_lines": [
+        "3255 Cahuenga Blvd., West #111",
+        "Los Angeles, CA 90068",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "Sergey Gulyayev",
+      "contact_email": "sergey.gulyayev@securedata.com",
+      "contact_phone": "424-253-2005"
+    },
+    "algorithms": []
+  }
+}

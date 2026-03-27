@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4023"
+  },
+  "certificate": {
+    "certificate_number": "4023",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4023",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4023",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4023.pdf",
+    "vendor_name": "Ribbon Communications, Inc.",
+    "module_name": "SBC 5400 Session Border Controller",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "9/7/2021",
+    "validation_dates": [
+      "9/7/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Section 3.1 of the Security Policy. When FIPS Kit 550-06508 is installed, initialized and configured as specified in Section 3 of the Security Policy.",
+    "description": "The SBC 5400 Session Border Controller is a high-performance air-cooled, 2U, IP encryption appliance that provides secure SIP-based communications with robust security, reduced latency, real-time encryption (VOIP signaling and media traffic), media transcoding, flexible SIP session routing, and policy management.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4023.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2021_011021_0714_Signed2.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/7/2021",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Ribbon Communications, Inc.",
+      "website_url": "https://ribboncommunications.com/",
+      "address_lines": [
+        "4 Technology Park Drive",
+        "Westford, MA",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Adam Elshama",
+      "contact_email": "aelshama@rbbn.com",
+      "contact_phone": "+1 855 467 6687"
+    },
+    "algorithms": []
+  }
+}

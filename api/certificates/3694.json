@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3694"
+  },
+  "certificate": {
+    "certificate_number": "3694",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3694",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3694",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3694.pdf",
+    "vendor_name": "CGI Federal Inc.",
+    "module_name": "CGI Momentum™ C++ Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/31/2020, 3/16/2021",
+    "validation_dates": [
+      "7/31/2020",
+      "3/16/2021"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys. This validation entry is a non-security relevant modification to Cert. #3273",
+    "description": "CGI Momentum™ C++ Cryptographic Module implements wide array of cryptographic algorithms including Suite B algorithms. CGI Momentum™ product suite uses this module for low level crypto function thus providing data at rest encryption, transport level encryption, PKI key management, digital signature generation and other crypto operations through a trusted and verified implementation.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3694.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2020_030820_0656_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/31/2020",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "3/16/2021",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "CGI Federal Inc.",
+      "website_url": "http://www.cgifederal.com",
+      "address_lines": [
+        "12601 Fair Lakes Circle",
+        "Fairfax, VA 22033"
+      ],
+      "country": "Fairfax, VA 22033",
+      "contact_name": "Kerry Canfield",
+      "contact_email": "kerry.canfield@cgifederal.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

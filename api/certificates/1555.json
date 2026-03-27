@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1555"
+  },
+  "certificate": {
+    "certificate_number": "1555",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1555",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1555",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1555.pdf",
+    "vendor_name": "BlockMaster AB",
+    "module_name": "BM-C1000",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 2,
+    "validation_date": "6/7/2011",
+    "validation_dates": [
+      "6/7/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The BlockMaster microcontroller BM9931 powers FIPS secure USB flash drives. All data stored is encrypted transparently on the fly within the hardware in accordance with the specification of the Federal Information Processing Standard (FIPS 140-2).",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1555.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0006.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/7/2011",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      }
+    ],
+    "vendor": {
+      "name": "BlockMaster AB",
+      "website_url": "http://www.blockmastersecurity.com",
+      "address_lines": [
+        "Kyrkogatan 17",
+        "Lund S-222 22",
+        "Sweden"
+      ],
+      "country": "Sweden",
+      "contact_name": "Johan Söderström",
+      "contact_email": "johan@blockmastersecurity.com",
+      "contact_phone": "+46 (0) 46-2765100"
+    },
+    "algorithms": []
+  }
+}

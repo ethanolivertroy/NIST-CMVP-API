@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/843"
+  },
+  "certificate": {
+    "certificate_number": "843",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/843",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/843",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp843.pdf",
+    "vendor_name": "iDirect",
+    "module_name": "7350 iNFINITI Satellite Router [1], iConnex-700 [2], iConnex-100 [3], M1D1-T Universal Line Card [4] and 8350 iNFINITI Satellite Router [5]",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 1,
+    "validation_date": "10/18/2007, 2/6/2008, 12/23/2008",
+    "validation_dates": [
+      "10/18/2007",
+      "2/6/2008",
+      "12/23/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "An iDirect Time Division Multiple Access (TDMA) network is composed of a single outroute Single Channel Per Carrier (SCPC) and multiple inroute TDMA carriers. The iDirect TDMA network is optimized for satellite transmissions, squeezing the maximum performance out of the bandwidth provided by satellite links. The system is fully integrated with iDirectÆs Network Management System that provides configuration and monitoring functions. The iDirect network components consist of the Protocol Processor, Hub Line Card (also known as Universal Line Card), and the Ethernet switch with remote modem.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp843.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt843.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/18/2007",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "2/6/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/23/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "iDirect",
+      "website_url": "http://www.idirect.net",
+      "address_lines": [
+        "13865 Sunrise Valley Drive",
+        "Herndon, VA 20171",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chris Burdick",
+      "contact_email": "cburdick@idirect.net",
+      "contact_phone": "703-648-8000"
+    },
+    "algorithms": []
+  }
+}

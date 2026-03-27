@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1947"
+  },
+  "certificate": {
+    "certificate_number": "1947",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1947",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1947",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1947.pdf",
+    "vendor_name": "TrellisWare Technologies Inc.",
+    "module_name": "TW-230 (CheetahNet II)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "5/16/2013",
+    "validation_dates": [
+      "5/16/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The TW-230 combines the high data rate capability of TrellisWare's Tactical Scalable MANET-Enhanced (TSM-E) waveform with narrowband VHF/UHF AM/FM voice. TW-230 provides a robust highly scalable self-forming, self-healing wideband networked waveform transparent to the operator. The TW-230 supports multi-channel push to talk (PTT) voice, IP data, position location information (PLI) tracking, and remote operation of live streaming video. The TW-230 can also be operated in plaintext narrowband voice modes that allow it to interoperate with most other standard AM/FM PTT radios.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1947.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0029.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/16/2013",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "TrellisWare Technologies Inc.",
+      "website_url": "http://www.trellisware.com",
+      "address_lines": [
+        "16516 Via Esprillo",
+        "Suite 300",
+        "San Diego, CA 92127",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jeffery Thomas",
+      "contact_email": "jthomas@trellisware.com",
+      "contact_phone": "858-753-1617"
+    },
+    "algorithms": []
+  }
+}

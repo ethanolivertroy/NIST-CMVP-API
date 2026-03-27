@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/931"
+  },
+  "certificate": {
+    "certificate_number": "931",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/931",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/931",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp931.pdf",
+    "vendor_name": "Secure Computing Corporation (Wholly owned subsidiary of McAfee, Inc.)",
+    "module_name": "Cryptographic Module for SecureOS® v9.7.1",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "3/31/2008",
+    "validation_dates": [
+      "3/31/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Cryptographic Module for SecureOS® is software providing cryptographic services for applications on versions of Sidewinder® and Sidewinder G2® Security Appliance™. Sidewinder is a line of comprehensive network gateway security appliances consolidating a variety of Internet security functions including TrustedSource™, IPS, firewall, VPN, anti-virus, anti-spam, SSL decryption, and more. Sidewinder G2® is Common Criteria EAL4+ certified as compliant with the US DoD Application-level Firewall Protection Profile for Medium Robustness.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp931.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt931.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/31/2008",
+        "type": "Initial",
+        "lab": "DOMUS"
+      }
+    ],
+    "vendor": {
+      "name": "Secure Computing Corporation (Wholly owned subsidiary of McAfee, Inc.)",
+      "website_url": "http://www.securecomputing.com",
+      "address_lines": [
+        "2340 Energy Park Drive",
+        "St. Paul, MN 55108",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chuck Monroe",
+      "contact_email": "chuck_monroe@securecomputing.com",
+      "contact_phone": "651-628-2799"
+    },
+    "algorithms": []
+  }
+}

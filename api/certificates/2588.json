@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2588"
+  },
+  "certificate": {
+    "certificate_number": "2588",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2588",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2588",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2588.pdf",
+    "vendor_name": "Qualcomm Technologies, Inc.",
+    "module_name": "Qualcomm® Inline Crypto Engine (SDCC)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "3/22/2016, 2/12/2018, 8/17/2021",
+    "validation_dates": [
+      "3/22/2016",
+      "2/12/2018",
+      "8/17/2021"
+    ],
+    "sunset_date": "8/16/2026",
+    "caveat": "None",
+    "description": "Qualcomm Inline Crypto Engine (SDCC) high throughput storage data encryption and decryption.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2588.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertMarch2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/22/2016",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "2/12/2018",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "8/17/2021",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Qualcomm Technologies, Inc.",
+      "website_url": "http://www.qualcomm.com",
+      "address_lines": [
+        "5775 Morehouse Dr",
+        "San Diego, CA 92121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Yin Ling Liong",
+      "contact_email": "yliong@qti.qualcomm.com",
+      "contact_phone": "858-651-7034"
+    },
+    "algorithms": []
+  }
+}

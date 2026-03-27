@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2425"
+  },
+  "certificate": {
+    "certificate_number": "2425",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2425",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2425",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2425.pdf",
+    "vendor_name": "wolfSSL Inc.",
+    "module_name": "wolfCrypt",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "8/11/2015, 9/15/2015, 9/30/2015, 11/18/2015, 6/23/2016, 8/11/2017, 8/25/2017, 10/20/2017, 3/27/2018, 4/6/2018, 6/7/2018, 10/15/2018",
+    "validation_dates": [
+      "8/11/2015",
+      "9/15/2015",
+      "9/30/2015",
+      "11/18/2015",
+      "6/23/2016",
+      "8/11/2017",
+      "8/25/2017",
+      "10/20/2017",
+      "3/27/2018",
+      "4/6/2018",
+      "6/7/2018",
+      "10/15/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "wolfCrypt module is a comprehensive suite of FIPS Approved algorithms. All key sizes and modes have been implemented to allow flexibility and efficiency.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2425.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0056.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/11/2015",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/15/2015",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/30/2015",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "11/18/2015",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/23/2016",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "8/11/2017",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "8/25/2017",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "10/20/2017",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/27/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/6/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/7/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "10/15/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "wolfSSL Inc.",
+      "website_url": "http://www.wolfssl.com",
+      "address_lines": [
+        "10016 Edmonds Way Suite C-300",
+        "Edmonds, WA 98020",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Todd Ouska",
+      "contact_email": "todd@wolfssl.com",
+      "contact_phone": "503-679-1859"
+    },
+    "algorithms": []
+  }
+}

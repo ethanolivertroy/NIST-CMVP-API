@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4243"
+  },
+  "certificate": {
+    "certificate_number": "4243",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4243",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4243",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4243.pdf",
+    "vendor_name": "Cambium Networks, Ltd.",
+    "module_name": "PTP 700 Point to Point Wireless Ethernet Bridge",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "6/6/2022, 1/27/2023, 4/26/2023",
+    "validation_dates": [
+      "6/6/2022",
+      "1/27/2023",
+      "4/26/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "No assurance of the minimum strength of generated keys",
+    "description": "The PTP 700 is deployed to create a point-to-point wireless bridge joining two Ethernet networks, or a point-to-multipoint wireless bridge joining between two and nine Ethernet networks. The PTP 45700 variant operates in licensed, lightly-licensed, and unlicensed frequency bands between 4400 MHz and 5875 MHz in channel bandwidths up to 45 MHz, providing aggregate data rates up to 450 Mbit/s. The PTP 78700 variant operates in licensed frequency bands between 7125 MHz and 8500 MHz, in channel bandwidths up to 45 MHz, providing aggregate data rates up to 503 Mbit/s.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4243.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2022_010722_0704_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/6/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "1/27/2023",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/26/2023",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Cambium Networks, Ltd.",
+      "website_url": "http://www.cambiumnetworks.com",
+      "address_lines": [
+        "3800 Golf Road, Suite 360",
+        "Rolling Meadows, IL 60008",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mark Thomas",
+      "contact_email": "mark.thomas@cambiumnetworks.com",
+      "contact_phone": "+44 1364 655586"
+    },
+    "algorithms": []
+  }
+}

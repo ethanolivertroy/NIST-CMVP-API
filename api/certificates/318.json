@@ -1,0 +1,97 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/318"
+  },
+  "certificate": {
+    "certificate_number": "318",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/318",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/318",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp318.pdf",
+    "vendor_name": "Axalto Inc.",
+    "module_name": "Cyberflex Access 64K",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 3,
+    "validation_date": "5/29/2003, 7/3/2003, 7/15/2003, 6/25/2004, 9/21/2004, 6/6/2005, 5/25/2006",
+    "validation_dates": [
+      "5/29/2003",
+      "7/3/2003",
+      "7/15/2003",
+      "6/25/2004",
+      "9/21/2004",
+      "6/6/2005",
+      "5/25/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Cyberflex Access 64K can be employed in solutio ns which provide secure PKI (public key infrastructure) and digital signature technology. Cyberflex Access 64K serves as a highly portable, secure token for enhancing the security of network access and ensuring secure electronic communications. Cyberflex Access 64K supports on-card Triple DES and 1024-bit RSA algorithms with on-card key generation. It is compliant to Java Card v2.1.1 and Open Platform v2.0.1. The Cyberflex Access 64K is part of a range of Schlumberger highly secure, Java-based smart cards for physical and logical access, e-transactions and other applications.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp318.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt318.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/29/2003",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "7/3/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/15/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/25/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "9/21/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/6/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/25/2006",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Axalto Inc.",
+      "website_url": "http://www.axalto.com",
+      "address_lines": [
+        "8311 North FM 620 Road",
+        "Austin, TX 78726",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Teo",
+      "contact_email": "dteo@axalto.com",
+      "contact_phone": "512-257-3895"
+    },
+    "algorithms": []
+  }
+}

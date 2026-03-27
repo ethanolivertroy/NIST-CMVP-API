@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/705"
+  },
+  "certificate": {
+    "certificate_number": "705",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/705",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/705",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp705.pdf",
+    "vendor_name": "SETECS Inc. and Gemalto",
+    "module_name": "SETECS Inc. OneCARD™ PIV-II Java Card Applet on Gemalto GemCombi'Xpresso R4 E72K PK card",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "9/20/2006, 2/6/2014",
+    "validation_dates": [
+      "9/20/2006",
+      "2/6/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "SETECS OneCARD™ is the smart card created as the combination of SETECS OneCARD™ PIV-II Java Card Applet and Gemalto GemCombi'Xpresso R4 E72K PK card. SETECS OneCARD™ Card (PIV Card) is the full implementation of the FIPS 201 card application (PIV applet) with all required access rules and protocols. The PIV Card contains all mandatory and optional data objects, as specified in the NIST Special Publication 800-73-1. The GCX4 is based on a Java platform with 72K EEPROM memory. The module provides dual interfaces (i.e. contact and contactless) where the same security level is achieved.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp705.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt705.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/20/2006",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "2/6/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SETECS Inc. and Gemalto",
+      "website_url": "http://www.setecs.com",
+      "address_lines": [
+        "8070 Georgia Avenue",
+        "Silver Spring, MD 20910",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Sead Muftic",
+      "contact_email": "sead.muftic@setecs.com",
+      "contact_phone": "301-587-3000"
+    },
+    "algorithms": []
+  }
+}

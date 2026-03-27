@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4081"
+  },
+  "certificate": {
+    "certificate_number": "4081",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4081",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4081",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4081.pdf",
+    "vendor_name": "Pitney Bowes, Inc.",
+    "module_name": "X4i Postal Security Device (PSD)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "11/30/2021, 1/5/2023, 9/1/2023",
+    "validation_dates": [
+      "11/30/2021",
+      "1/5/2023",
+      "9/1/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS Mode. No assurance of the minimum strength of generated keys.",
+    "description": "The X4i PSD is a single chip cryptographic module using the Maxim MAX32590 hardware that provides security services to support the creation of digital postage evidence in the form of an indicium.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4081.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2021_011221_0923_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/30/2021",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      },
+      {
+        "date": "1/5/2023",
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
+      },
+      {
+        "date": "9/1/2023",
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Pitney Bowes, Inc.",
+      "website_url": "http://www.pb.com",
+      "address_lines": [
+        "27 Waterview Drive",
+        "Shelton, CT 06484",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Brian Hannigan",
+      "contact_email": "brian.hannigan@pb.com",
+      "contact_phone": "203-796-3201"
+    },
+    "algorithms": []
+  }
+}

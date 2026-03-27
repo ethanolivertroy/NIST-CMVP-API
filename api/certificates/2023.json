@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2023"
+  },
+  "certificate": {
+    "certificate_number": "2023",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2023",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2023",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2023.pdf",
+    "vendor_name": "Nuvoton Technology Corporation",
+    "module_name": "Nuvoton TPM 1.2",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 1,
+    "validation_date": "11/8/2013",
+    "validation_dates": [
+      "11/8/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Nuvoton Trusted Platform Module is a hardware cryptographic module, a member of the Nuvoton SafeKepper family, which implements advanced cryptographic algorithms, including symmetric and asymmetric cryptography, as well as key generation and random number generation as defined by the Trusted Computing Group (TCG) version 1.2 specification for PC-Client TPM.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2023.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0035.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/8/2013",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Nuvoton Technology Corporation",
+      "website_url": "http://www.nuvoton.com",
+      "address_lines": [
+        "8 Hasadnaot Street",
+        "Herzlia 46130",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "Rachel Menda-Shabat",
+      "contact_email": "Rachel.Menda-Shabat@nuvoton.com",
+      "contact_phone": "(972) 9-9702219"
+    },
+    "algorithms": []
+  }
+}

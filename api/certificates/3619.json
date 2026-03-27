@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3619"
+  },
+  "certificate": {
+    "certificate_number": "3619",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3619",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3619",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3619.pdf",
+    "vendor_name": "Cyphre Security Solutions, LLC",
+    "module_name": "Cyphre Crypto Core",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software-Hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "2/20/2020",
+    "validation_dates": [
+      "2/20/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "This OpenSSL library implementation provides services for the Cyphre Crypto Core appliance that enables the BlackTIE hardware cryptographic engine for all secure communication solutions, including but not limited to SSL/TLS, Data Protection, Encryption Gateways, PKI and Certificate/Key lifecycle management.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3619.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2020_020320.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/20/2020",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Cyphre Security Solutions, LLC",
+      "website_url": "http://www.cyphre.com",
+      "address_lines": [
+        "15115 Park Row Blvd",
+        "Suite 300",
+        "Houston, TX 77084",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Vihar Rai",
+      "contact_email": "vihar@cyphre.com",
+      "contact_phone": "512-222-9636"
+    },
+    "algorithms": []
+  }
+}

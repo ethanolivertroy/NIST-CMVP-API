@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4827"
+  },
+  "certificate": {
+    "certificate_number": "4827",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4827",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4827",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4827.pdf",
+    "vendor_name": "IDEMIA",
+    "module_name": "FIPS Applet on RookySE",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "10/11/2024",
+    "validation_dates": [
+      "10/11/2024"
+    ],
+    "sunset_date": "10/10/2029",
+    "caveat": "When installed, initialized and configured as specified in Section 11 of the Security Policy",
+    "description": "A Cryptographic module that provide the cryptographic methods which includes: Key Generation / Verification & Signature Generation / Verification",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4827.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/11/2024",
+        "type": "Initial",
+        "lab": "SERMA SAFETY AND SECURITY"
+      }
+    ],
+    "vendor": {
+      "name": "IDEMIA",
+      "website_url": "https://www.idemia.com/",
+      "address_lines": [
+        "2 Place Samuel de Champlain",
+        "Courbevoie 92400",
+        "FRANCE"
+      ],
+      "country": "FRANCE",
+      "contact_name": "Yannick COURQUIN",
+      "contact_email": "yannick.courquin@idemia.com",
+      "contact_phone": "0033130201179"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

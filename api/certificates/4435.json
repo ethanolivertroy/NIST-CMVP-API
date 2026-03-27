@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4435"
+  },
+  "certificate": {
+    "certificate_number": "4435",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4435",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4435",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4435.pdf",
+    "vendor_name": "HP Inc.",
+    "module_name": "Tera2 PCoIP Zero Client Processors",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "2/15/2023, 5/22/2023",
+    "validation_dates": [
+      "2/15/2023",
+      "5/22/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When configured and initialized as specified in the Security Policy",
+    "description": "PC-over-IP (PCoIP) technology delivers a secure, high-definition and highly responsive computing experience. It uses advanced display compression to provide end-users with on-premises or cloud-based virtual machines as a convenient alternative to local computers. This virtual workspace architecture compresses, encrypts, and transmits only pixels to a broad range of software clients, mobile clients, thin clients, and stateless PCoIP Zero Clients, providing a highly secure enterprise environment.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4435.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2023_010323_0649.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/15/2023",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      },
+      {
+        "date": "5/22/2023",
+        "type": "Update",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "HP Inc.",
+      "website_url": "http://www.hp.com",
+      "address_lines": [
+        "1501 Page Mill Road",
+        "Palo Alto, CA 94304",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

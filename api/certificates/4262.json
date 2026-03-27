@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4262"
+  },
+  "certificate": {
+    "certificate_number": "4262",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4262",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4262",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4262.pdf",
+    "vendor_name": "SonicWall, Inc.",
+    "module_name": "SonicWall Network Security Virtual Appliances",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/8/2022",
+    "validation_dates": [
+      "7/8/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The NSv series delivers the automated real-time breach detection and prevention organizations need by utilizing innovative deep learning technologies in the SonicWall Capture Cloud Platform. This platform delivers cloud-based threat prevention and network management plus reporting and analytics for organizations of any size.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4262.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2022_010822_0659_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/8/2022",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "SonicWall, Inc.",
+      "website_url": "http://www.sonicwall.com/",
+      "address_lines": [
+        "1033 McCarthy Boulevard",
+        "Milpitas, CA 95035",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Lawrence Wagner",
+      "contact_email": "lwagner@sonicwall.com",
+      "contact_phone": "408-752-7886"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/268"
+  },
+  "certificate": {
+    "certificate_number": "268",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/268",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/268",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp268.pdf",
+    "vendor_name": "Cryptek, Inc.",
+    "module_name": "DiamondPak™ and DiamondVPN-6™",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "10/18/2002, 2/25/2003, 7/31/2003, 10/2/2003, 4/8/2005",
+    "validation_dates": [
+      "10/18/2002",
+      "2/25/2003",
+      "7/31/2003",
+      "10/2/2003",
+      "4/8/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "DiamondPak\" is a rack- mounted network appliance for protecting multiple servers with each server protected by a dedicated self-protecting DiamondTEK\" security computer enforcing a single security profile. DiamondPak\"'s advanced access-control system for protecting critical backend systems is available in configurations to protect 2, 4, or 6 systems. DiamondVPN-6 is a network security appliance for protecting a group of servers or users within an organization with each group protected by a dedicated self-protecting DiamondTEK security computer enforcing a single security profile. DiamondVPN s advanced access control system for protecting critical backend groups is available in a configuration to protect 6 individual groups.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp268.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt268.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/18/2002",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/25/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/31/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/2/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "4/8/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Cryptek, Inc.",
+      "website_url": "http://www.cryptek.com",
+      "address_lines": [
+        "1501 Moran Road",
+        "Sterling, VA 20166",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Timothy Williams",
+      "contact_email": "williams@cryptek.com",
+      "contact_phone": "571-434-2000"
+    },
+    "algorithms": []
+  }
+}

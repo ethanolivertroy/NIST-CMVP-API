@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4065"
+  },
+  "certificate": {
+    "certificate_number": "4065",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4065",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4065",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4065.pdf",
+    "vendor_name": "Thales Alenia Space",
+    "module_name": "Thales Alenia Space cryptographic module for Microsemi RTAX FPGA",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "11/2/2021",
+    "validation_dates": [
+      "11/2/2021"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section 12.4 of the Security Policy.",
+    "description": "Cryptographic module encrypt and decrypt input packets, using one of the thirty two possible keys. There are several TC/TM to check: status, number of packets correctly deciphered, number of ciphered packet, etc. There are three UART interfaces for: ground, key and housekeeping (the last one has a redundant interface).",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4065.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2021_011221_0923_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/2/2021",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "Thales Alenia Space",
+      "website_url": "http://www.thalesgroup.com/es/espana/espacio",
+      "address_lines": [
+        "Calle Einstein, 7",
+        "Tres Cantos, Madrid 28760",
+        "Spain"
+      ],
+      "country": "Spain",
+      "contact_name": "Irene Potti Huerta",
+      "contact_email": "irene.potti@thalesaleniaspace.com",
+      "contact_phone": "+34 91 807 79 00"
+    },
+    "algorithms": []
+  }
+}

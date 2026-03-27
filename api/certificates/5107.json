@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5107"
+  },
+  "certificate": {
+    "certificate_number": "5107",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5107",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5107",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5107.pdf",
+    "vendor_name": "Aviat Networks",
+    "module_name": "WTM 4000 module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "12/11/2025",
+    "validation_dates": [
+      "12/11/2025"
+    ],
+    "sunset_date": "7/10/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "The WTM 4000 module is a comprehensive suite of FIPS Approved algorithms. All key sizes and modes have been implemented to allow flexibility and efficiency.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5107.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/11/2025",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Aviat Networks",
+      "website_url": "http://aviatnetworks.com",
+      "address_lines": [
+        "200C Parker Drive",
+        "Suite 100A",
+        "Austin, TX 78728",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ruth French",
+      "contact_email": "Ruth.french@aviatnet.com",
+      "contact_phone": "+447771978599"
+    },
+    "algorithms": []
+  }
+}

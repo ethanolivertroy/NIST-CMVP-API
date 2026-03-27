@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/577"
+  },
+  "certificate": {
+    "certificate_number": "577",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/577",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/577",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp577.pdf",
+    "vendor_name": "M/A Com, Inc.",
+    "module_name": "P7170IP System Portable Two-Way FM Radios",
+    "standard": "FIPS 140-1",
+    "status": "Revoked",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "10/25/2005, 8/16/2006, 10/22/2007",
+    "validation_dates": [
+      "10/25/2005",
+      "8/16/2006",
+      "10/22/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The P7170IP is M/A COM's premier portable radio for critical communications. Guided by customer feedback, M/A COM designed the P7170IP to excel in the challenging environments that critical communications users encounter. The P7170IP provides a superior combination of features, functions, and physical attributes. It is light and extremely durable, easy to use while wearing gloves, and produces loud and clear audio. A rugged high-tier portable, the P7170IP provides exceptional performance even under adverse conditions.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp577.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt577.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/25/2005",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "8/16/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/22/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "M/A Com, Inc.",
+      "website_url": "http://www.macom-wireless.com",
+      "address_lines": [
+        "221 Jefferson Ridge Parkway",
+        "Lynchburg, VA 24501",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Greg Farmer",
+      "contact_email": "farmergr@tycoelectronics.com",
+      "contact_phone": "434-455-9577"
+    },
+    "algorithms": []
+  }
+}

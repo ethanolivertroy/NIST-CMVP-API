@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5123"
+  },
+  "certificate": {
+    "certificate_number": "5123",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5123",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5123",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5123.pdf",
+    "vendor_name": "HID Global Corporation",
+    "module_name": "HID Global Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/13/2026",
+    "validation_dates": [
+      "1/13/2026"
+    ],
+    "sunset_date": "7/28/2029",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "HID Global Cryptographic Module is a cryptographic engine for mobile devices. The module delivers core cryptographic functions to some of HID Global’s mobile app solutions for multifactor authentication - such as the HID Approve mobile app and HID Approve mobile SDK.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5123.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/13/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "HID Global Corporation",
+      "website_url": "https://www.hidglobal.com/",
+      "address_lines": [
+        "611 Center Ridge Drive",
+        "Austin, TX 78753",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "HID Global Security Response Team",
+      "contact_email": "secure@hidglobal.com",
+      "contact_phone": "+1 800 670 6892"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

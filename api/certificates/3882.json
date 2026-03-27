@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3882"
+  },
+  "certificate": {
+    "certificate_number": "3882",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3882",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3882",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3882.pdf",
+    "vendor_name": "HID Global",
+    "module_name": "HID Global Applets v3.0 on NXP JCOP 3 SecID P60 CS (OSB)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "4/5/2021",
+    "validation_dates": [
+      "4/5/2021"
+    ],
+    "sunset_date": "4/4/2026",
+    "caveat": "None",
+    "description": "The HID Global ActivID Applet v3.0 is a Java Card applet that provides a secure environment for generation, storage and use of cryptographic keys used in security protocols used for authentication, digital signature and key agreement. Devices using this applet can be configured to support contact or contactless interfaces. The ActivID Applet can be configured to support PIV standards (NIST SP 800-73-4 and SP 800-78-4).",
+    "security_level_exceptions": [
+      "Physical Security: Level 4"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3882.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2021_030521_0757_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/5/2021",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "HID Global",
+      "website_url": "http://www.hidglobal.com",
+      "address_lines": [
+        "611 Center Ridge Drive",
+        "Austin, TX 78753",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Adrian Castillo",
+      "contact_email": "acastillo@hidglobal.com",
+      "contact_phone": "+33783559958"
+    },
+    "algorithms": []
+  }
+}

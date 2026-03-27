@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4390"
+  },
+  "certificate": {
+    "certificate_number": "4390",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4390",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4390",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4390.pdf",
+    "vendor_name": "Apple Inc.",
+    "module_name": "Apple corecrypto Module v11.1 [Intel, Kernel, Software]",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/7/2022",
+    "validation_dates": [
+      "12/7/2022"
+    ],
+    "sunset_date": "12/6/2027",
+    "caveat": "When operated in approved mode",
+    "description": "The Apple corecrypto Kernel Space Module for Intel is a software cryptographic module running on a multi-chip standalone hardware device and provides services intended to protect data in transit and at rest.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4390.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/7/2022",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Apple Inc.",
+      "website_url": "http://www.apple.com",
+      "address_lines": [
+        "One Apple Park Way",
+        "MS: 927-1CPS",
+        "Cupertino, CA 95014",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Shawn Geddis",
+      "contact_email": "geddis@apple.com",
+      "contact_phone": "6692273579"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

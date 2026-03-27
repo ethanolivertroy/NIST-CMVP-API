@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4631"
+  },
+  "certificate": {
+    "certificate_number": "4631",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4631",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4631",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4631.pdf",
+    "vendor_name": "Amazon Web Services Inc.",
+    "module_name": "AWS-LC Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/6/2023, 6/27/2025",
+    "validation_dates": [
+      "10/6/2023",
+      "6/27/2025"
+    ],
+    "sunset_date": "10/5/2028",
+    "caveat": "When operated in approved mode",
+    "description": "AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It іs based on code from the Google BoringSSL project and the OpenSSL project.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4631.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2023_011123_0711.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/6/2023",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "6/27/2025",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Amazon Web Services Inc.",
+      "website_url": "http://aws.amazon.com",
+      "address_lines": [
+        "1918 8th Ave.",
+        "Seattle, WA 98121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Daryl Martin",
+      "contact_email": "aws-fips-external@amazon.com",
+      "contact_phone": "0000000000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

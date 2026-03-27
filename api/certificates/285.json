@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/285"
+  },
+  "certificate": {
+    "certificate_number": "285",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/285",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/285",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp285.pdf",
+    "vendor_name": "M/A Com, Inc.",
+    "module_name": "Jaguar 700P/Pi",
+    "standard": "FIPS 140-1",
+    "status": "Revoked",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "1/17/2003, 2/12/2003",
+    "validation_dates": [
+      "1/17/2003",
+      "2/12/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Portable, 64-bit Encryption, EDACS JAGUAR 700P, 800MHZ, 128 SYSTEMS/GROUPS, DATA ENABLED EDACS radio. System and Scan version, with Intrinsically Safe (IS), and Immersion options.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp285.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt285.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/17/2003",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/12/2003",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "M/A Com, Inc.",
+      "website_url": "http://www.macom-wireless.com",
+      "address_lines": [
+        "221 Jefferson Ridge Parkway",
+        "Lynchburg, VA 24501",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Greg Farmer",
+      "contact_email": "farmergr@tycoelectronics.com",
+      "contact_phone": "434-455-6600"
+    },
+    "algorithms": []
+  }
+}

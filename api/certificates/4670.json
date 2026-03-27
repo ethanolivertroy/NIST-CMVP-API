@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4670"
+  },
+  "certificate": {
+    "certificate_number": "4670",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4670",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4670",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4670.pdf",
+    "vendor_name": "Microsoft Corporation",
+    "module_name": "Kernel Mode Cryptographic Primitives Library",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software-Hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/12/2023",
+    "validation_dates": [
+      "12/12/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode with module Windows OS Loader validated to FIPS 140-2 under Cert. #4545 operating in FIPS mode",
+    "description": "Kernel Mode Cryptographic Primitives Library (cng.sys) runs as a kernel mode export driver, and provides cryptographic services, through their documented interfaces, to Windows kernel components. It supports several cryptographic algorithms accessible via a FIPS function table request IRP (I/O request packet).",
+    "security_level_exceptions": [
+      "Design Assurance: Level 2"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4670.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2023_020124_0656.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/12/2023",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Microsoft Corporation",
+      "website_url": "http://www.microsoft.com",
+      "address_lines": [
+        "One Microsoft Way",
+        "Redmond, WA 98052-6399",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mike Grimm",
+      "contact_email": "FIPS@microsoft.com",
+      "contact_phone": "800-Microsoft"
+    },
+    "algorithms": []
+  }
+}

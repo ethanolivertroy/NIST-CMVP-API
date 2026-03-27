@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1800"
+  },
+  "certificate": {
+    "certificate_number": "1800",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1800",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1800",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1800.pdf",
+    "vendor_name": "SafeNet, Inc.",
+    "module_name": "eToken 4300",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "12/6/2012, 2/6/2014, 1/10/2017",
+    "validation_dates": [
+      "12/6/2012",
+      "2/6/2014",
+      "1/10/2017"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "eToken 4300 is a Cryptographic Module based on the Athena OS755 Java Card smart card operating system with 80KB of EEPROM. eToken 4300 is compliant with the latest Java Card 2.2.2 and GlobalPlatform 2.1.1 specifications and is validated to FIPS 140-2 Level 2. eToken 4300 supports FIPS approved DRBG, SHA-1 and all SHA-2, TDES, AES, RSA, ECDSA and ECC CDC, and RSA and ECC key generation. eToken 4300 exposes PKI and Biometric APIs and is designed for high-performance government and enterprise smart card applications.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1800.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0024.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/6/2012",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/6/2014",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/10/2017",
+        "type": "Update",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      }
+    ],
+    "vendor": {
+      "name": "SafeNet, Inc.",
+      "website_url": "http://www.safenet-inc.com",
+      "address_lines": [
+        "4690 Millennium Drive",
+        "Belcamp, MD 21017",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Security and Certifications Team",
+      "contact_email": "SecurityCertifications@gemalto.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

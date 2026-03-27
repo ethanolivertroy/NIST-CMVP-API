@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5010"
+  },
+  "certificate": {
+    "certificate_number": "5010",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5010",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5010",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5010.pdf",
+    "vendor_name": "Tetrate.io, Inc",
+    "module_name": "Tetrate BoringCrypto",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/29/2025",
+    "validation_dates": [
+      "4/29/2025"
+    ],
+    "sunset_date": "7/22/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys). When operated in approved mode.",
+    "description": "A software library that contains cryptographic functionality for Tetrate networking applications",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5010.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/29/2025",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Tetrate.io, Inc",
+      "website_url": "http://tetrate.io",
+      "address_lines": [
+        "50 California Street, #1500",
+        "San Francisco, CA 94111",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Paul Merrison",
+      "contact_email": "paul@tetrate.io",
+      "contact_phone": null
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

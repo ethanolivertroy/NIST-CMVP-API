@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1685"
+  },
+  "certificate": {
+    "certificate_number": "1685",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1685",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1685",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1685.pdf",
+    "vendor_name": "ZyFLEX Technologies Incorporation",
+    "module_name": "ZyFLEX Crypto Module ZCM-100",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "3/9/2012",
+    "validation_dates": [
+      "3/9/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "ZyFLEX Crypto Module ZCM-100 is a hardware multichip embedded module that targets high speed data link layer (OSI layer 2) secure data transmission applications in an IP-based network. ZCM-100 implements AES-256 encryption/decryption algorithms and other Approved security functions by using both hardware FPGA circuitry and a 32-bit microcontroller. Its miniaturized size and low power consumption features make ZCM-100 suitably fit in a portable wireless communication device such as a handheld radio.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1685.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0015.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/9/2012",
+        "type": "Initial",
+        "lab": "TTC"
+      }
+    ],
+    "vendor": {
+      "name": "ZyFLEX Technologies Incorporation",
+      "website_url": "http://www.zyflex.com.tw",
+      "address_lines": [
+        "4F, No.5-2, Industry E. 9th Rd.",
+        "Science Park Hsinchu",
+        "Hsin-Chu, Taiwan 30075",
+        "Republic of China"
+      ],
+      "country": "Republic of China",
+      "contact_name": "Nick Tseng",
+      "contact_email": "Nick.Tseng2@zyxel.com.tw",
+      "contact_phone": "+886-3-5679168"
+    },
+    "algorithms": []
+  }
+}

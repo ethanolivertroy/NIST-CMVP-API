@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/389"
+  },
+  "certificate": {
+    "certificate_number": "389",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/389",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/389",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp389.pdf",
+    "vendor_name": "Network Security Technology (NST) Co.",
+    "module_name": "NST Security CryptoCard 2200(CC2200)",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "3/5/2004, 4/9/2004, 10/1/2004",
+    "validation_dates": [
+      "3/5/2004",
+      "4/9/2004",
+      "10/1/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "NST CC2200, a security cryptographic card with PCI bus interface, is a “multi-chip embedded cryptographic module” that provides hardware cryptographic services to users, groups or processes. The NST Security CryptoCard provides hardware cryptographic services such as acceleration for bulk data encryption / decryption, digital signature generation / verification, secure key storage and key management functions to its users.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp389.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt389.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/5/2004",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "4/9/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/1/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Network Security Technology (NST) Co.",
+      "website_url": "http://www.nst.com.tw",
+      "address_lines": [
+        "11 F, No 190, Jung-Jeng Rd.",
+        "Shindian City, Taipei County, Taiwan 231",
+        "Republic of China"
+      ],
+      "country": "Republic of China",
+      "contact_name": "Ming-Chih Tsai",
+      "contact_email": "ms@nst.com.tw",
+      "contact_phone": "+886-2-8911-1099"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5094"
+  },
+  "certificate": {
+    "certificate_number": "5094",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5094",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5094",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5094.pdf",
+    "vendor_name": "IBM Corporation",
+    "module_name": "IBM COS Linux Kernel Cryptographic API Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/14/2025",
+    "validation_dates": [
+      "11/14/2025"
+    ],
+    "sunset_date": "11/13/2030",
+    "caveat": "When operated in approved mode. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The Linux kernel crypto API implementation provides cryptographic services to Linux kernel space software components and user space via the AF_ALG interface.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5094.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/14/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "IBM Corporation",
+      "website_url": "http://www.ibm.com",
+      "address_lines": [
+        "71 S Wacker Dr",
+        "Chicago, IL 60606",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "FIPS Engineering",
+      "contact_email": "Jason.P.Cox@ibm.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": []
+  }
+}

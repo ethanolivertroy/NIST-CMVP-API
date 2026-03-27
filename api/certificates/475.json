@@ -1,0 +1,98 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/475"
+  },
+  "certificate": {
+    "certificate_number": "475",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/475",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/475",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp475.pdf",
+    "vendor_name": "Trust Digital, Inc.",
+    "module_name": "Trust Digital Crypto Library Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/2/2004, 3/2/2005, 7/29/2005, 9/21/2005, 10/26/2006, 11/6/2006, 2/21/2008",
+    "validation_dates": [
+      "11/2/2004",
+      "3/2/2005",
+      "7/29/2005",
+      "9/21/2005",
+      "10/26/2006",
+      "11/6/2006",
+      "2/21/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Trust Digital’s Cryptographic Module is a 32-bit Windows library compatible with Palm, Pocket PC, RIM, Symbian and other related operating systems. This module provides cryptographic services accessible from software programs written in C/C++ through Application Program Interfaces (APIs). The DLL (dynamically linked library) format of this module allows it to be embedded in existing applications targeted for Palm, Pocket PC, RIM and Symbian operating systems.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp475.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt475.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/2/2004",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "3/2/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/29/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "9/21/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/26/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "11/6/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/21/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Trust Digital, Inc.",
+      "website_url": "http://www.trustdigital.com",
+      "address_lines": [
+        "1600 International Drive",
+        "Suite 100",
+        "McLean, VA 22102",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Norm Laudermilch",
+      "contact_email": "norml@trustdigital.com",
+      "contact_phone": "703-760-9400"
+    },
+    "algorithms": []
+  }
+}

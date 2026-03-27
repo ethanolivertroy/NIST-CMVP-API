@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4159"
+  },
+  "certificate": {
+    "certificate_number": "4159",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4159",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4159",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4159.pdf",
+    "vendor_name": "WatchData Technologies Pte Ltd",
+    "module_name": "WatchKey ProX USB Token Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "2/17/2022",
+    "validation_dates": [
+      "2/17/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The WatchKey ProX USB Token is a USB-based PKI, two-factor authentication token device. It provides digital signature generation/verification for online authentications and data encryption/decryption for online transactions. The user's private and public key pairs can be generated and stored on the embedded chip.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4159.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2022_010322_0121_Signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/17/2022",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "WatchData Technologies Pte Ltd",
+      "website_url": "http://www.watchdata.com",
+      "address_lines": [
+        "11 Collyer Quay",
+        "#16-01 The Arcade",
+        "Singapore, Singapore 049317",
+        "Singapore"
+      ],
+      "country": "Singapore",
+      "contact_name": "Bai Liming",
+      "contact_email": "xLiming.bai@watchdata.com.sg",
+      "contact_phone": "+65 6572 9300"
+    },
+    "algorithms": []
+  }
+}

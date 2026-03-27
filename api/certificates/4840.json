@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4840"
+  },
+  "certificate": {
+    "certificate_number": "4840",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4840",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4840",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4840.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "Extron Secure Shield",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/16/2024, 7/15/2025",
+    "validation_dates": [
+      "10/16/2024",
+      "7/15/2025"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The Extron Secure Shield is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4840.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/16/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "7/15/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "1025 E. Ball Rd.",
+        "Anaheim, CA 92801",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Steve James",
+      "contact_email": "stevej@extron.com",
+      "contact_phone": "714-491-1500"
+    },
+    "algorithms": []
+  }
+}

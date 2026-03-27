@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4187"
+  },
+  "certificate": {
+    "certificate_number": "4187",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4187",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4187",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4187.pdf",
+    "vendor_name": "Aviat Networks, Inc.",
+    "module_name": "Aviat Networks Eclipse Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "3/29/2022, 4/14/2022, 11/22/2022, 6/28/2023, 12/6/2023, 8/16/2024",
+    "validation_dates": [
+      "3/29/2022",
+      "4/14/2022",
+      "11/22/2022",
+      "6/28/2023",
+      "12/6/2023",
+      "8/16/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS Mode. The tamper evident seals installed as indicated in the Security Policy. No assurance of the minimum strength of generated keys",
+    "description": "Aviat Networks' Eclipse is an all-in-one next generation dual hybrid and packet microwave radio. Eclipse provides superior networking features to address cost-optimized mobile backhaul, public, and private networking applications, along with high performance RF and Carrier Ethernet capabilities. Aviat Eclipse delivers a \"complete\" set of microwave nodal networking capabilities. Eclipse delivers multi-directional integrated microwave switching within a single system, supporting up to 6 RF or up to 45 Ethernet radios in a single rack unit.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4187.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2022_010422_0648_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/29/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/14/2022",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "11/22/2022",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/28/2023",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "12/6/2023",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "8/16/2024",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Aviat Networks, Inc.",
+      "website_url": "http://www.aviatnetworks.com",
+      "address_lines": [
+        "200 Parker Drive",
+        "Suite C100A",
+        "Austin, TX 78728",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ruth French",
+      "contact_email": "ruth.french@aviatnet.com",
+      "contact_phone": "+44 7771978599"
+    },
+    "algorithms": []
+  }
+}

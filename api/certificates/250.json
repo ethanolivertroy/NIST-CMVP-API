@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/250"
+  },
+  "certificate": {
+    "certificate_number": "250",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/250",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/250",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp250.pdf",
+    "vendor_name": "Lucent Technologies, Inc.",
+    "module_name": "Access Point 300-ST, 300-M-ST, 300-2M-ST, 300-2T1E1-ST, 300-M-U, and 300-2T1E1-U",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "9/19/2002, 11/5/2002, 3/17/2003",
+    "validation_dates": [
+      "9/19/2002",
+      "11/5/2002",
+      "3/17/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Access Point 300 is a next-generation, high performance IP Services router optimized for service providers wishing to quickly introduce high demand managed IP services at small to medium-sized enterprise customer premises locations.",
+    "security_level_exceptions": [
+      "Roles and Services: Level 2"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp250.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt250.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/19/2002",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "11/5/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "3/17/2003",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Lucent Technologies, Inc.",
+      "website_url": "http://www.lucent.com",
+      "address_lines": [
+        "1600 Osgood St.",
+        "20-3E-15",
+        "North Andover, MA 01845",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Lori Heseltine",
+      "contact_email": "lheseltine@lucent.com",
+      "contact_phone": "978-960-6827"
+    },
+    "algorithms": []
+  }
+}

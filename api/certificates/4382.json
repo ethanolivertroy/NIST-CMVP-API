@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4382"
+  },
+  "certificate": {
+    "certificate_number": "4382",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4382",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4382",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4382.pdf",
+    "vendor_name": "cPacket Networks, Inc.",
+    "module_name": "cVu 16100 Network Packet Broker",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "11/28/2022",
+    "validation_dates": [
+      "11/28/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The cPacket cVu product family is the industry's leading network packet broker (NPB) with millisecond accuracy at 100G wire speed. The cVu 16100+ integrates real-time performance monitoring with network packet brokering to enable organizations to cost effectively and quickly find network infrastructure issues and reliably feed security and other network tools without dropping packets.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4382.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/28/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "cPacket Networks, Inc.",
+      "website_url": "http://www.cpacket.com",
+      "address_lines": [
+        "480 N. McCarthy Blvd",
+        "Suite 100",
+        "Milpitas, CA 95035",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jasmine Wang",
+      "contact_email": "support@cpacketnetworks.com",
+      "contact_phone": "650-969-9500"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2720"
+  },
+  "certificate": {
+    "certificate_number": "2720",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2720",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2720",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2720.pdf",
+    "vendor_name": "Intel Corporation",
+    "module_name": "Cryptographic Module for Intel® vPro™ Platforms' Security Engine Chipset",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware-Hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/26/2016, 7/18/2019",
+    "validation_dates": [
+      "8/26/2016",
+      "7/18/2019"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Cryptographic Module for Intel® vPro™ Platforms' Security Engine Chipset is a hybrid cryptographic module present on recent Intel® vPro™ platforms. The Security Engine Chipset consists of both hardware and firmware that are utilized by the Management Engine (ME) of vProTM platforms. The hardware and firmware combine to perform cryptographic functions within the Intel® vPro™ ME for applications executing in the ME.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2720.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertAug2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/26/2016",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "7/18/2019",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Intel Corporation",
+      "website_url": "http://www.intel.com",
+      "address_lines": [
+        "2200 Mission College Blvd.",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Prashant Madhukar",
+      "contact_email": "prashant.madhukar@intel.com",
+      "contact_phone": "408-765-2996"
+    },
+    "algorithms": []
+  }
+}

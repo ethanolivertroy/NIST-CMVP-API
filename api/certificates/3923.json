@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3923"
+  },
+  "certificate": {
+    "certificate_number": "3923",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3923",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3923",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3923.pdf",
+    "vendor_name": "Microsoft Corporation",
+    "module_name": "Boot Manager",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "5/10/2021",
+    "validation_dates": [
+      "5/10/2021"
+    ],
+    "sunset_date": "5/9/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The Windows system boot manager is called by the bootstrapping code that resides in the boot sector. It checks its own integrity, checks the integrity of the Windows OS Loader, and then launches it.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 2"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3923.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2021_010621_0658.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/10/2021",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Microsoft Corporation",
+      "website_url": "http://www.microsoft.com",
+      "address_lines": [
+        "One Microsoft Way",
+        "Redmond, WA 98052-6399",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mike Grimm",
+      "contact_email": "FIPS@microsoft.com",
+      "contact_phone": "800-Microsoft"
+    },
+    "algorithms": []
+  }
+}

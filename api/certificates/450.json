@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/450"
+  },
+  "certificate": {
+    "certificate_number": "450",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/450",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/450",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp450.pdf",
+    "vendor_name": "Check Point Software Technologies Ltd.",
+    "module_name": "Nokia VPN Appliance",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "7/28/2004, 7/28/2005, 9/21/2006, 11/6/2006, 5/28/2009",
+    "validation_dates": [
+      "7/28/2004",
+      "7/28/2005",
+      "9/21/2006",
+      "11/6/2006",
+      "5/28/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Nokia IP350, IP355, IP380 and IP385 are full-featured enterprise systems designed for small to medium enterprises, with Service Provider flexibility and rapid serviceability option in a single rack space. When combined with Check Point VPN-1/FW-1, these platforms provide reliable, easy to manage distributed security and access.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp450.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt450.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/28/2004",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "7/28/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "9/21/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "11/6/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/28/2009",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Check Point Software Technologies Ltd.",
+      "website_url": "http://www.checkpoint.com",
+      "address_lines": [
+        "9900 Belward Campus Drive",
+        "Suite 250",
+        "Rockville, MD 20850",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Ambrose",
+      "contact_email": "product_certifications@checkpoint.com",
+      "contact_phone": "703-628-2935"
+    },
+    "algorithms": []
+  }
+}

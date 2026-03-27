@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4124"
+  },
+  "certificate": {
+    "certificate_number": "4124",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4124",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4124",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4124.pdf",
+    "vendor_name": "Hub Security LTD",
+    "module_name": "Hub Security Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "1/10/2022",
+    "validation_dates": [
+      "1/10/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "This cryptographic module is an HSM Vault developed by Hub Security LTD to be used in a security and privacy solution. It is a key management solution for safely storing and using all the company's sensitive data.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4124.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2022_010222_0702_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/10/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Hub Security LTD",
+      "website_url": "http://hubsecurity.io",
+      "address_lines": [
+        "3 St. Herzel",
+        "Tel Aviv, Tel Aviv District 6688214",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "Andrey Laremenko",
+      "contact_email": "andrey@hubsecurity.io",
+      "contact_phone": "201-285-4957"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/90"
+  },
+  "certificate": {
+    "certificate_number": "90",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/90",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/90",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp90.pdf",
+    "vendor_name": "Oracle Corporation",
+    "module_name": "Oracle® Advanced Security",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "3/21/2000, 4/4/2002, 7/7/2003",
+    "validation_dates": [
+      "3/21/2000",
+      "4/4/2002",
+      "7/7/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode using the FIPS Approved algorithms [listed in the description column]",
+    "description": "Oracle® Advanced Security is a comprehensive suite of security features for distributed environments. It provides a single source of integration with network encryption, authentication, and single sign-on services, delivers PKI solutions and integrates with LDAP directories. Oracle® Advanced Security is an option available with Oracle8i™ Enterprise Edition.",
+    "security_level_exceptions": [
+      "Operating System Security: Tested as meeting Level 2 with Sun Solaris Version 2.6SE running on a Sun Ultra SPARC-1 workstation."
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp90.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt90.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/21/2000",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/4/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/7/2003",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Oracle Corporation",
+      "website_url": "http://www.oracle.com",
+      "address_lines": [
+        "500 Oracle Parkway",
+        "Redwood Shores, CA 94065",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Security Evaluations Manager",
+      "contact_email": "seceval.us@oracle.com",
+      "contact_phone": "+44 118 9243860"
+    },
+    "algorithms": []
+  }
+}

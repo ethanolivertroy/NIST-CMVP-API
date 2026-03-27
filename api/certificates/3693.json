@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3693"
+  },
+  "certificate": {
+    "certificate_number": "3693",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3693",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3693",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3693.pdf",
+    "vendor_name": "Ruckus Wireless, Inc.",
+    "module_name": "FastIron ICX™ 7850 Series Switch/Router",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/28/2020, 11/27/2020",
+    "validation_dates": [
+      "7/28/2020",
+      "11/27/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When configured in FIPS Approved Mode as per Security Policy Section 8",
+    "description": "The Ruckus ICX™ 7850 Switch is designed to meet the challenges of high performance campus and data centers. It delivers non­blocking line-rate performance on all ports concurrently, with a switching capacity up to 6.4 Tbps. It supports the next generation Ethernet speeds with 10/25 Gigabit Ethernet at the aggregation and 40/100 Gigabit Ethernet at the core to meet high volume of traffic driving from the edge into the core. It also supports a rich array of routing protocols and delivers a range of high-availability hardware and software features.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3693.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2020_030820_0656_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/28/2020",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "11/27/2020",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Ruckus Wireless, Inc.",
+      "website_url": "http://www.ruckuswireless.com",
+      "address_lines": [
+        "350 W Java Drive",
+        "Sunnyvale, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Julie Lu",
+      "contact_email": "Julie.Lu@arris.com",
+      "contact_phone": "650-265-4200"
+    },
+    "algorithms": []
+  }
+}

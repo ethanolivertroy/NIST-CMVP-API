@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/541"
+  },
+  "certificate": {
+    "certificate_number": "541",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/541",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/541",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp541.pdf",
+    "vendor_name": "AEP Networks",
+    "module_name": "AEP Enterprise CM",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 4,
+    "validation_date": "6/2/2005",
+    "validation_dates": [
+      "6/2/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The AEP Enterprise CM by AEP Networks offers the next generation security platform for managing cryptographic keys and protecting sensitive applications. The AEP Enterprise CM is a hardware security module (HSM) designed for managing mission critical applications that demand maximum security. It is ideally suited for companies that need secure key management for certification authorities, registration authorities, OCSP responders, smart card issuers, web servers and other applications.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp541.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt541.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/2/2005",
+        "type": "Initial",
+        "lab": "DOMUS"
+      }
+    ],
+    "vendor": {
+      "name": "AEP Networks",
+      "website_url": "http://www.aepnetworks.com",
+      "address_lines": [
+        "Focus 31, West Wing",
+        "Cleveland Rd",
+        "New Hempstead, Herts HP2 7BW",
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "contact_name": "Paul Goffin",
+      "contact_email": "paul.goffin@aepnetworks.com",
+      "contact_phone": "+44 1442 458624"
+    },
+    "algorithms": []
+  }
+}

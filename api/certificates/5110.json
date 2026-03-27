@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5110"
+  },
+  "certificate": {
+    "certificate_number": "5110",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5110",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5110",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5110.pdf",
+    "vendor_name": "Rajant Corporation",
+    "module_name": "Rajant In-Line Security Module (RiSM)",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "12/16/2025",
+    "validation_dates": [
+      "12/16/2025"
+    ],
+    "sunset_date": "12/15/2030",
+    "caveat": "None",
+    "description": "The RiSM-1SPF is an in-line network encryption device capable of very high bandwidth over gigabit Ethernet and utilizes very low POE power. The Module is used to secure layer 2 Ethernet communications over the Rajant’s Kinetic Mesh® wireless mesh networks. The Module is ruggedized and may be used in extreme environments to secure traffic between endpoints, subnets or a combination.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5110.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/16/2025",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Rajant Corporation",
+      "website_url": "http://rajant.com/",
+      "address_lines": [
+        "200 Chesterfield Parkway",
+        "Malvern, PA 19355",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chad Mercer",
+      "contact_email": "cmercer@rajant.com",
+      "contact_phone": "484-595-0233"
+    },
+    "algorithms": []
+  }
+}

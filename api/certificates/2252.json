@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2252"
+  },
+  "certificate": {
+    "certificate_number": "2252",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2252",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2252",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2252.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Nexus 7700 Series Switches",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "9/22/2014",
+    "validation_dates": [
+      "9/22/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Cisco Nexus 7700 Switches are the latest extension to the Cisco Nexus 7700 Series modular switches. With more than 83 terabits per second (Tbps) of overall switching capacity, the Cisco Nexus 7700 Switches delivers the highest-capacity 10, 40, and 100 Gigabit Ethernet ports in the industry, with up to 768 native 10-Gbps ports, 384 40-Gbps ports, or 192 100-Gbps ports. This high system capacity is designed to meet the scalability requirements of the largest cloud environments.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2252.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0045.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/22/2014",
+        "type": "Initial",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 W Tasman Drive",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5137"
+  },
+  "certificate": {
+    "certificate_number": "5137",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5137",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5137",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5137.pdf",
+    "vendor_name": "Cisco Systems, Inc",
+    "module_name": "Cisco Firepower Threat Defense Virtual Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware-hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/15/2026",
+    "validation_dates": [
+      "1/15/2026"
+    ],
+    "sunset_date": "1/14/2031",
+    "caveat": "When installed, initialized and configured as specified in Section Life-Cycle Assurance of the Security Policy",
+    "description": "Cisco Firepower Threat Defense (FTD) solution offers the combination of the industry's most deployed stateful firewall with a comprehensive range of next-generation network security services, intrusion prevention system (IPS), content security and secure unified communications. All running in a virtual environment.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5137.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/15/2026",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Drive",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": "800-553-6387"
+    },
+    "algorithms": []
+  }
+}

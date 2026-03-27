@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4963"
+  },
+  "certificate": {
+    "certificate_number": "4963",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4963",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4963",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4963.pdf",
+    "vendor_name": "Ultra Intelligence and Communications",
+    "module_name": "Edge Security Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "2/10/2025",
+    "validation_dates": [
+      "2/10/2025"
+    ],
+    "sunset_date": "2/9/2030",
+    "caveat": "None",
+    "description": "Ultra I&C’s Edge Security Module provides built-in OSI layer 3 IPsec and Layer 2 VLAN encryption capabilities. As a hardware-based embedded cryptographic module, it serves a secured platform for customizable security applications.",
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4963.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/10/2025",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Ultra Intelligence and Communications",
+      "website_url": "http://www.ultra.group",
+      "address_lines": [
+        "12410 Milestone Center Drive #650",
+        "Germantown, MD 20876",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mike Murphy",
+      "contact_email": "Mike.Murphy@ultra-3eti.com",
+      "contact_phone": "301-944-1267"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4795"
+  },
+  "certificate": {
+    "certificate_number": "4795",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4795",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4795",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4795.pdf",
+    "vendor_name": "Communication Devices Inc.",
+    "module_name": "Port Authority Series",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "9/11/2024",
+    "validation_dates": [
+      "9/11/2024"
+    ],
+    "sunset_date": "9/10/2029",
+    "caveat": "Interim validation",
+    "description": "Secure Out of Band Management appliance providing the means to securely manage and power cycle remote equipment via cellular network, analog modem and network access.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4795.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2024_011024_0217.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/11/2024",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Communication Devices Inc.",
+      "website_url": "http://commdevices.com",
+      "address_lines": [
+        "85 Fulton Street",
+        "Boonton, NJ 07005",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tadhg Kelly",
+      "contact_email": "tadkelly@commdevices.com",
+      "contact_phone": "973-334-1980"
+    },
+    "algorithms": [
+      "AES",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "SHA"
+    ]
+  }
+}

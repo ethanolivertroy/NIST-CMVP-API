@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4753"
+  },
+  "certificate": {
+    "certificate_number": "4753",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4753",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4753",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4753.pdf",
+    "vendor_name": "Corsec Security, Inc.",
+    "module_name": "CorSSL FIPS Object Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/8/2024",
+    "validation_dates": [
+      "8/8/2024"
+    ],
+    "sunset_date": "8/7/2029",
+    "caveat": "Interim Validation, No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "The CorSSL FIPS Object Module provides FIPS-Approved symmetric encryption and decryption, digital signature functions, hashing, message authentication, key establishment, and random number generation functionality to third-party solutions general data protection and in support of secure communications protocols.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4753.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2024_010924_0336.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/8/2024",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Corsec Security, Inc.",
+      "website_url": "http://www.corsec.com",
+      "address_lines": [
+        "13921 Park Center Road",
+        "Suite 460",
+        "Herndon, Virginia 20171",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jake Nelson",
+      "contact_email": "jnelson@corsec.com",
+      "contact_phone": "17032676050"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

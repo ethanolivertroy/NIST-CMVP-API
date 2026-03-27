@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5208"
+  },
+  "certificate": {
+    "certificate_number": "5208",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5208",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5208",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5208.pdf",
+    "vendor_name": "Lightware Visual Engineering Plc.",
+    "module_name": "Lightware Crypto Core",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/26/2026",
+    "validation_dates": [
+      "3/26/2026"
+    ],
+    "sunset_date": "8/26/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Lightware Crypto Core is a standards-based cryptographic engine for embedded Linux systems. The module delivers core cryptographic functions to the embedded systems of Taurus product family's hardware devices and features robust algorithm support. Lightware Crypto Core offloads functions for secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5208.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/26/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Lightware Visual Engineering Plc.",
+      "website_url": "https://www.lightware.com",
+      "address_lines": [
+        "Gizella út 51-57.",
+        "Budapest 1143",
+        "Hungary"
+      ],
+      "country": "Hungary",
+      "contact_name": "Gabor Keczan",
+      "contact_email": "architect@lightware.com",
+      "contact_phone": "+36 1 255 3890"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1322"
+  },
+  "certificate": {
+    "certificate_number": "1322",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1322",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1322",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1322.pdf",
+    "vendor_name": "Thales e-Security Inc.",
+    "module_name": "TSPP",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "6/22/2010, 3/28/2011, 4/12/2011, 11/8/2011, 1/11/2012, 7/9/2012, 3/28/2013, 1/30/2017",
+    "validation_dates": [
+      "6/22/2010",
+      "3/28/2011",
+      "4/12/2011",
+      "11/8/2011",
+      "1/11/2012",
+      "7/9/2012",
+      "3/28/2013",
+      "1/30/2017"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Thales' TSPP is the multi-chip embedded cryptographic module in its payShield 9000 family of hardware security modules used in the Banking and Finance sector for securing card-based payment transactions. The product family is also used to provide dedicated functionality for key management and message security using algorithms such as Triple-DES, RSA, SHA, HMAC, and AES. TSPP contains a secure bootstrap that authenticates application loading using DSA 2048, so that only application software written by and \"signed\" by Thales can be loaded and run on TSPP-based products.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1322.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1322.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/22/2010",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/28/2011",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/12/2011",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "11/8/2011",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "1/11/2012",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "7/9/2012",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "3/28/2013",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "1/30/2017",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Thales e-Security Inc.",
+      "website_url": "http://www.thales-esecurity.com",
+      "address_lines": [
+        "900 South Pine Island Road",
+        "Suite 710",
+        "Plantation, FL 33324",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Sales",
+      "contact_email": "sales@thalesesec.com",
+      "contact_phone": "888-744-4976"
+    },
+    "algorithms": []
+  }
+}

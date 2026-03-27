@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3671"
+  },
+  "certificate": {
+    "certificate_number": "3671",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3671",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3671",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3671.pdf",
+    "vendor_name": "Infinera",
+    "module_name": "Infinera Cloud Xpress CX-1200F",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "6/16/2020",
+    "validation_dates": [
+      "6/16/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Section 12 of the Security Policy and the tamper evident seals and accessories installed as indicated in the Security Policy Section 11.1",
+    "description": "The Infinera Cloud Xpress CX-1200F incorporates Infinera’s Infinite Capacity Engine to deliver a 1.2 Tb/s wavelength-division multiplexing (WDM) super-channel in only 1 rack unit (1RU). Flexible 10/40/100 GbE support enables a smooth transition from 10 GbE and 40 GbE clients to 100 GbE. Multiple Cloud Xpress CX-1200F units can be racked, stacked and managed as a single unit in order to scale capacity up to 27.6 Tb/s per fiber pair. Data center operators can start by using a fraction of the platform’s capacity and scale up as needed without requiring any new installation or configuration.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3671.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2020_010720_0752.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/16/2020",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Infinera",
+      "website_url": "http://www.infinera.com",
+      "address_lines": [
+        "140 Caspian Court",
+        "Sunnyvale, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Infinera Certification Team",
+      "contact_email": "infineraCertTeam@infinera.com",
+      "contact_phone": "408-572-5411"
+    },
+    "algorithms": []
+  }
+}

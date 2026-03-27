@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2626"
+  },
+  "certificate": {
+    "certificate_number": "2626",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2626",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2626",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2626.pdf",
+    "vendor_name": "Century Longmai Technology Co. Ltd",
+    "module_name": "mToken CryptoID",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "4/14/2016",
+    "validation_dates": [
+      "4/14/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "mToken CryptoID is designed based on a secure smartcard chip that utilizes the in-built mCOS to communicate with computer device via USB interface in a \"plug and play\" manner. It can realize various Public Key Infrastructure (PKI) applications including digital signature, online authentications, online transactions, software security, etc.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2626.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertApril2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/14/2016",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Century Longmai Technology Co. Ltd",
+      "website_url": "http://www.longmai.net",
+      "address_lines": [
+        "3rd Floor, Gongkong Building",
+        "No. 1 Wangzhuang Rd",
+        "Haidian District",
+        "Beijing, Vendor State 100083",
+        "China"
+      ],
+      "country": "China",
+      "contact_name": "Lemon Yang",
+      "contact_email": "Lemon.yang@longmai.net",
+      "contact_phone": "+86 13810314817"
+    },
+    "algorithms": []
+  }
+}

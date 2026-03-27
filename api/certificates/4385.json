@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4385"
+  },
+  "certificate": {
+    "certificate_number": "4385",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4385",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4385",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4385.pdf",
+    "vendor_name": "General Dynamics Mission Systems",
+    "module_name": "Fortress Mesh Points",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "12/6/2022",
+    "validation_dates": [
+      "12/6/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The protocol SNMP shall not be used when operated in FIPS mode",
+    "description": "The Fortress Mesh Point is an all-in-one network access device housed in a rugged compact chassis, with the most stringent security available today built in. It can serve as a wireless bridge, a WLAN access point, and an eight-port LAN switch, while performing all the functions of a Fortress controller device: encrypting wireless traffic and providing Multi-factor Authentication for devices on the network it protects.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4385.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/6/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "General Dynamics Mission Systems",
+      "website_url": "http://gdmissionsystems.com",
+      "address_lines": [
+        "150 Rustcraft Road",
+        "Dedham, MA 02026",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ramin Taraz",
+      "contact_email": "Ramin.Taraz@gd-ms.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

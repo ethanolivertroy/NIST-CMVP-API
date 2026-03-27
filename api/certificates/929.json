@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/929"
+  },
+  "certificate": {
+    "certificate_number": "929",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/929",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/929",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp929.pdf",
+    "vendor_name": "Kingston Technology, Inc.",
+    "module_name": "Kingston S2 CM",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 2,
+    "validation_date": "3/18/2008, 4/4/2008, 6/23/2008",
+    "validation_dates": [
+      "3/18/2008",
+      "4/4/2008",
+      "6/23/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Kingston S2 CM is the core component of this performance secure USB Flash Drive. All data stored in the userÆs private partition is encrypted in hardware without reducing performance. The Kingston S2 CM provides encryption, user authentication and access control independent of the host software and hardware.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp929.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt929.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/18/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/4/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/23/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Kingston Technology, Inc.",
+      "website_url": "http://www.kingston.com",
+      "address_lines": [
+        "17600 Newhope Street",
+        "Fountain Valley, CA 92708",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mark Akoubian",
+      "contact_email": "mark_akoubian@kingston.com",
+      "contact_phone": "714-438-2719"
+    },
+    "algorithms": []
+  }
+}

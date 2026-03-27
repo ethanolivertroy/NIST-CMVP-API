@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5166"
+  },
+  "certificate": {
+    "certificate_number": "5166",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5166",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5166",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5166.pdf",
+    "vendor_name": "Google, LLC.",
+    "module_name": "Titan-BPN Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "SingleChip",
+    "overall_level": 1,
+    "validation_date": "3/18/2026",
+    "validation_dates": [
+      "3/18/2026"
+    ],
+    "sunset_date": "3/17/2031",
+    "caveat": "When operated in approved mode.",
+    "description": "The module is a custom secure micro-controller. It can implement a variety of security, encryption, and cryptography protocols. The protocols are running on a secure processor on-chip, interfacing with a host using an API across a trusted SPI peripheral. It provides secure EEPROM Boot, using SPI pass-through technology that allows the module to confirm authorship of Boot Code, ensuring code-signing before code swap is completed.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5166.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/18/2026",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Google, LLC.",
+      "website_url": "http://www.google.com/",
+      "address_lines": [
+        "1600 Amphitheatre Parkway",
+        "Mountain View, CA 94043",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "FIPS Crypto Officer",
+      "contact_email": "FIPS-crypto-officer@google.com",
+      "contact_phone": "650-253-0000"
+    },
+    "algorithms": []
+  }
+}

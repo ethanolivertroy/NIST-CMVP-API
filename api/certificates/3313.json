@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3313"
+  },
+  "certificate": {
+    "certificate_number": "3313",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3313",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3313",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3313.pdf",
+    "vendor_name": "Ixia, a Keysight Business",
+    "module_name": "Ixia Cryptographic Module for OpenSSL",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/23/2018, 12/11/2018, 1/31/2019, 5/28/2020, 9/18/2020",
+    "validation_dates": [
+      "10/23/2018",
+      "12/11/2018",
+      "1/31/2019",
+      "5/28/2020",
+      "9/18/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When built, installed, protected and initialized as assumed by the Crypto Officer role and as specified in the provided Security Policy and operated in FIPS mode. Appendix A of the provided Security Policy specifies the actual distribution tar file containing the source code of this module. There shall be no additions, deletions or alterations to the tar file contents as used during module build. The distribution tar file shall be verified as specified in Appendix A of the provided Security Policy. Installation and protection shall be completed as specified in Appendix A of the provided Security Policy. Initialization shall be invoked as per Section 4 of the provided Security Policy. Any deviation from specified verification, protection, installation and initialization procedures will result in a non FIPS 140-2 compliant module. This validation entry is a non-security relevant modification to Cert. #3220.",
+    "description": "The Ixia, a Keysight business, Cryptographic Module for OpenSSL is integrated into Ixia's network visibility platform to provide FIPS 140-2 validated cryptography for the protection of sensitive information.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3313.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertOct2018.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/23/2018",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "12/11/2018",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "1/31/2019",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "5/28/2020",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "9/18/2020",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Ixia, a Keysight Business",
+      "website_url": "https://www.ixiacom.com",
+      "address_lines": [
+        "8310 N Capital of Texas Hwy",
+        "Austin, TX 78731",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Fred Strelzoff",
+      "contact_email": "fred.strelzoff@keysight.com",
+      "contact_phone": "(512)600-5400"
+    },
+    "algorithms": []
+  }
+}

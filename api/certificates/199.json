@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/199"
+  },
+  "certificate": {
+    "certificate_number": "199",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/199",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/199",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp199.pdf",
+    "vendor_name": "F-Secure Corporation",
+    "module_name": "F-Secure Cryptographic Service Provider DLL",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "12/18/2001, 7/31/2003",
+    "validation_dates": [
+      "12/18/2001",
+      "7/31/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and using FIPS Approved algorithms and processes as listed",
+    "description": "The F-Secure Cryptographic Service Provider is a FIPS 140-1 Level 1 compliant software module, implemented as a 32-bit Windows™ NT compatible DLL, which provides a variety of cryptographic services and can be dynamically linked into applications by software developers to get access to general-purpose cryptographic functionality.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Operating System Security: Tested as meeting Level 1 with Microsoft Windows NT 4.0 SP6"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp199.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt199.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/18/2001",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "7/31/2003",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "F-Secure Corporation",
+      "website_url": "http://www.f-secure.com",
+      "address_lines": [
+        "Tammasaarenkatu 7",
+        "PL 24",
+        "Helsinki 00181",
+        "Finland"
+      ],
+      "country": "Finland",
+      "contact_name": "Alexey Kirichenko",
+      "contact_email": "Alexey.Kirichenko@F-Secure.com",
+      "contact_phone": "+358-9-2520-4548"
+    },
+    "algorithms": []
+  }
+}

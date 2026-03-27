@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4828"
+  },
+  "certificate": {
+    "certificate_number": "4828",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4828",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4828",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4828.pdf",
+    "vendor_name": "Palo Alto Networks, Inc.",
+    "module_name": "GlobalProtect App",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software-hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/11/2024",
+    "validation_dates": [
+      "10/11/2024"
+    ],
+    "sunset_date": "10/10/2026",
+    "caveat": "Interim validation. When installed, initialized and configured as specified in Section 11 of the Security Policy. No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "The GlobalProtect App is a software cryptographic module that runs on commercially available operating systems and mobile devices to provide security for users. The GlobalProtect App secures traffic using TLS or IPsec, and allows users to connect to corporate networks to access their company's resources from anywhere in the world.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4828.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/11/2024",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Palo Alto Networks, Inc.",
+      "website_url": "http://www.paloaltonetworks.com",
+      "address_lines": [
+        "3000 Tannery Way",
+        "Santa Clara, California 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jake Bajic",
+      "contact_email": "certifications@paloaltonetworks.com",
+      "contact_phone": "408-753-4000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

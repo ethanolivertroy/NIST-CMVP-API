@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2846"
+  },
+  "certificate": {
+    "certificate_number": "2846",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2846",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2846",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2846.pdf",
+    "vendor_name": "Prometheus Security Group Global",
+    "module_name": "Talon™ Multi-Function Security Appliance",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "2/22/2017, 4/20/2018",
+    "validation_dates": [
+      "2/22/2017",
+      "4/20/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Talon provides ultra-high securtiy standards compliant approach to delivery of high definition real time video, control signaling and physical security data over an IP network. Meeting stringent government encryption and data validation standards, the end user can rest assured that their sensitive data is reliably transported and securely delivered. The device offers an unrivaled level of security and is not susceptible to spoofing or snooping. The product delivers all these features at a price point lower than existing solutions which would require multiple technology combinations.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2846.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertFeb2017.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/22/2017",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/20/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Prometheus Security Group Global",
+      "website_url": "http://www.psgglobal.net",
+      "address_lines": [
+        "3019 Alvin Devane Blvd.",
+        "Building 4, Suite #450",
+        "Austin, TX 78741",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jeremy Freeze-Skret",
+      "contact_email": "jeremy.freeze-skret@psgglobal.net",
+      "contact_phone": "512-247-3700"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1586"
+  },
+  "certificate": {
+    "certificate_number": "1586",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1586",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1586",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1586.pdf",
+    "vendor_name": "ZTE Corporation",
+    "module_name": "Unified Platform Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "8/9/2011",
+    "validation_dates": [
+      "8/9/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Unified Platform Cryptographic Library provides general purpose cryptographic services intended to protect data in transit and at rest.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1586.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0008.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/9/2011",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "ZTE Corporation",
+      "website_url": "http://www.zte.com.cn/en/",
+      "address_lines": [
+        "NO. 55, Hi-tech Road South",
+        "Shen Zhen, Guangdong Province 518057",
+        "People's Republic of China"
+      ],
+      "country": "People's Republic of China",
+      "contact_name": "Mr. Royce Wang",
+      "contact_email": "wang.zhihui@zte.com.cn",
+      "contact_phone": "+86-755-2677 0345"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4860"
+  },
+  "certificate": {
+    "certificate_number": "4860",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4860",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4860",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4860.pdf",
+    "vendor_name": "Nokia of America Corporation (Nokia)",
+    "module_name": "Nokia 1830 Photonic Service Switch (PSS) & Nokia 1830 Photonic Service Interconnect- Line (PSI-L)",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/31/2024",
+    "validation_dates": [
+      "10/31/2024"
+    ],
+    "sunset_date": "10/30/2026",
+    "caveat": "Interim validation. When operated in approved mode.",
+    "description": "1830 Photonic Service Switch (PSS): Scalable optimized end-to-end optical transport solutions for metro, regional and long-haul networks. 1830 Photonic Service Switch - x( PSS -x): Scalable and efficient P-OTN switching for multi-protocol wholesale services. 1830 Photonic Service Interconnect -X (PSI-8L) is a scalable and modular shelf that provides a DataCenter form factor compatible option to deploy Photonic Line configuration.",
+    "security_level_exceptions": [
+      "Cryptographic module interfaces: Level 2",
+      "Roles, services, and authentication: Level 3",
+      "Software/Firmware security: Level 2",
+      "Operational environment: Level 2",
+      "Non-invasive security: N/A",
+      "Sensitive security parameter management: Level 2",
+      "Self-tests: Level 2",
+      "Life-cycle assurance: Level 2",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4860.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/31/2024",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Nokia of America Corporation (Nokia)",
+      "website_url": "https://www.nokia.com/",
+      "address_lines": [
+        "600-700 Mountain Avenue",
+        "Murray Hill, New Jersey 07974-0636",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Naren Patel",
+      "contact_email": "naren.patel@nokia.com",
+      "contact_phone": "978-320-3686"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

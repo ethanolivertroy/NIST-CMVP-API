@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/297"
+  },
+  "certificate": {
+    "certificate_number": "297",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/297",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/297",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp297.pdf",
+    "vendor_name": "nCipher Corporation Ltd.",
+    "module_name": "nShield F3 PCI, nShield F3 Ultrasign PCI and nShield F3 Ultrasign 32 PCI",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "3/7/2003, 5/9/2003, 1/23/2004",
+    "validation_dates": [
+      "3/7/2003",
+      "5/9/2003",
+      "1/23/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The nCipher nShield \"SEE Ready\" range of Hardware Security Modules improves the security of cryptographic keys, security sensitive software applications and increases server throughput of secure transactions in Public Key Infrastructure and other high integrity applications such as: Certificate Authorities, Registration Authorities, Government and Financial Institutions.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp297.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt297.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/7/2003",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "5/9/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/23/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "nCipher Corporation Ltd.",
+      "website_url": "http://www.ncipher.com",
+      "address_lines": [
+        "500 Unicorn Park Drive",
+        "Woburn, MA 01801",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "[email protected]",
+      "contact_email": "sales@ncipher.com",
+      "contact_phone": "800-NCIPHER"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3212"
+  },
+  "certificate": {
+    "certificate_number": "3212",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3212",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3212",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3212.pdf",
+    "vendor_name": "NCoded Communications, Inc.",
+    "module_name": "NCoded Ultra Cryptographic Server Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/28/2018, 8/17/2018, 3/8/2022",
+    "validation_dates": [
+      "6/28/2018",
+      "8/17/2018",
+      "3/8/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security relevant modification to Cert. #2038.",
+    "description": "NCoded Ultra Cryptographic Server Module is a standards-based \"Drop-in Compliance\" cryptographic engine for servers and appliances. The module delivers core cryptographic functions to mobile platforms and features robust algorithm support, including Suite B algorithms. NCoded Ultra Cryptographic Server Module offloads functions for secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3212.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/JuneCertFinal.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/28/2018",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "8/17/2018",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "3/8/2022",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "NCoded Communications, Inc.",
+      "website_url": "http://www.ncodedcommunications.com",
+      "address_lines": [
+        "17633 Gunn Hwy",
+        "#188",
+        "Odessa, FL 33556",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Peter Rung",
+      "contact_email": "FIPS140-2@nccinc.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

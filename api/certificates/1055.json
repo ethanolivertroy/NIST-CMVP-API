@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1055"
+  },
+  "certificate": {
+    "certificate_number": "1055",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1055",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1055",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1055.pdf",
+    "vendor_name": "Keycorp Limited",
+    "module_name": "Keycorp MULTOS I4F 80K with MULTOS PIV Card Application",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "11/25/2008, 5/28/2010, 2/6/2014",
+    "validation_dates": [
+      "11/25/2008",
+      "5/28/2010",
+      "2/6/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Keycorp MULTOS I4F 80K Smart Card with MULTOS PIV Card Application can be employed in a wide range of solutions. The smart card provides a highly portable, secure token for enhancing the security of network access and ensuring secure electronic communications. Combined with the PIV Card Application it provides enhanced I&A functionality.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1055.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1055.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/25/2008",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "5/28/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/6/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Keycorp Limited",
+      "website_url": "http://www.keycorp.net",
+      "address_lines": [
+        "Level 5, Keycorp Tower",
+        "799 Pacific Highway",
+        "Chatswood NSW",
+        "Sydney, MD 2067",
+        "Australia"
+      ],
+      "country": "Australia",
+      "contact_name": "Graeme Bradford",
+      "contact_email": "gbradford@keycorp.net",
+      "contact_phone": "703-635-7723"
+    },
+    "algorithms": []
+  }
+}

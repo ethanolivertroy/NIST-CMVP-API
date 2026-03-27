@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2686"
+  },
+  "certificate": {
+    "certificate_number": "2686",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2686",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2686",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2686.pdf",
+    "vendor_name": "Micro Focus Data Security",
+    "module_name": "Voltage Cryptographic Module v.5.0",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/19/2016, 8/4/2016, 8/22/2016, 10/12/2018, 4/15/2021",
+    "validation_dates": [
+      "7/19/2016",
+      "8/4/2016",
+      "8/22/2016",
+      "10/12/2018",
+      "4/15/2021"
+    ],
+    "sunset_date": "4/14/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The Voltage Cryptographic Module v.5.0 provides the Validated algorithms used by the SecureMail, SecureFile and SecureData families of products.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2686.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJuly2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/19/2016",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "8/4/2016",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "8/22/2016",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "10/12/2018",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "4/15/2021",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Micro Focus Data Security",
+      "website_url": "http://software.microfocus.com",
+      "address_lines": [
+        "1140 Enterprise Way",
+        "Sunnyvale, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Luther Martin",
+      "contact_email": "luther.martin@microfocus.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

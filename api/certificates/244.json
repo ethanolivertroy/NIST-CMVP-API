@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/244"
+  },
+  "certificate": {
+    "certificate_number": "244",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/244",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/244",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp244.pdf",
+    "vendor_name": "3S Group Incorporated",
+    "module_name": "Type 2 Cryptographic Support Server (T2CSS)",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 2,
+    "validation_date": "8/13/2002, 1/17/2003, 5/1/2007, 7/28/2008",
+    "validation_dates": [
+      "8/13/2002",
+      "1/17/2003",
+      "5/1/2007",
+      "7/28/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "T2CSS is a multiple cryptoprocessor PCI board and cryptographic server. Provides high assurance security services; secure session/virtual token management; scalable server performance (multiple boards); Government and commercial algorithms; FORTEZZA CI, PKCS #11, other APIs; and Windows NT/2000, Solaris and Linux support.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp244.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt244.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/13/2002",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "1/17/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/1/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/28/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "3S Group Incorporated",
+      "website_url": "http://www.threesi.com",
+      "address_lines": [
+        "125 Church St. NE",
+        "Vienna, VA 22180",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Satpal S Sahni",
+      "contact_email": "info@threesi.com",
+      "contact_phone": "703-281-5015"
+    },
+    "algorithms": []
+  }
+}

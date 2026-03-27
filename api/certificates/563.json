@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/563"
+  },
+  "certificate": {
+    "certificate_number": "563",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/563",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/563",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp563.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "SNAPcell",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "8/19/2005, 12/2/2005, 12/22/2005, 1/13/2006",
+    "validation_dates": [
+      "8/19/2005",
+      "12/2/2005",
+      "12/22/2005",
+      "1/13/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "SNAPcell is a plug-in cellular accessory for Sony Ericsson handsets which enable secure end-to-end GSM communications. SNAPcell draws a new key for each session. SNAPcell requires minimum user intervention with seamless operation and due to the efficient implementation of the encryption algorithms it has minimum impact on the handset battery life. SNAPcell can be used across all four GSM frequency bands and the handset or the subscriber cannot be identifiable within the network. SNAPcell can be easily transferred from one device to another.\" \"Snapcell is a high assurance, lightweight, micro-adapter that secures cellular communications, end-to-end on any GSM frequency (850/900/1800/1900). Snapcell is compatible with standard Sony-Ericsson (GSM) mobile phones. Snapcell is approved for exporting outside the USA. Snapcell is also available with an optional centralized enterprise manager gateway (CEMG) that provides a secure single-point of administration for networking up to several thousands of users over public and private networks. Snapcell is currently deployed by the U.S. Special Forces, U.S. Navy, Coalition partners and financial institutions in over 30 countries.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp563.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt563.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/19/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "12/2/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/22/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/13/2006",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "1 Research Court",
+        "Suite 450",
+        "Rockville, MD 20850",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Uri Naor",
+      "contact_email": "uri.naor@snapshield.com",
+      "contact_phone": "301-216-3805"
+    },
+    "algorithms": []
+  }
+}

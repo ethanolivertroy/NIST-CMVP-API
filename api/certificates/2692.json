@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2692"
+  },
+  "certificate": {
+    "certificate_number": "2692",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2692",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2692",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2692.pdf",
+    "vendor_name": "Zanjia Electronic Science & Technology (Beijing) Co., Ltd.",
+    "module_name": "HSM-ZJ2014",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "7/28/2016",
+    "validation_dates": [
+      "7/28/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "HSM-ZJ2014 is a hardware security module, providing cryptographic services including encryption, decryption, signature generation and verification, and key management.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2692.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJuly2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/28/2016",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Zanjia Electronic Science & Technology (Beijing) Co., Ltd.",
+      "website_url": "http://www.datadefender.com.cn",
+      "address_lines": [
+        "Rm 1701, Bldg B, Wantong New World Plaza",
+        "No.2 Fuchengmenwai St.",
+        "Xicheng Dist.",
+        "Beijing, Beijing 100037",
+        "China"
+      ],
+      "country": "China",
+      "contact_name": "Jingqiang Lin",
+      "contact_email": "jingqiang.lin@datadefender.com.cn",
+      "contact_phone": "+86-18910039067"
+    },
+    "algorithms": []
+  }
+}

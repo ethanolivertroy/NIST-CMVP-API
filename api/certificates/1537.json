@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1537"
+  },
+  "certificate": {
+    "certificate_number": "1537",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1537",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1537",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1537.pdf",
+    "vendor_name": "Brocade Communications Systems, Inc.",
+    "module_name": "Brocade Mobility RFS7000 Controller",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "4/28/2011",
+    "validation_dates": [
+      "4/28/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Brocade Mobility RFS7000 Controller provides robust, highly scalable support for seamless mobility for government agencies. The innovative architecture simplifies network deployment and management, provides superior performance, security and scalability. The Brocade Mobility RFS7000 enables campus-wide roaming across subnets, and offers powerful failover capabilities, exceptional quality of service and increased voice capacity. Integrated security features include intrusion detection and protection, secure guest access and protection against denial of service attacks.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1537.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0005.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/28/2011",
+        "type": "Initial",
+        "lab": "Aspect"
+      }
+    ],
+    "vendor": {
+      "name": "Brocade Communications Systems, Inc.",
+      "website_url": "http://www.brocade.com",
+      "address_lines": [
+        "1745 Technology Drive",
+        "San Jose, CA, CA 95110",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Michael Hong",
+      "contact_email": "mhong@brocade.com",
+      "contact_phone": "408-333-8000"
+    },
+    "algorithms": []
+  }
+}

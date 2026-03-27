@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1253"
+  },
+  "certificate": {
+    "certificate_number": "1253",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1253",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1253",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1253.pdf",
+    "vendor_name": "3e Technologies International, Inc.",
+    "module_name": "3e-523-F2 and 3e-523-3 Secure Multi-function Wireless Data Points",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "1/28/2010",
+    "validation_dates": [
+      "1/28/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The 3e-523-F2 and 3e-523-3 operate as either a gateway connecting a local area network to wide area network (WAN), an access point within a wireless local area network (WLAN), a client within a WLAN, or a wireless bridging device. 3eTI software provides the following major services in FIPS mode: Wireless 802.11a/b/g Access Point functionality; Wireless 802.11a/b/g Client functionality; Wireless 802.11a/b/g Bridge functionality; Wireless 802.11a/b/g Mesh functionality (auto-forming, self-healing wireless capability); IEEE 802.11i.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1253.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1253.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/28/2010",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      }
+    ],
+    "vendor": {
+      "name": "3e Technologies International, Inc.",
+      "website_url": "http://www.3eti.com",
+      "address_lines": [
+        "9715 Key West Avenue",
+        "Suite 500",
+        "Rockville, MD 20850",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Harinder Sood",
+      "contact_email": "hsood@efji.com",
+      "contact_phone": "301-944-1325"
+    },
+    "algorithms": []
+  }
+}

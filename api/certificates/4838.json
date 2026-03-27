@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4838"
+  },
+  "certificate": {
+    "certificate_number": "4838",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4838",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4838",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4838.pdf",
+    "vendor_name": "NetApp, Inc.",
+    "module_name": "NetApp Cryptographic Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/16/2024, 11/14/2024, 1/20/2026",
+    "validation_dates": [
+      "10/16/2024",
+      "11/14/2024",
+      "1/20/2026"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The NetApp Cryptographic Security Module is a software library that provides cryptographic services to a vast array of NetApp's storage and networking products.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4838.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/16/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "11/14/2024",
+        "type": "Update",
+        "lab": "Lightship Security, Inc."
+      },
+      {
+        "date": "1/20/2026",
+        "type": "Update",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "NetApp, Inc.",
+      "website_url": "http://www.netapp.com",
+      "address_lines": [
+        "3060 Olsen Drive",
+        "San Jose, CA 95128",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "NetApp Product Security Contacts",
+      "contact_email": "ng-netapp-sa-contacts@netapp.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

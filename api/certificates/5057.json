@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5057"
+  },
+  "certificate": {
+    "certificate_number": "5057",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5057",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5057",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5057.pdf",
+    "vendor_name": "Nuvoton Technology Corporation",
+    "module_name": "Nuvoton NPCT7xx TPM 2.0 Cryptographic Engine",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "9/15/2025",
+    "validation_dates": [
+      "9/15/2025"
+    ],
+    "sunset_date": "9/14/2030",
+    "caveat": "When operated in approved mode; No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Nuvoton NPCT7xx TPM 2.0 Cryptographic Engine is a hardware cryptographic module that implements advanced cryptographic algorithms, including symmetric and asymmetric cryptography; as well as key generation and random number generation.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Physical security: Level 3",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5057.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/15/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Nuvoton Technology Corporation",
+      "website_url": "http://www.nuvoton.com",
+      "address_lines": [
+        "4, Creation Road III",
+        "Hsinchu Science Park 46130",
+        "Taiwan"
+      ],
+      "country": "Taiwan",
+      "contact_name": "Yossi Talmi",
+      "contact_email": "yossi.talmi@nuvoton.com",
+      "contact_phone": "972-9-9702364"
+    },
+    "algorithms": []
+  }
+}

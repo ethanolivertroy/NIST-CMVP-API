@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/452"
+  },
+  "certificate": {
+    "certificate_number": "452",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/452",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/452",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp452.pdf",
+    "vendor_name": "Credant Technologies Corporation",
+    "module_name": "Credant Cryptographic Kernel",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/28/2004, 9/21/2004, 9/24/2004",
+    "validation_dates": [
+      "7/28/2004",
+      "9/21/2004",
+      "9/24/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Credant Cryptographic Kernel is a FIPS 140-2 compliant, software-based cryptography library that implements Triple-DES, AES, SHA-1, and HMAC-SHA-1 algorithms for the Credant Mobile Guardian product. Credant Mobile Guardian enables enterprise-wide control of security for mobile and wireless users of laptops, tablet PCs, PDAs and smart phones.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp452.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt452.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/28/2004",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "9/21/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "9/24/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Credant Technologies Corporation",
+      "website_url": "http://www.credant.com",
+      "address_lines": [
+        "15305 Dallas Parkway",
+        "Suite 1010",
+        "Addison, TX 75001",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chris Burchett",
+      "contact_email": "cburchett@credant.com",
+      "contact_phone": "972-458-5407"
+    },
+    "algorithms": []
+  }
+}

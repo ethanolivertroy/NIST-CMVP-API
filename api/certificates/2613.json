@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2613"
+  },
+  "certificate": {
+    "certificate_number": "2613",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2613",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2613",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2613.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "SR-OS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/11/2016",
+    "validation_dates": [
+      "4/11/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. When installed, initialized and configured as specified in the Security Policy Section 9.1",
+    "description": "The SR-OS Cryptographic Module (SRCM) provides the cryptographic algorithm functions needed to allow SR-OS to implement cryptography for those services and protocols that require it.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2613.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertApril2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/11/2016",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "600 March Road",
+        "Ottawa, ON K2K 2E6",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Carl Rajsic",
+      "contact_email": "carl.rajsic@nokia.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

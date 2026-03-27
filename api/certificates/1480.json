@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1480"
+  },
+  "certificate": {
+    "certificate_number": "1480",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1480",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1480",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1480.pdf",
+    "vendor_name": "Riverbed Technology, Inc.",
+    "module_name": "Steelhead 1050 and Steelhead 2050 Appliances",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "1/11/2011",
+    "validation_dates": [
+      "1/11/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and with the tamper evident seals and security panels installed as indicated in the Security Policy",
+    "description": "The Steelhead family of appliances provides application acceleration and accelerated data transfer over a wide area network (WAN), overcoming bandwidth and geographical limitations to improve productivity and enable global collaboration.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1480.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0002.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/11/2011",
+        "type": "Initial",
+        "lab": "DOMUS"
+      }
+    ],
+    "vendor": {
+      "name": "Riverbed Technology, Inc.",
+      "website_url": "http://www.riverbed.com",
+      "address_lines": [
+        "199 Fremont Street",
+        "San Francisco, CA 94105",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Amol Kabe",
+      "contact_email": "akabe@riverbed.com",
+      "contact_phone": "415-344-4447"
+    },
+    "algorithms": []
+  }
+}

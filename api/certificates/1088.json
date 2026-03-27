@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1088"
+  },
+  "certificate": {
+    "certificate_number": "1088",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1088",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1088",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1088.pdf",
+    "vendor_name": "Motorola, Inc.",
+    "module_name": "WS5100 Wireless Switch",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "2/9/2009, 6/1/2009",
+    "validation_dates": [
+      "2/9/2009",
+      "6/1/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The WS5100 Wireless Switch from Motorola provides enhanced support for enterprise mobility and multimedia applications, as well as security and manageability. Based on Motorola's Wi-NG (Wireless Next Generation) architecture, the WS5100 enables seamless campus-wide roaming, more robust failover capabilities, enhanced security, improved mobile client battery life, and increased voice capacity. Robust security features includes an IPSec VPN gateway, and secure guest access provisioning. The WS5100 supports 48 802.11 a/b/g Access Ports/Points for L2/L3 adoption and mobility.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1088.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1088.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/9/2009",
+        "type": "Initial",
+        "lab": "Aspect"
+      },
+      {
+        "date": "6/1/2009",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Motorola, Inc.",
+      "website_url": "http://www.motorola.com",
+      "address_lines": [
+        "6480 Via Del Oro",
+        "San Jose, CA, CA 95119",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Colin R. Cooper",
+      "contact_email": "Colin.Cooper@motorola.com",
+      "contact_phone": "408-528-2871"
+    },
+    "algorithms": []
+  }
+}

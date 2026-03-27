@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2796"
+  },
+  "certificate": {
+    "certificate_number": "2796",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2796",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2796",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2796.pdf",
+    "vendor_name": "Seagate Technology, LLC",
+    "module_name": "Seagate Secure® TCG Enterprise SSC Self-Encrypting Drive",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "11/22/2016, 3/7/2017, 6/22/2017, 9/11/2017, 12/1/2017, 3/22/2018, 7/3/2018, 9/24/2018, 1/28/2019, 2/19/2019, 3/25/2019, 7/15/2019, 10/2/2019, 1/16/2020, 5/6/2020, 7/6/2020, 12/1/2020, 3/10/2021, 5/21/2021, 8/3/2021, 12/13/2021, 12/14/2021, 3/20/2023, 9/18/2023, 9/22/2023, 2/26/2024, 8/12/2024, 2/18/2025, 9/19/2025",
+    "validation_dates": [
+      "11/22/2016",
+      "3/7/2017",
+      "6/22/2017",
+      "9/11/2017",
+      "12/1/2017",
+      "3/22/2018",
+      "7/3/2018",
+      "9/24/2018",
+      "1/28/2019",
+      "2/19/2019",
+      "3/25/2019",
+      "7/15/2019",
+      "10/2/2019",
+      "1/16/2020",
+      "5/6/2020",
+      "7/6/2020",
+      "12/1/2020",
+      "3/10/2021",
+      "5/21/2021",
+      "8/3/2021",
+      "12/13/2021",
+      "12/14/2021",
+      "3/20/2023",
+      "9/18/2023",
+      "9/22/2023",
+      "2/26/2024",
+      "8/12/2024",
+      "2/18/2025",
+      "9/19/2025"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section 7 of the Security Policy",
+    "description": "The Seagate Secure® TCG Enterprise SSC Self-Encrypting Drive FIPS 140-2 Module is embodied in Seagate Enterprise Performance SED model disk drives. These products meet the performance requirements of the most demanding Enterprise applications. The cryptographic module (CM) provides a wide range of cryptographic services using FIPS approved algorithms. Services include hardware-based data encryption (AES-XTS), instantaneous user data disposal with cryptographic erase, independently controlled and protected user data LBA bands and authenticated FW download. The services are provided throug",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2796.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertNov2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/22/2016",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "3/7/2017",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "6/22/2017",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "9/11/2017",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "12/1/2017",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "3/22/2018",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "7/3/2018",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "9/24/2018",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "1/28/2019",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "2/19/2019",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "3/25/2019",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "7/15/2019",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "10/2/2019",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "1/16/2020",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "5/6/2020",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "7/6/2020",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "12/1/2020",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "3/10/2021",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "5/21/2021",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "8/3/2021",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "12/13/2021",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "12/14/2021",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "3/20/2023",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "9/18/2023",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "9/22/2023",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "2/26/2024",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "8/12/2024",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "2/18/2025",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/19/2025",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Seagate Technology, LLC",
+      "website_url": "http://www.seagate.com",
+      "address_lines": [
+        "389 Disc Drive",
+        "Longmont, CO 80503",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David R Kaiser, PMP",
+      "contact_email": "david.r.kaiser@seagate.com",
+      "contact_phone": "952-402-2356"
+    },
+    "algorithms": []
+  }
+}

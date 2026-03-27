@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5186"
+  },
+  "certificate": {
+    "certificate_number": "5186",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5186",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5186",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5186.pdf",
+    "vendor_name": "Kloudfuse Inc.",
+    "module_name": "Kloudfuse Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/12/2026",
+    "validation_dates": [
+      "3/12/2026"
+    ],
+    "sunset_date": "8/26/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Kloudfuse Cryptographic Module offloads functions for secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5186.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/12/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Kloudfuse Inc.",
+      "website_url": "https://www.kloudfuse.com/",
+      "address_lines": [
+        "20370 Town Center Ln #211",
+        "Cupertino, CA 95014",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Pankaj Thakkar",
+      "contact_email": "info@kloudfuse.com",
+      "contact_phone": "408-409-5361"
+    },
+    "algorithms": []
+  }
+}

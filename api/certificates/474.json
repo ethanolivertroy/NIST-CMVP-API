@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/474"
+  },
+  "certificate": {
+    "certificate_number": "474",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/474",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/474",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp474.pdf",
+    "vendor_name": "L-3 Communications Government Services, Inc.",
+    "module_name": "Hand Held Monitor Module (HHM)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "10/22/2004",
+    "validation_dates": [
+      "10/22/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Hand Held Monitor Module (HHM) device is a component of the Tactical Automated Security System (TASS). The HHM is used to detect, monitor, and access intrusions in secured areas. The HHM works in conjunction with the Communications Module (CM), which receives, and forwards intrusion alerts to the HHM.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp474.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt474.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/22/2004",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      }
+    ],
+    "vendor": {
+      "name": "L-3 Communications Government Services, Inc.",
+      "website_url": "http://www.l-3com.com",
+      "address_lines": [
+        "3750 Centerview Drive",
+        "Chantilly, VA 20151",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Suma Shastry",
+      "contact_email": "suma.shastry@l-3com.com",
+      "contact_phone": "703-375-6598"
+    },
+    "algorithms": []
+  }
+}

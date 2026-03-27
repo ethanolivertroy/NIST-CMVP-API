@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4916"
+  },
+  "certificate": {
+    "certificate_number": "4916",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4916",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4916",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4916.pdf",
+    "vendor_name": "Aruba, a Hewlett Packard Enterprise company",
+    "module_name": "AP-514, AP-515, AP-534, AP-535, AP-584, AP-585, AP-587, AP-635 and AP-655 Access Points",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "12/12/2024",
+    "validation_dates": [
+      "12/12/2024"
+    ],
+    "sunset_date": "12/11/2026",
+    "caveat": "Interim validation. When operated in the approved mode, with tamper evident labels installed as indicated in the Security Policy",
+    "description": "Aruba's 802.11 Wi-Fi access points operate at gigabit speeds, offering extreme performance for mobile devices. In FIPS 140-3 mode, Aruba APs in conjunction with a Mobility Controller support the WPA2/WPA3 client standard along with optional Suite B cryptography. Aruba APs also support wireless intrusion detection/prevention services and wireless mesh topologies.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4916.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/12/2024",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Aruba, a Hewlett Packard Enterprise company",
+      "website_url": "http://www.arubanetworks.com",
+      "address_lines": [
+        "3333 Scott Blvd",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kevin Micciche",
+      "contact_email": "kevin.micciche@hpe.com",
+      "contact_phone": "404-648-0062"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4656"
+  },
+  "certificate": {
+    "certificate_number": "4656",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4656",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4656",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4656.pdf",
+    "vendor_name": "Cohesity, Inc.",
+    "module_name": "Cohesity FIPS Object Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/27/2023",
+    "validation_dates": [
+      "11/27/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "The Cohesity FIPS Object Module provides FIPS 140-2 validated cryptographic functionality for Cohesity products and services.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4656.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2023_111223_0648_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/27/2023",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Cohesity, Inc.",
+      "website_url": "http://www.cohesity.com/",
+      "address_lines": [
+        "300 Park Ave.",
+        "Suite 1700",
+        "San Jose, CA 95110",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Sydney Jackson",
+      "contact_email": "sydney.jackson@cohesity.com",
+      "contact_phone": null
+    },
+    "algorithms": [
+      "KAS"
+    ]
+  }
+}

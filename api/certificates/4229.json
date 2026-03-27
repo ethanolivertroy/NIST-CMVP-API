@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4229"
+  },
+  "certificate": {
+    "certificate_number": "4229",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4229",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4229",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4229.pdf",
+    "vendor_name": "Oracle Corporation",
+    "module_name": "Oracle Linux 8 GnuTLS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "5/16/2022, 8/2/2022",
+    "validation_dates": [
+      "5/16/2022",
+      "8/2/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "The Oracle Linux 8 GnuTLS Cryptographic Module is a set of libraries implementing general purpose cryptographic algorithms and network protocols.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4229.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2022_010622_0641_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/16/2022",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "8/2/2022",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Oracle Corporation",
+      "website_url": "http://www.oracle.com",
+      "address_lines": [
+        "2300 Oracle Way",
+        "Austin, TX 78741",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Security Evaluation team",
+      "contact_email": "seceval_us@oracle.com",
+      "contact_phone": null
+    },
+    "algorithms": [
+      "TLS"
+    ]
+  }
+}

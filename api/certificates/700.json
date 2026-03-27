@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/700"
+  },
+  "certificate": {
+    "certificate_number": "700",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/700",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/700",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp700.pdf",
+    "vendor_name": "Blue Ridge Networks",
+    "module_name": "BorderGuard 5000 and 6000 Series",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "8/22/2006",
+    "validation_dates": [
+      "8/22/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The BorderGuard hardware models 5100, 5200, 5400, 5500, 5600, 6100, 6200, 6400, 6500, and 6600 version DPF 7.3 firmware are standalone hardware security appliances (routers) used to secure Internet traffic. The module is a multi-chip-standalone device.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp700.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt700.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/22/2006",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      }
+    ],
+    "vendor": {
+      "name": "Blue Ridge Networks",
+      "website_url": "http://www.blueridgenetworks.com",
+      "address_lines": [
+        "14120 Parke Long Court",
+        "Suite 101",
+        "Chantilly, VA 20151",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Nancy Canty",
+      "contact_email": "ncanty@BlueRidgeNetworks.com",
+      "contact_phone": "703-633-7331"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/340"
+  },
+  "certificate": {
+    "certificate_number": "340",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/340",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/340",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp340.pdf",
+    "vendor_name": "SonicWall, Inc.",
+    "module_name": "Cisco CSS Series 11000 Secure Content Accelerator/SonicWALL SSL-RX",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "8/29/2003, 4/25/2007, 4/21/2015, 6/8/2017",
+    "validation_dates": [
+      "8/29/2003",
+      "4/25/2007",
+      "4/21/2015",
+      "6/8/2017"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The SCA2/SSL-RX is an SSL proxy device designed for SSL acceleration and offloading. The SCA2/SSL-RX provides the ability to both terminate and initiate SSL connectio ns, converting cipher-text to clear-text, or clear-text to cipher-text.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp340.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt340.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/29/2003",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/25/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "4/21/2015",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/8/2017",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "SonicWall, Inc.",
+      "website_url": "http://www.sonicwall.com",
+      "address_lines": [
+        "5455 Great America Parkway",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Lawrence Wagner",
+      "contact_email": "lwagner@sonicwall.com",
+      "contact_phone": "408-752-7886"
+    },
+    "algorithms": []
+  }
+}

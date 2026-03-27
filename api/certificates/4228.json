@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4228"
+  },
+  "certificate": {
+    "certificate_number": "4228",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4228",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4228",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4228.pdf",
+    "vendor_name": "Kanguru Solutions",
+    "module_name": "Defender HDD 350",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "5/16/2022, 10/4/2022",
+    "validation_dates": [
+      "5/16/2022",
+      "10/4/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The Defender HDD 350 is a 256-bit AES hardware encrypted USB Hard Drive Crypto Module used primarily to secure data at rest. The Kanguru Defender line of secure USB solutions is remotely manageable through the Kanguru Remote Management Console (KRMC).",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4228.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2022_010622_0641_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/16/2022",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "10/4/2022",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Kanguru Solutions",
+      "website_url": "http://www.kanguru.com",
+      "address_lines": [
+        "1360 Main Street",
+        "Millis, MA 02054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Nate Cote",
+      "contact_email": "natec@kanguru.com",
+      "contact_phone": "508-376-4245"
+    },
+    "algorithms": []
+  }
+}

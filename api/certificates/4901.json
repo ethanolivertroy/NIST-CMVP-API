@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4901"
+  },
+  "certificate": {
+    "certificate_number": "4901",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4901",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4901",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4901.pdf",
+    "vendor_name": "Honeywell International Inc.",
+    "module_name": "Qualcomm® Crypto Engine Core",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "11/22/2024",
+    "validation_dates": [
+      "11/22/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "QTI Crypto Engine Core is a general purpose cryptographic hardware engine capable of securely processing various confidentiality and integrity algorithms across multiple execution environments.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4901.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/22/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Honeywell International Inc.",
+      "website_url": "http://automation.honeywell.com/us/en",
+      "address_lines": [
+        "9680 Old Bailes Road",
+        "Fort Mill, SC 29707",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Douglas Hinson",
+      "contact_email": "douglas.hinson@Honeywell.com",
+      "contact_phone": "803-835-8180"
+    },
+    "algorithms": []
+  }
+}

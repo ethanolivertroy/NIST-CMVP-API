@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5086"
+  },
+  "certificate": {
+    "certificate_number": "5086",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5086",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5086",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5086.pdf",
+    "vendor_name": "Hitachi Vantara, Ltd.",
+    "module_name": "Hitachi Embedded Storage Manager Kernel Crypto API Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "10/23/2025",
+    "validation_dates": [
+      "10/23/2025"
+    ],
+    "sunset_date": "10/22/2030",
+    "caveat": "When operated in approved mode. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "Hitachi Embedded Storage Manager Kernel Crypto API Cryptographic Module provides cryptographic services for Hitachi Virtual Storage Platform (VSP).",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5086.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/23/2025",
+        "type": "Initial",
+        "lab": "ECSEC Laboratory Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hitachi Vantara, Ltd.",
+      "website_url": "https://www.hitachivantara.com/ja-jp",
+      "address_lines": [
+        "292 Yoshida-cho, Totsuka-ku",
+        "Yokoahama-shi, Kanagawa 244-0817",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "Hirotoshi Akaike",
+      "contact_email": "hirotoshi.akaike@hitachivantara.com",
+      "contact_phone": "81-45-870-1533"
+    },
+    "algorithms": []
+  }
+}

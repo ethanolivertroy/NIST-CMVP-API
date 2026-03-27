@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4704"
+  },
+  "certificate": {
+    "certificate_number": "4704",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4704",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4704",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4704.pdf",
+    "vendor_name": "Palo Alto Networks, Inc.",
+    "module_name": "Palo Alto Networks SD-WAN Instant-On Network (ION) Devices ION 1200 and ION 9000",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "6/7/2024",
+    "validation_dates": [
+      "6/7/2024"
+    ],
+    "sunset_date": "6/6/2029",
+    "caveat": "The tamper evident seals installed as indicated in the Security Policy",
+    "description": "The Palo Alto Networks Prisma SD-WAN ION 1200, ION 1200-C-NA, ION 1200-C-ROW, ION 1200-C-5G-WW devices are multi-chip standalone modules that enable integration of heterogeneous WAN links, provide confident integration of the cloud, improve application performance/visibility, and reduce overall cost and complexity of customers WAN. Prisma SD-WAN ION 9000 is a multi-chip standalone module designed for the data center to create a secure SD-WAN fabric across branches and data centers. It is designed to install seamlessly in the data center by peering with adjacent data center devices using traditional, standards-based routing protocols.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4704.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2024_010724_1153.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/7/2024",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Palo Alto Networks, Inc.",
+      "website_url": "http://www.paloaltonetworks.com",
+      "address_lines": [
+        "3000 Tannery Way",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jake Bajic",
+      "contact_email": "certifications@paloaltonetworks.com",
+      "contact_phone": "408-753-4000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

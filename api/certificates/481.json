@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/481"
+  },
+  "certificate": {
+    "certificate_number": "481",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/481",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/481",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp481.pdf",
+    "vendor_name": "Realia Technologies S.L.",
+    "module_name": "Cryptosec 2048",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "12/10/2004",
+    "validation_dates": [
+      "12/10/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Cryptosec 2048 is a high-end PCI cryprographic accelerator card that provides cryptographic services and secure storage of cryptographic keys. The module is built to perform general cryptographic processing (RSA, DES, SHA-1, MD5,...) and features a tamper-protective case to physically protect sensitive information contained within the card.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp481.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt481.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/10/2004",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      }
+    ],
+    "vendor": {
+      "name": "Realia Technologies S.L.",
+      "website_url": "http://www.realsec.com",
+      "address_lines": [
+        "Orense, 68 11th floor",
+        "Madrid 28020",
+        "Spain"
+      ],
+      "country": "Spain",
+      "contact_name": "Sebastián Muñoz",
+      "contact_email": "smunoz@realsec.com",
+      "contact_phone": "+34 91 449 03 30"
+    },
+    "algorithms": []
+  }
+}

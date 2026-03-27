@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/596"
+  },
+  "certificate": {
+    "certificate_number": "596",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/596",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/596",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp596.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco 3825 and Cisco 3845 Integrated Services Router",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "12/1/2005, 5/28/2010, 2/23/2012",
+    "validation_dates": [
+      "12/1/2005",
+      "5/28/2010",
+      "2/23/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Cisco 3800 Series features the ability to deliver multiple high-quality simultaneous services at wire speeds up to multiple T1/E1/xDSL connections. The Cisco 3800 Series routers offer embedded encryption acceleration on the motherboard. By integrating security functions directly into the router itself, Cisco can provide unique intelligent security solutions, such as network admissions control (NAC) for antivirus defense; Voice and Video Enabled VPN (V3PN) for quality-of-service (QoS) enforcement when combining voice, video, and VPN; and Dynamic Multipoint VPN (DMVPN) and Easy VPN.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp596.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt596.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/1/2005",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "5/28/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/23/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Dr.",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

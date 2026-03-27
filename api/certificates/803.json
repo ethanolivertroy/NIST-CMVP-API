@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/803"
+  },
+  "certificate": {
+    "certificate_number": "803",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/803",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/803",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp803.pdf",
+    "vendor_name": "KoolSpan, Inc.",
+    "module_name": "SecurEdge Lock",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "7/26/2007, 8/29/2007",
+    "validation_dates": [
+      "7/26/2007",
+      "8/29/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "This module contains the embedded module Axalto Cryptoflex e-Gate 32 smart card validated to FIPS 140-2 under Cert. #242 operating in FIPS mode",
+    "description": "The KoolSpan Lock is a VHS-Cassette sized device that authenticates users and bridges their Ethernet traffic onto the network. It contains an embedded Smart Card and cryptographic processor. The case is tamper-resistant. Each Lock can support up to 512 simultaneous users each with 256-bit AES encryption. The Lock supports a \"Keyless Exchange\" and provides both Wi-Fi security and Remote Access (VPN) connections.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp803.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt803.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/26/2007",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "8/29/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "KoolSpan, Inc.",
+      "website_url": "http://www.koolspan.com",
+      "address_lines": [
+        "4962 Fairmont Ave.",
+        "2nd Floor",
+        "Bethesda, MD 20814",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tony Fascenda",
+      "contact_email": "tfascenda@koolspan.com",
+      "contact_phone": "240-880-4400"
+    },
+    "algorithms": []
+  }
+}

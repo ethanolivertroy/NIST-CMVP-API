@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1529"
+  },
+  "certificate": {
+    "certificate_number": "1529",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1529",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1529",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1529.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco 881, Cisco 881G and Cisco 891 Integrated Services Routers (ISRs)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "4/1/2011, 7/27/2011, 2/23/2012",
+    "validation_dates": [
+      "4/1/2011",
+      "7/27/2011",
+      "2/23/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with tamper evident labels installed as indicated in the Security Policy",
+    "description": "Cisco 880, and Cisco 890 series ISRs provide Internet, VPN, voice, data, and backup capability to corporate teleworkers and remote and small offices of fewer than 20 users. These routers are capable of bridging and multiprotocol routing between LAN and WAN ports, and provide advanced features such as antivirus protection.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1529.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0005.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/1/2011",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "7/27/2011",
+        "type": "Update",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "2/23/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Drive",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

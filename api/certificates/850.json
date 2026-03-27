@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/850"
+  },
+  "certificate": {
+    "certificate_number": "850",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/850",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/850",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp850.pdf",
+    "vendor_name": "Doremi Labs",
+    "module_name": "Dolphin Board",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 3,
+    "validation_date": "10/18/2007, 10/29/2007, 11/12/2008, 11/13/2008, 6/7/2013",
+    "validation_dates": [
+      "10/18/2007",
+      "10/29/2007",
+      "11/12/2008",
+      "11/13/2008",
+      "6/7/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Dolphin Board is a PCI-card that provides a standard definition/high definition serial digital interface. This is the Doremi decoder card that contains the JPEG-2000 decoder hardware and BNC serial digital interface connectors used in the Doremi DCP-2000 Digital Cinema Server. The Dolphin Board utilizes a dual-link encoded serial digital interface for output of DCIcompliant resolutions up to 2040x1080p24 (2K-film). It can also operate single link for lower resolution material (i.e., trailers, advertisements, etc.).",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp850.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt850.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/18/2007",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "10/29/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "11/12/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "11/13/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/7/2013",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Doremi Labs",
+      "website_url": "http://www.doremicinema.com",
+      "address_lines": [
+        "1020 Chestnut Street",
+        "Burbank, CA 91506",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jean-Philippe Viollet",
+      "contact_email": "jpviollet@doremilabs.com",
+      "contact_phone": "818-562-1101"
+    },
+    "algorithms": []
+  }
+}

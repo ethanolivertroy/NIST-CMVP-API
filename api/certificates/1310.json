@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1310"
+  },
+  "certificate": {
+    "certificate_number": "1310",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1310",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1310",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1310.pdf",
+    "vendor_name": "Cellcrypt Limited",
+    "module_name": "CCORE Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "5/19/2010, 7/8/2010",
+    "validation_dates": [
+      "5/19/2010",
+      "7/8/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Crypto Core for secure communication platform",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1310.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1310.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/19/2010",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "7/8/2010",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Cellcrypt Limited",
+      "website_url": "http://www.cellcrypt.com",
+      "address_lines": [
+        "Liberty House",
+        "222 Regent Street",
+        "London W1B 5TR",
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "contact_name": "Paul Galwas",
+      "contact_email": "paul.galwas@cellcrypt.com",
+      "contact_phone": "+442070995999"
+    },
+    "algorithms": []
+  }
+}

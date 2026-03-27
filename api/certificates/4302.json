@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4302"
+  },
+  "certificate": {
+    "certificate_number": "4302",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4302",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4302",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4302.pdf",
+    "vendor_name": "WISeKey Semiconductors",
+    "module_name": "VaultIC™ 405 1.2.6",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "9/19/2022",
+    "validation_dates": [
+      "9/19/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "VaultIC™ products are security modules designed to secure various applications such as anticloning, physical access control, personal access control for multimedia and web applications, hardware authentication, user strong authentication, SSL support, PKCS#11 or Microsoft® CSP based applications, PKI applications, DRM, trusted computing, IP protection… It is a turnkey solution that combines powerful cryptographic capabilities and secure data storage.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4302.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2022_031022_0652_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/19/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "WISeKey Semiconductors",
+      "website_url": "http://www.wisekey.com",
+      "address_lines": [
+        "Arteparc de Bachasson",
+        "Bat A",
+        "Meyreuil 13590",
+        "France"
+      ],
+      "country": "France",
+      "contact_name": "Guillaume Aymard",
+      "contact_email": "gaymard@WISEKEY.COM",
+      "contact_phone": "+33 (0)4 42 37 00 47"
+    },
+    "algorithms": []
+  }
+}

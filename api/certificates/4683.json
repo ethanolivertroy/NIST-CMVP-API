@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4683"
+  },
+  "certificate": {
+    "certificate_number": "4683",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4683",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4683",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4683.pdf",
+    "vendor_name": "Zebra Technologies Corporation",
+    "module_name": "Zebra DCS Cryptographic Library",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "3/27/2024, 10/14/2025, 11/26/2025",
+    "validation_dates": [
+      "3/27/2024",
+      "10/14/2025",
+      "11/26/2025"
+    ],
+    "sunset_date": "3/26/2029",
+    "caveat": "None",
+    "description": null,
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4683.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2024_010424_0643 signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/27/2024",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      },
+      {
+        "date": "10/14/2025",
+        "type": "Update",
+        "lab": "Gossamer Security Solutions"
+      },
+      {
+        "date": "11/26/2025",
+        "type": "Update",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Zebra Technologies Corporation",
+      "website_url": "http://www.zebra.com",
+      "address_lines": [
+        "One Zebra Plaza",
+        "Holtsville, NY 11742",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mariya Wright",
+      "contact_email": "mariya.wright@zebra.com",
+      "contact_phone": "914-574-8189"
+    },
+    "algorithms": [
+      "AES",
+      "HMAC",
+      "SHA"
+    ]
+  }
+}

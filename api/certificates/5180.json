@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5180"
+  },
+  "certificate": {
+    "certificate_number": "5180",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5180",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5180",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5180.pdf",
+    "vendor_name": "Fujitsu Limited",
+    "module_name": "Fujitsu Enterprise Postgres Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/10/2026",
+    "validation_dates": [
+      "3/10/2026"
+    ],
+    "sunset_date": "8/26/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Fujitsu Enterprise Postgres Cryptographic Module is the FIPS validated cryptographic library for Fujitsu Enterprise Postgres. This cryptographic library is used for communication data encryption and Transparent Data Encryption to provide enhanced data protection through robust cryptographic algorithms.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5180.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/10/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Fujitsu Limited",
+      "website_url": "http://www.fujitsu.com/global/",
+      "address_lines": [
+        "4-1-1 Kamikodanaka",
+        "Nakahara-ku",
+        "Kawasaki-shi, Kanagawa 211-8588",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "Fujitsu Contact",
+      "contact_email": "contact-fep@cs.jp.fujitsu.com",
+      "contact_phone": "81-44-777-1111"
+    },
+    "algorithms": []
+  }
+}

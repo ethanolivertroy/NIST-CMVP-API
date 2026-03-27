@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1695"
+  },
+  "certificate": {
+    "certificate_number": "1695",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1695",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1695",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1695.pdf",
+    "vendor_name": "NEC Corporation",
+    "module_name": "iPASOLINK MODEM AES Card",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 1,
+    "validation_date": "5/18/2012",
+    "validation_dates": [
+      "5/18/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "iPASOLINK is NEC's most advanced and comprehensive optical and radio converged transport product family, in which iPASOLINK MODEM AES Card is implemented as a cryptographic module. The module provides encryption/decryption services by AES-CTR.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1695.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0015.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/18/2012",
+        "type": "Initial",
+        "lab": "ECSEC Laboratory Inc."
+      }
+    ],
+    "vendor": {
+      "name": "NEC Corporation",
+      "website_url": "http://www.nec.com",
+      "address_lines": [
+        "1753",
+        "Shimonumabe",
+        "Nakahara-ku",
+        "Kawasaki, Kanagawa 211-8666",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "NEC Corporation",
+      "contact_email": "Pasoinfo_sec@gln.jp.nec.com",
+      "contact_phone": "+81-44-455-8326"
+    },
+    "algorithms": []
+  }
+}

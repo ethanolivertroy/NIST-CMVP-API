@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4555"
+  },
+  "certificate": {
+    "certificate_number": "4555",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4555",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4555",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4555.pdf",
+    "vendor_name": "Advanced Micro Devices (AMD)",
+    "module_name": "AMD Ryzen PRO 5000 Series PSP Cryptographic CoProcessor (models 5475U, 5675U, 5875U)",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware-hybrid",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "7/31/2023",
+    "validation_dates": [
+      "7/31/2023"
+    ],
+    "sunset_date": "7/30/2028",
+    "caveat": "When installed, initialized and configured as specified in Section 11 of the Security Policy.",
+    "description": "The module is present in these Models (OPNs): PRO 5475U (100-000000587), PRO 5675U (100-000000584), PRO 5875U (100-000000581), PRO 7730U(100-000000948), PRO 7530U(100-000000949), PRO 7330U(100-000000950)",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4555.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2023_010823_0649 signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/31/2023",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Advanced Micro Devices (AMD)",
+      "website_url": "http://www.amd.com",
+      "address_lines": [
+        "2485 Augustine Drive",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "FIPS Contact",
+      "contact_email": "dl.FIPS@amd.com",
+      "contact_phone": "1408-749-4000"
+    },
+    "algorithms": [
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5024"
+  },
+  "certificate": {
+    "certificate_number": "5024",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5024",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5024",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5024.pdf",
+    "vendor_name": "IDEMIA",
+    "module_name": "ID-One PIV 243 in NPIVP & CIV Configurations",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "6/9/2025",
+    "validation_dates": [
+      "6/9/2025"
+    ],
+    "sunset_date": "6/8/2030",
+    "caveat": "None",
+    "description": "ID-One PIV 243 in NPIVP & CIV Configurations, is a dual interface smartcard chip (ISO 7816 & ISO 14443) that contains a Personal Identity Verification (PIV) application with On-Card-Fingerprints-Comparison that can be configured to strictly comply with NIST FIPS 201-2 Standard for US Government Federal Employees and Contractors (NPIVP configuration), or support enhanced functionalities (ANSI 504), and additional access conditions (SO_PIN), as well as stronger cryptography (ECC P-521) while maintaining backward compatibility with NPIVP, to address Civilian markets worldwide (CIV configuration).",
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Operational environment: N/A",
+      "Physical security: Level 3",
+      "Non-invasive security: N/A",
+      "Self-tests: Level 3",
+      "Life-cycle assurance: Level 3",
+      "Mitigation of other attacks: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5024.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/9/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "IDEMIA",
+      "website_url": "http://www.idemia.com",
+      "address_lines": [
+        "4250 Pleasant Valley Road",
+        "Chantilly, VA 20151",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Christophe Goyet",
+      "contact_email": "christophe.goyet@idemia.com",
+      "contact_phone": "571-438-0089"
+    },
+    "algorithms": []
+  }
+}

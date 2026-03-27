@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5198"
+  },
+  "certificate": {
+    "certificate_number": "5198",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5198",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5198",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5198.pdf",
+    "vendor_name": "HP Inc.",
+    "module_name": "HP Endpoint Security Controller Cryptographic Library",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "SingleChip",
+    "overall_level": 1,
+    "validation_date": "3/13/2026",
+    "validation_dates": [
+      "3/13/2026"
+    ],
+    "sunset_date": "11/29/2030",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "HP Endpoint Security Controller Cryptographic Library implementation providing cryptographic services.",
+    "security_level_exceptions": [
+      "Software/Firmware security: N/A",
+      "Operational environment: N/A",
+      "Physical security: Level 2",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5198.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/13/2026",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "HP Inc.",
+      "website_url": "http://www.hp.com",
+      "address_lines": [
+        "10300 Energy Drive",
+        "Spring, TX 77389",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "Boris Balacheff",
+      "contact_email": "boris.balacheff@hp.com",
+      "contact_phone": "1-650-857-1501"
+    },
+    "algorithms": []
+  }
+}

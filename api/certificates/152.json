@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/152"
+  },
+  "certificate": {
+    "certificate_number": "152",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/152",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/152",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp152.pdf",
+    "vendor_name": "Tumbleweed Communications Corp.",
+    "module_name": "MMS Security Kernel",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "6/13/2001",
+    "validation_dates": [
+      "6/13/2001"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Tumbleweed Messaging Management System (MMS) is a suite of software products designed to allow organizations to apply content filtering and secure messaging policies on e-mail and Web traffic. All portions of the MMS use a shared set of cryptographic functionality called the MMS Security Kernel. The MMS Security Kernel exposes cryptographic application programming interface (API) calls to the other portions of the MMS.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Operating System Security: Tested as meeting Level 1 with Windows NT Version 4.0 (single user mode)"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp152.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt152.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/13/2001",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      }
+    ],
+    "vendor": {
+      "name": "Tumbleweed Communications Corp.",
+      "website_url": "http://www.tumbleweed.com",
+      "address_lines": [
+        "700 Saginaw Drive",
+        "Redwood City, CA 94063",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ken Beer",
+      "contact_email": "ken.beer@tumbleweed.com",
+      "contact_phone": "650-216-2083"
+    },
+    "algorithms": []
+  }
+}

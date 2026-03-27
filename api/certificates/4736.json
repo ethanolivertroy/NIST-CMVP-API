@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4736"
+  },
+  "certificate": {
+    "certificate_number": "4736",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4736",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4736",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4736.pdf",
+    "vendor_name": "cPacket Networks Inc.",
+    "module_name": "cPacket Crypto Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/23/2024",
+    "validation_dates": [
+      "7/23/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys",
+    "description": "cPacket powers hybrid-cloud observability through its Intelligent Observability Platform. The module delivers core cryptographic functions for robust algorithm support, secure key management, data integrity, and secure communications.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4736.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2024_010824_1146.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/23/2024",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "cPacket Networks Inc.",
+      "website_url": "http://www.cpacket.com",
+      "address_lines": [
+        "480 N McCarthy Blvd",
+        "Suite 100",
+        "Milpitas, CA 95035",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "cPacket Compliance",
+      "contact_email": "support@cpacket.com",
+      "contact_phone": "650-969-9500"
+    },
+    "algorithms": []
+  }
+}

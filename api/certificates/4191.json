@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4191"
+  },
+  "certificate": {
+    "certificate_number": "4191",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4191",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4191",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4191.pdf",
+    "vendor_name": "HyTrust, Inc.",
+    "module_name": "HyTrust KeyControl Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/4/2022",
+    "validation_dates": [
+      "4/4/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "HyTrust KeyControl enables enterprises to easily manage all their encryption keys at scale, how often they rotate them, and how they are shared securely. HyTrust KeyControl capabilities include VMware certified Key Management Server (KMS), KMIP support, Enterprise scalability and performance, Multi-cloud support (AWS, Azure, GCP) and HSM Support.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4191.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/4/2022",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "HyTrust, Inc.",
+      "website_url": "http://www.hytrust.com",
+      "address_lines": [
+        "1975 W. El Camino Real",
+        "Suite 203",
+        "Mountain View, CA 94040",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tushar Tambay",
+      "contact_email": "ttambay@hytrust.com",
+      "contact_phone": "(650) 681-8100"
+    },
+    "algorithms": [
+      "RSA",
+      "SHA"
+    ]
+  }
+}

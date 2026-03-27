@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4845"
+  },
+  "certificate": {
+    "certificate_number": "4845",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4845",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4845",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4845.pdf",
+    "vendor_name": "Century Longmai Technology Co. Ltd",
+    "module_name": "mToken CryptoID",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "10/21/2024",
+    "validation_dates": [
+      "10/21/2024"
+    ],
+    "sunset_date": "10/20/2029",
+    "caveat": "When installed, initialized and configured as specified in Section 11of the Security Policy. When operated in approved mode",
+    "description": "mToken CryptoID is designed based on a secure smartcard chip that utilizes the in-built mCOS to communicate with Computer device via USB interface in a \"plug and play\" manner. It can realize various Public Key Infrastructure (PKI) applications including digital signature, online authentications, online transactions, software security, etc.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4845.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/21/2024",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Century Longmai Technology Co. Ltd",
+      "website_url": "http://www.longmai.net/",
+      "address_lines": [
+        "3rd Floor, Gongkong Building No. 1 Wangzhuang Rd, Haidian District",
+        "Haidian District, Beijing 100083",
+        "China"
+      ],
+      "country": "China",
+      "contact_name": "ITD",
+      "contact_email": "info@longmai.net",
+      "contact_phone": "8601062323636"
+    },
+    "algorithms": []
+  }
+}

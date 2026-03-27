@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4676"
+  },
+  "certificate": {
+    "certificate_number": "4676",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4676",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4676",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4676.pdf",
+    "vendor_name": "Thales Alenia Space",
+    "module_name": "Thales Alenia Space Cryptographic Module for Microsemi RTG4 FPGA",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "2/8/2024",
+    "validation_dates": [
+      "2/8/2024"
+    ],
+    "sunset_date": "2/7/2029",
+    "caveat": "When installed, initialized and configured as specified in Section 11.3 of the Security Policy.",
+    "description": "This cryptographic module has been developed by Thales Alenia Space and it has been implemented within the Ground Cryptographic Processor (GCP) placed on Earth and within the Volatiles Investigating Polar Exploration Rover (VIPER) transponder unit. The aim of this cryptographic module is to enable the NASA to encrypt communications at the GCP, and decrypt and authenticate them at the transponder unit using AES-GCM. It is able to encrypt/decrypt and authenticate messages from 128 bytes to 1024 bytes of information in 128-bit blocks.",
+    "security_level_exceptions": [
+      "Software/Firmware security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4676.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2024_010324_0738.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/8/2024",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "Thales Alenia Space",
+      "website_url": "http://www.thalesgroup.com/es/espana/espacio",
+      "address_lines": [
+        "Calle Einstein, 7",
+        "Tres Cantos, Madrid 28760",
+        "Spain"
+      ],
+      "country": "Spain",
+      "contact_name": "Bruno Lestriez",
+      "contact_email": "bruno.lestriez@thalesaleniaspace.com",
+      "contact_phone": "918077900"
+    },
+    "algorithms": [
+      "AES"
+    ]
+  }
+}

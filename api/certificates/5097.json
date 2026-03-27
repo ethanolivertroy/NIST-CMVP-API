@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5097"
+  },
+  "certificate": {
+    "certificate_number": "5097",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5097",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5097",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5097.pdf",
+    "vendor_name": "NetApp, Inc.",
+    "module_name": "NetApp StorageGRID Kernel Crypto API",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/30/2025",
+    "validation_dates": [
+      "11/30/2025"
+    ],
+    "sunset_date": "11/29/2030",
+    "caveat": "When operated in approved mode. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "The NetApp StorageGRID Kernel Crypto API provides a C language API for use by other (kernel space and user space) processes that require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5097.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/30/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "NetApp, Inc.",
+      "website_url": "https://www.netapp.com",
+      "address_lines": [
+        "3060 Olsen Drive",
+        "San Jose, CA 95128",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "NetApp Security Assurance Team",
+      "contact_email": "na-securitv-assurance@netapp.com",
+      "contact_phone": "919-476-5600"
+    },
+    "algorithms": []
+  }
+}

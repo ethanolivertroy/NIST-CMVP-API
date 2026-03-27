@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2079"
+  },
+  "certificate": {
+    "certificate_number": "2079",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2079",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2079",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2079.pdf",
+    "vendor_name": "Hewlett Packard Enterprise Development LP",
+    "module_name": "HP-UX Kernel Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "2/7/2014, 12/18/2019",
+    "validation_dates": [
+      "2/7/2014",
+      "12/18/2019"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Section 3 of the Security Policy. When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "HP-UX Kernel Crypto Module (HP-UX KCM) is a kernel-space crypto engine in the HP-UX operating system containing core cryptographic algorithms and operations in a single shared library. It implements asymmetric, symmetric, and digest operations that are used by HP-UX security solutions. HP-UX KCM is available on HP-UX 11i v3 operating system on the HPE Integrity Platform and the HPE Portable HP-UX Platform.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2079.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0038.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/7/2014",
+        "type": "Initial",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "12/18/2019",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett Packard Enterprise Development LP",
+      "website_url": "http://www.hpe.com",
+      "address_lines": [
+        "6280 America Center Drive",
+        "San Jose, CA 95002",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Rajendra Babu G",
+      "contact_email": "rajendra.babu@hpe.com",
+      "contact_phone": "+91 80 61510601"
+    },
+    "algorithms": []
+  }
+}

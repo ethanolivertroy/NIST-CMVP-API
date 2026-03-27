@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/917"
+  },
+  "certificate": {
+    "certificate_number": "917",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/917",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/917",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp917.pdf",
+    "vendor_name": "CardLogix Corporation",
+    "module_name": "CardLogix Credentsys-J",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "2/13/2008, 4/29/2008, 2/6/2014",
+    "validation_dates": [
+      "2/13/2008",
+      "4/29/2008",
+      "2/6/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "CREDENTSYS-J is a secure smart card that is designed for National ID systems and multi-use enterprise security environments. The CREDENTSYS-J card is based on Java Card TM 2.2.1 and Global Platform 2.1.1 architectures and is readily deployable into existing or new PKI environments. CREDENTSYS-J cards offer a combination of high performance and cost-effectiveness by running on advanced 32-bit RISC processor cores with TDES and PKI cryptographic accelerations.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 4",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp917.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt917.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/13/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/29/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/6/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "CardLogix Corporation",
+      "website_url": "http://www.cardlogix.com",
+      "address_lines": [
+        "16 Hughes, Suite 100",
+        "Irvine, CA 92618",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ken Indorf",
+      "contact_email": "sales@cardlogix.com",
+      "contact_phone": "949-380-1312"
+    },
+    "algorithms": []
+  }
+}

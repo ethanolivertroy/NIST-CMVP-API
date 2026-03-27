@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2565"
+  },
+  "certificate": {
+    "certificate_number": "2565",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2565",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2565",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2565.pdf",
+    "vendor_name": "Hiddn Security AS",
+    "module_name": "coCrypt CM1+",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
+    "validation_date": "2/18/2016",
+    "validation_dates": [
+      "2/18/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The coCrypt CM1+ is a 256-bit AES hardware encryption engine which encrypts data either to a replacable microSD storage card or an USB flash drive. The unit allows the user to expand the storage capacity whenever needed.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2565.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertFeb2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/18/2016",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hiddn Security AS",
+      "website_url": "http://www.hiddn.no",
+      "address_lines": [
+        "Nedre Slottgate 25",
+        "Oslo 0157",
+        "Norway"
+      ],
+      "country": "Norway",
+      "contact_name": "Atle Haga",
+      "contact_email": "ah@hdd.no",
+      "contact_phone": "+47 92452750"
+    },
+    "algorithms": []
+  }
+}

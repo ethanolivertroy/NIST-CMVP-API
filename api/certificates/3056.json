@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3056"
+  },
+  "certificate": {
+    "certificate_number": "3056",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3056",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3056",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3056.pdf",
+    "vendor_name": "VT iDirect, Inc.",
+    "module_name": "TRANSEC Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
+    "validation_date": "11/2/2017, 3/9/2018, 8/31/2018",
+    "validation_dates": [
+      "11/2/2017",
+      "3/9/2018",
+      "8/31/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "VT iDirect, Inc.’s satellite-based IP communications technology enables constant connectivity for voice, video, and data applications in any environment. iDirect provides the leading TRANSEC-compliant, bandwidth-efficient satellite platforms for government and military communications. The Secure Satellite Broadband Solutions have uses across a wide range of applications, including maritime connectivity, aeronautical connectivity, military defense, and emergency relief.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3056.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertNov2017.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/2/2017",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "3/9/2018",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "8/31/2018",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "VT iDirect, Inc.",
+      "website_url": "http://www.idirect.net",
+      "address_lines": [
+        "13861 Sunrise Valley Drive",
+        "Suite 300",
+        "Herndon, VA 20171",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chris Gormont",
+      "contact_email": "cgormont@idirectgov.com",
+      "contact_phone": "703.880.6257"
+    },
+    "algorithms": []
+  }
+}

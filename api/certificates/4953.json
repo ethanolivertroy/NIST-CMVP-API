@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4953"
+  },
+  "certificate": {
+    "certificate_number": "4953",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4953",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4953",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4953.pdf",
+    "vendor_name": "Google, LLC.",
+    "module_name": "BoringCrypto",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/27/2025",
+    "validation_dates": [
+      "1/27/2025"
+    ],
+    "sunset_date": "1/26/2030",
+    "caveat": "Interim validation. When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "A software library that contains cryptographic functionality to serve BoringSSL and other user-space applications.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4953.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/27/2025",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Google, LLC.",
+      "website_url": "http://www.google.com",
+      "address_lines": [
+        "1600 Amphitheatre Parkway",
+        "Mountain View, CA 94043",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Adam Langley",
+      "contact_email": "fips-crypto-officer@google.com",
+      "contact_phone": "212-565-9291"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

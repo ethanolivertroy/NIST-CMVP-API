@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3987"
+  },
+  "certificate": {
+    "certificate_number": "3987",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3987",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3987",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3987.pdf",
+    "vendor_name": "Thales",
+    "module_name": "CipherTrust Transparent Encryption Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software-Hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/19/2021",
+    "validation_dates": [
+      "7/19/2021"
+    ],
+    "sunset_date": "7/18/2026",
+    "caveat": "When operated in FIPS mode.",
+    "description": "The Vormetric Transparent Encryption Cryptographic Module is a loadable kernel module. This module comprises a layer that enforces an access and encryption policy upon selected data on end-user systems. The policy specifies a key to be used when writing data to disk and while reading data from disk. This module contains the Vormetric Transparent Encryption Cryptographic Library, which provides all cryptographic services.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3987.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2021_020821_0740_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/19/2021",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      }
+    ],
+    "vendor": {
+      "name": "Thales",
+      "website_url": "http://www.thalesgroup.com",
+      "address_lines": [
+        "2125 Zanker Road",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Security & Certifications Team",
+      "contact_email": "securitycertifications@thalesgroup.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

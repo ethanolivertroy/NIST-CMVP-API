@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3750"
+  },
+  "certificate": {
+    "certificate_number": "3750",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3750",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3750",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3750.pdf",
+    "vendor_name": "Memkor, Inc.",
+    "module_name": "Memkor MKD-O2F 2.5\"/M.2/U.2 SSD",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "11/30/2020, 12/11/2020",
+    "validation_dates": [
+      "11/30/2020",
+      "12/11/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Section 6 of the Security Policy",
+    "description": "The module is a SATA and PCIe data storage device which is based on MK328F ASIC controller and non-volatile memories. Within boundary, ASIC controller implements NDRNG, DRBG and AES-256 security functions with firmware integrity verification using SHA-256.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3750.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2020_011220_0856_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/30/2020",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "12/11/2020",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Memkor, Inc.",
+      "website_url": "http://www.memkor.com",
+      "address_lines": [
+        "10051 E Dynamite Blvd.",
+        "Suite 120",
+        "Scottsdale, AZ 85262",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Wieslaw Wojtczak",
+      "contact_email": "wwojtczak@memkor.com",
+      "contact_phone": "+1 480 522 6143"
+    },
+    "algorithms": []
+  }
+}

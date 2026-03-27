@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4287"
+  },
+  "certificate": {
+    "certificate_number": "4287",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4287",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4287",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4287.pdf",
+    "vendor_name": "NextFlex",
+    "module_name": "NextFlex AirGuardian",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/30/2022",
+    "validation_dates": [
+      "8/30/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The NextFlex Cryptographic module provides cryptographic capabilities to the NextFlex Air Guardian.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4287.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2022_010922_0715_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/30/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "NextFlex",
+      "website_url": "http://www.nextflex.us",
+      "address_lines": [
+        "2244 Blach Place",
+        "Suite 150",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "NextFlex",
+      "contact_email": "techsupport@nextflex.us",
+      "contact_phone": "408-797-2244"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5026"
+  },
+  "certificate": {
+    "certificate_number": "5026",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5026",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5026",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5026.pdf",
+    "vendor_name": "Ergotron, Inc.",
+    "module_name": "Ergotron Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/16/2025",
+    "validation_dates": [
+      "6/16/2025"
+    ],
+    "sunset_date": "7/22/2029",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "The Erogtron Cryptographic Module is a general-purpose cryptographic library incorporated into the RhythmConnect, Mosaic, Ergotron Mobile Power, YES Charging Cart, and Encore products to provide FIPS 140-3 validated cryptography for the protection of sensitive information.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5026.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/16/2025",
+        "type": "Initial",
+        "lab": "Teron Labs"
+      }
+    ],
+    "vendor": {
+      "name": "Ergotron, Inc.",
+      "website_url": "http://www.ergotron.com/en-us/",
+      "address_lines": [
+        "1181 Trapp Road",
+        "Eagan, MN 55121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Arlow Farrell",
+      "contact_email": "Arlow.Farrell@ergotron.com",
+      "contact_phone": "651 681 7600"
+    },
+    "algorithms": [
+      "AES",
+      "DES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

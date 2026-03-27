@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5207"
+  },
+  "certificate": {
+    "certificate_number": "5207",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5207",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5207",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5207.pdf",
+    "vendor_name": "Forescout Technologies",
+    "module_name": "Forescout OpenSSL FIPS Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/26/2026",
+    "validation_dates": [
+      "3/26/2026"
+    ],
+    "sunset_date": "8/26/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The Forescout OpenSSL FIPS Module is a cryptographic module that is integrated into Forescout products to provide FIPS 140-3 validated cryptography for the protection of sensitive information.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5207.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/26/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Forescout Technologies",
+      "website_url": "https://www.forescout.com/",
+      "address_lines": [
+        "2400 Dallas Pkwy Suite #350",
+        "Plano, TX 75093",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Hanuja Sakhamuri",
+      "contact_email": "hanuja.sakhamuri@forescout.com",
+      "contact_phone": "972-832-1871"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5025"
+  },
+  "certificate": {
+    "certificate_number": "5025",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5025",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5025",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5025.pdf",
+    "vendor_name": "Apple Inc.",
+    "module_name": "Apple corecrypto Module v12.0 [Apple silicon, Secure Key Store, Hardware, SL2]",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "6/16/2025",
+    "validation_dates": [
+      "6/16/2025"
+    ],
+    "sunset_date": "6/15/2030",
+    "caveat": "When operated in approved mode",
+    "description": "Apple corecrypto Module v12.0 [Apple silicon, Secure Key Store, Hardware, SL2] is a Hardware module implemented as a sub-chip running on a single-chip processor.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5025.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/16/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Apple Inc.",
+      "website_url": "http://www.apple.com",
+      "address_lines": [
+        "One Apple Park Way",
+        "MS: 927-1CPS",
+        "Cupertino, CA 95014",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Nina Kominiak",
+      "contact_email": "security-certifications@apple.com",
+      "contact_phone": "907-227-9672"
+    },
+    "algorithms": []
+  }
+}

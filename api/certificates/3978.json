@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3978"
+  },
+  "certificate": {
+    "certificate_number": "3978",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3978",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3978",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3978.pdf",
+    "vendor_name": "Corelight Inc.",
+    "module_name": "Corelight Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/12/2021, 10/12/2022",
+    "validation_dates": [
+      "7/12/2021",
+      "10/12/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys. This validation entry is a non-security relevant modification to Cert. #3273.",
+    "description": "Corelight's Network Detection and Response (NDR) solutions transform raw traffic into comprehensive evidence and actionable insights that accelerate incident response and unlock powerful hunting capabilities in SIEM platforms. The module delivers core cryptographic functions for robust algorithm support, secure key management, data integrity, and secure communications.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3978.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2021_020821_0740_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/12/2021",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "10/12/2022",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Corelight Inc.",
+      "website_url": "http://www.corelight.com",
+      "address_lines": [
+        "22 4th Street",
+        "6th Floor",
+        "San Francisco, CA 94103",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Corelight Certifications",
+      "contact_email": "certs@corelight.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

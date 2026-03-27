@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/345"
+  },
+  "certificate": {
+    "certificate_number": "345",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/345",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/345",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp345.pdf",
+    "vendor_name": "IBM® Corporation",
+    "module_name": "Security Module with CP/Q++",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "9/24/2003",
+    "validation_dates": [
+      "9/24/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Security Module with CP/Q++ is the security-sensitive portion of the IBM 4758 Cryptographic Coprocessor. The Security Module is a tamper-responding, programmable module containing a CPU, encryption hardware, RAM, EEPROM, hardware random number generator, time of day clock, and firmware. The CP/Q++ control program provides basic services Coprocessor applications use for cryptographic and secure- storage processing. The validation affirms a secure environment in which to implement or extend an application program requiring secure storage, cryptographic capabilities, and processing integrity. The Coprocessor is available for use in typical PC servers and as features in IBM eServer iSeries, pSeries, and zSeries servers.",
+    "security_level_exceptions": [
+      "Physical Security: Level 4",
+      "Self Tests: Level 4"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp345.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt345.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/24/2003",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "IBM® Corporation",
+      "website_url": "http://www.ibm.com/security/cryptocards",
+      "address_lines": [
+        "2455 South Road / P330",
+        "Poughkeepsie, NY 12601",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Barry Ward",
+      "contact_email": "bkward@us.ibm.com",
+      "contact_phone": "845-435-4881"
+    },
+    "algorithms": []
+  }
+}

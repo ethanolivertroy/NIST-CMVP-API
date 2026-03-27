@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2886"
+  },
+  "certificate": {
+    "certificate_number": "2886",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2886",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2886",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2886.pdf",
+    "vendor_name": "Seagate Technology LLC",
+    "module_name": "Seagate Secure® TCG Enterprise SSC Self-Encrypting Drive",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "4/20/2017, 3/26/2018, 7/15/2019, 5/6/2020, 1/22/2021, 5/21/2021, 3/20/2023, 9/18/2023",
+    "validation_dates": [
+      "4/20/2017",
+      "3/26/2018",
+      "7/15/2019",
+      "5/6/2020",
+      "1/22/2021",
+      "5/21/2021",
+      "3/20/2023",
+      "9/18/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The Seagate Secure® TCG Enterprise SSC Self-Encrypting Drive FIPS 140-2 Module is embodied in Seagate Enterprise Performance SED model disk drives. These products meet the performance requirements of the most demanding Enterprise applications. The cryptographic module (CM) provides a wide range of cryptographic services using FIPS approved algorithms. Services include hardware-based data encryption (AES-XTS), instantaneous user data disposal with cryptographic erase, independently controlled and protected user data LBA bands and authenticated FW download.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2886.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertApr2017.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/20/2017",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "3/26/2018",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "7/15/2019",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "5/6/2020",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "1/22/2021",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "5/21/2021",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "3/20/2023",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "9/18/2023",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Seagate Technology LLC",
+      "website_url": "http://www.seagate.com",
+      "address_lines": [
+        "1280 Disc Drive",
+        "Shakopee, MN 55379",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David R Kaiser, PMP",
+      "contact_email": "david.r.kaiser@seagate.com",
+      "contact_phone": "952-402-2356"
+    },
+    "algorithms": [
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/667"
+  },
+  "certificate": {
+    "certificate_number": "667",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/667",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/667",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp667.pdf",
+    "vendor_name": "Francotyp-Postalia GmbH",
+    "module_name": "Postal Revenector Canada",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "5/2/2006, 6/26/2007",
+    "validation_dates": [
+      "5/2/2006",
+      "6/26/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Postal Revenector Canada is an embedded hardware module which provides security critical services for postage meters in the Canadian market. It is used to support new secure methods of applying postage.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3 +EFP"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp667.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt667.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/2/2006",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/26/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Francotyp-Postalia GmbH",
+      "website_url": "http://www.fp.com",
+      "address_lines": [
+        "Triftweg 21-26",
+        "Birkenwerder D-16547",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "Clemens Heinrich",
+      "contact_email": "c.heinrich@francotyp.com",
+      "contact_phone": "+49-3303-525-619"
+    },
+    "algorithms": []
+  }
+}

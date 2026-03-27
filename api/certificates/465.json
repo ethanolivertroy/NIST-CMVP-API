@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/465"
+  },
+  "certificate": {
+    "certificate_number": "465",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/465",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/465",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp465.pdf",
+    "vendor_name": "D'Crypt Private Limited",
+    "module_name": "d'Cryptor QE Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "10/18/2004, 6/6/2005",
+    "validation_dates": [
+      "10/18/2004",
+      "6/6/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The d'Cryptor QE is a programmable cryptographic coprocessor designed for high security assurance applications and features in the d'Cryptor line of products such as d'Cryptor XE, d'Cryptor HSM and TelePort. It contains a secure high-performance cryptographic core that comprises a CPU, Flash ROMs, NVRAM, UTC clock, firmware and a host of useful and cryptographic APIs. The QE provides strong physical security through an opaque, hard epoxy potting and a tamper response mesh that zeroizes all keys in event of tamper. Application loading is authenticated using an approved digital signature scheme.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp465.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt465.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/18/2004",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/6/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "D'Crypt Private Limited",
+      "website_url": "http://www.d-crypt.com",
+      "address_lines": [
+        "20 Ayer Rajah Crescent",
+        "#08-08 Technopreneur Centre",
+        "Singapore 139964",
+        "Singapore"
+      ],
+      "country": "Singapore",
+      "contact_name": "Quek Gim Chye",
+      "contact_email": "gim_chye@d-crypt.com",
+      "contact_phone": "+65-6773-9016"
+    },
+    "algorithms": []
+  }
+}

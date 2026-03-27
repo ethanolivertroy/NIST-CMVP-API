@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/479"
+  },
+  "certificate": {
+    "certificate_number": "479",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/479",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/479",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp479.pdf",
+    "vendor_name": "Entrust, Inc.",
+    "module_name": "Entrust Authority™ Security Toolkit for Java™",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/16/2004, 5/28/2014",
+    "validation_dates": [
+      "11/16/2004",
+      "5/28/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Authority Toolkits provide customers and partners with the ability to apply best-in-class security to almost any business application. These Toolkits provide a common set of services to permit developers to rapidly deploy applications that solve business problems without having to spend valuable development cycles developing these common services. Entrust Authority's standards-based, application programming interfaces (APIs) make it possible to implement a single enhanced Internet security architecture across multiple applications and platforms. By minimizing the need for separate administration modules with every deployed application, these Toolkits provide a reduction in administrative duplication and help to reduce the cost to deploy across multiple platforms.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp479.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt479.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/16/2004",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "5/28/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Entrust, Inc.",
+      "website_url": "http://www.entrust.com",
+      "address_lines": [
+        "1000 Innovation Drive",
+        "Ottawa, Ontario K2K 3E7",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Entrust Sales",
+      "contact_email": "entrust@entrust.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

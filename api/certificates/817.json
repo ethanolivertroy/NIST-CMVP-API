@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/817"
+  },
+  "certificate": {
+    "certificate_number": "817",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/817",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/817",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp817.pdf",
+    "vendor_name": "RELM Wireless Corporation",
+    "module_name": "DPHx Radio with LZA0577 or LZA0577/LZA0578 Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "8/8/2007, 10/15/2007, 12/18/2007, 4/29/2008, 11/6/2008",
+    "validation_dates": [
+      "8/8/2007",
+      "10/15/2007",
+      "12/18/2007",
+      "4/29/2008",
+      "11/6/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The DPHx Radio with OTAR is a multi-chip standalone cryptographic module encased in an opaque commercial grade enclosure. As a secure radio, the primary purpose for this device is to provide encrypted digital communication.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp817.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt817.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/8/2007",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "10/15/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/18/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "4/29/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "11/6/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "RELM Wireless Corporation",
+      "website_url": "http://www.relm.com",
+      "address_lines": [
+        "7100 Technology Drive",
+        "West Melbourne, FL 32904",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jim Spence",
+      "contact_email": "jspence@relmbk.com",
+      "contact_phone": "785-856-1300"
+    },
+    "algorithms": []
+  }
+}

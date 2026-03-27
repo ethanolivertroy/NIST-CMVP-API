@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5164"
+  },
+  "certificate": {
+    "certificate_number": "5164",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5164",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5164",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5164.pdf",
+    "vendor_name": "Zebra Technologies Corporation",
+    "module_name": "Zebra 9098 Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware-hybrid",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "2/20/2026",
+    "validation_dates": [
+      "2/20/2026"
+    ],
+    "sunset_date": "2/19/2031",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The Zebra 9098 Cryptographic Module implements cryptographic support for Zebra wireless devices.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5164.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/20/2026",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Zebra Technologies Corporation",
+      "website_url": "http://www.zebra.com",
+      "address_lines": [
+        "3 Overlook Point",
+        "Lincolnshire, IL 60069",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Matthew McNerney",
+      "contact_email": "mmcnerney@zebra.com",
+      "contact_phone": "401-834-9088"
+    },
+    "algorithms": []
+  }
+}

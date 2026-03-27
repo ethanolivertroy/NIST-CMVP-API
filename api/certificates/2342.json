@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2342"
+  },
+  "certificate": {
+    "certificate_number": "2342",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2342",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2342",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2342.pdf",
+    "vendor_name": "Vormetric, Inc.",
+    "module_name": "Vormetric Encryption Expert Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software-Hybrid",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "3/24/2015",
+    "validation_dates": [
+      "3/24/2015"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode.",
+    "description": "The Vormetric Encryption Expert Cryptographic Module is a loadable kernel module also known as \"SECFS\" (SECure File System). This module is a file system layer that enforces an access and encryption policy upon selected data on end-user systems. The policy specifies a key to be used when writing data to disk and while reading data from disk. This module contains the Vormetric Encryption Expert Cryptographic Library, which provides all cryptographic services.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2342.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0051.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/24/2015",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      }
+    ],
+    "vendor": {
+      "name": "Vormetric, Inc.",
+      "website_url": "http://www.vormetric.com",
+      "address_lines": [
+        "2545 N. 1st Street",
+        "San Jose, CA 95131-1003",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Peter Tsai",
+      "contact_email": "petert@vormetric.com",
+      "contact_phone": "(408) 433-6000"
+    },
+    "algorithms": []
+  }
+}

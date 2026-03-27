@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/574"
+  },
+  "certificate": {
+    "certificate_number": "574",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/574",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/574",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp574.pdf",
+    "vendor_name": "RedCannon Security",
+    "module_name": "RedCannon Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "10/19/2005",
+    "validation_dates": [
+      "10/19/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The RedCannon Crypto Module provides cryptographic support for the RedCannon line of products. The crypto module is used to create, manage and delete cryptographic keys as well as to perform cryptographic operations. The crypto module can be used for multiple functions within the RedCannon applications. It provides a structured set of APIs, which can be called to perform these functions. This provides flexibility for the module and the ability to add new applications for the crypto module functions in the future without changing the module itself.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp574.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt574.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/19/2005",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      }
+    ],
+    "vendor": {
+      "name": "RedCannon Security",
+      "website_url": "http://www.redcannon.com",
+      "address_lines": [
+        "42808 Christy Street",
+        "Suite #108",
+        "Fremont, CA 94538",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kurt Lennartsson",
+      "contact_email": "kurt@redcannon.com",
+      "contact_phone": "510-498-4104"
+    },
+    "algorithms": []
+  }
+}

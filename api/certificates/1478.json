@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1478"
+  },
+  "certificate": {
+    "certificate_number": "1478",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1478",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1478",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1478.pdf",
+    "vendor_name": "Juniper Networks, Inc.",
+    "module_name": "Juniper Networks SRX100, SRX210, SRX240 and SRX650 Services Gateways",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "1/5/2011, 1/20/2011, 12/11/2013",
+    "validation_dates": [
+      "1/5/2011",
+      "1/20/2011",
+      "12/11/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "The tamper evident seals and security devices installed as indicated in the Security Policy",
+    "description": "Juniper Networks SRX100, SRX210, SRX240 and SRX650 Services Gateways are secure routers that provide essential capabilities that connect, secure, and manage work force locations. By consolidating fast, highly available switching, routing, security, and applications capabilities in a single device, enterprises can economically deliver new services, safe connectivity, and a satisfying end user experience. Supports Firewall, IPsec VPN and IPS.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1478.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0001.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/5/2011",
+        "type": "Initial",
+        "lab": "ICSA"
+      },
+      {
+        "date": "1/20/2011",
+        "type": "Update",
+        "lab": "ICSA"
+      },
+      {
+        "date": "12/11/2013",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Juniper Networks, Inc.",
+      "website_url": "http://www.juniper.net/us/en/",
+      "address_lines": [
+        "1194 Norht Mathilda Ave",
+        "Sunnyvale, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Claudio Baserga",
+      "contact_email": "cbaserga@juniper.net",
+      "contact_phone": "408-936-0961"
+    },
+    "algorithms": []
+  }
+}

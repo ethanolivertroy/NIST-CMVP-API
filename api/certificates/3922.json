@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3922"
+  },
+  "certificate": {
+    "certificate_number": "3922",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3922",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3922",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3922.pdf",
+    "vendor_name": "SUSE, LLC",
+    "module_name": "SUSE Linux Enterprise Server NSS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "5/9/2021, 11/28/2021",
+    "validation_dates": [
+      "5/9/2021",
+      "11/28/2021"
+    ],
+    "sunset_date": "5/8/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "SUSE Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled client and server applications.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Physical Security: N/A",
+      "Design Assurance: Level 2"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3922.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2021_010621_0658.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/9/2021",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "11/28/2021",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "SUSE, LLC",
+      "website_url": "http://www.suse.com",
+      "address_lines": [
+        "10 Canal Park, Suite 200",
+        "Cambridge, MA 02141",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ivan Teblin",
+      "contact_email": "ivan.teblin@suse.com",
+      "contact_phone": "+1-800-858-4000"
+    },
+    "algorithms": []
+  }
+}

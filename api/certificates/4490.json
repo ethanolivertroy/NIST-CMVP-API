@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4490"
+  },
+  "certificate": {
+    "certificate_number": "4490",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4490",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4490",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4490.pdf",
+    "vendor_name": "Amazon Web Services, Inc.",
+    "module_name": "AWS OpenSSL FIPS Provider",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/26/2023, 7/26/2023, 10/20/2025",
+    "validation_dates": [
+      "4/26/2023",
+      "7/26/2023",
+      "10/20/2025"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The Module is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality. The Module is classified under FIPS 140-2 as a software module, with a multi-chip standalone module embodiment. The physical cryptographic boundary is the general-purpose computer on which the module is installed.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4490.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2023_010523_0646.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/26/2023",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "7/26/2023",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "10/20/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Amazon Web Services, Inc.",
+      "website_url": "http://www.aws.amazon.com",
+      "address_lines": [
+        "410 Terry Ave N, Ste 1200",
+        "Seattle, WA 98109-5210",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "AWS Crypto Team",
+      "contact_email": "aws-fips-external@amazon.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

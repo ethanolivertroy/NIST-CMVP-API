@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1117"
+  },
+  "certificate": {
+    "certificate_number": "1117",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1117",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1117",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1117.pdf",
+    "vendor_name": "Chunghwa Telecom Co., Ltd.",
+    "module_name": "HiKey - Flash and HiKey PKI Token",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "7/7/2009, 11/17/2011",
+    "validation_dates": [
+      "7/7/2009",
+      "11/17/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The HiKey Flash and HiKey PKI Token modules are multi-chip standalone implementations of a cryptographic module. The Hikey - Flash and HiKey PKI Token modules are USB tokens that adhere to ISO/IEC specifications for Integrated Circuit Chip (ICC) based identification cards. The HiKey - Flash and HiKey PKI Token cryptographic modules contain an implementation of the Open Platform (OP) Version 2.0.1 specification defining a secure infrastructure for post-issuance programmable smart cards.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1117.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1117.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/7/2009",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "11/17/2011",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Chunghwa Telecom Co., Ltd.",
+      "website_url": "http://www.cht.com.tw",
+      "address_lines": [
+        "12, Lane 551, Min-Tsu Road SEC.5",
+        "Yang-Mei",
+        "Taoyuan, Taiwan 326",
+        "Republic of China"
+      ],
+      "country": "Republic of China",
+      "contact_name": "Yeou-Fuh Kuan",
+      "contact_email": "kufo@cht.com.tw",
+      "contact_phone": "+886-3-424-4333"
+    },
+    "algorithms": []
+  }
+}

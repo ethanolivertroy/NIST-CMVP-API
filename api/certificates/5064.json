@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5064"
+  },
+  "certificate": {
+    "certificate_number": "5064",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5064",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5064",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5064.pdf",
+    "vendor_name": "Nokia Corporation",
+    "module_name": "Infinera G42",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/22/2025, 1/27/2026",
+    "validation_dates": [
+      "9/22/2025",
+      "1/27/2026"
+    ],
+    "sunset_date": "9/21/2030",
+    "caveat": "When installed, initialized and configured as specified in Section Secure Operation in Section 11 of the Security Policy",
+    "description": "The Infinera G42 is a next-generation compact modular transport network elements deployed as part of a point-to-point, point-to-multipoint network for terrestrial and/or subsea applications. The G42 chassis provides multi-service client access (e.g. Ethernet, Optical Transport Network (OTN), etc.) to the Dense Wavelength Division Multiplexing (DWDM) transport bandwidth.",
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5064.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/22/2025",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      },
+      {
+        "date": "1/27/2026",
+        "type": "Update",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Nokia Corporation",
+      "website_url": "http://www.nokia.com/optical-networks/infinera/",
+      "address_lines": [
+        "6373 San Ignacio Avenue",
+        "San Jose, CA 95119",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Muhammad Yaaseen",
+      "contact_email": "muhammad.yaaseen@nokia.com",
+      "contact_phone": "408-572-5200"
+    },
+    "algorithms": []
+  }
+}

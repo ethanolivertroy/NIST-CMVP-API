@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/969"
+  },
+  "certificate": {
+    "certificate_number": "969",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/969",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/969",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp969.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco MDS 9506, 9509, 9216i and 9513 Multi-Layer SAN Switches",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "6/24/2008, 10/16/2009, 5/28/2010, 2/23/2012",
+    "validation_dates": [
+      "6/24/2008",
+      "10/16/2009",
+      "5/28/2010",
+      "2/23/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Cisco MDS 9506, 9509, 9513, and 9216i deliver intelligent network services such as virtual storage-area networks (VSANs), comprehensive security, advanced traffic management, sophisticated diagnostics, and unified SAN management. In addition, these modules provide multiprotocol and multitransport integration and an open platform for embedding intelligent storage services such as network-based virtualization; as well as a multilayer approach to network and storage intelligence.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp969.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt969.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/24/2008",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "10/16/2009",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/28/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/23/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Drive",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4886"
+  },
+  "certificate": {
+    "certificate_number": "4886",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4886",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4886",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4886.pdf",
+    "vendor_name": "Gallagher Group Ltd",
+    "module_name": "Gallagher FIPS Provider for OpenSSL 3",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/18/2024",
+    "validation_dates": [
+      "11/18/2024"
+    ],
+    "sunset_date": "7/10/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "Gallagher creates and delivers integrated security solutions to meet varying needs, from basic access control right through to high security alarm systems. The Gallagher FIPS Provider for OpenSSL 3 provides cryptographic services for a range of Gallagher products.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4886.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/18/2024",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Gallagher Group Ltd",
+      "website_url": "http://security.gallagher.com",
+      "address_lines": [
+        "181 Kahikatea Drive",
+        "Hamilton 3206",
+        "New Zealand"
+      ],
+      "country": "New Zealand",
+      "contact_name": "Dave Herron",
+      "contact_email": "dave.herron@gallagher.com",
+      "contact_phone": "+64 7 838 9800"
+    },
+    "algorithms": []
+  }
+}

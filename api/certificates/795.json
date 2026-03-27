@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/795"
+  },
+  "certificate": {
+    "certificate_number": "795",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/795",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/795",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp795.pdf",
+    "vendor_name": "ViaSat, Inc.",
+    "module_name": "Enhanced Bandwidth Efficient Modem (EBEM) Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "6/26/2007, 8/31/2007, 7/9/2008, 7/8/2009",
+    "validation_dates": [
+      "6/26/2007",
+      "8/31/2007",
+      "7/9/2008",
+      "7/8/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The ViaSat Enhanced Bandwidth Efficient Modem (EBEM-500) series Satcom Modem provides the latest in efficient modulation and coding for point-to-point Satcom connections. The EBEM-500 series offers embedded encryption, integrating the security functions into the modem to provide an integrated secure Satcom modem product. The EBEM-500 series is backward compatible with a wide range of legacy Satcom modems currently in use and supports the new improved efficiency modulation and coding. The EBEM-500 series supports user base-band data rates from 64 kbps up to 155.52 Mbps.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp795.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt795.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/26/2007",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "8/31/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/9/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/8/2009",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "ViaSat, Inc.",
+      "website_url": "http://www.viasat.com",
+      "address_lines": [
+        "6155 El Camino Real",
+        "Carlsbad, CA 92009",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ed Smith",
+      "contact_email": "ed.smith@viasat.com",
+      "contact_phone": "760-476-4995"
+    },
+    "algorithms": []
+  }
+}

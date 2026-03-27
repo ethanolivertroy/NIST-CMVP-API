@@ -1,0 +1,117 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/934"
+  },
+  "certificate": {
+    "certificate_number": "934",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/934",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/934",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp934.pdf",
+    "vendor_name": "Neopost Technologies",
+    "module_name": "PSD Model 105, 106, 115, 116, 125, 126, 127, 128, 101, 102, 111, 112, 121, 122, 130, 132, 137, 138",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "4/17/2008, 9/12/2008, 1/26/2009, 6/18/2009, 4/9/2010, 7/2/2010, 3/15/2011, 7/5/2011, 2/23/2012, 4/12/2012",
+    "validation_dates": [
+      "4/17/2008",
+      "9/12/2008",
+      "1/26/2009",
+      "6/18/2009",
+      "4/9/2010",
+      "7/2/2010",
+      "3/15/2011",
+      "7/5/2011",
+      "2/23/2012",
+      "4/12/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Neopost PSD (Postal Secure Device) for Middle to High Range Franking Machines.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3 + EFP/EFT"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp934.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt934.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/17/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/12/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/26/2009",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/18/2009",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "4/9/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/2/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "3/15/2011",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "7/5/2011",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/23/2012",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/12/2012",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Neopost Technologies",
+      "website_url": "http://www.neopost.com",
+      "address_lines": [
+        "113 rue Jean-Marin Naudin",
+        "Bagneaux 92220",
+        "France"
+      ],
+      "country": "France",
+      "contact_name": "Patrick Blanluet",
+      "contact_email": "p.blanluet@neopost.com",
+      "contact_phone": "33 1 45 36 30 00"
+    },
+    "algorithms": []
+  }
+}

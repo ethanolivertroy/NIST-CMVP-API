@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4673"
+  },
+  "certificate": {
+    "certificate_number": "4673",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4673",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4673",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4673.pdf",
+    "vendor_name": "Nokia Corporation",
+    "module_name": "SR-OS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/18/2024",
+    "validation_dates": [
+      "1/18/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode and when installed, initialized and configured as specified in Sections 9.1 and 9.2 of the Security Policy.",
+    "description": "The SR-OS Cryptographic Module (SRCM) provides the cryptographic algorithm functions needed to allow SR-OS to implement cryptography for those services and protocols that require it.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4673.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2024_010224_0801.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/18/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Nokia Corporation",
+      "website_url": "http://www.nokia.com",
+      "address_lines": [
+        "600 March Road",
+        "Ottawa, ON K2K 2E6",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Hooman Bidgoli",
+      "contact_email": "hooman.bidgoli@nokia.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

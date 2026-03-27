@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4802"
+  },
+  "certificate": {
+    "certificate_number": "4802",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4802",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4802",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4802.pdf",
+    "vendor_name": "Western Digital Technologies, Inc.",
+    "module_name": "Ultrastar DC HC560 TCG Enterprise HDD SED, Ultrastar DC HC570 TCG Enterprise HDD SED",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "9/16/2024, 1/30/2025",
+    "validation_dates": [
+      "9/16/2024",
+      "1/30/2025"
+    ],
+    "sunset_date": "9/15/2029",
+    "caveat": "Interim validation. When installed, initialized and configured as specified in Section 11.1 of the Security Policy. No operator authentication is enforced for executing security services that were unlocked by an authenticated service",
+    "description": "The Western Digital Ultrastar DC HC560 TCG Enterprise HDD, hereafter referred to as Ultrastar DC HC560, Cryptographic Module, cryptographic module, or CM, and the Western Digital Ultrastar DC HC570 TCG Enterprise HDD, hereafter referred to as Ultrastar DC HC570, Cryptographic Module, cryptographic module, or CM are self-encryption drives (SED) that comply in general with the specifications listed in 13.2 Trusted Computing Group Specifications and specifically with the TCG Storage Architecture Core Specification [TCG Core] with the Trusted Computing Group (TCG) Security Subsystem Class (SSC): Enterprise Specification [TCG Enterprise]. The TCG SSC Enterprise Specification defines a management interface for host application software to activate, provision, and manage encryption of user data. The specification includes data structures and their required content, and mechanisms for managing and configuring Authentication Credentials and access controls. The security architecture provides a locking mechanism by which an Authentication Credential (i.e., a password) can be set by an operator to enable control of access to user data. After an operator authenticates to the appropriate role and locks access to user data access user data is inaccessible. This implementation complies with the lock-based authentication model specified in IG 4.1.A.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4802.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2024_011024_0217.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/16/2024",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "1/30/2025",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Western Digital Technologies, Inc.",
+      "website_url": "http://www.westerndigital.com",
+      "address_lines": [
+        "5601 Great Oaks Parkway",
+        "San Jose, CA 95119",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Michael Williamson",
+      "contact_email": "michael.williamson@wdc.com",
+      "contact_phone": "408-717-8458"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "HMAC",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

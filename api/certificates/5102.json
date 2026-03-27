@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5102"
+  },
+  "certificate": {
+    "certificate_number": "5102",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5102",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5102",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5102.pdf",
+    "vendor_name": "Chainguard, Inc.",
+    "module_name": "Chainguard FIPS Provider for OpenSSL",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "12/4/2025",
+    "validation_dates": [
+      "12/4/2025"
+    ],
+    "sunset_date": "3/10/2030",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Chainguard FIPS Provider for OpenSSL 3.1.2 is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5102.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/4/2025",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Chainguard, Inc.",
+      "website_url": "http://www.chainguard.dev",
+      "address_lines": [
+        "810 7th Ave S",
+        "Suite 744",
+        "Newark DE 19711",
+        "Kirkland, WA 98033",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "FIPS Engineering",
+      "contact_email": "fips-contact@chainguard.dev",
+      "contact_phone": "N/A"
+    },
+    "algorithms": []
+  }
+}

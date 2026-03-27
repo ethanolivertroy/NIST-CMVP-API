@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4934"
+  },
+  "certificate": {
+    "certificate_number": "4934",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4934",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4934",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4934.pdf",
+    "vendor_name": "Samsung Electronics Co., Ltd.",
+    "module_name": "Samsung SAS TCG Enterprise SSC SEDs PM1653/PM1655 Series",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "12/27/2024",
+    "validation_dates": [
+      "12/27/2024"
+    ],
+    "sunset_date": "12/26/2026",
+    "caveat": "Interim validation. When installed, initialized and configured as specified in Section 11 of the Security Policy",
+    "description": "Samsung SAS TCG Enterprise SSC SEDs PM1653/PM1655 Series are a high-performance Self-Encrypting SSDs supporting SAS 24G Interface that provides on-the-fly encryption/decryption of user data without performance loss. It implements AES256-XTS for user data encryption, RSA PSS-3072 for FW authentication, and CTR_DRBG for key generation.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4934.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/27/2024",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Samsung Electronics Co., Ltd.",
+      "website_url": "http://www.samsung.com",
+      "address_lines": [
+        "1-1, Samsungjeonja-ro",
+        "Hwaseong-si, Gyeonggi-do 18448",
+        "Korea"
+      ],
+      "country": "Korea",
+      "contact_name": "SeungJae Lee",
+      "contact_email": "sjeric.lee@samsung.com",
+      "contact_phone": "82-31-8096-2916"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

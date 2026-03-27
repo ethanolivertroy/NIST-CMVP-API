@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4246"
+  },
+  "certificate": {
+    "certificate_number": "4246",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4246",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4246",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4246.pdf",
+    "vendor_name": "Huawei Technologies CO., Ltd.",
+    "module_name": "Huawei EulerOS 2.0 OpenSSH Client Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/9/2022",
+    "validation_dates": [
+      "6/9/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "This module contains the embedded module Huawei EulerOS 2.0 OpenSSL Cryptographic module validated to FIPS 140-2 under Cert. #4235 operating in FIPS mode. When operated in FIPS mode.",
+    "description": "The Huawei EulerOS 2.0 OpenSSH Client Cryptographic Module is a binary implementing the Secure Shell (SSH) protocol in the EulerOS 2.0 Operating System user space. The module interacts with other entities acting as SSH servers via the SSH protocol. The module only supports SSHv2 protocol.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4246.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2022_010722_0704_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/9/2022",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "Huawei Technologies CO., Ltd.",
+      "website_url": "https://www.huawei.com",
+      "address_lines": [
+        "Administration Building, Headquarters of Huawei Technologies Co., Ltd",
+        "Bantian, Longgang District, Shenzhen, Guangdong 518129",
+        "China"
+      ],
+      "country": "China",
+      "contact_name": "Jian Wang",
+      "contact_email": "cookie.wangjian@huawei.com",
+      "contact_phone": "+86 13699204172"
+    },
+    "algorithms": [
+      "SSH"
+    ]
+  }
+}

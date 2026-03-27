@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2047"
+  },
+  "certificate": {
+    "certificate_number": "2047",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2047",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2047",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2047.pdf",
+    "vendor_name": "RSA, The Security Division of EMC",
+    "module_name": "RSA BSAFE(R) Crypto-C Micro Edition",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software-Hybrid",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/25/2013, 11/25/2014, 2/3/2016",
+    "validation_dates": [
+      "11/25/2013",
+      "11/25/2014",
+      "2/3/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Crypto-C Micro Edition (ME) Module is RSA, The Security Division of EMC's cryptographic library designed for securing mobile devices like wireless phones and personal digital assistants. It contains assembly-level optimizations on key wireless processors. Its functionality includes a wide range of data encryption and signing algorithms, including Triple-DES, the Advanced Encryption Standard (AES) algorithm, the RSA Public Key Cryptosystem, the DSA government signature algorithm, MD5 and SHA1 message digest routines, and more.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2047.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0035.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/25/2013",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "11/25/2014",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "2/3/2016",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "RSA, The Security Division of EMC",
+      "website_url": "http://www.rsa.com",
+      "address_lines": [
+        "174 Middlesex Turnpike",
+        "Bedford, MA 01730",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Rohit Mathur",
+      "contact_email": "rohit.mathur@rsa.com",
+      "contact_phone": "+61 7 3032 5220"
+    },
+    "algorithms": []
+  }
+}

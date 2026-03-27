@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4791"
+  },
+  "certificate": {
+    "certificate_number": "4791",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4791",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4791",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4791.pdf",
+    "vendor_name": "Arista Networks, Inc.",
+    "module_name": "Arista Crypto Module v3.0 [Software, Software IPsec, Web Portal]",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/6/2024",
+    "validation_dates": [
+      "9/6/2024"
+    ],
+    "sunset_date": "9/5/2029",
+    "caveat": "Interim validation. When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "This validation is for the library contained within the CloudVision Portal (CVP) products and all its related SKUs, which includes SS-CV-SWITCH-1M, SS-CV-SWITCH-1M-P, SS-CV-MOD-G-SWITCH-1M, SS-CV-G-SWITCH-1M, SS-CV-LT-SWITCH-1M, SS-CV-LT-MOD-G-SWITCH-1M, SS-CV-LT-G-SWITCH-1M, SS-CV-SWITCH-LAB-1M, SS-CV-ENT-1M, SS-CV-ENT-1M-P, SS-CV-T1-1M, SS-CV-T2-1M, SS-CV-LT-T1-1M, SS-CV-LT-T2-1M, SS-CV-G-T1-1M, SS-CV-G-T2-1M, SS-CV-LT-G-T1-1M, SS-CV-LT-G-T2-1M, SS-CV-MOD-G-T1-1M, SS-CV-MOD-G-T2-1M, SS-CV-LT-MOD-G-T1-1M, SS-CV-LT-MOD-G-T2-1M, SS-CV-ENT-1M-P, SS-CV-CG-SWITCH-1M, SS-CV-CG-T1-1M, SS-CV-CG-T2-1M, SS-CV-LT-CG-SWITCH-1M, SS-CV-LT-CG-T1-1M, SS-CV-LT-CG-T2-1M and any other future SKUs which use the validated library for the CloudVision Portal (CVP) product.",
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 2",
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4791.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2024_011024_0217.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/6/2024",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Arista Networks, Inc.",
+      "website_url": "http://www.arista.com",
+      "address_lines": [
+        "5453 Great America Parkway",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Arista Networks Certification Team",
+      "contact_email": "cert-team@arista.com",
+      "contact_phone": "408-547-5500"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

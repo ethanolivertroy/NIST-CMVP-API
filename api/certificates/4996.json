@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4996"
+  },
+  "certificate": {
+    "certificate_number": "4996",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4996",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4996",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4996.pdf",
+    "vendor_name": "QuNu Labs Private Limited",
+    "module_name": "QNu Labs Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/4/2025",
+    "validation_dates": [
+      "4/4/2025"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security-relevant modification to Cert. #2038",
+    "description": "QNu Labs Cryptographic Module is a standards-based cryptographic provider. The module delivers core crypto functionality to applications and services.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4996.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/4/2025",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "QuNu Labs Private Limited",
+      "website_url": "http://www.qnulabs.com/",
+      "address_lines": [
+        "Centenary Building, 2nd Floor",
+        "East Wing 28 M.G. Road",
+        "Bengaluru, Karnataka 560025",
+        "India"
+      ],
+      "country": "India",
+      "contact_name": "Dilip Singh",
+      "contact_email": "dilip@qnulabs.com",
+      "contact_phone": "+91 9711988764"
+    },
+    "algorithms": []
+  }
+}

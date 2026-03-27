@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4189"
+  },
+  "certificate": {
+    "certificate_number": "4189",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4189",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4189",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4189.pdf",
+    "vendor_name": "Telephonics Corporation",
+    "module_name": "TruLink Control Logic Module CL6882-M1",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "3/29/2022, 5/2/2022",
+    "validation_dates": [
+      "3/29/2022",
+      "5/2/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "TruLink is a wireless intercom system typically used in Airborne environments.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4189.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2022_010422_0648_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/29/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/2/2022",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Telephonics Corporation",
+      "website_url": "http://www.telephonics.com",
+      "address_lines": [
+        "815 Broad Hollow Road",
+        "Farmingdale, NY 11735",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Carlton Rubio",
+      "contact_email": "rubio@telephonics.com",
+      "contact_phone": "631-755-7798"
+    },
+    "algorithms": []
+  }
+}

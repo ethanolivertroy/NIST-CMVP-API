@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4716"
+  },
+  "certificate": {
+    "certificate_number": "4716",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4716",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4716",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4716.pdf",
+    "vendor_name": "F5, Inc.",
+    "module_name": "Cryptographic Module for BIG-IP ®",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/9/2024",
+    "validation_dates": [
+      "7/9/2024"
+    ],
+    "sunset_date": "7/8/2026",
+    "caveat": "Interim validation. When operated in approved mode. When installed, initialized and configured as specified in Section 11.1 of the Security Policy.",
+    "description": "Cryptographic library offering various cryptographic mechanisms to BIG-IP Virtual Edition.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4716.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2024_010824_1146.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/9/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "F5, Inc.",
+      "website_url": "http://www.f5.com",
+      "address_lines": [
+        "801 Fifth Ave",
+        "Seattle, WA 98104",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Maryrita Steinhour",
+      "contact_email": "fipsbigip16@f5.com",
+      "contact_phone": "206-272-7351"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

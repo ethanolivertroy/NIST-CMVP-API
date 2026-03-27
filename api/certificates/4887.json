@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4887"
+  },
+  "certificate": {
+    "certificate_number": "4887",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4887",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4887",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4887.pdf",
+    "vendor_name": "Extreme Networks",
+    "module_name": "Extreme Networks Cryptographic Provider 3",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/18/2024, 5/19/2025, 10/16/2025",
+    "validation_dates": [
+      "11/18/2024",
+      "5/19/2025",
+      "10/16/2025"
+    ],
+    "sunset_date": "7/10/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Extreme Networks Cryptographic Provider is a software library providing a C-language application program interface (API) for use by Extreme Networks products that require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4887.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/18/2024",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/19/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "10/16/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Extreme Networks",
+      "website_url": "http://www.extremenetworks.com",
+      "address_lines": [
+        "2121 RDU Center Drive",
+        "Morrisville, NC 27560",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Craig Ficik",
+      "contact_email": "cficik@extremenetworks.com",
+      "contact_phone": "404-787-5091"
+    },
+    "algorithms": []
+  }
+}

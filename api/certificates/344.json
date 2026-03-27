@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/344"
+  },
+  "certificate": {
+    "certificate_number": "344",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/344",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/344",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp344.pdf",
+    "vendor_name": "Stonesoft Corporation",
+    "module_name": "StoneGate High Availability Firewall and VPN",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "9/16/2003, 10/7/2003, 4/29/2004",
+    "validation_dates": [
+      "9/16/2003",
+      "10/7/2003",
+      "4/29/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "StoneGate is a firewall and VPN software solution. It features clustering, load balancing between multiple ISPs, encrypted VPN client connectivity and advanced central administration tools.",
+    "security_level_exceptions": [
+      "Tested: Debian GNU/Linux Version 3.0"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp344.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt344.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/16/2003",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "10/7/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "4/29/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Stonesoft Corporation",
+      "website_url": "http://www.stonesoft.com",
+      "address_lines": [
+        "115 Perimeter Center Place",
+        "Suite 1000",
+        "Atlanta, GA 30346",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Klaus Majewski",
+      "contact_email": "Klaus.Majewski@stonesoft.com",
+      "contact_phone": "678-259-3411"
+    },
+    "algorithms": []
+  }
+}

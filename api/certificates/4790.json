@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4790"
+  },
+  "certificate": {
+    "certificate_number": "4790",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4790",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4790",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4790.pdf",
+    "vendor_name": "Arista Networks, Inc.",
+    "module_name": "Arista Crypto Module v3.0 [Software, Software IPsec]",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/6/2024",
+    "validation_dates": [
+      "9/6/2024"
+    ],
+    "sunset_date": "9/5/2029",
+    "caveat": "Interim validation. When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "Arista's crypto library is a comprehensive suite of FIPS Approved algorithms. Many key sizes and modes have been implemented to allow flexibility and efficiency. This validation is for the library contained within the CloudEOS Router products and all its related SKUs, which includes SS-CLOUDEOS-VR-CV-100M-B-1M, SS-CLOUDEOS-VR-CVS-100M-B-1M, SS-CLOUDEOS-VR-CV-1G-B-1M, SS-CLOUDEOS-VR-CVS-1G-B-1M, SS-CLOUDEOS-VR-CV-10G-B-1M, SS-CLOUDEOS-VR-CVS-10G-B-1M, SS-CVPATH-CloudEOS-100M-E-CVS-B-1M, SS-CVPATH-CloudEOS-1G-E-CVS-B-1M, SS-CVPATH-CloudEOS-10G-E-CVS-B-1M and any other future SKUs which use the validated library for the CloudEOS Router product.",
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 2",
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4790.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2024_011024_0217.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/6/2024",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Arista Networks, Inc.",
+      "website_url": "http://www.arista.com",
+      "address_lines": [
+        "5453 Great America Parkway",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Arista Networks Certification Team",
+      "contact_email": "cert-team@arista.com",
+      "contact_phone": "408-547-5500"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

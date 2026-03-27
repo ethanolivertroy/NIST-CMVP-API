@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/522"
+  },
+  "certificate": {
+    "certificate_number": "522",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/522",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/522",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp522.pdf",
+    "vendor_name": "Voltage Security, Inc.",
+    "module_name": "Voltage IBE Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "4/27/2005",
+    "validation_dates": [
+      "4/27/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Voltage IBE Cryptographic Module is a component of the Voltage IBE Toolkit, a set of development tools that enable any application to quickly and easily use Identity Based Encryption (IBE) to secure data. IBE uses simple strings like email or IP addresses as public keys, eliminating the need for certificates and associated management. The Voltage IBE Cryptographic Module also contains implementations of 3DES, AES, SHA- 1, and DSA. The Voltage IBE Toolkit is available for download at http://developer.voltage.com",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp522.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt522.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/27/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Voltage Security, Inc.",
+      "website_url": "http://www.voltage.com",
+      "address_lines": [
+        "1070 Arastradero Road",
+        "Suite 100",
+        "Palo Alto, CA 94304",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Matt Pauker",
+      "contact_email": "matt@voltage.com",
+      "contact_phone": "650-543-1280"
+    },
+    "algorithms": []
+  }
+}

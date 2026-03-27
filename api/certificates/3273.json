@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3273"
+  },
+  "certificate": {
+    "certificate_number": "3273",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3273",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3273",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3273.pdf",
+    "vendor_name": "SafeLogic Inc.",
+    "module_name": "CryptoComply for Server",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/29/2018, 10/16/2020, 3/2/2021, 9/12/2022, 10/6/2022, 11/1/2022, 4/16/2024",
+    "validation_dates": [
+      "8/29/2018",
+      "10/16/2020",
+      "3/2/2021",
+      "9/12/2022",
+      "10/6/2022",
+      "11/1/2022",
+      "4/16/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "SafeLogic's CryptoComply for Server is designed to provide FIPS 140-2 validated cryptographic functionality and is available for licensing.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3273.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertAug2018.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/29/2018",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "10/16/2020",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "3/2/2021",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "9/12/2022",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "10/6/2022",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "11/1/2022",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "4/16/2024",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "SafeLogic Inc.",
+      "website_url": "http://www.safelogic.com/",
+      "address_lines": [
+        "530 Lytton Ave",
+        "Suite 200",
+        "Palo Alto, CA 94301",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "SafeLogic Inside Sales",
+      "contact_email": "sales@safelogic.com",
+      "contact_phone": "844-436-2797"
+    },
+    "algorithms": []
+  }
+}

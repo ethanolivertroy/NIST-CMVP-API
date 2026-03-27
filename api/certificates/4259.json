@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4259"
+  },
+  "certificate": {
+    "certificate_number": "4259",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4259",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4259",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4259.pdf",
+    "vendor_name": "Barracuda Networks",
+    "module_name": "Barracuda KTINA FIPS Crypto Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/29/2022",
+    "validation_dates": [
+      "6/29/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "No assurance of minimum strength or security of keys",
+    "description": "The Barracuda KTINA FIPS Crypto Module is a Linux kernel module library that provides fundamental cryptographic functions for applications in Barracuda security products that require FIPS 140-2 approved cryptographic functions.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4259.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2022_010722_0704_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/29/2022",
+        "type": "Initial",
+        "lab": "BOOZ ALLEN HAMILTON"
+      }
+    ],
+    "vendor": {
+      "name": "Barracuda Networks",
+      "website_url": "http://www.barracuda.com",
+      "address_lines": [
+        "3175 Winchester Boulevard",
+        "Campbell, CA 95008",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Gerhard Schaber",
+      "contact_email": "gschaber@barracuda.com",
+      "contact_phone": "+43-508-100-7509"
+    },
+    "algorithms": []
+  }
+}

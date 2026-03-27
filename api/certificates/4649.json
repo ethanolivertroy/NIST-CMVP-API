@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4649"
+  },
+  "certificate": {
+    "certificate_number": "4649",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4649",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4649",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4649.pdf",
+    "vendor_name": "Maxar Technologies",
+    "module_name": "Maxar AEDS",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "10/27/2023",
+    "validation_dates": [
+      "10/27/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "The tamper evident seals are installed as indicated in the Security Policy. This module contains the embedded module NPCT6XX TPM 2.0 validated to FIPS 140-2 under Cert. #2627 operating in FIPS mode.",
+    "description": "The Maxar AEDS is a network based ground to spacecraft AES GCM & CTR mode encryption/decryption appliance hosted on a 1U network security server. It can support multiple channels simultaneously on up to 6 different subnets with speeds over 75 Mbit/s. There is a web based Crypto Operator interface for easy set-up and configuration. The User interfaces are TCP/IP socket based and follow a straightforward ICD. Both are protected with TLS 1.2.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4649.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2023_011123_0711.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/27/2023",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Maxar Technologies",
+      "website_url": "http://www.maxar.com/space-infrastructure",
+      "address_lines": [
+        "3825 Fabian Way",
+        "Palo Alto, CA 94303",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Pamela Hagin",
+      "contact_email": "Pamela.Hagin@sslmda.com",
+      "contact_phone": "650-852-4036"
+    },
+    "algorithms": [
+      "KAS"
+    ]
+  }
+}

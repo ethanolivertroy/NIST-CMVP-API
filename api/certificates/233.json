@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/233"
+  },
+  "certificate": {
+    "certificate_number": "233",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/233",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/233",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp233.pdf",
+    "vendor_name": "Entrust, Inc.",
+    "module_name": "Entrust TruePass Applet Cryptographic Module",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "6/19/2002, 6/28/2002, 7/18/2002, 5/28/2014",
+    "validation_dates": [
+      "6/19/2002",
+      "6/28/2002",
+      "7/18/2002",
+      "5/28/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with FIPS validated browser services operating in FIPS mode",
+    "description": "The module performs low level cryptographic operations – encryption, decryption and hashes – implemented in software using the high-level Java programming language. Currently, the module is imbedded into an applet as part of the TruePass product suite that allows integration of cryptographic security into web applications.",
+    "security_level_exceptions": [
+      "Operating System Security: Tested as meeting Level 1 with Windows NT4.0 (SP3)",
+      "Windows 95/98",
+      "Windows 2000 (SP2) and Netscape 4.72 (Cert. #47) or Microsoft IE 5.5 (Cert. #103) (operated in single user mode)"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp233.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt233.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/19/2002",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "6/28/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/18/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/28/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Entrust, Inc.",
+      "website_url": "http://www.entrust.com",
+      "address_lines": [
+        "1000 Innovation Drive",
+        "Ottawa, Ontario K2K 3E7",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Entrust Sales",
+      "contact_email": "entrust@entrust.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

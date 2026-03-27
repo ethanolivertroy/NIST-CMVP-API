@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4083"
+  },
+  "certificate": {
+    "certificate_number": "4083",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4083",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4083",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4083.pdf",
+    "vendor_name": "DINAMO Networks, Inc.",
+    "module_name": "DINAMO Pocket Hardware Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "11/30/2021, 1/18/2023",
+    "validation_dates": [
+      "11/30/2021",
+      "1/18/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section 3 of the Security Policy",
+    "description": "The DINAMO family of Hardware Security Modules are network attached devices that offer a secure environment for the storage and lifecycle management of cryptographic keys, as well as offering cryptographic services such as encryption, digital signatures, key generation, and authentication. The family of DINAMO HSMs reduce risk and operation costs by centralizing enterprise cryptographic key management.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4083.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2021_011221_0923_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/30/2021",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      },
+      {
+        "date": "1/18/2023",
+        "type": "Update",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "DINAMO Networks, Inc.",
+      "website_url": "http://www.dinamonetworks.com",
+      "address_lines": [
+        "United Nations Avenue, 14401",
+        "ED. TARUMA",
+        "Sao Paulo",
+        "Brazil"
+      ],
+      "country": "Brazil",
+      "contact_name": "Enilton Nascimento",
+      "contact_email": "EniltonJ@dinamonetworks.com",
+      "contact_phone": "+55 11 3304 3120"
+    },
+    "algorithms": []
+  }
+}

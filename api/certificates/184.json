@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/184"
+  },
+  "certificate": {
+    "certificate_number": "184",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/184",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/184",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp184.pdf",
+    "vendor_name": "Algorithmic Research Ltd.",
+    "module_name": "PrivateServer 3.0 and PrivateServer 3.1",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 3,
+    "validation_date": "11/27/2001, 12/13/2002, 2/10/2003, 7/15/2003",
+    "validation_dates": [
+      "11/27/2001",
+      "12/13/2002",
+      "2/10/2003",
+      "7/15/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The PrivateServer is a high-performance cryptographic service provider. Contained within a secure, tamper-responsive steel case, the PrivateServer performs high-speed cryptographic operations while protecting sensitive data. Its features include strong cryptography using DES, triple-DES, and SHA-1, public key database and certificate support, authenticated and encrypted communication with the module, secure storage of secret/private keys, software key medium and smartcard support, tamper-responsive enclosure, high level API requiring no cryptographic expertise, in-depth logging and auditing, and secure backup capabilities.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp184.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt184.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/27/2001",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "12/13/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/10/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/15/2003",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Algorithmic Research Ltd.",
+      "website_url": "http://www.arx.com",
+      "address_lines": [
+        "10 Nevatim Street",
+        "Petach Tikva 49561",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "Gadi Aharoni",
+      "contact_email": "gadi@arx.com",
+      "contact_phone": "+972-3-927-9500"
+    },
+    "algorithms": []
+  }
+}

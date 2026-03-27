@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4918"
+  },
+  "certificate": {
+    "certificate_number": "4918",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4918",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4918",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4918.pdf",
+    "vendor_name": "iStorage Ltd.",
+    "module_name": "datAshur PRO",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "12/16/2024",
+    "validation_dates": [
+      "12/16/2024"
+    ],
+    "sunset_date": "12/15/2029",
+    "caveat": "None",
+    "description": "The datAshur PRO is an encrypted storage device that provides a secure way to store and transfer data. User authentication is self-contained via an onboard keypad. User data is protected by hardware-based 256-bit AES encryption to secure sensitive information in the event that the drive is lost or stolen.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4918.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/16/2024",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "iStorage Ltd.",
+      "website_url": "http://www.istorage-uk.com",
+      "address_lines": [
+        "iStorage House",
+        "13 Alperton Lane, Perivale",
+        "Middlesex UB6 8DH",
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "contact_name": "John Michael",
+      "contact_email": "john@istorage-uk.com",
+      "contact_phone": "02089916260"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "HMAC",
+      "KDF",
+      "SHA"
+    ]
+  }
+}

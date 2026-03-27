@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1841"
+  },
+  "certificate": {
+    "certificate_number": "1841",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1841",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1841",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1841.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "InZero Gateway",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "11/29/2012",
+    "validation_dates": [
+      "11/29/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The InZero Gateway is a pocket-sized appliance that provides FIPS-validated VPNs and endpoint security for a Windows PC. The module's hardware sandbox ensures safe browsing (e.g., opening downloaded files) and safe internet banking. A conversion engine strips malware from e-mail attachments. The firewall helps enforce NAC policy. The module may be managed locally by the Crypto Officer or by a network administrator using a Management Console. The HTTPS management connection and VPNs use FIPS validated encryption, while sandbox HTTPS connections are non-FIPS for compatibility.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1841.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0023.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/29/2012",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "13755 Sunrise Valley Drive",
+        "Suite 750",
+        "Herndon, VA 20171",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "FIPS Product Team",
+      "contact_email": "fips@inzerosystems.com",
+      "contact_phone": "703-636-2048"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1071"
+  },
+  "certificate": {
+    "certificate_number": "1071",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1071",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1071",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1071.pdf",
+    "vendor_name": "CipherMax, Inc.",
+    "module_name": "CM140T",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "12/24/2008, 2/23/2009",
+    "validation_dates": [
+      "12/24/2008",
+      "2/23/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "CM140T provides a scalable, easy-to-manage storage security solution for tape backup in a compact 1U chassis. With support for 16 FC-port, any-to-any connectivity, storage access control, line-speed data compression, data integrity authentication, and automated key management, the CM140T delivers a complete solution for all tape-based applications.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1071.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1071.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/24/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/23/2009",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "CipherMax, Inc.",
+      "website_url": "http://www.CipherMaxInc.com",
+      "address_lines": [
+        "3 Results Way",
+        "Cupertino, CA 95014",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Steven Tan",
+      "contact_email": "Steven.Tan@CipherMaxInc.com",
+      "contact_phone": "408-777-8090"
+    },
+    "algorithms": []
+  }
+}

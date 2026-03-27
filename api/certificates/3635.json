@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3635"
+  },
+  "certificate": {
+    "certificate_number": "3635",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3635",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3635",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3635.pdf",
+    "vendor_name": "Crown Sterling Limited, LLC",
+    "module_name": "Crown Sterling Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "3/23/2020, 5/7/2020, 5/8/2020, 3/16/2021",
+    "validation_dates": [
+      "3/23/2020",
+      "5/7/2020",
+      "5/8/2020",
+      "3/16/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys. This validation entry is a non-security relevant modification to Cert. #3273.",
+    "description": "The Crown Sterling Cryptographic Module is a standards-based “Drop-in Compliance” cryptographic engine for servers, desktops, and digital device appliances. The module delivers core cryptographic functions to platforms and features robust algorithm support, including some Suite B algorithms. Crown Sterling Cryptographic Module offloads functions for secure key management, data integrity, data at rest encryption, data in motion encryption, and secure communication to a trusted implementations.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3635.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2020_160420.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/23/2020",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "5/7/2020",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "5/8/2020",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "3/16/2021",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Crown Sterling Limited, LLC",
+      "website_url": "https://timeai.io/",
+      "address_lines": [
+        "4040 MacArthur Blvd., Suite 200",
+        "Newport Beach, CA 92660",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Crown Sterling Support team",
+      "contact_email": "Support@crownsterling.io",
+      "contact_phone": "949-260-1700"
+    },
+    "algorithms": []
+  }
+}

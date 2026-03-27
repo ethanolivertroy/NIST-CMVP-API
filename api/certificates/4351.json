@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4351"
+  },
+  "certificate": {
+    "certificate_number": "4351",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4351",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4351",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4351.pdf",
+    "vendor_name": "Aruba, a Hewlett Packard Enterprise Company",
+    "module_name": "Aruba VIA Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/1/2022",
+    "validation_dates": [
+      "11/1/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section 10 of the Security Policy. No assurance of the minimum strength of generated keys",
+    "description": "The Aruba VIA Cryptographic Module Version 1.0 is a software library that provides cryptographic services required by Aruba Virtual Intranet Access",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4351.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/1/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Aruba, a Hewlett Packard Enterprise Company",
+      "website_url": "http://www.arubanetworks.com/",
+      "address_lines": [
+        "3333 Scott Blvd",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kevin Micciche",
+      "contact_email": "kevin.micciche@hpe.com",
+      "contact_phone": "404-648-0062"
+    },
+    "algorithms": []
+  }
+}

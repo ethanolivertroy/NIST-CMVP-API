@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4305"
+  },
+  "certificate": {
+    "certificate_number": "4305",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4305",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4305",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4305.pdf",
+    "vendor_name": "Dell Australia Pty Limited, BSAFE Product Team",
+    "module_name": "RSA BSAFE® Crypto-C Micro Edition",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/19/2022, 10/24/2022, 4/12/2023, 3/28/2024",
+    "validation_dates": [
+      "9/19/2022",
+      "10/24/2022",
+      "4/12/2023",
+      "3/28/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. When entropy is externally loaded, no assurance of the minimum strength of generated keys",
+    "description": "BSAFE Crypto-C Micro Edition is a software module providing a comprehensive set of cryptographic algorithms, including asymmetric key algorithms, symmetric key algorithms, message digests, message authentication, and deterministic random bit generator (DRBG) support. Developers can use the full set of algorithms through a single Application Programming Interface (API) or select a specific set of algorithms to reduce code size or meet performance requirements.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4305.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2022_031022_0652_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/19/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "10/24/2022",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "4/12/2023",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "3/28/2024",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Dell Australia Pty Limited, BSAFE Product Team",
+      "website_url": "http://www.dell.com",
+      "address_lines": [
+        "207 Pacific Highway",
+        "Building A",
+        "St Leonards, NSW 2065",
+        "Australia"
+      ],
+      "country": "Australia",
+      "contact_name": "BSAFE FIPS Program",
+      "contact_email": "bsafe-fips-program@dell.com",
+      "contact_phone": null
+    },
+    "algorithms": [
+      "RSA"
+    ]
+  }
+}

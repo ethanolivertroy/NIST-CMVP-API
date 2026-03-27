@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4894"
+  },
+  "certificate": {
+    "certificate_number": "4894",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4894",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4894",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4894.pdf",
+    "vendor_name": "Canonical Ltd.",
+    "module_name": "Canonical Ltd. Ubuntu 22.04 Kernel Crypto API Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/21/2024",
+    "validation_dates": [
+      "11/21/2024"
+    ],
+    "sunset_date": "11/20/2029",
+    "caveat": "Interim validation. When operated in approved mode. When installed, initialized and configured as specified in Section 11.1 of the Security Policy.",
+    "description": "The Linux kernel crypto API implementation provides cryptographic services to Linux kernel space software components and user space via the AF_ALG interface.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4894.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/21/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Canonical Ltd.",
+      "website_url": "http://www.canonical.com",
+      "address_lines": [
+        "5th Floor, Blue Fin Building, 110 Southwark Street",
+        "London SE1 0SU",
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "contact_name": "Canonical Security Certifications Team",
+      "contact_email": "security-certifications@lists.canonical.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

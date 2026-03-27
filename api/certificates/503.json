@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/503"
+  },
+  "certificate": {
+    "certificate_number": "503",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/503",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/503",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp503.pdf",
+    "vendor_name": "Thales e-Security Inc.",
+    "module_name": "DCAP Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "1/24/2005, 3/14/2005, 10/13/2005",
+    "validation_dates": [
+      "1/24/2005",
+      "3/14/2005",
+      "10/13/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The DCAP Security Module is a multiple-chip embedded cryptographic module installed in the Datacryptor® Advanced Performance Cryptographic Module (known as the Datacryptor® AP). It secures communications using signed Diffie-Hellman key exchange and Triple- DES or AES encryption over IP networks. It provides data encryption rates of up to 100 Megabits per second (Mbps). The unit also provides integrated secure unit management capability employing the same techniques used for traffic encryption.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp503.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt503.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/24/2005",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "3/14/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/13/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Thales e-Security Inc.",
+      "website_url": "http://www.thales-esecurity.com",
+      "address_lines": [
+        "900 South Pine Island Road",
+        "Suite 710",
+        "Plantation, FL 33324",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Juan Asenjo",
+      "contact_email": "juan.asenjo@thalesesec.com",
+      "contact_phone": "954-888-6200 x6202"
+    },
+    "algorithms": []
+  }
+}

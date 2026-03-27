@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4590"
+  },
+  "certificate": {
+    "certificate_number": "4590",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4590",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4590",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4590.pdf",
+    "vendor_name": "Trend Micro Inc.",
+    "module_name": "TippingPoint Crypto Core OpenSSL",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/8/2023",
+    "validation_dates": [
+      "9/8/2023"
+    ],
+    "sunset_date": "4/11/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The Trend Micro, TippingPoint Crypto Core OpenSSL is a software library which provides FIPS 140-2 approved cryptographic algorithms and services for Trend Micro TippingPoint security products.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4590.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2023_101023_1100 signed (2).pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/8/2023",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Trend Micro Inc.",
+      "website_url": "http://www.trendmicro.com",
+      "address_lines": [
+        "11305 Alterra Parkway",
+        "Austin, TX 78758",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Greg Cooper",
+      "contact_email": "greg_cooper@trendmicro.com",
+      "contact_phone": "512-426-8464"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1809"
+  },
+  "certificate": {
+    "certificate_number": "1809",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1809",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1809",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1809.pdf",
+    "vendor_name": "Systematic Development Group, LLC",
+    "module_name": "LOK‐IT® 10 KEY (Series SDG003FM/SDG005M)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 3,
+    "validation_date": "10/2/2012, 1/22/2013, 7/26/2013",
+    "validation_dates": [
+      "10/2/2012",
+      "1/22/2013",
+      "7/26/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "This module is a multi-chip standalone cryptographic module, as defined by FIPS 140-2 and consists of an Initio 1861 USB controller, NAND Flash memory and a Microchip PIC16LF1825 security controller. All components are encased in hard, opaque, production grade integrated circuit packaging. The cryptographic boundary is defined as the boundary of the module's PCB and hard epoxy coating. The module uses a NDRNG as input to a Hash_DRBG algorithm specified in NIST special publication SP800-90 to generate a random 256 bit encryption key. The AES key has 256 bits of entropy.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1809.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0022.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/2/2012",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "1/22/2013",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "7/26/2013",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Systematic Development Group, LLC",
+      "website_url": "http://www.LOK-IT.net",
+      "address_lines": [
+        "350 Jim Moran Blvd. Suite 122",
+        "Deerfield Beach, FL 33442",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "George Wolf",
+      "contact_email": "gwolf@systdev.com",
+      "contact_phone": "954-889-3535 x315"
+    },
+    "algorithms": []
+  }
+}

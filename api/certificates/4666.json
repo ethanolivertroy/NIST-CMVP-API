@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4666"
+  },
+  "certificate": {
+    "certificate_number": "4666",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4666",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4666",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4666.pdf",
+    "vendor_name": "Qualcomm Technologies, Inc.",
+    "module_name": "Qualcomm® Crypto Engine Core",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "11/29/2023",
+    "validation_dates": [
+      "11/29/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "Qualcomm Crypto Engine Core is a general purpose cryptographic hardware engine capable of securely processing various confidentiality and integrity algorithms across multiple execution environments.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4666.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2023_111223_0648_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/29/2023",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Qualcomm Technologies, Inc.",
+      "website_url": "http://www.qualcomm.com",
+      "address_lines": [
+        "5775 Morehouse Dr",
+        "San Diego, CA 92121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Qualcomm FIPS 140 officers",
+      "contact_email": "fips140officers@qti.qualcomm.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

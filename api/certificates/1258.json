@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1258"
+  },
+  "certificate": {
+    "certificate_number": "1258",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1258",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1258",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1258.pdf",
+    "vendor_name": "DESlock Ltd",
+    "module_name": "DESlock+ Kernel Mode Crypto Core",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "2/15/2010, 3/31/2014",
+    "validation_dates": [
+      "2/15/2010",
+      "3/31/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The DESlock+ Kernel Mode Crypto Core from Data Encryption Systems Ltd. is a cryptographic module which encapsulates several different cryptographic algorithms. Available as part of the DESlock+ desktop encryption product, the Module is accessible by other kernel mode drivers and user mode applications provided by Data Encryption Systems Ltd.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1258.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1258.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/15/2010",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "3/31/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "DESlock Ltd",
+      "website_url": "http://www.des.co.uk",
+      "address_lines": [
+        "3 Heron Gate",
+        "Hankeridge Way",
+        "Taunton, Somerset TA1 2LR",
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "contact_name": "Julian Baycock",
+      "contact_email": "julian@des.co.uk",
+      "contact_phone": "+44(0)1823 444447"
+    },
+    "algorithms": []
+  }
+}

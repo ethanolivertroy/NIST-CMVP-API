@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/883"
+  },
+  "certificate": {
+    "certificate_number": "883",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/883",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/883",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp883.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "TriCipher Common Core Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "12/14/2007",
+    "validation_dates": [
+      "12/14/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The CCCM provides all cryptographic functionality used by TriCipher's ID Tool, APIs and other client-side products.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp883.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt883.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/14/2007",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "1900 Alameda de las Pulgas",
+        "Suite 112",
+        "San Mateo, CA 94403",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tim Renshaw",
+      "contact_email": "tim@tricipher.com",
+      "contact_phone": "650-372-1300"
+    },
+    "algorithms": []
+  }
+}

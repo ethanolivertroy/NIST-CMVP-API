@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/492"
+  },
+  "certificate": {
+    "certificate_number": "492",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/492",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/492",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp492.pdf",
+    "vendor_name": "ITServ Inc.",
+    "module_name": "RideWay Station",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "12/22/2004, 1/24/2005",
+    "validation_dates": [
+      "12/22/2004",
+      "1/24/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "RideWay Station FGC integrates powerful firewall protection and VPN capabilities to safeguard computer networks from the threat of Internet attacks and intrusions. Each computer or server on the LAN must follow a strict authorization procedure in order to gain access to the network. In addition, the module uses Triple-DES encryption in its IPSec VPN to allow multiple offices to securely communicate over the Internet or to allow a remote client to securely connect to its office network. The highperforming hardware efficiently conducts encryption and decryption tasks without sacrificing throughput.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp492.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt492.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/22/2004",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "1/24/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "ITServ Inc.",
+      "website_url": "http://www.ITServ.com",
+      "address_lines": [
+        "Six Montgomery Village Avenue",
+        "Suite 405",
+        "Gaithersburg, MD 20879",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": "301-948-1111"
+    },
+    "algorithms": []
+  }
+}

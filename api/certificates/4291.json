@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4291"
+  },
+  "certificate": {
+    "certificate_number": "4291",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4291",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4291",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4291.pdf",
+    "vendor_name": "Extreme Networks, Inc.",
+    "module_name": "Extreme Networks SLX 9540 and SLX 9740 Switches",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/1/2022",
+    "validation_dates": [
+      "9/1/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode and installed, initialized, and configured as specified in Section 9 of the Security Policy",
+    "description": "Extreme SLX-OS, provides carrier-class advanced features that leverage proven Extreme routing, MPLS, Carrier Ethernet, and VXLAN overlay technology currently deployed in the most demanding service provider, data center, and enterprise networks. And it is all delivered through space and power-efficient forwarding hardware. Basic requirements include support for a full Internet routing table, mainstream routing protocols BGP, OSPF and IS-IS, EVPN VxLAN, ACLs, BGP Internet peering scale, MPLS, deep buffer, device management and entry level DDoS protection.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4291.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2022_031022_0652_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/1/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Extreme Networks, Inc.",
+      "website_url": "http://www.extremenetworks.com",
+      "address_lines": [
+        "6480 Via Del Oro",
+        "San Jose, CA 95119",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Craig J. Ficik",
+      "contact_email": "ENG-CertificationPOC@extremenetworks.com",
+      "contact_phone": "603-952-5922"
+    },
+    "algorithms": []
+  }
+}

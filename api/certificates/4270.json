@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4270"
+  },
+  "certificate": {
+    "certificate_number": "4270",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4270",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4270",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4270.pdf",
+    "vendor_name": "Western Digital Corporation",
+    "module_name": "Ultrastar® DC SN540 NVMe™ PCIe 3.0 Self-Encrypting Drive and Ultrastar® DC ZN540 NVMe™ PCIe 3.0 Self-Encrypting Drive",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "7/18/2022",
+    "validation_dates": [
+      "7/18/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The Ultrastar® DC SN540 NVMe™ PCIe 3.0 Self-Encrypting Drive and Ultrastar® DC ZN540 NVMe™ PCIe 3.0 Self-Encrypting Drive, from Western Digital, delivers extreme performance and ultra-low latency to the top tier of enterprise storage. With proven dual-port NVMe architecture, these drives are best suited for performance demanding platforms including HPC servers, mission-critical applications and workloads that require superior read/write performance and low latency.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4270.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2022_010822_0659_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/18/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Western Digital Corporation",
+      "website_url": "http://www.westerndigital.com",
+      "address_lines": [
+        "5601 Great Oaks Parkway",
+        "San Jose, CA 95119",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Michael Williamson",
+      "contact_email": "michael.williamson@wdc.com",
+      "contact_phone": "408-717-8458"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/748"
+  },
+  "certificate": {
+    "certificate_number": "748",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/748",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/748",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp748.pdf",
+    "vendor_name": "Imation Corp.",
+    "module_name": "Stealth MXP",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "3/14/2007, 5/1/2007, 8/7/2007, 9/25/2007, 11/6/2007, 12/20/2007, 1/28/2008, 6/23/2008, 5/31/2011, 4/24/2012",
+    "validation_dates": [
+      "3/14/2007",
+      "5/1/2007",
+      "8/7/2007",
+      "9/25/2007",
+      "11/6/2007",
+      "12/20/2007",
+      "1/28/2008",
+      "6/23/2008",
+      "5/31/2011",
+      "4/24/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Stealth MXP is a USB mass storage device which implements hardware encryption dependant on user authentication. It provides not only secure encrypted storage, but management of digital identity credentials used for authentication and verification to enterprise and personal services.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp748.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt748.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/14/2007",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "5/1/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/7/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "9/25/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "11/6/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/20/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/28/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/23/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/31/2011",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "4/24/2012",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Imation Corp.",
+      "website_url": "http://www.imation.com/mobilesecurity",
+      "address_lines": [
+        "Discovery Bldg. 1A-041",
+        "Oakdale, MN 55128",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Larry Hamid",
+      "contact_email": "crypto-ims@imation.com",
+      "contact_phone": "408-737-4308"
+    },
+    "algorithms": []
+  }
+}

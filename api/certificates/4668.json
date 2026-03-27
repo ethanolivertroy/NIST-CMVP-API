@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4668"
+  },
+  "certificate": {
+    "certificate_number": "4668",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4668",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4668",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4668.pdf",
+    "vendor_name": "Palo Alto Networks, Inc.",
+    "module_name": "Prisma SD-WAN Controller's Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/5/2023",
+    "validation_dates": [
+      "12/5/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. When operated per the Security Policy. No assurance of minimum security of keys and bit strings that are externally loaded, or of keys and CSPs established with externally loaded bit strings",
+    "description": "The Palo Alto Networks Controller allows operators the ability to manage ION devices to administer security policy rules and provides various application and network analytics.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4668.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2023_020124_0656.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/5/2023",
+        "type": "Initial",
+        "lab": "ADVANCED DATA SECURITY"
+      }
+    ],
+    "vendor": {
+      "name": "Palo Alto Networks, Inc.",
+      "website_url": "http://www.paloaltonetworks.com",
+      "address_lines": [
+        "3000 Tannery Way",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Nagaraj Bagepalli",
+      "contact_email": "certifications@paloaltonetworks.com",
+      "contact_phone": "408-753-4000"
+    },
+    "algorithms": []
+  }
+}

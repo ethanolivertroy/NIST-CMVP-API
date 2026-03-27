@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3335"
+  },
+  "certificate": {
+    "certificate_number": "3335",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3335",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3335",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3335.pdf",
+    "vendor_name": "Oracle Corporation",
+    "module_name": "Oracle OpenSSL FIPS Object Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/3/2018, 7/18/2019, 4/29/2020, 10/23/2020, 3/2/2021, 5/17/2021, 8/3/2021, 7/29/2022",
+    "validation_dates": [
+      "12/3/2018",
+      "7/18/2019",
+      "4/29/2020",
+      "10/23/2020",
+      "3/2/2021",
+      "5/17/2021",
+      "8/3/2021",
+      "7/29/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "Oracle OpenSSL FIPS Object Module is a software library providing a C language application program interface (API) for use by processes that require cryptographic services. It is implemented in products such as Oracle Solaris 11, Oracle Integrated Lights Out Manager (ILOM), and Oracle ZFS Storage Appliance.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3335.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/Dec2018Cert.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/3/2018",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "7/18/2019",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "4/29/2020",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "10/23/2020",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "3/2/2021",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "5/17/2021",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "8/3/2021",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "7/29/2022",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Oracle Corporation",
+      "website_url": "http://www.oracle.com",
+      "address_lines": [
+        "500 Oracle Parkway",
+        "Redwood Shores, CA 94065",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Oracle Security Evaluations",
+      "contact_email": "Seceval_us@oracle.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

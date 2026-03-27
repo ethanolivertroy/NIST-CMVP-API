@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4915"
+  },
+  "certificate": {
+    "certificate_number": "4915",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4915",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4915",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4915.pdf",
+    "vendor_name": "Advanced Micro Devices (AMD)",
+    "module_name": "AMD ASP Cryptographic CoProcessor (\"Raphael\")",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware-hybrid",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "12/12/2024",
+    "validation_dates": [
+      "12/12/2024"
+    ],
+    "sunset_date": "12/11/2029",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "The module is present in these models (OPNs): 7945 (100-000000598), 7745 (100-000000599), 7645 (100-000000600)",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4915.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/12/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Advanced Micro Devices (AMD)",
+      "website_url": "http://www.amd.com",
+      "address_lines": [
+        "2485 Augustine Drive",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "FIPS Contact",
+      "contact_email": "FIPS@amd.com",
+      "contact_phone": "1408-749-4000"
+    },
+    "algorithms": []
+  }
+}

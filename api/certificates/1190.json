@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1190"
+  },
+  "certificate": {
+    "certificate_number": "1190",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1190",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1190",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1190.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "FIPS Linux Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "9/21/2009",
+    "validation_dates": [
+      "9/21/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Raytheon Oakley Systems FIPS Linux Cryptographic Module is a software module providing cryptographic functionality for the Raytheon Oakley Systems InnerView insider threat product. InnerView is an enterprise monitoring, threat detection, and policy enforcement solution.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1190.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1190.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/21/2009",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "2755 E. Cottonwood Parkway",
+        "Suite 600",
+        "Salt Lake City, UT 84121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mindy Gilbert",
+      "contact_email": "mindy.gilbert@oakleynetworks.com",
+      "contact_phone": "801-733-1443"
+    },
+    "algorithms": []
+  }
+}

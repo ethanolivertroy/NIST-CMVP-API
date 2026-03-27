@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3940"
+  },
+  "certificate": {
+    "certificate_number": "3940",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3940",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3940",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3940.pdf",
+    "vendor_name": "UD info Corp.",
+    "module_name": "UD info DA-series FIPS SSD",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "6/1/2021, 5/17/2024",
+    "validation_dates": [
+      "6/1/2021",
+      "5/17/2024"
+    ],
+    "sunset_date": "5/31/2026",
+    "caveat": "When operated in FIPS mode. When installed, initialized and configured as specified in the Security Rules Section of the Security Policy. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "UD info DA-series FIPS SSD is a Cryptographic Module (CM) series providing various cryptographic services by FIPS approved algorithms. Services include hardware-based data encryption, cryptographic erase, independently protected user data LBA bands.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3940.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2021_010721_0718.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/1/2021",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "5/17/2024",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "UD info Corp.",
+      "website_url": "http://www.Udinfo-usa.com",
+      "address_lines": [
+        "16700 Valley View Ave",
+        "Suite 300",
+        "La Mirada, CA 90538",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "T-Chung Hung",
+      "contact_email": "hon@Udinfo-usa.com",
+      "contact_phone": "657-445-8630"
+    },
+    "algorithms": []
+  }
+}

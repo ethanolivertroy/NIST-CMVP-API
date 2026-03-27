@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5185"
+  },
+  "certificate": {
+    "certificate_number": "5185",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5185",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5185",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5185.pdf",
+    "vendor_name": "Zetetic, LLC",
+    "module_name": "SQLCipher Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/12/2026",
+    "validation_dates": [
+      "3/12/2026"
+    ],
+    "sunset_date": "8/26/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The SQLCipher Cryptographic Module is a cryptographic engine that integrates with SQLCipher, enhancing encrypted database operations with a trusted security layer. SQLCipher provides full database encryption and data integrity protection for local storage at rest. This module guarantees that all data stored and retrieved through SQLCipher is encrypted, decrypted, and verified using a reliable implementation for applications demanding high levels of data security.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5185.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/12/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Zetetic, LLC",
+      "website_url": "https://www.zetetic.net/",
+      "address_lines": [
+        "PO Box 5018",
+        "Branchburg, NJ 08876",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Zetetic Support",
+      "contact_email": "support@zetetic.net",
+      "contact_phone": "908-762-2125"
+    },
+    "algorithms": []
+  }
+}

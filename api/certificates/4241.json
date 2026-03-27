@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4241"
+  },
+  "certificate": {
+    "certificate_number": "4241",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4241",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4241",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4241.pdf",
+    "vendor_name": "silex technology, Inc.",
+    "module_name": "SX-590-1402",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/5/2022, 6/27/2023",
+    "validation_dates": [
+      "6/5/2022",
+      "6/27/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "The SX-590-1402 is Silex’s latest fifth generation high-performance Serial/Ethernet to Wi-Fi module that provides connectivity for low-power portable devices to 802.11 wireless local area networks (WLANS). The SX-590-1402 provides NIST validated 802.11 WLAN encryption and validated TLS encryption for network connection to the module’s Serial Data port.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4241.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2022_010722_0704_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/5/2022",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "6/27/2023",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "silex technology, Inc.",
+      "website_url": "http://www.silexamerica.com",
+      "address_lines": [
+        "1751 E. Garry Ave.",
+        "Santa Ana, CA 92705",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Matt Buckett",
+      "contact_email": "sales@silexamerica.com",
+      "contact_phone": "657 218 5199"
+    },
+    "algorithms": []
+  }
+}

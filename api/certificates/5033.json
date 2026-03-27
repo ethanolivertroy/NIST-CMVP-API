@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5033"
+  },
+  "certificate": {
+    "certificate_number": "5033",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5033",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5033",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5033.pdf",
+    "vendor_name": "Qualcomm Technologies, Inc.",
+    "module_name": "Qualcomm® Inline Crypto Engine (UFS)",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "6/26/2025, 1/27/2026",
+    "validation_dates": [
+      "6/26/2025",
+      "1/27/2026"
+    ],
+    "sunset_date": "6/25/2030",
+    "caveat": "When operated in approved mode. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Qualcomm Inline Crypto Engine (UFS) provides high throughput storage data encryption and decryption.",
+    "security_level_exceptions": [
+      "Software/Firmware security: N/A",
+      "Operational environment: N/A",
+      "Physical security: Level 2",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 2",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5033.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/26/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "1/27/2026",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Qualcomm Technologies, Inc.",
+      "website_url": "http://www.qualcomm.com",
+      "address_lines": [
+        "5775 Morehouse Dr",
+        "5775 Morehouse Dr, CA 92121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Qualcomm FIPS 140 officers",
+      "contact_email": "fips140officers@qti.qualcomm.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4500"
+  },
+  "certificate": {
+    "certificate_number": "4500",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4500",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4500",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4500.pdf",
+    "vendor_name": "Adva Network Security GmbH",
+    "module_name": "Encryption Module 10TCE-PCN-16GU+AES100G-F",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "5/2/2023, 1/30/2026",
+    "validation_dates": [
+      "5/2/2023",
+      "1/30/2026"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "The tamper evident seals installed as indicated in the security policy; This module contains the embedded module StarSign Crypto-USB Token S powered by Sm@rtCafé Expert 7.0 Secure Element validated to FIPS 140-2 under Cert. #2628 operating in FIPS mode.",
+    "description": "The 10TCE-PCN-16GU+AES100G-F encryption module is used for encryption and decryption of data transmitted over Optical Transportation Network (OTN) links. It is used in Adva Network Security's FSP 3000 Optical Network Encryption solutions.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4500.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2023_010623_0642.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/2/2023",
+        "type": "Initial",
+        "lab": "TUVIT Evaluation Body for IT Security"
+      },
+      {
+        "date": "1/30/2026",
+        "type": "Update",
+        "lab": "TUVIT Evaluation Body for IT Security"
+      }
+    ],
+    "vendor": {
+      "name": "Adva Network Security GmbH",
+      "website_url": "http://www.advasecurity.com",
+      "address_lines": [
+        "Hermann-Dorner-Allee 91",
+        "Berlin 12489",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "Uli Schlegel",
+      "contact_email": "uli.schlegel@advasecurity.com",
+      "contact_phone": "+49 30 2636969165"
+    },
+    "algorithms": [
+      "AES"
+    ]
+  }
+}

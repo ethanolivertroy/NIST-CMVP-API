@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4933"
+  },
+  "certificate": {
+    "certificate_number": "4933",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4933",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4933",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4933.pdf",
+    "vendor_name": "Pitney Bowes, Inc.",
+    "module_name": "X5 Postal Security Device (PSD)",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "12/24/2024",
+    "validation_dates": [
+      "12/24/2024"
+    ],
+    "sunset_date": "12/23/2026",
+    "caveat": "Interim Validation; When operated in approved mode; No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The X5 Postal Security Device (PSD) is a single-chip cryptographic module designed by Pitney Bowes, Inc. (PB) to conform with FIPS 140-3 Security Level 3 requirements. The device includes the Maxim Integrated MAX32590 DeepCover Secure Microcontroller hardware component. The PSD Application and DAL are compiled into a single firmware. The X5 Postal Security Device (PSD) provides cryptographic services to a host device (i.e., Digital Postage Meter), to support postage evidence in the form of an indicium. A PSD provides protection that includes ensuring the secrecy of sensitive security parameters (SSPs) such as cryptographic keys and providing data integrity protection for funds relevant data items (FRDIs) such as accounting data. SSPs and FRDIs reside inside the strong physical protections of the X5 Postal Security Device (PSD).",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4933.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/24/2024",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Pitney Bowes, Inc.",
+      "website_url": "http://www.pitneybowes.com",
+      "address_lines": [
+        "27 Waterview Drive",
+        "Shelton, CT 06484",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Brian Hannigan",
+      "contact_email": "brian.hannigan@pb.com",
+      "contact_phone": "203-796-3201"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

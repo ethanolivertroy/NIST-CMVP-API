@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/373"
+  },
+  "certificate": {
+    "certificate_number": "373",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/373",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/373",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp373.pdf",
+    "vendor_name": "CipherOptics Inc.",
+    "module_name": "CipherOptics Security Gateway SafeNet HighAssurance 4000 Gateway",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "1/15/2004, 2/27/2004",
+    "validation_dates": [
+      "1/15/2004",
+      "2/27/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The CipherOptics Security Gateway and the SafeNet High Assurance 4000 Gateway (aka the SafeNet HA 4000), which is the OEM version of the CipherOptics Security Gateway; is a high performance, integrated security appliance that offers Gigabit Ethernet IPSec encryption. Housed in a tamper evident chassis, the Security Gateway has two Gigabit Ethernet ports. Traffic on the local port is received in the clear, while traffic on the remote port has security processing applied to it.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp373.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt373.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/15/2004",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "2/27/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "CipherOptics Inc.",
+      "website_url": "http://www.cipheroptics.com",
+      "address_lines": [
+        "701 Corporate Center Drive",
+        "Raleigh, NC 27607",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dennis Toothman - CipherOptics Inc.",
+      "contact_email": "dennist@cipheroptics.com",
+      "contact_phone": "919-865-0661"
+    },
+    "algorithms": []
+  }
+}

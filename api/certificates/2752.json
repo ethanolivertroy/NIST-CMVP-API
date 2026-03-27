@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2752"
+  },
+  "certificate": {
+    "certificate_number": "2752",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2752",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2752",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2752.pdf",
+    "vendor_name": "Cambium Networks, Ltd.",
+    "module_name": "PTP 820C, PTP 820S, PTP 820N, PTP 820A, PTP 820G and PTP 820GX.",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "9/21/2016, 10/26/2018",
+    "validation_dates": [
+      "9/21/2016",
+      "10/26/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. When installed, initialized and configured as specified in Section 3 of the Security Policy",
+    "description": "PTP 820 is a Point-to-Point wireless broadband solution for mission-critical communications in government, industrial and public safety spaces. Integrated with leading networking functionality with the industry most advanced microwave technologies, the platform creates a superior transport solution.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2752.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertSept2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/21/2016",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "10/26/2018",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Cambium Networks, Ltd.",
+      "website_url": "http://www.cambiumnetworks.com",
+      "address_lines": [
+        "Unit B2, Linhay Business Park, Eastern Road",
+        "Ashburton TQ13 7UP",
+        "UK"
+      ],
+      "country": "UK",
+      "contact_name": "Allen Yu",
+      "contact_email": "Allen.yu@cambiumnetworks.com",
+      "contact_phone": "847-640-3650"
+    },
+    "algorithms": []
+  }
+}

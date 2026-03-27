@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4547"
+  },
+  "certificate": {
+    "certificate_number": "4547",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4547",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4547",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4547.pdf",
+    "vendor_name": "Silver Peak Systems, Inc.",
+    "module_name": "Silver Peak EdgeConnect",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/9/2023",
+    "validation_dates": [
+      "7/9/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "Unity EdgeConnect appliances deliver predictable application performance and high availability over any combination of transport services. Orchestrated, application-driven security policies enable direct internet breakout for trusted SaaS, web, and applications, and secure connection to cloud hosted security services. EdgeConnect reduces complexity by enabling a single element, simplified \"thin branch\".",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4547.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2023_010823_0649 signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/9/2023",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Silver Peak Systems, Inc.",
+      "website_url": "http://www.silver-peak.com",
+      "address_lines": [
+        "2860 De la cruz Blvd",
+        "Santa Clara, CA 95050",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Bob Rodio",
+      "contact_email": "robert.rodio@hpe.com",
+      "contact_phone": "408-935-1800"
+    },
+    "algorithms": []
+  }
+}

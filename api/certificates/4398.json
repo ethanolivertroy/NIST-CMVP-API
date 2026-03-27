@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4398"
+  },
+  "certificate": {
+    "certificate_number": "4398",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4398",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4398",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4398.pdf",
+    "vendor_name": "Seagate Technology LLC",
+    "module_name": "Seagate Secure® TCG Enterprise SSC Self-Encrypting Drives FIPS 140 Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "12/22/2022",
+    "validation_dates": [
+      "12/22/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The Seagate Secure® TCG Enterprise SSC Self-Encrypting Drives FIPS 140 Module is embodied in Seagate Enterprise Capacity® HDD v4 Self-Encrypting Drives model disk drives. These products meet the performance requirements of the most demanding Enterprise applications. The cryptographic module (CM) provides a wide range of cryptographic services using FIPS approved algorithms. Services include hardware-based data encryption, instantaneous user data disposal with cryptographic erase, independently controlled and protected user data LBA bands and authenticated FW download.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4398.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/22/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Seagate Technology LLC",
+      "website_url": "http://www.seagate.com",
+      "address_lines": [
+        "1280 Disc Drive",
+        "Shakopee, MN 55379",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David R Kaiser, PMP",
+      "contact_email": "david.r.kaiser@seagate.com",
+      "contact_phone": "952-402-2356"
+    },
+    "algorithms": [
+      "SHA"
+    ]
+  }
+}

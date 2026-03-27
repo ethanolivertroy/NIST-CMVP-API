@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3159"
+  },
+  "certificate": {
+    "certificate_number": "3159",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3159",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3159",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3159.pdf",
+    "vendor_name": "Zscaler Inc.",
+    "module_name": "Zscaler Crypto Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "3/26/2018, 7/6/2021",
+    "validation_dates": [
+      "3/26/2018",
+      "7/6/2021"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security relevant modification to Cert. #2038.",
+    "description": "Zscaler Crypto Module ™ offloads functions for secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3159.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140-2-ConsolidatedMarch2018.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/26/2018",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "7/6/2021",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Zscaler Inc.",
+      "website_url": "http://www.zscaler.com",
+      "address_lines": [
+        "110 Rose Orchard Way",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Stephen R. Kovac",
+      "contact_email": "kovac@zscaler.com",
+      "contact_phone": "727-288-7144"
+    },
+    "algorithms": []
+  }
+}

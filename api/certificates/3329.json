@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3329"
+  },
+  "certificate": {
+    "certificate_number": "3329",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3329",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3329",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3329.pdf",
+    "vendor_name": "Realia Technologies, S.L.",
+    "module_name": "Cryptosec Dekaton",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
+    "validation_date": "11/20/2018",
+    "validation_dates": [
+      "11/20/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and utilizing a Trusted Path as specified in the Security Policy.",
+    "description": "The Cryptosec Dekaton is a high-end cryptographic accelerator card that provides cryptographic services and secure storage of cryptographic keys. The module is built to perform general cryptographic processing and features a tamper-responsive case to physically protect sensitive information contained within the card.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3329.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/Consolidated-Nov2018.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/20/2018",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "Realia Technologies, S.L.",
+      "website_url": "http://www.realsec.com",
+      "address_lines": [
+        "Infanta Mercedes 90, 4th floor",
+        "Madrid, Madrid 28020",
+        "Spain"
+      ],
+      "country": "Spain",
+      "contact_name": "Jesus Rodriguez",
+      "contact_email": "jrodriguez@realsec.com",
+      "contact_phone": "+34 91 449 03 30"
+    },
+    "algorithms": []
+  }
+}

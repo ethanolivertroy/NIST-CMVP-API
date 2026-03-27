@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4943"
+  },
+  "certificate": {
+    "certificate_number": "4943",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4943",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4943",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4943.pdf",
+    "vendor_name": "Legion of the Bouncy Castle Inc.",
+    "module_name": "BC-FJA (Bouncy Castle FIPS Java API)",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/17/2025, 11/14/2025",
+    "validation_dates": [
+      "1/17/2025",
+      "11/14/2025"
+    ],
+    "sunset_date": "1/16/2027",
+    "caveat": "Interim Validation. When operated in approved mode. The module generates SSPs (e.g., keys) whose strengths are modified by available entropy",
+    "description": "The Bouncy Castle FIPS Java API is a comprehensive suite of FIPS Approved algorithms implemented in pure Java. All key sizes and modes have been implemented to allow flexibility and efficiency, and additional algorithms are available in non-approved operation as well.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4943.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/17/2025",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      },
+      {
+        "date": "11/14/2025",
+        "type": "Update",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Legion of the Bouncy Castle Inc.",
+      "website_url": "http://www.bouncycastle.org",
+      "address_lines": [
+        "85 The Crescent",
+        "Ascot Vale, Victoria 3032",
+        "Australia"
+      ],
+      "country": "Australia",
+      "contact_name": "David Hook",
+      "contact_email": "dgh@bouncycastle.org",
+      "contact_phone": "61438170390"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

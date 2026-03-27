@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5041"
+  },
+  "certificate": {
+    "certificate_number": "5041",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5041",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5041",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5041.pdf",
+    "vendor_name": "wolfSSL Inc.",
+    "module_name": "wolfCrypt",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/18/2025",
+    "validation_dates": [
+      "7/18/2025"
+    ],
+    "sunset_date": "7/17/2030",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g. keys).",
+    "description": "wolfCrypt module is a comprehensive suite of Approved algorithms. All key sizes and modes have been implemented to allow flexibility and efficiency.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5041.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/18/2025",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "wolfSSL Inc.",
+      "website_url": "http://www.wolfssl.com",
+      "address_lines": [
+        "10016 Edmonds Way, Suite C-300",
+        "Edmonds, WA 98020",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Todd Ouska",
+      "contact_email": "todd@wolfssl.com",
+      "contact_phone": "503-679-1859"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

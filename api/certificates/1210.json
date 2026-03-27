@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1210"
+  },
+  "certificate": {
+    "certificate_number": "1210",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1210",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1210",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1210.pdf",
+    "vendor_name": "Motorola, Inc.",
+    "module_name": "Motorola Wireless Fusion on Windows Mobile Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software-Hybrid",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/18/2009, 5/5/2010, 6/2/2010",
+    "validation_dates": [
+      "11/18/2009",
+      "5/5/2010",
+      "6/2/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Motorola Wireless Fusion Cryptographic Module is a component of Motorola Wireless Mobile Computing devices that are equipped with a WLAN radio. These devices are used for business process automation applications in a number of vertical markets like retail, manufacturing, transportation, health and government.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1210.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1210.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/18/2009",
+        "type": "Initial",
+        "lab": "Aspect"
+      },
+      {
+        "date": "5/5/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/2/2010",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Motorola, Inc.",
+      "website_url": "http://www.motorola.com",
+      "address_lines": [
+        "1 Motorola Plaza",
+        "Holtsville, NY 11742",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Steven Chew",
+      "contact_email": null,
+      "contact_phone": "631-738-3507"
+    },
+    "algorithms": []
+  }
+}

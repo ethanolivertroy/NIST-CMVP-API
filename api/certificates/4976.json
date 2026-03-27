@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4976"
+  },
+  "certificate": {
+    "certificate_number": "4976",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4976",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4976",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4976.pdf",
+    "vendor_name": "Keeper Security, Inc.",
+    "module_name": "Keeper Security Cryptographic Module v2",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "2/27/2025",
+    "validation_dates": [
+      "2/27/2025"
+    ],
+    "sunset_date": "7/28/2029",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Keeper Security Cryptographic Module provides cryptographic operations for the Keeper password manager application and digital vault. Supporting storage of passwords, authentication information and other sensitive documents using 256-bit AES encryption, zero-knowledge architecture and two-factor authentication.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4976.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/27/2025",
+        "type": "Initial",
+        "lab": "Teron Labs"
+      }
+    ],
+    "vendor": {
+      "name": "Keeper Security, Inc.",
+      "website_url": "https://www.keepersecurity.com",
+      "address_lines": [
+        "820 W. Jackson Blvd",
+        "Suite 400",
+        "Chicago, IL 60607",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Patrick Tiquet",
+      "contact_email": "patrick@keepersecurity.com",
+      "contact_phone": "209-728-4824"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5015"
+  },
+  "certificate": {
+    "certificate_number": "5015",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5015",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5015",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5015.pdf",
+    "vendor_name": "Amazon Web Services, Inc.",
+    "module_name": "Amazon Linux 2023 GnuTLS Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "5/5/2025",
+    "validation_dates": [
+      "5/5/2025"
+    ],
+    "sunset_date": "5/4/2030",
+    "caveat": "When operated in approved mode and installed, initialized and configured as specified in Section 11 of the Security Policy.",
+    "description": "GnuTLS is a secure communications library implementing the TLS protocol. It provides a simple C language application programming interface to access the secure communications protocols as well as APIs to parse and write X.509, PKCS#12, and other required structures.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5015.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/5/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Amazon Web Services, Inc.",
+      "website_url": "https://aws.amazon.com/linux/amazon-linux-2023/",
+      "address_lines": [
+        "1918 8th Ave",
+        "Seattle, WA 98101",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Amazon Linux Security",
+      "contact_email": "aws-fips-external@amazon.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": [
+      "TLS"
+    ]
+  }
+}

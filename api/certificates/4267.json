@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4267"
+  },
+  "certificate": {
+    "certificate_number": "4267",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4267",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4267",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4267.pdf",
+    "vendor_name": "BlackBerry Limited",
+    "module_name": "Security Builder® FIPS Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/18/2022",
+    "validation_dates": [
+      "7/18/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "SB FIPS Module is a cryptographic toolkit for C language users, providing services of various cryptographic algorithms such as hash algorithms, encryption schemes, message authentication, and public key cryptography.",
+    "security_level_exceptions": [
+      "Physical Security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4267.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2022_010822_0659_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/18/2022",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "BlackBerry Limited",
+      "website_url": "http://blackberry.certicom.com/",
+      "address_lines": [
+        "4701 Tahoe Blvd, Building A",
+        "5th Floor",
+        "Mississauga, ON L4W 0B5",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Randy Tsang",
+      "contact_email": "rtsang@blackberry.com",
+      "contact_phone": "(289) 261-4189"
+    },
+    "algorithms": []
+  }
+}

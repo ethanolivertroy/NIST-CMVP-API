@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/547"
+  },
+  "certificate": {
+    "certificate_number": "547",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/547",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/547",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp547.pdf",
+    "vendor_name": "Pitney Bowes, Inc.",
+    "module_name": "Compliant Meter Postal Security Device (CoMet PSD)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 3,
+    "validation_date": "6/2/2005, 2/24/2006",
+    "validation_dates": [
+      "6/2/2005",
+      "2/24/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Pitney Bowes Compliant Meter Postal Security Device (PSD) has been designed in compliance with the United States Postal Service (USPS), Information-Based Indicia Program (IBIP), Canada Post Corporations Digital Indicia Standard, and Deutsche Post's FrankIT New Generation Digital Franking program. It employs strong encryption, decryption, and digital signature techniques for the protection of customer funds in Pitney Bowes global digital metering products. The PSD has been designed to support international postal markets and their rapidly evolving requirements for digital indicia.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp547.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt547.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/2/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/24/2006",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Pitney Bowes, Inc.",
+      "website_url": "http://www.pb.com",
+      "address_lines": [
+        "35 Waterview Drive",
+        "Shelton, CT 06484-8000",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dennis Crowe",
+      "contact_email": "dennis.crowe@pb.com",
+      "contact_phone": "203-924-3500"
+    },
+    "algorithms": []
+  }
+}

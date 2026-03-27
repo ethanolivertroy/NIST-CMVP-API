@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4749"
+  },
+  "certificate": {
+    "certificate_number": "4749",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4749",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4749",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4749.pdf",
+    "vendor_name": "Intel Corporation",
+    "module_name": "Crypto Module for Intel® Alder Point PCH Converged Security and Manageability Engine (CSME)",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware-hybrid",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "8/2/2024",
+    "validation_dates": [
+      "8/2/2024"
+    ],
+    "sunset_date": "8/1/2029",
+    "caveat": "Interim Validation. When operated in approved mode. When initialized and configured as specified in Section 11 of the Security Policy.",
+    "description": "The Cryptographic Module for Intel® Converged Security and Manageability Engine(CSME) is a firmware-hybrid module. The module consists of both hardware and firmware. The hardware portion is the Converged Security Engine (CSE) and the firmware portion is the crypto driver process of the Manageability Engine (ME). The two portions form the cryptographic boundary and they combine as Converged Security and Manageability Engine (CSME) to perform cryptographic functions within the Alder Point PCH applications executing on the CSME OS.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4749.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2024_010924_0336.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/2/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Intel Corporation",
+      "website_url": "http://www.intel.com",
+      "address_lines": [
+        "2200 Mission College Blvd.",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Intel FIPS Office",
+      "contact_email": "fipsoffice@intel.com",
+      "contact_phone": "408-765-8080"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4635"
+  },
+  "certificate": {
+    "certificate_number": "4635",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4635",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4635",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4635.pdf",
+    "vendor_name": "Avaya, Inc.",
+    "module_name": "Avaya G450/G430 FIPS 140-2 Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/11/2023",
+    "validation_dates": [
+      "10/11/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section 1.8 of the Security Policy. When operated in FIPS mode",
+    "description": "The G450 and G430 Media Gateways are complete branch office business communications systems that integrate TDM and VoIP telephony. Ideally suited for branch office locations of up to 450 extensions, the G450 and G430 replace the complexity and cost of managing disparate key and voice systems with a survivable networked solution that is easy to deploy and can be administered from a central location.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4635.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2023_011123_0711.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/11/2023",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Avaya, Inc.",
+      "website_url": "http://www.avaya.com",
+      "address_lines": [
+        "12121 Grant Street",
+        "Thornton, CO 80241",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "Doug Gibbons",
+      "contact_email": "ldgibbons@avaya.com",
+      "contact_phone": "303-538-3538"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/219"
+  },
+  "certificate": {
+    "certificate_number": "219",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/219",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/219",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp219.pdf",
+    "vendor_name": "Oberthur Card Systems",
+    "module_name": "CosmopollC V4 Smart Card with ActivCard Applets",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "5/28/2002, 12/12/2002, 12/20/2002, 2/27/2004, 3/30/2004, 9/23/2005",
+    "validation_dates": [
+      "5/28/2002",
+      "12/12/2002",
+      "12/20/2002",
+      "2/27/2004",
+      "3/30/2004",
+      "9/23/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "Certificate 219a supersedes and replaces Certificate 219",
+    "description": "The Oberthur Card Systems CosmopolIC product is a highly secure and powerful multi-application Java Card platform for smart card. With a better management of memory (ROM and EEPROM), it offers more space for the development of e-commerce, m-commerce, payment (Debit/ Credit), network access, pay-TV, loyalty and many other applications including WAP.",
+    "security_level_exceptions": [
+      "Software Security: Level 3",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp219.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt219.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/28/2002",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "12/12/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/20/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/27/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "3/30/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "9/23/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Oberthur Card Systems",
+      "website_url": "http://www.oberthurusa.com",
+      "address_lines": [
+        "4250 Pleasant Valley Road",
+        "Chantilly, VA 20151",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Antoine Kelman",
+      "contact_email": "antoine.kelman@oberthurusa.com",
+      "contact_phone": "703-263-0100"
+    },
+    "algorithms": []
+  }
+}

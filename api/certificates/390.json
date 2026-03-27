@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/390"
+  },
+  "certificate": {
+    "certificate_number": "390",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/390",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/390",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp390.pdf",
+    "vendor_name": "General Dynamics Decision Systems",
+    "module_name": "Assembly Crypto Module (ACM) and Flight Crypto Module (FCM)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "3/8/2004, 11/3/2004",
+    "validation_dates": [
+      "3/8/2004",
+      "11/3/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The ACM and FCM are multi-chip standalone cryptographic modules designed to meet the Level 2 security requirements as defined in FIPS PUB 140-2. ACM and FCM perform the Triple-DES algorithm.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp390.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt390.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/8/2004",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "11/3/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "General Dynamics Decision Systems",
+      "website_url": "http://www.gdds.com",
+      "address_lines": [
+        "8201 East McDowell Road",
+        "Scottsdale, AZ 85252",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dick Moat",
+      "contact_email": "dick.moat@gd-decisionsystems.com",
+      "contact_phone": "480-441-6863"
+    },
+    "algorithms": []
+  }
+}

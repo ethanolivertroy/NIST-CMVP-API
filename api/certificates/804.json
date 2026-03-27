@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/804"
+  },
+  "certificate": {
+    "certificate_number": "804",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/804",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/804",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp804.pdf",
+    "vendor_name": "XYPRO® Technology Corporation",
+    "module_name": "XYGATE® /ESDK",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/26/2007, 8/17/2007, 11/26/2007",
+    "validation_dates": [
+      "7/26/2007",
+      "8/17/2007",
+      "11/26/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The XYGATE Encryption Software Development Kit [XESDK] is a dynamically linked software library that supplies: symmetric key encryption including the approved AES and TripleDES; hashing algorithms including the approved SHA-1 and SHA-256; public key encryption including RSA; signature algorithms including the approved RSA and DSA; secure session protocols such as SSH, SSL and TLS; and e-mail protocols such as PGP and S/MIME.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp804.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt804.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/26/2007",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "8/17/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "11/26/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "XYPRO® Technology Corporation",
+      "website_url": "http://www.xypro.com",
+      "address_lines": [
+        "3325 Cochran Street, Suite 200",
+        "Simi Valley, CA 93063",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Sheila Johnson",
+      "contact_email": "Sheila_J@xypro.com",
+      "contact_phone": "805-583-2874"
+    },
+    "algorithms": []
+  }
+}

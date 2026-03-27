@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4835"
+  },
+  "certificate": {
+    "certificate_number": "4835",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4835",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4835",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4835.pdf",
+    "vendor_name": "Forcepoint",
+    "module_name": "Forcepoint NGFW Cryptographic Kernel Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/11/2024",
+    "validation_dates": [
+      "10/11/2024"
+    ],
+    "sunset_date": "10/10/2029",
+    "caveat": "When installed, initialized and configured as specified in Section 11 of the Security Policy",
+    "description": "The Forcepoint NGFW Cryptographic Kernel Module is a software module that provides cryptographic services required by the Forcepoint NGFW product.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4835.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/11/2024",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Forcepoint",
+      "website_url": "http://www.forcepoint.com",
+      "address_lines": [
+        "10900-A Stonelake Blvd",
+        "Ste. 350",
+        "Austin, Texas 78759",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jorma Levomaki",
+      "contact_email": "legal@forcepoint.com",
+      "contact_phone": "1-858-320-8000"
+    },
+    "algorithms": [
+      "AES",
+      "HMAC",
+      "SHA"
+    ]
+  }
+}

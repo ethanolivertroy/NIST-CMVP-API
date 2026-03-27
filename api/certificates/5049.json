@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5049"
+  },
+  "certificate": {
+    "certificate_number": "5049",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5049",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5049",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5049.pdf",
+    "vendor_name": "Cloudlinux Inc., TuxCare division",
+    "module_name": "GnuTLS cryptography module for AlmaLinux 9",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/28/2025",
+    "validation_dates": [
+      "7/28/2025"
+    ],
+    "sunset_date": "7/27/2030",
+    "caveat": "When operated in approved mode. When installed, initialized and configured as specified in Section 11 of the Security Policy.",
+    "description": "GnuTLS is a secure communications library implementing the SSL, TLS and DTLS protocols and technologies around them. It provides a simple C language application programming interface (API) to access the secure communications protocols as well as APIs to parse and write X.509, PKCS #12, OpenPGP and other required structures.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5049.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/28/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Cloudlinux Inc., TuxCare division",
+      "website_url": "http://www.tuxcare.com",
+      "address_lines": [
+        "2318 Louis Road, Suite B",
+        "Palo Alto, CA 94303",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Simon John",
+      "contact_email": "sjohn@tuxcare.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": [
+      "TLS"
+    ]
+  }
+}

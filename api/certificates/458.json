@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/458"
+  },
+  "certificate": {
+    "certificate_number": "458",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/458",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/458",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp458.pdf",
+    "vendor_name": "SonicWall, Inc.",
+    "module_name": "SonicWALL TZ 170",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "9/8/2004, 2/24/2005, 5/17/2006, 4/25/2007, 4/21/2015, 6/8/2017",
+    "validation_dates": [
+      "9/8/2004",
+      "2/24/2005",
+      "5/17/2006",
+      "4/25/2007",
+      "4/21/2015",
+      "6/8/2017"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The SonicWALL TZ 170 is an internet security appliance with a WAN interface, a flexible Optional interface, and a LAN interface incorporating a 5-port Fast-Ethernet switch. The SonicWALL TZ 170 provides stateful packet inspection firewall services, accelerated IPSec VPN, bandwidth management, and can be upgraded to offer ISP failover and traffic loadbalancing. The SonicWALL TZ 170 also serves as a platform for extensible security services such as Content Filtering Services (CFS), Network Anti - Virus, and E-mail filtering.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp458.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt458.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/8/2004",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/24/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/17/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "4/25/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "4/21/2015",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/8/2017",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "SonicWall, Inc.",
+      "website_url": "http://www.sonicwall.com",
+      "address_lines": [
+        "5455 Great America Parkway",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Lawrence Wagner",
+      "contact_email": "lwagner@sonicwall.com",
+      "contact_phone": "408-752-7886"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2959"
+  },
+  "certificate": {
+    "certificate_number": "2959",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2959",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2959",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2959.pdf",
+    "vendor_name": "Infineon Technologies AG",
+    "module_name": "Trusted Platform Module 2.0 SLB 9660/SLB 9665/SLB 9670",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "7/17/2017",
+    "validation_dates": [
+      "7/17/2017"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode as specified in Security Policy Sections 1.1 and 8.1",
+    "description": "The TPM is a single chip module that provides computer manufacturers with the core components of a subsystem used to assure authenticity, integrity and confidentiality in e-commerce and internet communications within a Trusted Computing Platform. The TPM is a complete solution implementing the Trusted Platform Module Library Specification, Family \"2.0\", Level 00, Revision 01.16, October 2014 (ISO/IEC 11889:2015, Parts 1-4). See http://www.trustedcomputinggroup.org/ for further information on TCG and TPM.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2959.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJuly2017.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/17/2017",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Infineon Technologies AG",
+      "website_url": "http://www.infineon.com",
+      "address_lines": [
+        "Am Campeon 1-12",
+        "Neubiberg, BY 85579",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "Roland Ebrecht",
+      "contact_email": "Roland.Ebrecht@infineon.com",
+      "contact_phone": "+49-821-25851-68"
+    },
+    "algorithms": []
+  }
+}

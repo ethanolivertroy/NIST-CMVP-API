@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/451"
+  },
+  "certificate": {
+    "certificate_number": "451",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/451",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/451",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp451.pdf",
+    "vendor_name": "Good Technology, Inc.",
+    "module_name": "FIPSCrypto",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/28/2004, 1/11/2007, 4/9/2010",
+    "validation_dates": [
+      "7/28/2004",
+      "1/11/2007",
+      "4/9/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Good FIPSCrypto is a FIPS 140-2 validated software-based cryptographic module that implements the Triple-DES; AES; SHA-1; HMAC-SHA-1 algorithms.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp451.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt451.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/28/2004",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "1/11/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "4/9/2010",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Good Technology, Inc.",
+      "website_url": "http://www.good.com",
+      "address_lines": [
+        "430 N. Mary Avenue",
+        "Suite 200",
+        "Sunnyvale, CA 94085",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Sriram Krishnan",
+      "contact_email": "skrishnan@good.com",
+      "contact_phone": "650-486-6000"
+    },
+    "algorithms": []
+  }
+}

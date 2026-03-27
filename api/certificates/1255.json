@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1255"
+  },
+  "certificate": {
+    "certificate_number": "1255",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1255",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1255",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1255.pdf",
+    "vendor_name": "SPYRUS, Inc.",
+    "module_name": "Hydra PC FIPS Sector-based Encryption Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "2/15/2010, 5/5/2010",
+    "validation_dates": [
+      "2/15/2010",
+      "5/5/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Hydra PC FIPS Sector-based Encryption Module provides hardware-based, sector by sector full disk encryption providing the protective military strength of the U. S. Government's Suite B algorithm standards, including AES, ECDSA, SHA-2, and EC-DH. The USB encryption device comes with an easy to use, user-friendly interface that operates on the Microsoft Windows operating systems without installing any drivers.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1255.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1255.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/15/2010",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/5/2010",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SPYRUS, Inc.",
+      "website_url": "http://www.spyrus.com",
+      "address_lines": [
+        "1860 Hartog Drive",
+        "San Jose, CA 95131-2203",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tom Dickens",
+      "contact_email": "tdickens@spyrus.com",
+      "contact_phone": "408-392-9131"
+    },
+    "algorithms": []
+  }
+}

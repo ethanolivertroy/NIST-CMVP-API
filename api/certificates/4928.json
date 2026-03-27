@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4928"
+  },
+  "certificate": {
+    "certificate_number": "4928",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4928",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4928",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4928.pdf",
+    "vendor_name": "HPE Aruba Networking",
+    "module_name": "HPE OpenSSL Cryptographic Module on Ubuntu Linux",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/19/2024",
+    "validation_dates": [
+      "12/19/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "OpenSSL is an open-source library of various cryptographic algorithms written mainly in C.",
+    "security_level_exceptions": [
+      "Physical Security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4928.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/19/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "HPE Aruba Networking",
+      "website_url": "http://www.arubanetworks.com/",
+      "address_lines": [
+        "6280 America Center Drive",
+        "San Jose, CA 95002",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kevin Micciche",
+      "contact_email": "kevin.micciche@hpe.com",
+      "contact_phone": "404-648-0062"
+    },
+    "algorithms": []
+  }
+}

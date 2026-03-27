@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5178"
+  },
+  "certificate": {
+    "certificate_number": "5178",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5178",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5178",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5178.pdf",
+    "vendor_name": "Safran Trusted 4D Inc.",
+    "module_name": "SecureSyncGuard",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/10/2026",
+    "validation_dates": [
+      "3/10/2026"
+    ],
+    "sunset_date": "8/26/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "SecureSyncGuard is a standards-based cryptographic engine, enabling secured and trusted network time distribution, within Safran's assured Timing portfolio. SecureSyncGuard provides core cryptographic functions for authentication, encryption, secure communication and key management. SecureSyncGuard is used by supported Safran products, including SecureSync 2400 and VersaSync.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5178.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/10/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Safran Trusted 4D Inc.",
+      "website_url": "https://safran-navigation-timing.com/",
+      "address_lines": [
+        "Safran Trusted 4D Inc.",
+        "45 Becker Road",
+        "Suite A",
+        "West Henrietta, NY 14586",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Samir Mouhoune",
+      "contact_email": "samir.mouhoune@nav-timing.safrangroup.com",
+      "contact_phone": "+33695069636"
+    },
+    "algorithms": []
+  }
+}

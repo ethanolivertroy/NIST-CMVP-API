@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5023"
+  },
+  "certificate": {
+    "certificate_number": "5023",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5023",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5023",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5023.pdf",
+    "vendor_name": "F5, Inc.",
+    "module_name": "OpenSSL Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/8/2025",
+    "validation_dates": [
+      "6/8/2025"
+    ],
+    "sunset_date": "6/7/2030",
+    "caveat": "When operated in approved mode, installed, initialized and configured as specified in Section 11 of the Security Policy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Cryptographic library offering various cryptographic mechanisms to be used by OpenSSL application running on F5 VELOS system controller and blade.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5023.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/8/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "F5, Inc.",
+      "website_url": "https://csrc.nist.gov/f5.com",
+      "address_lines": [
+        "801 Fifth Ave",
+        "Seattle, WA 98104",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Maryrita Steinhour",
+      "contact_email": "fipsf5osc@f5.com",
+      "contact_phone": "206-272-7351"
+    },
+    "algorithms": []
+  }
+}

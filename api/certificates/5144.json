@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5144"
+  },
+  "certificate": {
+    "certificate_number": "5144",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5144",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5144",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5144.pdf",
+    "vendor_name": "Persistent Systems, LLC",
+    "module_name": "Wave Relay® Kernel Space Crypto Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software-hybrid",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "1/26/2026",
+    "validation_dates": [
+      "1/26/2026"
+    ],
+    "sunset_date": "1/25/2031",
+    "caveat": "When operated in approved mode; No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded",
+    "description": "Persistent Systems LLC Wave Relay® Kernel Space Crypto Module is a Software-Hybrid cryptographic module operating on a single-chip device that provides FIPS validated cryptographic algorithms which are used by kernel space system services & protocols (e.g. Wave Relay, IPsec, etc.).",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5144.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/26/2026",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Persistent Systems, LLC",
+      "website_url": "http://www.persistentsystems.com",
+      "address_lines": [
+        "601 W 26th St",
+        "Suite 905",
+        "New York, New York 10001",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Holmer",
+      "contact_email": "fips@persistentsystems.com",
+      "contact_phone": "212-561-5895"
+    },
+    "algorithms": []
+  }
+}

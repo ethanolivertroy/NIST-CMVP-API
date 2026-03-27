@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/999"
+  },
+  "certificate": {
+    "certificate_number": "999",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/999",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/999",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp999.pdf",
+    "vendor_name": "Hewlett Packard®, Enterprise",
+    "module_name": "HP StorageWorks Secure Key Manager",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "8/15/2008, 9/19/2011, 1/25/2016",
+    "validation_dates": [
+      "8/15/2008",
+      "9/19/2011",
+      "1/25/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The HP Secure Key Manager automates encryption key generation and management based on security policies. It is a hardened security appliance delivering identity-based access, administration and logging. Additionally, the Secure Key Manager provides reliable lifetime key archival with automatic multi-site key replication and failover capabilities.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp999.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt999.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/15/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/19/2011",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "1/25/2016",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett Packard®, Enterprise",
+      "website_url": "http://www.hpe.com",
+      "address_lines": [
+        "153 Taylor Street",
+        "Littleton, MA 01460",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Theresa Conejero",
+      "contact_email": "theresa.conejero@hp.com",
+      "contact_phone": "408-447-2964"
+    },
+    "algorithms": []
+  }
+}

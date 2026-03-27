@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4876"
+  },
+  "certificate": {
+    "certificate_number": "4876",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4876",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4876",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4876.pdf",
+    "vendor_name": "Hewlett Packard Enterprise",
+    "module_name": "Hewlett Packard Enterprise OpenSSL 3 Provider",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/13/2024",
+    "validation_dates": [
+      "11/13/2024"
+    ],
+    "sunset_date": "11/12/2026",
+    "caveat": "Interim validation. When configured as specified in Section 11.2 of the Security Policy. No assurance of the minimum strength of generated SSPs",
+    "description": "The Hewlett Packard Enterprise OpenSSL 3 Provider Module is one of the components within a variety of Hewlett Packard Enterprise and HPE Aruba products, including the Aruba Mobility Conductors, Mobility Controllers/Gateways, and controller-managed Aruba Access Points (APs) running the ArubaOS operating system running on the Aruba hardware-based equipment or Aruba virtual appliances.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4876.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/13/2024",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett Packard Enterprise",
+      "website_url": "http://www.hpe.com/us/en/networking",
+      "address_lines": [
+        "1701 E Mossy Oaks Rd",
+        "Spring, TX 77389",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kevin Micciche",
+      "contact_email": "kevin.micciche@hpe.com",
+      "contact_phone": "404-648-0062"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3410"
+  },
+  "certificate": {
+    "certificate_number": "3410",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3410",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3410",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3410.pdf",
+    "vendor_name": "IBM Corporation",
+    "module_name": "IBM 4768 Cryptographic Coprocessor Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 4,
+    "validation_date": "3/20/2019, 3/28/2019, 9/13/2019, 2/16/2021",
+    "validation_dates": [
+      "3/20/2019",
+      "3/28/2019",
+      "9/13/2019",
+      "2/16/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The IBM 4768 PCIe Cryptographic Coprocessor Hardware Security Module is in the form of a programmable PCIe card that offloads computationally intensive cryptographic processes from the hosting server, and performs sensitive tasks within a secured tamper responding hardware boundary. The evolutionary design builds on previous generations of IBM cryptographic technology, improving performance over its predecessors. The IBM 4768 is supported on select IBM Z processors as the Crypto Express6S feature and on select x86 systems.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3410.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPSConsolidatedMarch2019.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/20/2019",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/28/2019",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/13/2019",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/16/2021",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "IBM Corporation",
+      "website_url": "http://www.ibm.com",
+      "address_lines": [
+        "1 New Orchard Road",
+        "Armonk, NY 10504-1722",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Thomas Morris, Jr.",
+      "contact_email": "tmorrisj@us.ibm.com",
+      "contact_phone": "845-435-5538"
+    },
+    "algorithms": []
+  }
+}

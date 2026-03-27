@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4810"
+  },
+  "certificate": {
+    "certificate_number": "4810",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4810",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4810",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4810.pdf",
+    "vendor_name": "Google, LLC",
+    "module_name": "Non-Volatile Memory express (NVMe) Data Path Security Cluster (DPSC) Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "9/23/2024",
+    "validation_dates": [
+      "9/23/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The DPSC is a HW block within the NVMe Protocol Engine that contains AES-XTS engines which support data rate encrypt and decrypt functions. The module is a sub-chip cryptographic subsystem intended for use within the Google IN762 SoC.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4810.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2024_011024_0217.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/23/2024",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Google, LLC",
+      "website_url": "http://www.google.com",
+      "address_lines": [
+        "1600 Amphitheatre Parkway",
+        "Mountain View, CA 94043",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "FIPS Crypto Officer",
+      "contact_email": "FIPS-crypto-officer@google.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

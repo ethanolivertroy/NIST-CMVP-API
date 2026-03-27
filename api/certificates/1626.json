@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1626"
+  },
+  "certificate": {
+    "certificate_number": "1626",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1626",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1626",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1626.pdf",
+    "vendor_name": "ViaSat UK Ltd.",
+    "module_name": "FlagStone Core",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 2,
+    "validation_date": "10/31/2011",
+    "validation_dates": [
+      "10/31/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The FlagStone Core is a multi-chip embedded cryptographic module used within the Eclypt ranges of drives. The FlagStone Core, and subsequently the Eclypt ranges of drives utilising the FlagStone Core, provide access control and data encryption services to protect access to data stored on a connected HDD/SSD (Hard Disk Drive/Solid Data Drive). All accessible sectors on a drive connected to a FlagStone Core are encrypted. The Eclypt range of drives includes Eclypt, Eclypt Freedom and Eclypt Nano.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1626.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0010.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/31/2011",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "ViaSat UK Ltd.",
+      "website_url": "http://www.viasat.uk.com",
+      "address_lines": [
+        "Sanford Lane",
+        "Wareham, Dorset BH20 4DY",
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "contact_name": "Tim D. Stone",
+      "contact_email": "Tim.Stone@viasat.uk.com",
+      "contact_phone": "+44 1929 55 44 00"
+    },
+    "algorithms": []
+  }
+}

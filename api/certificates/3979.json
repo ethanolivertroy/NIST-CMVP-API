@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3979"
+  },
+  "certificate": {
+    "certificate_number": "3979",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3979",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3979",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3979.pdf",
+    "vendor_name": "FEITIAN Technologies Co., Ltd.",
+    "module_name": "FEITIAN Biometric FIDO Key Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "7/12/2021",
+    "validation_dates": [
+      "7/12/2021"
+    ],
+    "sunset_date": "7/11/2026",
+    "caveat": "When operated in FIPS mode; The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "FEITIAN Biometric FIDO Key Module is built on FIDO2 and U2F specification which is issued and promoted by FIDO Alliance to drive and enable a real passwordless multi-factor authentication.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3979.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2021_020821_0740_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/12/2021",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "FEITIAN Technologies Co., Ltd.",
+      "website_url": "http://www.ftsafe.com",
+      "address_lines": [
+        "4633 Old Ironsides Dr.",
+        "STE 450",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tibi Zhang",
+      "contact_email": "tibi@ftsafe.com",
+      "contact_phone": "408-352-5553"
+    },
+    "algorithms": [
+      "DES"
+    ]
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4851"
+  },
+  "certificate": {
+    "certificate_number": "4851",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4851",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4851",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4851.pdf",
+    "vendor_name": "SK hynix NAND Product Solutions Corp (d/b/a Solidigm)",
+    "module_name": "Solidigm® P5316 SSD (ADP-R)",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "10/23/2024, 12/5/2025",
+    "validation_dates": [
+      "10/23/2024",
+      "12/5/2025"
+    ],
+    "sunset_date": "10/22/2029",
+    "caveat": "When installed, initialized and configured as specified in Section 2.4 of the Security Policy. The tamper evident seals installed as indicated in the Security Policy.",
+    "description": "The Solidigm P5316 SSD (ADP-R) module provides data-at-rest protection, using AES-XTS-256 to encrypt user data prior to being written to media.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4851.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/23/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "12/5/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "SK hynix NAND Product Solutions Corp (d/b/a Solidigm)",
+      "website_url": "http://www.solidigm.com",
+      "address_lines": [
+        "3101 N 1st Street",
+        "San Jose, CA 95134",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "FIPS Certified Solidigm SSDs",
+      "contact_email": "Security@Solidigm.com",
+      "contact_phone": "279-895-9665"
+    },
+    "algorithms": [
+      "AES",
+      "HMAC",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5175"
+  },
+  "certificate": {
+    "certificate_number": "5175",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5175",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5175",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5175.pdf",
+    "vendor_name": "DataKrypto Inc.",
+    "module_name": "DataKrypto Module for FHEnom",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/10/2026",
+    "validation_dates": [
+      "3/10/2026"
+    ],
+    "sunset_date": "8/26/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys) and random strings. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The DataKrypto Module for FHEnom is a cryptographic engine for DataKrypto's fully homomorphic encryption SDKs, including FHEnom, FHEnom for AI, and FHEnom for Images. DataKrypto Module for FHEnom delivers cryptographic services to host applications through a C language Application Programming Interface (API).",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5175.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/10/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "DataKrypto Inc.",
+      "website_url": "https://www.datakrypto.com/",
+      "address_lines": [
+        "533 Airport Blvd.",
+        "Suite 400",
+        "Burlingame, CA 94010",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Luigi Caramico",
+      "contact_email": "luigi.caramico@datakrypto.com",
+      "contact_phone": "650-888-2083"
+    },
+    "algorithms": []
+  }
+}

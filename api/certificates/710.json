@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/710"
+  },
+  "certificate": {
+    "certificate_number": "710",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/710",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/710",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp710.pdf",
+    "vendor_name": "Ecutel Systems, Inc.",
+    "module_name": "Ecutel Cryptographic Service Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "10/16/2006",
+    "validation_dates": [
+      "10/16/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Ecurtel Cryptographic Service Module (ECSM) is a cryptographic library that offers cryptographic functionalities to Ecutel products only. It is installed on a machine as a constituent of host application.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp710.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt710.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/16/2006",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      }
+    ],
+    "vendor": {
+      "name": "Ecutel Systems, Inc.",
+      "website_url": "http://www.ecutel.com",
+      "address_lines": [
+        "2300 Corporate Park Drive",
+        "Suite 410",
+        "Herndon, VA 20171",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dzung Tran",
+      "contact_email": "dtran@ecutel.com",
+      "contact_phone": "571-203-8300"
+    },
+    "algorithms": []
+  }
+}

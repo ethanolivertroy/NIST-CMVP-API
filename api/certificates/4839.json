@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4839"
+  },
+  "certificate": {
+    "certificate_number": "4839",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4839",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4839",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4839.pdf",
+    "vendor_name": "NXP Semiconductors, Inc.",
+    "module_name": "i.MX8 DXL V2X",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "10/16/2024",
+    "validation_dates": [
+      "10/16/2024"
+    ],
+    "sunset_date": "10/15/2029",
+    "caveat": "When utilizing a Trusted Channel as specified in the Security Policy.",
+    "description": "N/A",
+    "security_level_exceptions": [
+      "Operational environment: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4839.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/16/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "NXP Semiconductors, Inc.",
+      "website_url": "http://www.nxp.com",
+      "address_lines": [
+        "Troplowitzstrasse 20",
+        "Hamburg D-22529",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "Tim 't Hart",
+      "contact_email": "tim.t.hart@nxp.com",
+      "contact_phone": "31639186402"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

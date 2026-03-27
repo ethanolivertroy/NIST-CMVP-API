@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4695"
+  },
+  "certificate": {
+    "certificate_number": "4695",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4695",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4695",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4695.pdf",
+    "vendor_name": "A10 Networks, Inc.",
+    "module_name": "Thunder",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "4/24/2024",
+    "validation_dates": [
+      "4/24/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "The Thunder Series is designed to meet the growing demands of Web sites, carriers and enterprises. The Thunder offers intelligent Layer 4-7 application processing capabilities with performance and scalability to meet critical business requirements.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4695.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2024_010524_0757.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/24/2024",
+        "type": "Initial",
+        "lab": "ADVANCED DATA SECURITY"
+      }
+    ],
+    "vendor": {
+      "name": "A10 Networks, Inc.",
+      "website_url": "http://www.a10networks.com",
+      "address_lines": [
+        "2300 Orchard Parkway",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dennis Oshiba",
+      "contact_email": null,
+      "contact_phone": "408-325-8668"
+    },
+    "algorithms": []
+  }
+}

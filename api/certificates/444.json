@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/444"
+  },
+  "certificate": {
+    "certificate_number": "444",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/444",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/444",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp444.pdf",
+    "vendor_name": "SafeNet, Inc.",
+    "module_name": "Model 330G2 Smart Card",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "6/30/2004, 2/22/2005",
+    "validation_dates": [
+      "6/30/2004",
+      "2/22/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The 330G2 is an ISO 7816 and GSC-IS compliant cryptographic smart card designed for identification and access control applications. The card provides a secure, mobile platform for creating, storing and using keys, certificates, passwords and other digital credentials. Security services include: Multiapplication secure storage and retrieval of data and digital credentials. Authentication of the cardholder and the security officer. Cryptographic services including SHA-1, DES, 3DES, RSA Sign/Verify, RSA Encrypt/Decrypt and DSA Sign/Verify with on board key generation including RSA 2048-bit key generation.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp444.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt444.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/30/2004",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "2/22/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SafeNet, Inc.",
+      "website_url": "http://www.safenet-inc.com",
+      "address_lines": [
+        "4690 Millennium Drive",
+        "Belcamp, MD 21017",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Hazem Hassan",
+      "contact_email": "hhassan@safenet-inc.com",
+      "contact_phone": "952-808-2372"
+    },
+    "algorithms": []
+  }
+}

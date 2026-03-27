@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1607"
+  },
+  "certificate": {
+    "certificate_number": "1607",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1607",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1607",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1607.pdf",
+    "vendor_name": "Verdasys, Inc.",
+    "module_name": "Verdasys Secure Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "9/26/2011, 8/24/2012",
+    "validation_dates": [
+      "9/26/2011",
+      "8/24/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Verdasys FIPS Kernel Mode Cryptographic Module, VSEC.SYS, is a software module that provides cryptographic services for Digital Guardian's server and endpoint products. The Verdasys FIPS Kernel Mode Cryptographic Module is leveraged in a variety of functions including securing communication, protecting agent components, and file encryption.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1607.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0009.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/26/2011",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "8/24/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Verdasys, Inc.",
+      "website_url": "http://www.verdasys.com",
+      "address_lines": [
+        "404 Wyman St.",
+        "Suite 320",
+        "Waltham, MA 02451",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Harvey Morrison",
+      "contact_email": "hmorrison@verdasys.com",
+      "contact_phone": "781-788-8180"
+    },
+    "algorithms": []
+  }
+}

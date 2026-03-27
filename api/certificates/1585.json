@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1585"
+  },
+  "certificate": {
+    "certificate_number": "1585",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1585",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1585",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1585.pdf",
+    "vendor_name": "Fortinet, Inc.",
+    "module_name": "FortiGate-80C [1], FortiGate-110C [2] and FortiGate-111C [3]",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "7/27/2011",
+    "validation_dates": [
+      "7/27/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and with the tamper evident seals installed as indicated in the Security Policy",
+    "description": "FortiGate Multi-Threat Security Solutions are dedicated, hardware-based devices that deliver complete content protection against blended threats at the network perimeter or within the internal network.",
+    "security_level_exceptions": [
+      "Cryptographic Module Ports and Interfaces: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1585.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0007.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/27/2011",
+        "type": "Initial",
+        "lab": "DXC Technology"
+      }
+    ],
+    "vendor": {
+      "name": "Fortinet, Inc.",
+      "website_url": "http://www.fortinet.com",
+      "address_lines": [
+        "13221 Woodland Park Road",
+        "Suite 110",
+        "Herndon, VA 20171",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Phil Fuster, Vice President, Federal Operations",
+      "contact_email": "pfuster@fortinet.com",
+      "contact_phone": "703-709-5011 x2807"
+    },
+    "algorithms": []
+  }
+}

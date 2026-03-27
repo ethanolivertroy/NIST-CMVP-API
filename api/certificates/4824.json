@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4824"
+  },
+  "certificate": {
+    "certificate_number": "4824",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4824",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4824",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4824.pdf",
+    "vendor_name": "AKEYLESS Security Ltd",
+    "module_name": "AKEYLESS FIPS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/7/2024",
+    "validation_dates": [
+      "10/7/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The AKEYLESS FIPS Cryptographic Module is a general-purpose cryptographic library incorporated into the AKEYLESS family of products to provide FIPS 140-2 validated cryptography for the protection of sensitive information.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4824.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/7/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "AKEYLESS Security Ltd",
+      "website_url": "http://www.akeyless.io",
+      "address_lines": [
+        "1 Simtat Hayerek",
+        "Hod Hasharon 45264",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "Refael Angel",
+      "contact_email": "Refael@akeyless.io",
+      "contact_phone": null
+    },
+    "algorithms": [
+      "SHA"
+    ]
+  }
+}

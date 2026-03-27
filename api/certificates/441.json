@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/441"
+  },
+  "certificate": {
+    "certificate_number": "441",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/441",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/441",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp441.pdf",
+    "vendor_name": "F-Secure Corporation",
+    "module_name": "F-Secure® and Pointsec® Windows Mobile Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "6/16/2004, 5/20/2008",
+    "validation_dates": [
+      "6/16/2004",
+      "5/20/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The F-Secure Pocket PC Cryptographic Library is a software module, implemented as a 32-bit Windows CE compatible DLL for Windows Mobile 2003 and Pocket PC 2002 platforms. It provides an assortment of cryptographic services to any client process that attaches an instance of the module DLL. The services are accessible for the client through a Clanguage Application Program Interface. The cryptographic services are also available in the form of a static library and as source code.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Self-Tests: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp441.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt441.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/16/2004",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "5/20/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "F-Secure Corporation",
+      "website_url": "http://www.f-secure.com",
+      "address_lines": [
+        "Tammasaarenkatu 7",
+        "PL 24",
+        "Helsinki 00181",
+        "Finland"
+      ],
+      "country": "Finland",
+      "contact_name": "Alexey Kirichenko",
+      "contact_email": "alexey.kirichenko@F-Secure.com",
+      "contact_phone": "+358 9 2520 5548"
+    },
+    "algorithms": []
+  }
+}

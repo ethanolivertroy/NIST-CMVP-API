@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4957"
+  },
+  "certificate": {
+    "certificate_number": "4957",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4957",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4957",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4957.pdf",
+    "vendor_name": "Tellabs Enterprise, Inc.",
+    "module_name": "Tellabs Optical LAN OLT Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "2/5/2025",
+    "validation_dates": [
+      "2/5/2025"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys",
+    "description": "Tellabs Optical LAN OLT Cryptographic Module is a standards-based cryptographic engine for the Tellabs Optical LAN Optical Line Terminal. The module delivers core cryptographic functions for securing communication via secure sockets.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4957.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/5/2025",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Tellabs Enterprise, Inc.",
+      "website_url": "http://www.tellabs.com",
+      "address_lines": [
+        "4240 International Parkway",
+        "Suite 105",
+        "Carrollton, TX 75007",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Russ Kulpins",
+      "contact_email": "russ.kulpins@tellabs.com",
+      "contact_phone": "630-503-6781"
+    },
+    "algorithms": []
+  }
+}

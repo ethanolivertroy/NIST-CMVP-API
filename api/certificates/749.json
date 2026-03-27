@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/749"
+  },
+  "certificate": {
+    "certificate_number": "749",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/749",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/749",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp749.pdf",
+    "vendor_name": "Hitachi, Ltd.",
+    "module_name": "Hitachi One-Passport PKI Card Application on Athena Smartcard Solutions OS755 for Renesas XMobile Card Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "3/23/2007, 4/26/2007",
+    "validation_dates": [
+      "3/23/2007",
+      "4/26/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The One-Passport PKI solution provides a remote access environment through the Internet for general commercial uses by private companies. It consists of XMC Cards, PC Software, and PDA Software. Under the One-Passport PKI environment, employees such as sales persons can access their corporate mail servers and other corporate information from their satellite office, home, or other places outside the office. In order to avoid unexpected leakage of information during such remote access, the One-Passport PKI solution uses the VPN technique and PKI based authentication method.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp749.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt749.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/23/2007",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/26/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Hitachi, Ltd.",
+      "website_url": "http://www.hitachi.com",
+      "address_lines": [
+        "Hitachi System Plaza Shin-Kawasaki",
+        "890 Kashimada, Saiwai-ku",
+        "Kawasaki, Kanagawa 212-8567",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "Yoshiaki Kawatsura",
+      "contact_email": "yoshiaki.kawatsura.ct@hitachi.com",
+      "contact_phone": "81-44-549-1755"
+    },
+    "algorithms": []
+  }
+}

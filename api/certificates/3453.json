@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3453"
+  },
+  "certificate": {
+    "certificate_number": "3453",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3453",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3453",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3453.pdf",
+    "vendor_name": "Unbound Tech",
+    "module_name": "Unbound Tech EKM Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "5/7/2019, 4/24/2020",
+    "validation_dates": [
+      "5/7/2019",
+      "4/24/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with two additional Unbound Tech EKM Cryptographic Modules with each EKM Cryptographic Module running in Entry mode, Pair mode, and Auxiliary mode as specified in Section 3.1 of the Security Policy",
+    "description": "Unbound's Enterprise Key Management (EKM) lets you manage and control keys working with any application. This pure-software solution is easy to deploy and maintain, while giving you unmatched levels of security and control for your crypto keys in the cloud. Based on Unbound vHSM technology, the keys are guaranteed to never appear in the clear, not even when generated or while at use - ensuring your most sensitive keys are kept private at all times.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3453.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/MayConsolidatedCert.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/7/2019",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/24/2020",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Unbound Tech",
+      "website_url": "http://www.unboundtech.com/",
+      "address_lines": [
+        "25 Efal Street",
+        "Petah Tikva 4951125",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "Guy Peer",
+      "contact_email": "guy.peer@unboundtech.com",
+      "contact_phone": "+972-54-560-4879"
+    },
+    "algorithms": []
+  }
+}

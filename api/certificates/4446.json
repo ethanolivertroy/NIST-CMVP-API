@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4446"
+  },
+  "certificate": {
+    "certificate_number": "4446",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4446",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4446",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4446.pdf",
+    "vendor_name": "Infineon Technologies AG",
+    "module_name": "SLS37CSAUS V2X",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "3/7/2023, 3/5/2024, 3/19/2026",
+    "validation_dates": [
+      "3/7/2023",
+      "3/5/2024",
+      "3/19/2026"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode; The module generates cryptographic keys and random strings whose strengths are modified by available entropy.",
+    "description": "The cryptographic module is a single-chip security controller for signature generation and secure data storage in V2X systems (vehicle-to-anything). The V2X system is required to support vehicle communication with other vehicles, as well as with road infrastructure and other elements. The cryptographic module will support highly secure and timely necessary cryptographic operations, so that all messages may be securely signed and authenticated.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4446.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2023_030423_0646.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/7/2023",
+        "type": "Initial",
+        "lab": "TUVIT Evaluation Body for IT Security"
+      },
+      {
+        "date": "3/5/2024",
+        "type": "Update",
+        "lab": "TUVIT Evaluation Body for IT Security"
+      },
+      {
+        "date": "3/19/2026",
+        "type": "Update",
+        "lab": "TUVIT Evaluation Body for IT Security"
+      }
+    ],
+    "vendor": {
+      "name": "Infineon Technologies AG",
+      "website_url": "http://www.infineon.com",
+      "address_lines": [
+        "Melli-Beese-Straße 9",
+        "Augsburg 86159",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "Rainer Urian",
+      "contact_email": "Rainer.Urian@infineon.com",
+      "contact_phone": "+49-821-25851-520"
+    },
+    "algorithms": []
+  }
+}

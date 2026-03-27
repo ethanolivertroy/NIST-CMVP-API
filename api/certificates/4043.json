@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4043"
+  },
+  "certificate": {
+    "certificate_number": "4043",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4043",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4043",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4043.pdf",
+    "vendor_name": "Citrix Systems, Inc.",
+    "module_name": "Citrix ADC MPX",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "10/16/2021",
+    "validation_dates": [
+      "10/16/2021"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section [3.1.4] of the Security Policy. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "The MPX product line optimizes delivery of applications over the Internet and private networks. MPX is an application delivery controller (ADC) that performs application-specific traffic analysis to intelligently distribute, optimize, and secure L4-L7 network traffic for web-applications. All these capabilities are combined into a single, integrated appliance for increased productivity, with lower overall total cost of ownership.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4043.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2021_011121_0730_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/16/2021",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Citrix Systems, Inc.",
+      "website_url": "http://www.citrix.com",
+      "address_lines": [
+        "851 Cypress Creek Road",
+        "Fort Lauderdale, FL 33309",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Hariharan Subramanian",
+      "contact_email": "hariharan.subramanian@citrix.com",
+      "contact_phone": "+1 408 364 4681"
+    },
+    "algorithms": [
+      "SHA"
+    ]
+  }
+}

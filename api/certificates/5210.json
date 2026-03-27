@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5210"
+  },
+  "certificate": {
+    "certificate_number": "5210",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5210",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5210",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5210.pdf",
+    "vendor_name": "Kaseya US LLC",
+    "module_name": "Kaseya FIPS Cryptographic Module for Java",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/26/2026",
+    "validation_dates": [
+      "3/26/2026"
+    ],
+    "sunset_date": "7/28/2029",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Kaseya Cryptographic Module for Java is a software-based cryptographic module that provides validated, FIPS 140-3 compliant cryptographic services to the Kaseya product ecosystem. The module is implemented using SafeLogic's CryptoComply library and supports approved algorithms for encryption, hashing, key generation, random number generation, TLS operations, and secure data protection. Across Kaseya's platforms, the module serves as the central cryptographic provider, protecting data in transit and at rest, enforcing strong cryptographic controls, and supporting secure communications between clients, services, and APIs. The module is product-agnostic and integrated consistently across Kaseya's SaaS, on-premises, and hybrid solutions to ensure a unified, validated cryptographic foundation. Products that utilize this module inherit FIPS-validated cryptographic functionality while maintaining product-specific operations outside the cryptographic boundary.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5210.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/26/2026",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Kaseya US LLC",
+      "website_url": "http://www.kaseya.com",
+      "address_lines": [
+        "701 Brickell Avenue,",
+        "Suite 400",
+        "Miami, FL 33131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Vlad Polusmak",
+      "contact_email": "vlad.polusmak@kaseya.com",
+      "contact_phone": "407-457-8237"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

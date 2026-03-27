@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3907"
+  },
+  "certificate": {
+    "certificate_number": "3907",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3907",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3907",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3907.pdf",
+    "vendor_name": "Yubico, Inc.",
+    "module_name": "YubiKey 5 Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "4/22/2021, 8/19/2021",
+    "validation_dates": [
+      "4/22/2021",
+      "8/19/2021"
+    ],
+    "sunset_date": "4/21/2026",
+    "caveat": "When operated in FIPS mode, installed, initialized, and configured as specified in Section 3 of the Security Policy. The module generates cryptographic keys whose strengths are modified by available entropy.",
+    "description": "The YubiKey 5 cryptographic module is a secure element that supports multiple protocols designed to be embedded in USB and/or NFC security tokens. The module can generate, store, and perform cryptographic operations for sensitive data and can be utilized via an external touch-button for Test of User Presence. The module implements several major functions - Yubico One Time Password (OTP), FIDO/FIDO2, FIDO/U2F, PIV-compatible smart card, OpenPGP smart card, and OATH OTP authentication.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3907.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2021_030521_0757_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/22/2021",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "8/19/2021",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Yubico, Inc.",
+      "website_url": "https://www.yubico.com",
+      "address_lines": [
+        "530 Lytton Ave",
+        "Suite 301",
+        "n/a",
+        "Palo Alto, CA 94301",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jakob Ehrensvard",
+      "contact_email": "jakob@yubico.com",
+      "contact_phone": "+1 650-283-1537"
+    },
+    "algorithms": []
+  }
+}

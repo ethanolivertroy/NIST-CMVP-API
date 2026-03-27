@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3108"
+  },
+  "certificate": {
+    "certificate_number": "3108",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3108",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3108",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3108.pdf",
+    "vendor_name": "Marvell Semiconductor, Inc.",
+    "module_name": "NITROXIII CNN35XX-NFBE HSM Family",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
+    "validation_date": "1/18/2018, 3/7/2018, 4/10/2018, 10/12/2018, 10/31/2018, 2/20/2019, 5/8/2019, 8/19/2020, 9/30/2020",
+    "validation_dates": [
+      "1/18/2018",
+      "3/7/2018",
+      "4/10/2018",
+      "10/12/2018",
+      "10/31/2018",
+      "2/20/2019",
+      "5/8/2019",
+      "8/19/2020",
+      "9/30/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "CNN35XX-NFBE HSM Family is a high performance purpose built solution for key management and crypto acceleration compliance to FIPS 140-2. The module supports flexible key store that can be partitioned up to 32 individually managed and isolated partitions. This is a SRIOV capable PCIe adapter and can be used in a virtualization environment to extend services like virtual key management, crypto and TLS offloads to VMs in dedicated I/O channels. This product is suitable for PKI vendors, SSL servers/load balancers.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3108.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJan2018.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/18/2018",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/7/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/10/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "10/12/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "10/31/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/20/2019",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/8/2019",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "8/19/2020",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/30/2020",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Marvell Semiconductor, Inc.",
+      "website_url": "http://www.marvell.com",
+      "address_lines": [
+        "5488 Marvell Lane",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Phanikumar Kancharla",
+      "contact_email": "PhaniKumar.kancharla@marvell.com",
+      "contact_phone": "408-943-7496"
+    },
+    "algorithms": []
+  }
+}

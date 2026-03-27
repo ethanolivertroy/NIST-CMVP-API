@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3698"
+  },
+  "certificate": {
+    "certificate_number": "3698",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3698",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3698",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3698.pdf",
+    "vendor_name": "Ruckus Wireless, Inc.",
+    "module_name": "FastIron ICX™ 7750, ICX™ 7250 and ICX™ 7150 Series Switch/Router",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/17/2020, 11/27/2020",
+    "validation_dates": [
+      "8/17/2020",
+      "11/27/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When the ICX7750 is assembled as per Security Policy Table 7, and configured in FIPS Approved Mode as per Security Policy Section 10",
+    "description": "The ICX 7750 switch delivers leading 10/40 GbE port density, advanced high-availability capabilities, and flexible stacking architecture, making for a robust Ruckus aggregation and core distributed chassis switch offering for enterprise LANs. The ICX 7250 switch combines enterprise-class features, manageability and the flexibility and \"pay as you grow\" scalability of a stackable solution. The ICX 7150 family of stackable switches delivers the performance, flexibility, and scalability required for enterprise access deployment.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3698.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2020_010920_0658.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/17/2020",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "11/27/2020",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Ruckus Wireless, Inc.",
+      "website_url": "http://www.ruckuswireless.com",
+      "address_lines": [
+        "350 W Java Drive",
+        "Sunnyvale, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Julie Lu",
+      "contact_email": "Julie.Lu@arris.com",
+      "contact_phone": "650-265-4200"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/392"
+  },
+  "certificate": {
+    "certificate_number": "392",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/392",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/392",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp392.pdf",
+    "vendor_name": "SafeNet, Inc.",
+    "module_name": "CGX Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "3/10/2004, 10/19/2004",
+    "validation_dates": [
+      "3/10/2004",
+      "10/19/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Based on SafeNet's 20 years of security expertise and the most widely deployed VPN software in the industry, the CGX Cryptographic Library provides a high-level software interface to SafeNet SafeXcel™ VPN acceleration chips, cards, and EmbeddedIP™ intellectual property. The CGX library can be used as an API to hardware accelerators or for compiling software implementations of the latest industry standard algorithms. Containing over forty cryptographic commands, the CGX library can provide a total security solution in either software or hardware.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp392.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt392.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/10/2004",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "10/19/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SafeNet, Inc.",
+      "website_url": "http://www.safenet-inc.com",
+      "address_lines": [
+        "4690 Millennium Drive",
+        "Belcamp, MD 21017",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chris Holland",
+      "contact_email": "cholland@safenet-inc.com",
+      "contact_phone": "410-931-7500"
+    },
+    "algorithms": []
+  }
+}

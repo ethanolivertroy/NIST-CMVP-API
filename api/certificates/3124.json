@@ -1,0 +1,105 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3124"
+  },
+  "certificate": {
+    "certificate_number": "3124",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3124",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3124",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3124.pdf",
+    "vendor_name": "Qualcomm Technologies, Inc.",
+    "module_name": "Qualcomm® Inline Crypto Engine (UFS)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "2/9/2018, 5/22/2019, 1/29/2020, 3/20/2020, 3/30/2021, 5/6/2021, 9/15/2022, 12/15/2022",
+    "validation_dates": [
+      "2/9/2018",
+      "5/22/2019",
+      "1/29/2020",
+      "3/20/2020",
+      "3/30/2021",
+      "5/6/2021",
+      "9/15/2022",
+      "12/15/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Qualcomm Inline Crypto Engine (UFS) provides high throughput storage data encryption and decryption.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3124.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPSConsolidatedCertFeb2018.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/9/2018",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "5/22/2019",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "1/29/2020",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "3/20/2020",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "3/30/2021",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "5/6/2021",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "9/15/2022",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "12/15/2022",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Qualcomm Technologies, Inc.",
+      "website_url": "http://www.qualcomm.com",
+      "address_lines": [
+        "5775 Morehouse Dr",
+        "San Diego, CA 92121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Yin Ling Liong",
+      "contact_email": "yliong@qti.qualcomm.com",
+      "contact_phone": "858-651-7034"
+    },
+    "algorithms": []
+  }
+}

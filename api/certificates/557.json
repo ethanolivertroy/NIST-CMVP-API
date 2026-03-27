@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/557"
+  },
+  "certificate": {
+    "certificate_number": "557",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/557",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/557",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp557.pdf",
+    "vendor_name": "Telkonet Communications, Inc.",
+    "module_name": "Telkonet G3 Series iBridge and Telkonet G3 Series eXtender",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "7/25/2005, 4/4/2006, 8/29/2007",
+    "validation_dates": [
+      "7/25/2005",
+      "4/4/2006",
+      "8/29/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Telkonet system uses power line communications (PLC) technology to deliver broadband internet to a building's existing electrical wiring. The system consists of four components: The Telkonet Gateway, Telkonet iBridge, Telkonet eXtender and Telkonet Coupler.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp557.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt557.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/25/2005",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "4/4/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/29/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Telkonet Communications, Inc.",
+      "website_url": "http://www.telkonet.com",
+      "address_lines": [
+        "20374 Seneca Meadows Pkwy",
+        "Germantown, MD 20876-7004",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jill Parlett",
+      "contact_email": "jparlett@telkonet.com",
+      "contact_phone": "410-627-3994"
+    },
+    "algorithms": []
+  }
+}

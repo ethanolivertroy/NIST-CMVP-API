@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3904"
+  },
+  "certificate": {
+    "certificate_number": "3904",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3904",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3904",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3904.pdf",
+    "vendor_name": "Beijing JN TASS Technology Co., Ltd.",
+    "module_name": "TASS Crypto Engine",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "4/22/2021",
+    "validation_dates": [
+      "4/22/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The tamper evident seals installed as indicated in Section 10.1 of the Security Policy.",
+    "description": "TASS Crypto Engine is a hardware security module with modern cryptography technology, and features physical security protection measures. It has key management and key wrapping mechanisms, and provides secure application-level cryptographic services for business systems, including message verification, data encryption and decryption, signature generation and verification, etc.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3904.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2021_030521_0757_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/22/2021",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Beijing JN TASS Technology Co., Ltd.",
+      "website_url": "http://www.tass.com.cn",
+      "address_lines": [
+        "Rm.1110, Jin Ao International Building",
+        "No.17 Madian East Road",
+        "Haidian District",
+        "Beijing, Beijing 100088",
+        "China"
+      ],
+      "country": "China",
+      "contact_name": "Xiaoyan Ma",
+      "contact_email": "maxiaoyan@tass.com.cn",
+      "contact_phone": "+86 10 82326383"
+    },
+    "algorithms": []
+  }
+}

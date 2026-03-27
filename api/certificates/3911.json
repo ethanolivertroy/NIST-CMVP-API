@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3911"
+  },
+  "certificate": {
+    "certificate_number": "3911",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3911",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3911",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3911.pdf",
+    "vendor_name": "Qualcomm Technologies, Inc.",
+    "module_name": "Qualcomm® Secure Processing Unit (SPU) Random Number Generator (RNG)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "5/3/2021, 7/13/2022, 8/23/2022",
+    "validation_dates": [
+      "5/3/2021",
+      "7/13/2022",
+      "8/23/2022"
+    ],
+    "sunset_date": "5/2/2026",
+    "caveat": "None",
+    "description": "Qualcomm SPU Random Number Generator is a hardware random number generator that provides cryptographic functions through on-chip entropy sources and hash based DRBG.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3911.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2021_010621_0658.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/3/2021",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "7/13/2022",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "8/23/2022",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Qualcomm Technologies, Inc.",
+      "website_url": "http://www.qualcomm.com",
+      "address_lines": [
+        "5775 Morehouse Dr",
+        "San Diego, CA 92121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Qualcomm FIPS 140 officers",
+      "contact_email": "fips140officers@qti.qualcomm.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

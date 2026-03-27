@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4834"
+  },
+  "certificate": {
+    "certificate_number": "4834",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4834",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4834",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4834.pdf",
+    "vendor_name": "Motorola Solutions, Inc.",
+    "module_name": "Astro Subscriber Motorola Advanced Crypto Engine (MACE) - Security Level 2",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "10/11/2024",
+    "validation_dates": [
+      "10/11/2024"
+    ],
+    "sunset_date": "10/10/2029",
+    "caveat": "When installed, initialized and configured as specified in Section 11 of Security Policy. No assurance of the minimum strength of generated SSPs",
+    "description": "The MACE cryptographic processor is used in security modules embedded in Motorola's Astro family of radio systems products. It provides secure voice and data capabilities as well as APCO Over-The-Air-Rekeying and advanced key management.",
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Software/Firmware security: Level 3",
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Self-tests: Level 3",
+      "Life-cycle assurance: Level 3",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4834.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/11/2024",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Motorola Solutions, Inc.",
+      "website_url": "http://www.motorolasolutions.com",
+      "address_lines": [
+        "500 West Monroe Street",
+        "Chicago, IL 60661",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Amalendu Roy",
+      "contact_email": "aroy@motorolasolutions.com",
+      "contact_phone": "847-576-5000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

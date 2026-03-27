@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4720"
+  },
+  "certificate": {
+    "certificate_number": "4720",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4720",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4720",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4720.pdf",
+    "vendor_name": "Google, LLC",
+    "module_name": "Tensor G2 UFS Inline Storage Encryption Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software-hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/11/2024",
+    "validation_dates": [
+      "7/11/2024"
+    ],
+    "sunset_date": "7/10/2029",
+    "caveat": "Interim Validation",
+    "description": "Inline storage encryption engine for UFS as part of the Tensor mobile SoC to protect user data at rest.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4720.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2024_010824_1146.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/11/2024",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Google, LLC",
+      "website_url": "http://www.google.com",
+      "address_lines": [
+        "1600 Amphitheatre Parkway",
+        "Mountain View, CA 94043",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Konstantin Vyshetsky",
+      "contact_email": "android-security-certifications@google.com",
+      "contact_phone": "973-440-9125"
+    },
+    "algorithms": [
+      "AES",
+      "HMAC",
+      "SHA"
+    ]
+  }
+}

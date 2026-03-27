@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4140"
+  },
+  "certificate": {
+    "certificate_number": "4140",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4140",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4140",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4140.pdf",
+    "vendor_name": "L3Harris Technologies, Inc.",
+    "module_name": "Harris AES Load Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/24/2022",
+    "validation_dates": [
+      "1/24/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The Harris AES Load Module is a single software component which provides cryptographic services directly to a Digital Signal Processor (DSP) application on Harris terminals.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4140.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2022_010222_0702_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/24/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "L3Harris Technologies, Inc.",
+      "website_url": "http://www.l3harris.com",
+      "address_lines": [
+        "221 Jefferson Ridge Parkway",
+        "Lynchburg, VA 24501",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Joe Roberts",
+      "contact_email": "Joe.Roberts@L3Harris.com",
+      "contact_phone": "434-329-9795"
+    },
+    "algorithms": [
+      "AES"
+    ]
+  }
+}

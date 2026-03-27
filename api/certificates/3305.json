@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3305"
+  },
+  "certificate": {
+    "certificate_number": "3305",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3305",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3305",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3305.pdf",
+    "vendor_name": "128 Technology",
+    "module_name": "128 Technology Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/18/2018, 3/16/2021",
+    "validation_dates": [
+      "10/18/2018",
+      "3/16/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The 128T Networking Platform is a software-based, distributed routing and network services solution. The 128T Networking Platform uses Secure Vector Routing to simplify network architectures and provide fine-grained, end-to-end control and visibility. 128T runs on general-purpose computer and allows a wide range of deployment models - from remote branch offices to high-capacity network edges to hyper-scale data centers. The platform enables greater security and agility by distributing intelligence throughout the network - without disrupting your existing network infrastructure.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3305.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertOct2018.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/18/2018",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "3/16/2021",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "128 Technology",
+      "website_url": "http://www.128technology.com",
+      "address_lines": [
+        "200 Summit Drive",
+        "Burlington, MA 01803",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Patrick Melampy",
+      "contact_email": "pmelampy@128technology.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

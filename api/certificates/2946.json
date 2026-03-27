@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2946"
+  },
+  "certificate": {
+    "certificate_number": "2946",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2946",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2946",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2946.pdf",
+    "vendor_name": "Bull Atos Technologies",
+    "module_name": "CHR Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "6/29/2017, 4/14/2022, 8/23/2022",
+    "validation_dates": [
+      "6/29/2017",
+      "4/14/2022",
+      "8/23/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The Atos CHR is a multi-chip standalone security module providing functionality for the secure loading of applications. The CHR is the corner stone of a range of security products developed and signed by Atos as Application Provider and known as \"CRYPT2Protect HR\" and \"CRYPT2Pay HR\" product range available for different domain of applications including Banks and Financial Institutions. Additional products may be developed by Application Providers, based on the CHR.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2946.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJune2017.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/29/2017",
+        "type": "Initial",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "4/14/2022",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "8/23/2022",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Bull Atos Technologies",
+      "website_url": "http://www.bull.com",
+      "address_lines": [
+        "Rue Jean JaurFs",
+        "B.P.68",
+        "Les Clayes sous Bois 78340",
+        "France"
+      ],
+      "country": "France",
+      "contact_name": "Jean-Luc CHARDON",
+      "contact_email": "jean-luc.chardon@bull.net",
+      "contact_phone": "+33 1 30 80 79 14"
+    },
+    "algorithms": []
+  }
+}

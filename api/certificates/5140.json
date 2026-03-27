@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5140"
+  },
+  "certificate": {
+    "certificate_number": "5140",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5140",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5140",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5140.pdf",
+    "vendor_name": "DataLocker, Inc.",
+    "module_name": "Sentry 5 Encrypted USB Flash Drive",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "1/16/2026, 2/27/2026",
+    "validation_dates": [
+      "1/16/2026",
+      "2/27/2026"
+    ],
+    "sunset_date": "6/23/2030",
+    "caveat": "None",
+    "description": "The DataLocker, Inc. Sentry 5 Encrypted USB Flash Drive is a hardware cryptographic module designed for organizations that require a secure way to store and transfer portable data. The stored data is secured by hardware-based 256-bit AES on-the-fly encryption to guard sensitive information in case the drive is lost or stolen. Its strong, durable, metal casing provides robust physical protection. Its strong password rules and lock-down control protects against brute force attacks.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5140.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/16/2026",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      },
+      {
+        "date": "2/27/2026",
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "DataLocker, Inc.",
+      "website_url": "http://www.datalocker.com",
+      "address_lines": [
+        "12695 Metcalf Ave., Suite 200",
+        "Overland Park, KS 66213",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jay Kim",
+      "contact_email": "legal@datalocker.com",
+      "contact_phone": "913-310-9088"
+    },
+    "algorithms": [
+      "AES",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

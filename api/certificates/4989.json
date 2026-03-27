@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4989"
+  },
+  "certificate": {
+    "certificate_number": "4989",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4989",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4989",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4989.pdf",
+    "vendor_name": "Commvault Systems, Inc.",
+    "module_name": "Commvault Crypto Library",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "3/18/2025",
+    "validation_dates": [
+      "3/18/2025"
+    ],
+    "sunset_date": "3/17/2027",
+    "caveat": "Interim Validation. When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "Commvault Crypto Library (CVCL) is a cryptographic software module used in various products by Commvault Systems, Inc. The module provides a collection of Approved and Non-Approved cryptographic services for key generation, symmetric and asymmetric encryption, hash, HMAC and signature generation/verification.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4989.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/18/2025",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Commvault Systems, Inc.",
+      "website_url": "http://www.commvault.com",
+      "address_lines": [
+        "1 Commvault Way",
+        "Tinton Falls, NJ 07724",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Cunningham",
+      "contact_email": "dcunningham@commvault.com",
+      "contact_phone": "732-216-5215"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "HMAC",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

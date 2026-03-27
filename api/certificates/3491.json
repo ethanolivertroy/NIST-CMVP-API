@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3491"
+  },
+  "certificate": {
+    "certificate_number": "3491",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3491",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3491",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3491.pdf",
+    "vendor_name": "Oracle Communications",
+    "module_name": "Acme Packet VME",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/15/2019, 12/9/2019",
+    "validation_dates": [
+      "7/15/2019",
+      "12/9/2019"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in the Security Policy Section 8 and operated in FIPS mode",
+    "description": "The Acme Packet VME appliance are specifically designed to meet the unique price performance and manageability requirements of the small to medium sized enterprise and remote office/ branch office. Ideal for small site border control and Session Initiation Protocol (SIP) trunking service termination applications, the Acme Packet VME appliance delivers Oracle’s industry leading ESBC capabilities in a small form factor appliance.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3491.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/JulyConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/15/2019",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "12/9/2019",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Oracle Communications",
+      "website_url": "http://www.oracle.com",
+      "address_lines": [
+        "100 Crosby Drive",
+        "Bedford, MA 01730",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "George Guo",
+      "contact_email": "george.guo@oracle.com",
+      "contact_phone": "781-538-7399"
+    },
+    "algorithms": []
+  }
+}

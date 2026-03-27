@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5039"
+  },
+  "certificate": {
+    "certificate_number": "5039",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5039",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5039",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5039.pdf",
+    "vendor_name": "Winbond Electronics Corporation",
+    "module_name": "TrustMe © W77Q64/W77Q128 Sub-Chip",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "7/9/2025",
+    "validation_dates": [
+      "7/9/2025"
+    ],
+    "sunset_date": "7/8/2030",
+    "caveat": "None",
+    "description": "The W77Q64/W77Q128 flash device implements an internal hardware HASH function (SHA2-256) that is used for cryptographic encryption of the communication channel, cryptographic read and write locks, cryptographic protection of data integrity, cryptographic over-the-air (OTA) firmware update, Root of Trust functions.",
+    "security_level_exceptions": [
+      "Software/Firmware security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5039.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/9/2025",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Winbond Electronics Corporation",
+      "website_url": "https://www.winbond.com/",
+      "address_lines": [
+        "No. 8, Keya 1st Rd.",
+        "Taichung City, Daya Dist. 42881",
+        "Taiwan"
+      ],
+      "country": "Taiwan",
+      "contact_name": "Vincent Chen",
+      "contact_email": "KHChen12@winbond.com",
+      "contact_phone": "886-3-567-8168"
+    },
+    "algorithms": [
+      "SHA"
+    ]
+  }
+}

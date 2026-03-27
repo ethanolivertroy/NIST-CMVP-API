@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4922"
+  },
+  "certificate": {
+    "certificate_number": "4922",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4922",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4922",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4922.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "Cohesity FIPS Object Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/18/2024",
+    "validation_dates": [
+      "12/18/2024"
+    ],
+    "sunset_date": "7/10/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Cohesity FIPS Object Module provides FIPS 140-3 validated cryptographic functionality for Cohesity products and services.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4922.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/18/2024",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "300 Park Ave.",
+        "Suite 1700",
+        "San Jose, CA 95110",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Sydney Jackson",
+      "contact_email": "sydney.jackson@cohesity.com",
+      "contact_phone": "1-855-214-3133"
+    },
+    "algorithms": [
+      "KAS"
+    ]
+  }
+}

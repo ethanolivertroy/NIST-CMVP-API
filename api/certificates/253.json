@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/253"
+  },
+  "certificate": {
+    "certificate_number": "253",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/253",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/253",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp253.pdf",
+    "vendor_name": "SafeNet, Inc.",
+    "module_name": "HighAssurance™ 2000 Gateway (HA2000)",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "9/20/2002, 7/3/2003, 10/19/2004",
+    "validation_dates": [
+      "9/20/2002",
+      "7/3/2003",
+      "10/19/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The HA2000 is a multi-chip standalone hardware-based, Virtual Private Network (VPN) box that provides authenticated, encrypted network communications. Secure, remote management is provided using the IPSec and SNMPv2 protocols. Custom hardware allows for speed and reliability along with high security and low cost.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp253.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt253.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/20/2002",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "7/3/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/19/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SafeNet, Inc.",
+      "website_url": "http://www.safenet-inc.com",
+      "address_lines": [
+        "4690 Millennium Drive",
+        "Belcamp, MD 21017",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chris Holland",
+      "contact_email": "cholland@safenet-inc.com",
+      "contact_phone": "410-931-7500"
+    },
+    "algorithms": []
+  }
+}

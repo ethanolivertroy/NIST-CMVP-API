@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4395"
+  },
+  "certificate": {
+    "certificate_number": "4395",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4395",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4395",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4395.pdf",
+    "vendor_name": "Autotalks Ltd.",
+    "module_name": "CRATON2/SECTON embedded V2X HSM",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "12/16/2022",
+    "validation_dates": [
+      "12/16/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "Autotalks Embedded Hardware Security Module (eHSM) provides a hardened, tamper-resistant environment for secure cryptographic processing needed for Automotive Vehicle-to-Everything communication systems including: ECC Public Key cryptography, Symmetric key cryptography, Key protection, and TRNG/DRBG.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4395.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/16/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Autotalks Ltd.",
+      "website_url": "http://www.auto-talks.com",
+      "address_lines": [
+        "Meir Airel St, No. 4",
+        "Grand Netter Building, POB 3846",
+        "Kfar-Netter 4059300",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "Ron Ioszpe",
+      "contact_email": "ron.ioszpe@auto-talks.com",
+      "contact_phone": "(+972)-9-886-5300"
+    },
+    "algorithms": []
+  }
+}

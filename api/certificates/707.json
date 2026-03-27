@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/707"
+  },
+  "certificate": {
+    "certificate_number": "707",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/707",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/707",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp707.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco 871, 876, 877 and 878 Integrated Services Routers",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "10/11/2006, 5/28/2010, 2/23/2012",
+    "validation_dates": [
+      "10/11/2006",
+      "5/28/2010",
+      "2/23/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Cisco 870 Series fixed-configuration integrated services routers support multiple types of DSL technologies, broadband cable, and Metro Ethernet connections in small offices. They run concurrent services, including firewall, intrusion prevention, and encryption for VPNs; optional 802.11b/g for WLAN networking; and quality of service (QoS) features for optimizing voice and video applications. These routers also offer Stateful Inspection Firewall, IP security (IPSec) VPNs, intrusion prevention system (IPS), antivirus support, and secure WLAN 802.11b/g option with use of multiple antennas.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp707.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt707.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/11/2006",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "5/28/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/23/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Dr.",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

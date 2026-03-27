@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4409"
+  },
+  "certificate": {
+    "certificate_number": "4409",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4409",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4409",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4409.pdf",
+    "vendor_name": "WiSECURE Technologies",
+    "module_name": "KeyVault Hardware Security Module (kvHSM)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
+    "validation_date": "1/9/2023, 1/17/2023",
+    "validation_dates": [
+      "1/9/2023",
+      "1/17/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode.",
+    "description": "KeyVault Hardware Security Module (kvHSM) is a hardware security module , a vault that stores and manages cryptographic keys. It is a powerful and protected PCIe card. It governs the entire life cycle of keys, including generation, distribution, storage, destruction and archiving, and provides data encryption, data decryption, signature generation, signature verification, message digest, message authentication code (MAC), random number generation and key management services to systems.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4409.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2023_010223_0657_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/9/2023",
+        "type": "Initial",
+        "lab": "Asia Pacific IT Laboratory, TUV NORD"
+      },
+      {
+        "date": "1/17/2023",
+        "type": "Update",
+        "lab": "Asia Pacific IT Laboratory, TUV NORD"
+      }
+    ],
+    "vendor": {
+      "name": "WiSECURE Technologies",
+      "website_url": "http://www.wisecure-tech.com",
+      "address_lines": [
+        "4F., No. 218, Sec. 6, Roosevelt Rd., Wenshan Dist.",
+        "Taipei 11674",
+        "Taiwan"
+      ],
+      "country": "Taiwan",
+      "contact_name": "C.P. Hsiao",
+      "contact_email": "cphsiao@wisecure-tech.com",
+      "contact_phone": "+886-2-29343166#0703"
+    },
+    "algorithms": [
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1301"
+  },
+  "certificate": {
+    "certificate_number": "1301",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1301",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1301",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1301.pdf",
+    "vendor_name": "Fortress™ Technologies, Inc.",
+    "module_name": "Fortress Mesh Point",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "4/26/2010, 5/7/2010, 5/28/2010, 8/2/2010, 12/21/2010, 2/24/2011, 10/4/2011, 5/10/2012, 5/17/2013",
+    "validation_dates": [
+      "4/26/2010",
+      "5/7/2010",
+      "5/28/2010",
+      "8/2/2010",
+      "12/21/2010",
+      "2/24/2011",
+      "10/4/2011",
+      "5/10/2012",
+      "5/17/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Fortress Mesh Point is an all-in-one network access device housed in a rugged compact chassis, with the most stringent security available today built in. It can serve as a wireless bridge, a WLAN access point, and an eight-port LAN switch, while performing all the functions of a Fortress controller device: encrypting wireless traffic and providing Multi-factor Authentication for devices on the network it protects.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1301.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1301.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/26/2010",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "5/7/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/28/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/2/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/21/2010",
+        "type": "Update",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "2/24/2011",
+        "type": "Update",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "10/4/2011",
+        "type": "Update",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "5/10/2012",
+        "type": "Update",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "5/17/2013",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Fortress™ Technologies, Inc.",
+      "website_url": "http://www.gdfortress.com",
+      "address_lines": [
+        "2 Technology Park Dr",
+        "Westford, MA 01886",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Certification Director",
+      "contact_email": "CertTeam@gd-broadband.com",
+      "contact_phone": "978-923-6400"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1490"
+  },
+  "certificate": {
+    "certificate_number": "1490",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1490",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1490",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1490.pdf",
+    "vendor_name": "Motorola Solutions, Inc.",
+    "module_name": "Key Variable Loader (KVL) 4000 PIKE2",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 3,
+    "validation_date": "1/28/2011, 6/1/2011, 3/14/2012, 12/7/2012",
+    "validation_dates": [
+      "1/28/2011",
+      "6/1/2011",
+      "3/14/2012",
+      "12/7/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and initialized to Overall Level 3 per Security Policy",
+    "description": "The KVL 4000 PIKE2 provides security services for the KVL 4000. The KVL 4000 is a portable key distribution device that consists of a Personal Digital Assistant (PDA) and Security Adapter that connects to the PDA.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1490.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0002.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/28/2011",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/1/2011",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/14/2012",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "12/7/2012",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Motorola Solutions, Inc.",
+      "website_url": "http://www.motorola.com",
+      "address_lines": [
+        "1301 East Algonquin Road",
+        "Schaumburg, IL 60196",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tom Nguyen",
+      "contact_email": "kxp467@motorola.com",
+      "contact_phone": "847-576-2352"
+    },
+    "algorithms": []
+  }
+}

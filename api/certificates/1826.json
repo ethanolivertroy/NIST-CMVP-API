@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1826"
+  },
+  "certificate": {
+    "certificate_number": "1826",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1826",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1826",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1826.pdf",
+    "vendor_name": "Seagate Technology LLC",
+    "module_name": "Seagate Secure® TCG Opal SSC Self-Encrypting Drive",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 2,
+    "validation_date": "11/5/2012, 6/14/2013, 5/20/2014, 9/25/2014",
+    "validation_dates": [
+      "11/5/2012",
+      "6/14/2013",
+      "5/20/2014",
+      "9/25/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Seagate Secure® TCG Opal SSC Self-Encrypting Drive is embedded in Seagate Momentus® Thin Self-Encrypting Drives (SEDs). The cryptographic module (CM) provides a wide range of cryptographic services using FIPS approved algorithms. Services include hardware-based data encryption, instantaneous user data disposal with cryptographic erase, independently controlled and protected user data LBA ranges, and authenticated FW download. The services are provided through an industry-standard TCG Opal SSC interface.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1826.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0023.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/5/2012",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/14/2013",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/20/2014",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/25/2014",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Seagate Technology LLC",
+      "website_url": "http://www.seagate.com",
+      "address_lines": [
+        "389 Disc Drive",
+        "Longmont, CO 80503",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Monty Forehand",
+      "contact_email": "monty.forehand@seagate.com",
+      "contact_phone": "720-684-2835"
+    },
+    "algorithms": []
+  }
+}

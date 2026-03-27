@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1043"
+  },
+  "certificate": {
+    "certificate_number": "1043",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1043",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1043",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1043.pdf",
+    "vendor_name": "Entrust, Inc.",
+    "module_name": "Entrust Entelligence™ Kernel-Mode Cryptomodule",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "10/15/2008, 5/28/2014",
+    "validation_dates": [
+      "10/15/2008",
+      "5/28/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Entrust Entelligence Kernel-Mode Cryptomodule is a software module that implements AES encryption and decryption functions suitable for use in kernel-mode drivers on Windows platforms.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1043.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1043.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/15/2008",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "5/28/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Entrust, Inc.",
+      "website_url": "http://www.entrust.com",
+      "address_lines": [
+        "One Hanover Park",
+        "16633 Dallas Parkway",
+        "Suite 800",
+        "Addison, TX 75001",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Entrust Sales",
+      "contact_email": "entrust@entrust.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

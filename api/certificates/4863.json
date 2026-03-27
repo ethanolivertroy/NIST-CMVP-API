@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4863"
+  },
+  "certificate": {
+    "certificate_number": "4863",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4863",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4863",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4863.pdf",
+    "vendor_name": "Ericsson Enterprise Wireless Solutions, Inc.",
+    "module_name": "Cradlepoint Kernel Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/4/2024, 3/2/2026, 3/16/2026",
+    "validation_dates": [
+      "11/4/2024",
+      "3/2/2026",
+      "3/16/2026"
+    ],
+    "sunset_date": "11/3/2026",
+    "caveat": "Interim validation. When operated in approved mode with module Cradlepoint Cryptographic Module validated to FIPS 140-3 under Cert. #4770 operating in approved mode",
+    "description": "The Ericsson Kernel Cryptographic Module is a software module running as part of Ericsson’s NetCloud OS kernel. It provides FIPS-Approved symmetric encryption and decryption, hashing, message authentication, and key establishment services to consuming applications via an Application Programming Interface (API).",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4863.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/4/2024",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      },
+      {
+        "date": "3/2/2026",
+        "type": "Update",
+        "lab": "Teron Labs"
+      },
+      {
+        "date": "3/16/2026",
+        "type": "Update",
+        "lab": "Teron Labs"
+      }
+    ],
+    "vendor": {
+      "name": "Ericsson Enterprise Wireless Solutions, Inc.",
+      "website_url": "http://www.cradlepoint.com",
+      "address_lines": [
+        "1100 W. Idaho Street, Suite 800",
+        "Boise, ID 83702",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Federal Sales",
+      "contact_email": "federalsales@ericsson.com",
+      "contact_phone": "1-855-813-3385"
+    },
+    "algorithms": [
+      "AES",
+      "DES",
+      "HMAC",
+      "SHA"
+    ]
+  }
+}

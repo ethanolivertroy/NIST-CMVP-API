@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4744"
+  },
+  "certificate": {
+    "certificate_number": "4744",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4744",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4744",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4744.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Linux Kernel FIPS Object Module (KFOM) Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware-hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/29/2024",
+    "validation_dates": [
+      "7/29/2024"
+    ],
+    "sunset_date": "7/28/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys). No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "The Cisco Linux Kernel FIPS Object Module (KFOM) is a firmware hybrid cryptographic library that serves the operating system kernel. It does not implement any security protocols, instead only allowing for Linux kernel applications access to using approved algorithms.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4744.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2024_010824_1146.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/29/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "https://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Dr.",
+        "San Jose, California 95314",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": "8005536387"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "HMAC",
+      "SHA"
+    ]
+  }
+}

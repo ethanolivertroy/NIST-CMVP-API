@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2689"
+  },
+  "certificate": {
+    "certificate_number": "2689",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2689",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2689",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2689.pdf",
+    "vendor_name": "Silk",
+    "module_name": "Silk Encryption Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/27/2016, 7/10/2020, 2/11/2022",
+    "validation_dates": [
+      "7/27/2016",
+      "7/10/2020",
+      "2/11/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security relevant modification to Cert. #2038.",
+    "description": "The Silk Encryption Module is a standalone cryptographic module for the Silk Cloud Data Platform. The module delivers core cryptographic functions and features robust algorithm support. Silk platform offloads to the Cryptographic Module various crypto functions such as authentication, secure key management, data integrity, management traffic encryption and data at rest encryption.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2689.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJuly2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/27/2016",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "7/10/2020",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "2/11/2022",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Silk",
+      "website_url": "http://www.silk.us",
+      "address_lines": [
+        "75 Second Avenue",
+        "6th Floor, Suite 620",
+        "Needham, MA 02494",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Orly Peck",
+      "contact_email": "orly.peck@silk.us",
+      "contact_phone": "1-877-982-2555"
+    },
+    "algorithms": []
+  }
+}

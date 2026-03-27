@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/118"
+  },
+  "certificate": {
+    "certificate_number": "118",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/118",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/118",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp118.pdf",
+    "vendor_name": "IBM® Corporation",
+    "module_name": "IBM eServer zSeries 900 CMOS Cryptographic Coprocessor",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 4,
+    "validation_date": "9/26/2000",
+    "validation_dates": [
+      "9/26/2000"
+    ],
+    "sunset_date": null,
+    "caveat": "When configured for External Key Entry",
+    "description": "Technology remap encryption module for the IBM eServer zSeries 900 system that provides improved throughput performance over the previous part numbers of the IBM S/390 CMOS Cryptographic Coprocessor (FIPS 140-1 cert. #40).",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp118.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt118.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/26/2000",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "IBM® Corporation",
+      "website_url": "http://www.ibm.com/security/products",
+      "address_lines": [
+        "2455 South Rd",
+        "Mail Station P371",
+        "Poughkeepsie, NY 12601",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Clark Norberg",
+      "contact_email": "cnorberg@us.ibm.com",
+      "contact_phone": "845-435-6434"
+    },
+    "algorithms": []
+  }
+}

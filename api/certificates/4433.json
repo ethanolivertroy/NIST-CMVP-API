@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4433"
+  },
+  "certificate": {
+    "certificate_number": "4433",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4433",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4433",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4433.pdf",
+    "vendor_name": "EasyPost",
+    "module_name": "EZPES Centralized Security Module (CSM)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
+    "validation_date": "2/9/2023",
+    "validation_dates": [
+      "2/9/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The EasyPost Centralized Security Module (CSM) acts as the core security module of a United States Postal Service (USPS) Intelligent Mail Indicia Performance Criteria (IMI PC) conformant online postage evidencing system (PES). Its primary purpose is to perform secure postal financial transactions.",
+    "security_level_exceptions": [
+      "Physical Security: Level 4"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4433.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2023_010323_0649.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/9/2023",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "EasyPost",
+      "website_url": "http://www.easypost.com",
+      "address_lines": [
+        "2889 Ashton Boulevard",
+        "Suite 325",
+        "Lehi, UT 84043",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Andrew A. Bakun",
+      "contact_email": "pes@easypost.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

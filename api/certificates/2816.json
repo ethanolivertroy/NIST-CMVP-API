@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2816"
+  },
+  "certificate": {
+    "certificate_number": "2816",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2816",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2816",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2816.pdf",
+    "vendor_name": "Microwave Networks Inc.",
+    "module_name": "Proteus MX Licensed Band Radio Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "1/12/2017",
+    "validation_dates": [
+      "1/12/2017"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with the tamper evident seals installed as indicated in the Security Policy",
+    "description": "The module is a cryptographic device enclosed in a plug-in chassis that provides mux/demux and mod/dmod functions along with optional payload encryption for a line of license band point-to-point radios.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2816.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJan2017.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/12/2017",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Microwave Networks Inc.",
+      "website_url": "http://www.microwavenetworks.com",
+      "address_lines": [
+        "4000 Greenbriar Dr., #100A",
+        "Stafford, TX 77477",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ben Lee",
+      "contact_email": "BenL@microwavenetworks.com",
+      "contact_phone": "281-263-6569"
+    },
+    "algorithms": []
+  }
+}

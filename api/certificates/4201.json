@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4201"
+  },
+  "certificate": {
+    "certificate_number": "4201",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4201",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4201",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4201.pdf",
+    "vendor_name": "Zebra Technologies Corporation",
+    "module_name": "ZBR-88W8887-WLAN",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware-Hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/22/2022",
+    "validation_dates": [
+      "4/22/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The ZBR-88W8887-WLAN Module implements cryptographic support for Zebra wireless devices.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4201.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/22/2022",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Zebra Technologies Corporation",
+      "website_url": "http://www.zebra.com",
+      "address_lines": [
+        "3 Overlook Point",
+        "Lincolnshire, IL 60069",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Brian Stormont",
+      "contact_email": "bstormont@zebra.com",
+      "contact_phone": "401-276-5751"
+    },
+    "algorithms": []
+  }
+}

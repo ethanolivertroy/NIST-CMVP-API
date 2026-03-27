@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4350"
+  },
+  "certificate": {
+    "certificate_number": "4350",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4350",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4350",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4350.pdf",
+    "vendor_name": "Guardtime Federal",
+    "module_name": "Black Lantern® Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "10/31/2022, 11/8/2022",
+    "validation_dates": [
+      "10/31/2022",
+      "11/8/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The BL Cryptographic Module is designed to be integrated into products that have a requirement to be FIPS 140-2 Security Level 3 certified. The module is physically enclosed in a security appliance, designed to protect and secure the module and any pre-loaded applications determined by the integrated products.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4350.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2022_021122_1233_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/31/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "11/8/2022",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Guardtime Federal",
+      "website_url": "https://www.guardtime-federal.com/",
+      "address_lines": [
+        "1700 Diagonal Road",
+        "Suite 320",
+        "Alexandria, VA 22314",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kari Quan",
+      "contact_email": "kari.quan@guardtime-federal.com",
+      "contact_phone": "571-775-9082"
+    },
+    "algorithms": []
+  }
+}

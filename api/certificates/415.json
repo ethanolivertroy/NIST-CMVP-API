@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/415"
+  },
+  "certificate": {
+    "certificate_number": "415",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/415",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/415",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp415.pdf",
+    "vendor_name": "Gemplus Corp. and ActivCard Inc.",
+    "module_name": "GemXpresso Pro R3 E64 PK - FIPS with ActivCard Applet v2",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "4/9/2004, 7/27/2004, 8/5/2004, 2/24/2005, 7/28/2005",
+    "validation_dates": [
+      "4/9/2004",
+      "7/27/2004",
+      "8/5/2004",
+      "2/24/2005",
+      "7/28/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "GemXpresso Pro R3 E64 PK - FIPS with ActivCard Applet v2 is based on a Gemplus Open OS Smart Card with 64K of EEPROM, and on latformindependent cryptographic applets suite developed by ActivCard. The SmartCard platform has on board Triple DES and RSA algorithms and can provide on board key generation. The Applet incoporates some services for PKI (Public Key Infrastructure), for secure credentials management and authentication mechanisms. In addition, the Applet suite allows the registration and management of post-issuance applets that can be handled under the framework. The module conforms to Java Card V2.1.1, Global Platform V2.0.1, and GSC/IS 2.1 standards.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp415.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt415.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/9/2004",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "7/27/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/5/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/24/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/28/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Gemplus Corp. and ActivCard Inc.",
+      "website_url": "http://www.Gemplus.com",
+      "address_lines": [
+        "Avenue du Pic de Bretagne",
+        "BP 100",
+        "Gémenos Cedex 13881",
+        "France"
+      ],
+      "country": "France",
+      "contact_name": "Luc Astier",
+      "contact_email": "Luc.ASTIER@Gemplus.com",
+      "contact_phone": "+33 (0) 4 42 36 50 00"
+    },
+    "algorithms": []
+  }
+}

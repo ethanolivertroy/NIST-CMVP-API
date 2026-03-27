@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4362"
+  },
+  "certificate": {
+    "certificate_number": "4362",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4362",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4362",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4362.pdf",
+    "vendor_name": "Fortinet, Inc.",
+    "module_name": "FortiManager 6.2",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/9/2022",
+    "validation_dates": [
+      "11/9/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode and installed, initialized and configured as specified in the FIPS 140-2 Compliant Operation Section of the Security Policy with the entropy token installed as indicated in the Security Policy. Authentication at level 3 is only applicable when identity-based authentication is enforced for the User role. No assurance of the minimum strength of generated keys",
+    "description": "The FortiManager OS is a firmware operating system that runs exclusively on Fortinet's FortiManager product family. FortiManager units are PC-based, purpose built appliances.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4362.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/9/2022",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Fortinet, Inc.",
+      "website_url": "http://www.fortinet.com",
+      "address_lines": [
+        "16 Fitzgerald Road",
+        "Ottawa, ON K2H 8R6",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Alan Kaye",
+      "contact_email": "akaye@fortinet.com",
+      "contact_phone": "613-225-9381 x87416"
+    },
+    "algorithms": []
+  }
+}

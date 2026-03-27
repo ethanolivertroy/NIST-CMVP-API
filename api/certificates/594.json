@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/594"
+  },
+  "certificate": {
+    "certificate_number": "594",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/594",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/594",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp594.pdf",
+    "vendor_name": "Motorola, Inc.",
+    "module_name": "MCC7500 Secure Card Crypto Engine Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 1,
+    "validation_date": "12/1/2005, 6/14/2006",
+    "validation_dates": [
+      "12/1/2005",
+      "6/14/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The MCC7500 Secure Card Crypto Engine Cryptographic Module is a multiprocessor, cryptographic PCI card that provides encryption services for up to 60 audio streams for the Secure Operator Position (B1908) and Secure Archiving Interface Server (B1918). Each Secure Operator Position will contain one Secure Card providing encryption services for 60 simultaneous audio streams. Each Secure AIS will contain 1 or 2 Secure Cards providing encryption services for 60 or 120 audio streams, respectively. The Spare Crypto Card (B1924) may be used to upgrade an Operator Position or AIS.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp594.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt594.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/1/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/14/2006",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Motorola, Inc.",
+      "website_url": "http://www.motorola.com/governmentandenterprise",
+      "address_lines": [
+        "1301 E. Algonquin Rd.",
+        "Schaumburg, IL 60196",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mike French",
+      "contact_email": "Michael.French@motorola.com",
+      "contact_phone": "847-435-5219"
+    },
+    "algorithms": []
+  }
+}

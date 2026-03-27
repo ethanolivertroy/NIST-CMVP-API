@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5007"
+  },
+  "certificate": {
+    "certificate_number": "5007",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5007",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5007",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5007.pdf",
+    "vendor_name": "Broadcom, Inc.",
+    "module_name": "BCM58202B0",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "4/21/2025",
+    "validation_dates": [
+      "4/21/2025"
+    ],
+    "sunset_date": "4/20/2030",
+    "caveat": "None",
+    "description": "Highly integrated, low power, security processor with rich peripheral connection options like USB, NFC, Contacted Smart Card, SPI, UART, ADC, etc.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5007.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/21/2025",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Broadcom, Inc.",
+      "website_url": "http://www.broadcom.com",
+      "address_lines": [
+        "1320 Ridder Park Drive",
+        "San Jose, California 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Alfonso Ip",
+      "contact_email": "alfonso-ai.ip@broadcom.com",
+      "contact_phone": "1-408-922-5624"
+    },
+    "algorithms": []
+  }
+}

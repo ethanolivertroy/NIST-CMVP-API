@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4360"
+  },
+  "certificate": {
+    "certificate_number": "4360",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4360",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4360",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4360.pdf",
+    "vendor_name": "Motorola Solutions, Inc.",
+    "module_name": "KMF/Wave/Traffic CryptR",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "11/8/2022",
+    "validation_dates": [
+      "11/8/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode and initialized to overall Level 2 per Sections 2.1 and 9.2 of the Security Policy. No assurance of the minimum strength of generated keys",
+    "description": "The Module provides encryption and decryption services for secure key management, Over-the-Air-Rekeying (OTAR), and secure voice/data traffic for Motorola's Key Management Facility (KMF) and Motorola's Wave System. In the Wave System, the Module is referred to as the Wave CryptR/Traffic CryptR. In the Astro System, the Module is referred to as the KMF CryptR. The KMF and the KMF CryptR combine to provide cryptographic services for Motorola’s APCO-25 compliant Astro™ radio systems.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4360.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/8/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Motorola Solutions, Inc.",
+      "website_url": "http://www.motorolasolutions.com",
+      "address_lines": [
+        "500 Monroe Street",
+        "Chicago, IL 60661",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jason Blair",
+      "contact_email": "jason.blair@motorolasolutions.com",
+      "contact_phone": "847-576-5000"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/247"
+  },
+  "certificate": {
+    "certificate_number": "247",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/247",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/247",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp247.pdf",
+    "vendor_name": "Sun Microsystems, Inc.",
+    "module_name": "Network Security Services",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "8/30/2002, 2/4/2003",
+    "validation_dates": [
+      "8/30/2002",
+      "2/4/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Network Security Services (NSS) is a set of libraries designed to support cross-platform development of security-enabled applications. The Sun Microsystems, Inc., Network Security Services (NSS) module is a library that provides a series of cryptographic services to client programs. It provides support for a FIPS 140-1 compatible subset of SSL and TLS.",
+    "security_level_exceptions": [
+      "Roles and Services: Level 2",
+      "Operating System Security: Tested as meeting Level 1 with Windows 98 (single user mode)"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp247.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt247.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/30/2002",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/4/2003",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Sun Microsystems, Inc.",
+      "website_url": "http://www.iplanet.com",
+      "address_lines": [
+        "USCA 17-201",
+        "4170 Network Circle",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Stephen Borcich",
+      "contact_email": "stephen.borcich@sun.com",
+      "contact_phone": "408-276-3964"
+    },
+    "algorithms": []
+  }
+}

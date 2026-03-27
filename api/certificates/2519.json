@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2519"
+  },
+  "certificate": {
+    "certificate_number": "2519",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2519",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2519",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2519.pdf",
+    "vendor_name": "Hewlett Packard®, Enterprise",
+    "module_name": "HP FlexFabric 5900CP and 12910 Switch Series",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "1/5/2016, 1/8/2016",
+    "validation_dates": [
+      "1/5/2016",
+      "1/8/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with opacity shield and tamper evident labels installed as indicated in the Security Policy",
+    "description": "The HP FlexFabric 5900CP Switch Series provides a converged, top-of-rack, data center switch architecture that offers wire once for FCoE converged environments. With 48 converged ports that support 1/10GbE and 4/8 FC, the FlexFabric 5900CP delivers versatile convergence for connecting FC, iSCSI and FC SANs. The HP FlexFabric 12910 Switch is a next-generation modular data center core switch designed to support virtualized data centers and the evolving needs of private and public cloud deployments. The FlexFabric 12910 switch delivers unprecedented levels of performance, buffering, scale, and av",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2519.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJan2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/5/2016",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "1/8/2016",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett Packard®, Enterprise",
+      "website_url": "http://www.hpe.com",
+      "address_lines": [
+        "153 Taylor Street",
+        "Littleton, MA 01460",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Bob Pittman",
+      "contact_email": "bob.pittman@hp.com",
+      "contact_phone": "978-264-5211"
+    },
+    "algorithms": []
+  }
+}

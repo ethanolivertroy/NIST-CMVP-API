@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4691"
+  },
+  "certificate": {
+    "certificate_number": "4691",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4691",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4691",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4691.pdf",
+    "vendor_name": "SUSE LLC",
+    "module_name": "SUSE Rancher Kubernetes Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/12/2024",
+    "validation_dates": [
+      "4/12/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "A software library that contains cryptography to serve SUSE’s Rancher Kubernetes Engine and its ecosystem of supported cloud-native tools written in the Go programming language.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4691.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2024_010524_0757.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/12/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "SUSE LLC",
+      "website_url": "http://www.suse.com",
+      "address_lines": [
+        "1221 S Valley Grove Way",
+        "Suite 500",
+        "Pleasant Grove, UT 84062",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Will Godfrey",
+      "contact_email": "will.godfrey@suse.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

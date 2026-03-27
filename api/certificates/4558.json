@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4558"
+  },
+  "certificate": {
+    "certificate_number": "4558",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4558",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4558",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4558.pdf",
+    "vendor_name": "IBM",
+    "module_name": "IBM 4770-001 Enterprise PKCS#11 HSM Cryptographic Coprocessor Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 4,
+    "validation_date": "8/18/2023, 3/7/2025",
+    "validation_dates": [
+      "8/18/2023",
+      "3/7/2025"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The IBM 4770-001 Enterprise PKCS#11 Hardware Security Module is in the form or a PCIe card that executes IBM Enterprise PKCS#11 firmware within a secured tamper responding hardware boundary.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4558.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2023_010923_0844.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/18/2023",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "3/7/2025",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "IBM",
+      "website_url": "http://www.ibm.com",
+      "address_lines": [
+        "1 New Orchard Road",
+        "Armonk, New York 10504-1722",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ronald Geiger",
+      "contact_email": "geigerr@us.ibm.com",
+      "contact_phone": "1-845-433-1101"
+    },
+    "algorithms": []
+  }
+}

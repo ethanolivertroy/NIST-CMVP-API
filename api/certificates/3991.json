@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3991"
+  },
+  "certificate": {
+    "certificate_number": "3991",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3991",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3991",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3991.pdf",
+    "vendor_name": "SUSE, LLC",
+    "module_name": "SUSE Linux Enterprise Server OpenSSL Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/22/2021, 11/28/2021, 10/12/2023",
+    "validation_dates": [
+      "7/22/2021",
+      "11/28/2021",
+      "10/12/2023"
+    ],
+    "sunset_date": "7/21/2026",
+    "caveat": "When operated in FIPS mode and installed, initialized and configured as specified in section 9 of the Security Policy. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "OpenSSL is an open-source library of various cryptographic algorithms written mainly in C.",
+    "security_level_exceptions": [
+      "Physical Security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3991.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2021_020821_0740_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/22/2021",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "11/28/2021",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "10/12/2023",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "SUSE, LLC",
+      "website_url": "http://www.suse.com",
+      "address_lines": [
+        "10 Canal Park, Suite 200",
+        "Cambridge, MA 02141",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ivan Teblin",
+      "contact_email": "ivan.teblin@suse.com",
+      "contact_phone": "+1-800-858-4000"
+    },
+    "algorithms": []
+  }
+}

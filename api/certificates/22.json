@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/22"
+  },
+  "certificate": {
+    "certificate_number": "22",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/22",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/22",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp22.pdf",
+    "vendor_name": "SPYRUS, Inc.",
+    "module_name": "LYNKS Metering Device (LMD)",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "8/13/1998",
+    "validation_dates": [
+      "8/13/1998"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": null,
+    "security_level_exceptions": [
+      "Physical Security: Level 3 +EFT",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp22.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt22.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/13/1998",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      }
+    ],
+    "vendor": {
+      "name": "SPYRUS, Inc.",
+      "website_url": "http://www.spyrus.com",
+      "address_lines": [
+        "2355 Oakland Road",
+        "Suite 1",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tom Dickens",
+      "contact_email": "tdickens@spyrus.com",
+      "contact_phone": "408-953-0700"
+    },
+    "algorithms": []
+  }
+}

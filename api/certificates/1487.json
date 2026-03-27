@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1487"
+  },
+  "certificate": {
+    "certificate_number": "1487",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1487",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1487",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1487.pdf",
+    "vendor_name": "Athena Smartcard Inc.",
+    "module_name": "Athena IDProtect Duo PIV",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "1/28/2011, 4/12/2013, 2/6/2014, 5/28/2014",
+    "validation_dates": [
+      "1/28/2011",
+      "4/12/2013",
+      "2/6/2014",
+      "5/28/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Athena IDProtect Duo PIV cryptographic module is compliant with FIPS 201 as an end point compliant card. The PIV application is hosted by the Athena IDProtect dual interface smart card operating system compliant with the Java Card 2.2.2 and GlobalPlatform 2.1.1 specifications and FIPS 140-2 Level 3 (Level 4 for physical security). IDProtect supports FIPS approved Random Number Generator, TDES, AES, SHA-1, SHA-256, and RSA up to 2048 bits including on board key generation.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 4",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1487.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0002.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/28/2011",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/12/2013",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/6/2014",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/28/2014",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Athena Smartcard Inc.",
+      "website_url": "http://www.athena-scs.com",
+      "address_lines": [
+        "16615 Lark Avenue",
+        "Suite 202",
+        "Los Gatos, CA 95032",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Stéphanie Motré",
+      "contact_email": null,
+      "contact_phone": "408-786-1028"
+    },
+    "algorithms": []
+  }
+}

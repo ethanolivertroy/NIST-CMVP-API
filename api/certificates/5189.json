@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5189"
+  },
+  "certificate": {
+    "certificate_number": "5189",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5189",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5189",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5189.pdf",
+    "vendor_name": "xFusion Digital Technologies Co., Ltd.",
+    "module_name": "xFusion Cryptographic Library",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/12/2026",
+    "validation_dates": [
+      "3/12/2026"
+    ],
+    "sunset_date": "3/11/2031",
+    "caveat": "No assurance of the minimum strength of generated SSPs.",
+    "description": "xFusion Cryptographic Library is a software library that provides algorithms, protocols, and services compliant with the FIPS 140-3 standard for xFusion product API.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5189.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/12/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "xFusion Digital Technologies Co., Ltd.",
+      "website_url": "http://www.xfusion.com",
+      "address_lines": [
+        "9th Floor, Building 1, Zensun Boya Square, Longzihu Wisdom Island, Zhengdong New District",
+        "Zhengzhou, Henan Province 450000",
+        "P.R.C"
+      ],
+      "country": "P.R.C",
+      "contact_name": "Yu Hao",
+      "contact_email": "Yuhao_ysl@xfusion.com",
+      "contact_phone": "18665303095"
+    },
+    "algorithms": []
+  }
+}

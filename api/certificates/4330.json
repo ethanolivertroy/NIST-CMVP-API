@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4330"
+  },
+  "certificate": {
+    "certificate_number": "4330",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4330",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4330",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4330.pdf",
+    "vendor_name": "Comtech Systems, Inc.",
+    "module_name": "CS67PLUS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "10/14/2022",
+    "validation_dates": [
+      "10/14/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The CS67PLUS Cryptographic Module is a sub-chip cryptographic subsystem which provides real time AES data encryption and decryption. It typically resides within the FPGA of the CS67PLUS software-defined adaptive troposcatter radio assembly.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4330.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2022_021122_1233_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/14/2022",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "Comtech Systems, Inc.",
+      "website_url": "http://www.comtech.com",
+      "address_lines": [
+        "212 Outlook Point Drive",
+        "Suite 100",
+        "Orlando, FL 32809",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Arnaldo Echevarria",
+      "contact_email": "arnaldo.echevarria@comtech.com",
+      "contact_phone": "+1.321.296.5976"
+    },
+    "algorithms": []
+  }
+}

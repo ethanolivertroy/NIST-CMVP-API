@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1882"
+  },
+  "certificate": {
+    "certificate_number": "1882",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1882",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1882",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1882.pdf",
+    "vendor_name": "Entrust, Inc.",
+    "module_name": "Entrust IdentityGuard PIV Credential",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "2/8/2013, 2/6/2014, 5/28/2014",
+    "validation_dates": [
+      "2/8/2013",
+      "2/6/2014",
+      "5/28/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with PIN policies configured as indicated in the Security Policy Section 9",
+    "description": "The Entrust IdentityGuard PIV Credential is a cryptographic module intended for use by US Federal agencies and other markets that require smartcards conformant with the PIV standards. The module can also be configured for use in markets where the set of keys and data objects, or the access control rules governing their use, differ from the PIV data model.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 4",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1882.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0026.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/8/2013",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/6/2014",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/28/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Entrust, Inc.",
+      "website_url": "http://www.entrust.com",
+      "address_lines": [
+        "One Lincoln Centre",
+        "5400 LBJ Freeway",
+        "Suite 1340",
+        "Dallas, TX 75240",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Entrust Sales",
+      "contact_email": "entrust@entrust.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4847"
+  },
+  "certificate": {
+    "certificate_number": "4847",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4847",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4847",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4847.pdf",
+    "vendor_name": "Keysight Technologies",
+    "module_name": "Keysight BC-FJA (Bouncy Castle FIPS Java API) for Network Visibility",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/21/2024, 12/15/2025",
+    "validation_dates": [
+      "10/21/2024",
+      "12/15/2025"
+    ],
+    "sunset_date": "7/28/2029",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Keysight Technologies BC-FJA (Bouncy Castle FIPS Java API) is integrated into Keysight’s network visibility product family to provide FIPS 140-3 validated cryptography for the protection of sensitive information.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4847.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/21/2024",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "12/15/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Keysight Technologies",
+      "website_url": "http://www.keysight.com/us/en/home.html",
+      "address_lines": [
+        "8310 N. Capital of Texas Hwy",
+        "Bldg. 2",
+        "Suite 300",
+        "Austin, TX 78731",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Keysight CSG NVS Product Management",
+      "contact_email": "usa_orders@keysight.com",
+      "contact_phone": "1 800-829-4444"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3897"
+  },
+  "certificate": {
+    "certificate_number": "3897",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3897",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3897",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3897.pdf",
+    "vendor_name": "Fortinet, Inc.",
+    "module_name": "FortiWLM-100D and FortiWLM-1000D",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "4/16/2021",
+    "validation_dates": [
+      "4/16/2021"
+    ],
+    "sunset_date": "4/15/2026",
+    "caveat": "When installed, initialized and configured as specified in the FIPS 140-2 Compliant Operation Section of the Security Policy. The tamper evident seals and entropy token installed as indicated in the security policy. No assurance of the minimum strength of generated keys",
+    "description": "The FortiWLM-100D and 1000D are multi-chip standalone cryptographic modules consisting of production-grade components in a physically protected enclosure conformant to FIPS 140-2 Level 2 requirements. The modules have similar appearance and functionality but have different numbers and types of network interfaces to support various network configurations: - The FortiWLM-100D has 4 network interfaces with status LEDs for each network interface (4x 10/100/1000 Base-T) - The FortiWLM-1000D has 8 network interfaces with status LEDs for each network interface (4x 10/100/1000 Base-T,4x 1GB SFP)",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3897.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2021_030521_0757_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/16/2021",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Fortinet, Inc.",
+      "website_url": "http://www.fortinet.com",
+      "address_lines": [
+        "899 Kifer Road",
+        "Sunnyvale, CA 94086-5301",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Alan Kaye",
+      "contact_email": "akaye@fortinet.com",
+      "contact_phone": "613-225-9381"
+    },
+    "algorithms": []
+  }
+}

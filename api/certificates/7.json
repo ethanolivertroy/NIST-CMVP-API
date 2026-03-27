@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/7"
+  },
+  "certificate": {
+    "certificate_number": "7",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/7",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/7",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp7.pdf",
+    "vendor_name": "Netscape Communications Corporation",
+    "module_name": "Netscape Security Module 1",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "8/29/1997",
+    "validation_dates": [
+      "8/29/1997"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode for secure e-mail, certificate management, password management and met when correctly implementing the tamper evident mechanism specified in the security policy.",
+    "description": "Security module used in various Netscape products.",
+    "security_level_exceptions": [
+      "Physical Security: Level 2",
+      "Operating System Security:Tested as meeting Level 2 with Sun Sparc 5 w/ Sun Solaris v 2.4SE (ITSEC-rated), and Level 1 for Microsoft WindowsNT 4.0 workstation (operated in single user mode)"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp7.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt7.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/29/1997",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Netscape Communications Corporation",
+      "website_url": "http://www.netscape.com",
+      "address_lines": [
+        "6905 Rockledge Dr",
+        "Suite 820",
+        "Bethesda, MD 20817",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ed Hicks",
+      "contact_email": "fips@netscape.com",
+      "contact_phone": "301-571-3900"
+    },
+    "algorithms": []
+  }
+}

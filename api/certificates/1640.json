@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1640"
+  },
+  "certificate": {
+    "certificate_number": "1640",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1640",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1640",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1640.pdf",
+    "vendor_name": "Watchdata Technologies Pte Ltd",
+    "module_name": "WatchKey USB Token",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "11/17/2011, 10/11/2017",
+    "validation_dates": [
+      "11/17/2011",
+      "10/11/2017"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The WatchKey USB token provides digital signature generation and verification for online authentication of online transactions and data encryption/decryption to online service users.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1640.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0011.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/17/2011",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "10/11/2017",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Watchdata Technologies Pte Ltd",
+      "website_url": "http://www.watchdata.com",
+      "address_lines": [
+        "11 Collyer Quay",
+        "#16-01 The Arcade",
+        "Singapore 049317",
+        "Singapore"
+      ],
+      "country": "Singapore",
+      "contact_name": "Bai Liming",
+      "contact_email": "Liming.bai@watchdata.com.sg",
+      "contact_phone": "+65 6572 9300"
+    },
+    "algorithms": []
+  }
+}

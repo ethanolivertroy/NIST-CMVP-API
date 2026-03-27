@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4155"
+  },
+  "certificate": {
+    "certificate_number": "4155",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4155",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4155",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4155.pdf",
+    "vendor_name": "TrellisWare Technologies, Inc.",
+    "module_name": "TW-900/950 TSM Shadow and TW-870/875 TSM Ghost",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "2/15/2022",
+    "validation_dates": [
+      "2/15/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section 7.5 of the Security Policy. The tamper evident sealant must be installed as indicated in the security policy Section 7.5.1 using FIPS kit TrellisWare P/N 800AAA0036",
+    "description": "The TW-870/875 TSM Ghost and TW-900/950 TSM Shadow are small form-factor Software Defined Radios that employ the latest version of TrellisWare's TSM waveform and are capable of robust operation at high data rates. The TW-870/875 and TW-900/950 support multi-channel voice, IP data, Position Location Information (PLI) tracking, sleep functions for long-term sensing applications, IP gateway features and remote operation of live streaming video sources for networked sensing missions.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4155.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2022_010322_0121_Signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/15/2022",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "TrellisWare Technologies, Inc.",
+      "website_url": "http://www.trellisware.com",
+      "address_lines": [
+        "10641 Scripps Summit Court",
+        "Suite 100",
+        "San Diego, CA 92131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chris Litvin",
+      "contact_email": "clitvin@trellisware.com",
+      "contact_phone": "(858) 753-1672"
+    },
+    "algorithms": [
+      "SHA"
+    ]
+  }
+}

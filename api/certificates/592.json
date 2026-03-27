@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/592"
+  },
+  "certificate": {
+    "certificate_number": "592",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/592",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/592",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp592.pdf",
+    "vendor_name": "High Density Devices AS",
+    "module_name": "SecureD v.1.6",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "12/1/2005, 1/5/2007",
+    "validation_dates": [
+      "12/1/2005",
+      "1/5/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "SecureD is a hardware based encryption device that offers optimal, fully integrated, protection for stored data in IDE data bus based computer systems. SecureD operates fully transparent at the speed of ATA-6 AT API. SecureD is using AES 128/192/256 bits encryption/decryption, and is 100% operating system independent. No SW is installed. Ideal for encryption of disks in Desktop environment, Laptop, and USB/Firewire connected disks.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp592.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt592.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/1/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "1/5/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "High Density Devices AS",
+      "website_url": "http://www.hdd.no",
+      "address_lines": [
+        "Vestre Strandgate 26",
+        "Kristiansand N-4611",
+        "Norway"
+      ],
+      "country": "Norway",
+      "contact_name": "Aage Kalsaeg",
+      "contact_email": "aage@hdd.no",
+      "contact_phone": "+47 38 10 44 80"
+    },
+    "algorithms": []
+  }
+}

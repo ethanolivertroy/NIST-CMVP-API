@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4080"
+  },
+  "certificate": {
+    "certificate_number": "4080",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4080",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4080",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4080.pdf",
+    "vendor_name": "EF Johnson Technologies",
+    "module_name": "Johnson Encryption Machine 2 (JEM2)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "11/30/2021",
+    "validation_dates": [
+      "11/30/2021"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The EF Johnson Technologies Johnson Encryption Machine 2 (JEM2) is a cryptographic module meeting the FIPS140-2, Level 1 requirement. The JEM2 provides cryptographic operations to support Project 25 infrastructure. The JEM2 supports AES OTAR, AES Key Wrap, AES, ECDSA, DRBG, SHA-1, SHA-256, SHA-512, and HMAC FIPS Approved algorithms.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4080.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2021_011221_0923_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/30/2021",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "EF Johnson Technologies",
+      "website_url": "http://www.efjohnson.com",
+      "address_lines": [
+        "1440 Corporate Drive",
+        "Irving, TX 75038-2401",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Marshall Schiring",
+      "contact_email": "mshiring@efji.com",
+      "contact_phone": "402-479-8375"
+    },
+    "algorithms": [
+      "AES",
+      "SHA"
+    ]
+  }
+}

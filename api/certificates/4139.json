@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4139"
+  },
+  "certificate": {
+    "certificate_number": "4139",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4139",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4139",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4139.pdf",
+    "vendor_name": "Fortanix, Inc.",
+    "module_name": "Fortanix SDKMS Appliance",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "1/19/2022",
+    "validation_dates": [
+      "1/19/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "The tamper evident seals installed as indicated in the security policy",
+    "description": "Fortanix SDKMS appliance is the building block for running Fortanix Self-Defending Key Management Service (SDKMS), a unified HSM and Key Management solution. With SDKMS, you can securely generate, store, and use cryptographic keys and certificates, as well as secrets, such as passwords, API keys, tokens, or any blob of data.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4139.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2022_010222_0702_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/19/2022",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Fortanix, Inc.",
+      "website_url": "http://www.fortanix.com/",
+      "address_lines": [
+        "444 Castro St #305",
+        "Mountain View, CA 94041",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ambuj Kumar",
+      "contact_email": "info@fortanix.com",
+      "contact_phone": "628-400-2043"
+    },
+    "algorithms": []
+  }
+}

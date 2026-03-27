@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5032"
+  },
+  "certificate": {
+    "certificate_number": "5032",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5032",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5032",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5032.pdf",
+    "vendor_name": "Intel Corporation",
+    "module_name": "Intel® QuickAssist Technology (QAT) Provider",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software-hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/26/2025",
+    "validation_dates": [
+      "6/26/2025"
+    ],
+    "sunset_date": "6/25/2030",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Intel® QuickAssist Technology (QAT) Provider which supports the ability to accelerate the operations from the stand OpenSSL 3.0.8 to basic Intel instruction set, to either hardware acceleration path or via the optimized software acceleration path.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5032.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/26/2025",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "Intel Corporation",
+      "website_url": "https://www.intel.com/",
+      "address_lines": [
+        "2200 Mission College Blvd.",
+        "Santa Clara (SC), California 95054-1537",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "Mark Chambers",
+      "contact_email": "mark.a.chambers@intel.com",
+      "contact_phone": "0001-408-653-5590"
+    },
+    "algorithms": [
+      "AES",
+      "DSA",
+      "ECDSA",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

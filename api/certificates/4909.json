@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4909"
+  },
+  "certificate": {
+    "certificate_number": "4909",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4909",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4909",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4909.pdf",
+    "vendor_name": "Quadient Technologies",
+    "module_name": "Quadient Postal Security Device",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
+    "validation_date": "12/3/2024",
+    "validation_dates": [
+      "12/3/2024"
+    ],
+    "sunset_date": "12/2/2026",
+    "caveat": "Interim Validation",
+    "description": "The Quadient Postal Security Device is a multi-chip standalone cryptographic module that serves as the core security component of postal franking machines and must meet physical security FIPS 140-3 level 3 requirements (as required by the USPS®).",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4909.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/3/2024",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Quadient Technologies",
+      "website_url": "http://www.quadient.com",
+      "address_lines": [
+        "42-46 Avenue Aristide Briand",
+        "Bagneux 92220",
+        "France"
+      ],
+      "country": "France",
+      "contact_name": "Adriana Rosca",
+      "contact_email": "a.rosca@quadient.com",
+      "contact_phone": "33145366104"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

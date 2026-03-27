@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5061"
+  },
+  "certificate": {
+    "certificate_number": "5061",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5061",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5061",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5061.pdf",
+    "vendor_name": "Spectro Cloud, Inc.",
+    "module_name": "Spectro Cloud Cryptographic Library",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/17/2025, 1/6/2026",
+    "validation_dates": [
+      "9/17/2025",
+      "1/6/2026"
+    ],
+    "sunset_date": "7/22/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys). When operated in approved mode.",
+    "description": "The Spectro Cloud Cryptographic Library v2 is a general-purpose cryptographic module incorporated into the applications to provide FIPS 140-3 validated cryptography for the protection of sensitive information. The module is pre-installed and configured in supported Spectro Cloud solutions, such as Palette VerteX.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5061.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/17/2025",
+        "type": "Initial",
+        "lab": "Teron Labs"
+      },
+      {
+        "date": "1/6/2026",
+        "type": "Update",
+        "lab": "Teron Labs"
+      }
+    ],
+    "vendor": {
+      "name": "Spectro Cloud, Inc.",
+      "website_url": "https://www.spectrocloud.com",
+      "address_lines": [
+        "1735 Technology Drive",
+        "Suite 650",
+        "San Jose, CA 95110",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jeremy Oakey",
+      "contact_email": "jeremy@spectrocloud.com",
+      "contact_phone": "408-514-1222"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

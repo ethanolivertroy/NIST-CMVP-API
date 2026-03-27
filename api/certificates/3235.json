@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3235"
+  },
+  "certificate": {
+    "certificate_number": "3235",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3235",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3235",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3235.pdf",
+    "vendor_name": "Infotecs",
+    "module_name": "ViPNet Common Crypto Core",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/20/2018, 9/17/2018",
+    "validation_dates": [
+      "7/20/2018",
+      "9/17/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "No assurance of the minimum strength of generated keys",
+    "description": "The ViPNet Common Crypto Core Library is a software library that provides cryptographic services to a number of ViPNet applications via an API. It is available in user space and kernel driver implementations on a wide range of operational systems. User space library and kernel library use the same base source code.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3235.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/JulyConsolidatedCert.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/20/2018",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "9/17/2018",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Infotecs",
+      "website_url": "http://www.infotecs.us",
+      "address_lines": [
+        "77 Water Street",
+        "Office 853",
+        "New York, NY 10005",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Aleksandr Tkachev",
+      "contact_email": "Aleksandr.Tkachev@infotecs.us",
+      "contact_phone": "1 (646) 274-1494"
+    },
+    "algorithms": []
+  }
+}

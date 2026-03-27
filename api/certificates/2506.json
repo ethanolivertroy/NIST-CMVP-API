@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2506"
+  },
+  "certificate": {
+    "certificate_number": "2506",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2506",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2506",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2506.pdf",
+    "vendor_name": "Hewlett Packard Enterprise Development LP",
+    "module_name": "HP P-Class Smart Array Gen9 RAID Controllers",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "12/21/2015, 6/27/2018",
+    "validation_dates": [
+      "12/21/2015",
+      "6/27/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in the Security Policy Section 3",
+    "description": "The HP P-Class Smart Array RAID Controllers make up a family of serial-attached SCSI host bus adapters that provide intelligent control for storage array. The controllers can be card-based or embedded within an HP server, and provide a high speed data path, on-board storage cache, remote management, and encryption of data at rest, for the controlled storage arrays.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Design Assurance: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2506.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertDec2015.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/21/2015",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "6/27/2018",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett Packard Enterprise Development LP",
+      "website_url": "http://www.hpe.com",
+      "address_lines": [
+        "11445 Compaq Center Drive West",
+        "Houston, TX 77070",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Catherine Schwartz",
+      "contact_email": "Catherine.schwartz@hpe.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

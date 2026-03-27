@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/932"
+  },
+  "certificate": {
+    "certificate_number": "932",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/932",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/932",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp932.pdf",
+    "vendor_name": "SanDisk Corporation",
+    "module_name": "S2 FIPS DiskOnKey Controller",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 2,
+    "validation_date": "4/8/2008, 5/8/2008, 6/23/2008, 10/16/2008",
+    "validation_dates": [
+      "4/8/2008",
+      "5/8/2008",
+      "6/23/2008",
+      "10/16/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The SanDisk S2 FIPS DiskOnKey Controller provides FIPS 140-2 Approved security functionality to SanDisk DiskOnKey USB flash drives. The S2 FIPS DiskOnKey Controller employs Federal Information Processing Standard (FIPS 140-2) encryption and key management functionality to ensure the protection of data stored on DiskOnKey FLASH memory. The module is a multi-chip embedded cryptographic module, as defined by FIPS 140-2, and consists of the S2 controller and an EEPROM. Both components are encased in a hard, opaque, production grade integrated circuit packaging.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp932.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt932.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/8/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/8/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/23/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/16/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SanDisk Corporation",
+      "website_url": "http://www.sandisk.com",
+      "address_lines": [
+        "601 McCarthy Boulevard",
+        "Milpitas, CA 95035-0459",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Daniel Shefer",
+      "contact_email": "Daniel.Shefer@SanDisk.com",
+      "contact_phone": "408-801-1563"
+    },
+    "algorithms": []
+  }
+}

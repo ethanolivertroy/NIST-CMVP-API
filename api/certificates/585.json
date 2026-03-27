@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/585"
+  },
+  "certificate": {
+    "certificate_number": "585",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/585",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/585",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp585.pdf",
+    "vendor_name": "Bluefire Security Technologies",
+    "module_name": "Bluefire Mobile Security™ FIPS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/2/2005",
+    "validation_dates": [
+      "11/2/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Bluefire Mobile Security™ FIPS Cryptographic Module is Bluefire Security Technologies' cryptographic library designed for securing mobile devices such as personal digital assistants (PDA’s) and Smart Phones based on the Microsoft Windows Mobile platform. It contains assembly-level optimizations on key wireless processors while offering great flexibility and choice by allowing developers to select only the algorithms needed in reduced code sizes. Its functionality includes a wide range of data encryption and signing algorithms, including Triple-DES, the Advanced Encryption Standard (AES) algorithm, the RSA Public Key Cryptosystem, the DSA government signature algorithm, MD5 and SHA1 message digest routines, and more.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp585.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt585.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/2/2005",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      }
+    ],
+    "vendor": {
+      "name": "Bluefire Security Technologies",
+      "website_url": "http://www.bluefiresecurity.com",
+      "address_lines": [
+        "1040 Hull Street",
+        "#101",
+        "Baltimore, MD 21230",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Phil Smith",
+      "contact_email": "info@bluefiresecurity.com",
+      "contact_phone": "410-637-8160"
+    },
+    "algorithms": []
+  }
+}

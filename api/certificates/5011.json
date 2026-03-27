@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5011"
+  },
+  "certificate": {
+    "certificate_number": "5011",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5011",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5011",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5011.pdf",
+    "vendor_name": "Hewlett Packard, Inc.",
+    "module_name": "HP Poly Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/29/2025, 12/15/2025, 2/12/2026",
+    "validation_dates": [
+      "4/29/2025",
+      "12/15/2025",
+      "2/12/2026"
+    ],
+    "sunset_date": "7/22/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys). When operated in approved mode.",
+    "description": "The HP Poly Cryptographic Module is a general-purpose cryptographic library incorporated into the CCX line of products to provide FIPS 140-3 validated cryptography for the protection of sensitive information.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5011.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/29/2025",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "12/15/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "2/12/2026",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett Packard, Inc.",
+      "website_url": "http://www.hp.com",
+      "address_lines": [
+        "345 Encinal Street",
+        "Santa Cruz, CA 95060",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "HP Product Security Office",
+      "contact_email": "HP-security-alert@hp.com",
+      "contact_phone": "1-888-248-4143"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1292"
+  },
+  "certificate": {
+    "certificate_number": "1292",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1292",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1292",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1292.pdf",
+    "vendor_name": "Prism Payment Technologies (Pty) Ltd.",
+    "module_name": "Incognito TSM500",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "4/12/2010",
+    "validation_dates": [
+      "4/12/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Incognito TSM500 is a multi-chip embedded Tamper Responsive Security Module. Fitted on a PCI carrier card, the device offers high-performance, high-security services targeted at EFT switches and mCommerce applications.",
+    "security_level_exceptions": [
+      "Physical Security: Level 4"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1292.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1292.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/12/2010",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Prism Payment Technologies (Pty) Ltd.",
+      "website_url": "http://www.prism.co.za/",
+      "address_lines": [
+        "4th Floor, President Place, Corner Jan Smuts Avenue & Bolton Road",
+        "PO Box 2424, Parklands",
+        "Gauteng 2121",
+        "South Africa"
+      ],
+      "country": "South Africa",
+      "contact_name": "Giovanni Gallus",
+      "contact_email": "GiovanniG@prism.co.za",
+      "contact_phone": "+27-31-266-0025"
+    },
+    "algorithms": []
+  }
+}

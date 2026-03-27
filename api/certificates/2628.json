@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2628"
+  },
+  "certificate": {
+    "certificate_number": "2628",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2628",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2628",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2628.pdf",
+    "vendor_name": "Giesecke+Devrient Mobile Security GmbH",
+    "module_name": "StarSign Crypto-USB Token S powered by Sm@rtCafé Expert 7.0 Secure Element",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "4/28/2016, 7/3/2017, 3/26/2018",
+    "validation_dates": [
+      "4/28/2016",
+      "7/3/2017",
+      "3/26/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "StarSign Crypto-USB Token S powered by Sm@rtCafé Expert 7.0 Secure Element is a highly secured and integrated smartcard-based platform from Giesecke & Devrient complying with JavaCard Classic 3.0.4 and GlobalPlatform 2.2.1 standards. The Sm@rtCafé Expert 7.0 OS-platform is deployed in national ID, ePassport, authentication and digital signature programs with match-on-card biometric verification. StarSign Crypto-USB Token S is the ideal platform in a USB-Token form factor for secure logical access, online tax declaration, web based online authentication applications using FIDO and certificate",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2628.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertApril2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/28/2016",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "7/3/2017",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/26/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Giesecke+Devrient Mobile Security GmbH",
+      "website_url": "http://www.gi-de.com",
+      "address_lines": [
+        "Prinzregentenstrasse 159",
+        "Munich D-81677",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "Alexander Summerer",
+      "contact_email": "alexander.summerer@gi-de.com",
+      "contact_phone": "+49-89/4119-2418"
+    },
+    "algorithms": []
+  }
+}

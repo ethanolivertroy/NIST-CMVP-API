@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4383"
+  },
+  "certificate": {
+    "certificate_number": "4383",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4383",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4383",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4383.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "Samsung SCrypto Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/3/2022, 5/24/2024",
+    "validation_dates": [
+      "12/3/2022",
+      "5/24/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "SCrypto is secure library which is used to provide a standardized common cryptographic API to trusted applications for the secure world/TEE environment.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4383.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/3/2022",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      },
+      {
+        "date": "5/24/2024",
+        "type": "Update",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "R5 416, Maetan 3-dong Yeongton-gu",
+        "Suwon-si, Gyeonggi 443-742",
+        "Korea"
+      ],
+      "country": "Korea",
+      "contact_name": "JungHa Paik",
+      "contact_email": "jungha.paik@samsung.com",
+      "contact_phone": "+82-10-8861-0858"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3368"
+  },
+  "certificate": {
+    "certificate_number": "3368",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3368",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3368",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3368.pdf",
+    "vendor_name": "Christie Digital Systems Canada Inc.",
+    "module_name": "Christie IMB-S3 4K Integrated Media Block (IMB)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "2/11/2019, 11/30/2020",
+    "validation_dates": [
+      "2/11/2019",
+      "11/30/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Christie IMB-S3 is a DCI-compliant solution to enable the playback of the video, audio and timed text essence on a Christie digital cinema projector with the CineLife architecture. The IMB-S3 permits the playback of alternative content and High Frame Rate (HFR) material.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3368.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FebConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/11/2019",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "11/30/2020",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Christie Digital Systems Canada Inc.",
+      "website_url": "http://www.christiedigital.com",
+      "address_lines": [
+        "809 Wellington St. N.",
+        "Kitchener, ON N2G 4Y7",
+        "CANADA"
+      ],
+      "country": "CANADA",
+      "contact_name": "Kevin Draper",
+      "contact_email": "kevin.draper@christiedigital.com",
+      "contact_phone": "519-741-3741"
+    },
+    "algorithms": []
+  }
+}

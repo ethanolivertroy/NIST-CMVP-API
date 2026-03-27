@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/134"
+  },
+  "certificate": {
+    "certificate_number": "134",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/134",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/134",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp134.pdf",
+    "vendor_name": "PSI Systems, Inc.",
+    "module_name": "Postal Cryptographic Coprocessor",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "1/18/2001",
+    "validation_dates": [
+      "1/18/2001"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "This module provides the services to support high-speed, secure micro-transactions, including the production and verification of United States Postal Service Information-Based Indicia.",
+    "security_level_exceptions": [
+      "Physical Security: Level 4",
+      "Self Tests: Level 4"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp134.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt134.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/18/2001",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "PSI Systems, Inc.",
+      "website_url": "http://www.endicia.com",
+      "address_lines": [
+        "247 High Street",
+        "Palo Alto, CA 94301-1041",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dr. Harry T. Whitehouse",
+      "contact_email": "harry@psi-systems.com",
+      "contact_phone": "650-321-2640 x112"
+    },
+    "algorithms": []
+  }
+}

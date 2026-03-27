@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4889"
+  },
+  "certificate": {
+    "certificate_number": "4889",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4889",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4889",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4889.pdf",
+    "vendor_name": "IBM",
+    "module_name": "AIX FIPS Crypto Provider for OpenSSL 3",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/18/2024, 3/19/2025, 6/17/2025",
+    "validation_dates": [
+      "11/18/2024",
+      "3/19/2025",
+      "6/17/2025"
+    ],
+    "sunset_date": "7/10/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "AIX FIPS Crypto Provider is based on OpenSSL 3.0 and is supported on AIX for the Power 8, Power 9, Power 10 and above platforms.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4889.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/18/2024",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "3/19/2025",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "6/17/2025",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "IBM",
+      "website_url": "http://www.ibm.com/products/aix?lnk=flatitem",
+      "address_lines": [
+        "1 New Orchard Road",
+        "Armonk, NY 10504-1722",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "SANDEEP UMESH",
+      "contact_email": "sanumesh@in.ibm.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

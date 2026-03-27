@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5077"
+  },
+  "certificate": {
+    "certificate_number": "5077",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5077",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5077",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5077.pdf",
+    "vendor_name": "Qualcomm Technologies, Inc.",
+    "module_name": "Qualcomm® Crypto Engine Core",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "10/3/2025",
+    "validation_dates": [
+      "10/3/2025"
+    ],
+    "sunset_date": "10/2/2030",
+    "caveat": "When operated in approved mode. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "Qualcomm Crypto Engine Core is a general purpose cryptographic hardware engine capable of securely processing various confidentiality and integrity algorithms across multiple execution environments.",
+    "security_level_exceptions": [
+      "Software/Firmware security: N/A",
+      "Operational environment: N/A",
+      "Physical security: Level 2",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 2",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5077.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/3/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Qualcomm Technologies, Inc.",
+      "website_url": "http://www.qualcomm.com",
+      "address_lines": [
+        "5775 Morehouse Dr",
+        "San Diego, CA 92121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Qualcomm FIPS 140 officers",
+      "contact_email": "fips140officers@qti.qualcomm.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": []
+  }
+}

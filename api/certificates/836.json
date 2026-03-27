@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/836"
+  },
+  "certificate": {
+    "certificate_number": "836",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/836",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/836",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp836.pdf",
+    "vendor_name": "Thales e-Security Inc.",
+    "module_name": "Secure Generic Sub-System (SGSS), Version 3.4",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "9/11/2007, 9/25/2007, 12/23/2008",
+    "validation_dates": [
+      "9/11/2007",
+      "9/25/2007",
+      "12/23/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Secure Generic Sub-System (SGSS) is a multi-chip embedded module used to provide secure cryptographic resources to a number of products in the Thales e-Security portfolio. This includes the Datacryptor® 2000, Datacryptor® Advanced Performance and Small Form Factor family (Link, Frame Relay, E1/T1, E3/T3, and IP models), WebSentry™ family, HSM 8000 family, P3™ CM family, 3D Security Module and the SafeSign® Crypto Module. The SGSS contains a secure bootstrap and authenticates application loading using the Digital Signature Algorithm (DSA) and SHA-1 hashing.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp836.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt836.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/11/2007",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "9/25/2007",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/23/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Thales e-Security Inc.",
+      "website_url": "http://www.thales-esecurity.com",
+      "address_lines": [
+        "900 South Pine Island Road",
+        "Suite 710",
+        "Plantation, FL 33324",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tim Fox",
+      "contact_email": "tim.fox@thales-esecurity.com",
+      "contact_phone": "+44 (0)1844 201800"
+    },
+    "algorithms": []
+  }
+}

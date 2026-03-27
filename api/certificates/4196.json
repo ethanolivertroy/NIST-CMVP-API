@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4196"
+  },
+  "certificate": {
+    "certificate_number": "4196",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4196",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4196",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4196.pdf",
+    "vendor_name": "Vcinity, Inc.",
+    "module_name": "RAD X-1040 AES-256",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/14/2022",
+    "validation_dates": [
+      "4/14/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "RAD X-1040 belongs to Vcinity’s Radical X product family and transforms the WAN into a Global LAN by encapsulating and extending RDMA over WAN across any distance. AES-256 encryption augments RAD X’s DataPrizm feature, which obfuscates and aggregates data in-flight across multiple network paths. The combined solution enables RAD X-1040 to secure the in-flight data to reduce the ever-growing risk of compromised or lost information. AES-256 encryption can be used independent of the DataPrizm function.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Design Assurance: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4196.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/14/2022",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Vcinity, Inc.",
+      "website_url": "http://vcinity.io",
+      "address_lines": [
+        "2055 Gateway Place",
+        "#650",
+        "San Jose, CA 95110",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Russel Davis",
+      "contact_email": "rdavis@vcinity.io",
+      "contact_phone": "408-841-4738"
+    },
+    "algorithms": [
+      "AES"
+    ]
+  }
+}

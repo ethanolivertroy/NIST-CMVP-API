@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3087"
+  },
+  "certificate": {
+    "certificate_number": "3087",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3087",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3087",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3087.pdf",
+    "vendor_name": "Motorola Solutions, Inc.",
+    "module_name": "Motorola Solutions Cryptographic Firmware Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/22/2017, 4/25/2018",
+    "validation_dates": [
+      "12/22/2017",
+      "4/25/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "No assurance of the minimum strength of generated keys",
+    "description": "The Crypto module is a comprehensive suite of FIPS Approved algorithms implemented in C and crossed compiled on Linux build server. The module is delivered to target application team as static library which is the logical boundary of the cryptographic module. Cryptographic module used in Motorola Solutions Astro APX series and VX series subscribers.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3087.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertDec2017.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/22/2017",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/25/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Motorola Solutions, Inc.",
+      "website_url": "http://www.motorolasolutions.com",
+      "address_lines": [
+        "1303 East Algonquin Road",
+        "Schaumburg, IL 60196",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Amalendu Roy",
+      "contact_email": "aroy@motorolasolutions.com",
+      "contact_phone": "888-325-9336"
+    },
+    "algorithms": []
+  }
+}

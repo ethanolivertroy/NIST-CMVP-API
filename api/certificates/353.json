@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/353"
+  },
+  "certificate": {
+    "certificate_number": "353",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/353",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/353",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp353.pdf",
+    "vendor_name": "Fortress™ Technologies, Inc.",
+    "module_name": "NetFortress™ Cryptographic Kernel",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "10/27/2003, 3/26/2010, 5/17/2013",
+    "validation_dates": [
+      "10/27/2003",
+      "3/26/2010",
+      "5/17/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The NetFortress™ Cryptographic Kernel secures private communications among corporate divisions, branch offices, and mobile users. Installed by the vendor onto a production-quality hardware platform and deployable on any LAN or WAN, the NF Crypto Kernel provides encryption, data integrity checking, authentication, access control, data compression, and firewall capabilities; it is IPSec compliant.",
+    "security_level_exceptions": [
+      "Roles and Services: Level 2",
+      "Software Security: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp353.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt353.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/27/2003",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "3/26/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/17/2013",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Fortress™ Technologies, Inc.",
+      "website_url": "http://www.gdfortress.com",
+      "address_lines": [
+        "2 Technology Park Dr",
+        "Westford, MA 01886-3140",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Certification Director",
+      "contact_email": "CertTeam@gd-broadband.com",
+      "contact_phone": "978-923-6400"
+    },
+    "algorithms": []
+  }
+}

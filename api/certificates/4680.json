@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4680"
+  },
+  "certificate": {
+    "certificate_number": "4680",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4680",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4680",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4680.pdf",
+    "vendor_name": "Hypersecu Information Systems Inc.",
+    "module_name": "Hypersecu HYP2003 MFA Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "3/19/2024",
+    "validation_dates": [
+      "3/19/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "The Module is a single chip embodiment implementing the JavaCard and Global Platform operational environment with a Card Manager, that is also considered an Issuer Security Domain (ISD), and five Applets. The Module meets FIPS 140-2 overall Level 2 requirements.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4680.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2024_010424_0643 signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/19/2024",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hypersecu Information Systems Inc.",
+      "website_url": "http://www.hypersecu.com",
+      "address_lines": [
+        "#200-6191 Westminster Hwy,",
+        "Richmond, BC V7C 4V4",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "James Li",
+      "contact_email": "james@hypersecu.com",
+      "contact_phone": "(604) 279-2000"
+    },
+    "algorithms": []
+  }
+}

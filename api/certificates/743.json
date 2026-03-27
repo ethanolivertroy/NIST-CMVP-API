@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/743"
+  },
+  "certificate": {
+    "certificate_number": "743",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/743",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/743",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp743.pdf",
+    "vendor_name": "Encryption Solutions, Inc.",
+    "module_name": "SkyLOCK™ Encryption Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "3/9/2007",
+    "validation_dates": [
+      "3/9/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The SkyLOCK cryptographic module will be used by Encryption Solutions, Inc. to provide clients with a fast, efficient, and secure solution for protecting information, data and files. The SkyLOCK cryptographic module is the core of all products in the SkyLOCK family. With uses including data storage, file transfer, streaming, and email, SkyLOCK products cover a wide range of security applications and needs. These robust software products provide security in both wired and wireless environments.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp743.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt743.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/9/2007",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Encryption Solutions, Inc.",
+      "website_url": "http://www.encryptionsolutions.net",
+      "address_lines": [
+        "1740 E. Garry Ave.",
+        "Suite 110",
+        "Santa Ana, CA 92705",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Frederick C. Meyer",
+      "contact_email": "fcmeyer@encryptionsolutions.net",
+      "contact_phone": "949-660-0102"
+    },
+    "algorithms": []
+  }
+}

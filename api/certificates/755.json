@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/755"
+  },
+  "certificate": {
+    "certificate_number": "755",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/755",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/755",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp755.pdf",
+    "vendor_name": "Sharp Corporation",
+    "module_name": "SHARP JCOP31ID FIPS",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "4/11/2007",
+    "validation_dates": [
+      "4/11/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The single-chip module is a 16-bit Sharp processor and a specifically modified version of the IBM JCOP 31-ID Java Card software satisfying the FIPS 140-2 requirements. The single-chip module provides an operational environment with up to 640 kBytes of Cryptographic Officer/Issuer available non-volatile memory. The defined user space allows for multiple validated applets to be concurrently loaded and used, as well as supporting re-issuance capability. The primary purpose for this device is to provide data security for Personnel Identification.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp755.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt755.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/11/2007",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Sharp Corporation",
+      "website_url": "http://www.sharp-world.com/index.html",
+      "address_lines": [
+        "1-9-2, Nakase",
+        "Mihama-ku, Chiba-shi, Chiba 251-8520",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "Kazuhiro Yaegawa",
+      "contact_email": "yaegawa.kazuhiro@sharp.co.jp",
+      "contact_phone": "+81-43-299-8368"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/928"
+  },
+  "certificate": {
+    "certificate_number": "928",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/928",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/928",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp928.pdf",
+    "vendor_name": "Comtech Mobile Datacom Corporation",
+    "module_name": "MTM-203 Satellite Mobile Transceiver",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "3/18/2008, 4/29/2008, 12/3/2008",
+    "validation_dates": [
+      "3/18/2008",
+      "4/29/2008",
+      "12/3/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "CMDC's MTM-203 is a small, low power L-Band satellite transceiver for power, weight and space-restrictive applications. The MTM-203 is designed for easy integration into systems that benefit from secure, near real-time, over-the-horizon communications. The MTM-203 is based on battlefield proven technology that enables many new applications, such as handheld and covert devices. The module provides messaging connectivity worldwide with other mobile and terrestrial connected users of CMDC's proprietary network. CMDC's products operate on a variety of satellite providers without reconfiguration.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp928.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt928.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/18/2008",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "4/29/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/3/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Comtech Mobile Datacom Corporation",
+      "website_url": "http://www.comtechmobile.com",
+      "address_lines": [
+        "20430 Century Blvd.",
+        "Gaithersburg, MD 20874",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "John Fossaceca",
+      "contact_email": "John.Fossaceca@comtechmobile.com",
+      "contact_phone": "240-686-2146"
+    },
+    "algorithms": []
+  }
+}

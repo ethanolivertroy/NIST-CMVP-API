@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4195"
+  },
+  "certificate": {
+    "certificate_number": "4195",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4195",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4195",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4195.pdf",
+    "vendor_name": "Thales",
+    "module_name": "Thales Luna Backup HSM Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "4/14/2022",
+    "validation_dates": [
+      "4/14/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode.",
+    "description": "The Thales Luna Backup HSM Cryptographic Module is a multi-chip standalone hardware cryptographic module in the small form factor device that connects to a computer workstation or server via USB. The cryptographic module is contained in its own enclosure that provides physical resistance to tampering.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4195.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/14/2022",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Thales",
+      "website_url": "https://www.thalesgroup.com/",
+      "address_lines": [
+        "20 Colonnade Road, Suite 200",
+        "Ottawa, ON K2E 7M6",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Security & Certifications Team",
+      "contact_email": "SecurityCertifications@thalesgroup.onmicrosoft.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

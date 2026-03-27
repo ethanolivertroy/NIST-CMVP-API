@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5001"
+  },
+  "certificate": {
+    "certificate_number": "5001",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5001",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5001",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5001.pdf",
+    "vendor_name": "Arista Networks, Inc.",
+    "module_name": "Arista Crypto Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/17/2025, 2/27/2026",
+    "validation_dates": [
+      "4/17/2025",
+      "2/27/2026"
+    ],
+    "sunset_date": "4/16/2030",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "Arista’s crypto library is a comprehensive suite of FIPS Approved algorithms. Many key sizes and modes have been implemented to allow flexibility and efficiency.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5001.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/17/2025",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      },
+      {
+        "date": "2/27/2026",
+        "type": "Update",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Arista Networks, Inc.",
+      "website_url": "http://www.arista.com",
+      "address_lines": [
+        "5453 Great America Parkway",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Arista Networks Certification Team",
+      "contact_email": "cert-team@arista.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": []
+  }
+}

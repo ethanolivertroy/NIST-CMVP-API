@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4763"
+  },
+  "certificate": {
+    "certificate_number": "4763",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4763",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4763",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4763.pdf",
+    "vendor_name": "Peplink Pepwave Limited",
+    "module_name": "Peplink FIPS Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/16/2024, 1/23/2025, 12/16/2025, 2/12/2026",
+    "validation_dates": [
+      "8/16/2024",
+      "1/23/2025",
+      "12/16/2025",
+      "2/12/2026"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The Peplink FIPS Module is a security module that provides FIPS-approved cryptographic functions and services to a wide range of Peplink products.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4763.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2024_010924_0336.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/16/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "1/23/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "12/16/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "2/12/2026",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Peplink Pepwave Limited",
+      "website_url": "http://www.peplink.com",
+      "address_lines": [],
+      "country": null,
+      "contact_name": "Peplink Security Team",
+      "contact_email": "security@peplink.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

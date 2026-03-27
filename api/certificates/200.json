@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/200"
+  },
+  "certificate": {
+    "certificate_number": "200",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/200",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/200",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp200.pdf",
+    "vendor_name": "SafeNet, Inc.",
+    "module_name": "SafeEnterprise™ Frame Encryptor-High Speed Serial Interface (SFE HSSI)",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 3,
+    "validation_date": "12/18/2001, 4/11/2002, 5/15/2002, 7/18/2002, 7/3/2003, 10/19/2004",
+    "validation_dates": [
+      "12/18/2001",
+      "4/11/2002",
+      "5/15/2002",
+      "7/18/2002",
+      "7/3/2003",
+      "10/19/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The SFE-HSSI protects information flowing between nodes or sites of a frame relay network. It can be con-figured to either allow or disallow information flow between two frame relay nodes. Furthermore, the information flow can be either protected through encryption or passed without encryption. The SFE-HSSI support full-duplex traffic throughput of between 56-256 kbps for 32-1022 secure connections. The SFE will achieve this throughput for the smaller frames as well (64 byte frames is a target).",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp200.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt200.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/18/2001",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "4/11/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/15/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/18/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/3/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/19/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SafeNet, Inc.",
+      "website_url": "http://www.safenet-inc.com",
+      "address_lines": [
+        "4690 Millennium Drive",
+        "Belcamp, MD 21017",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Glenn Constable",
+      "contact_email": "gconstable@safenet-inc.com",
+      "contact_phone": "919-462-1900 x212"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/419"
+  },
+  "certificate": {
+    "certificate_number": "419",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/419",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/419",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp419.pdf",
+    "vendor_name": "Blue Ridge Networks",
+    "module_name": "BorderGuard 4000 and BorderGuard 3140",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "5/6/2004",
+    "validation_dates": [
+      "5/6/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The BG4000 and BG3140 are network security appliances for the construction of secure Virtual Private Networks between Internet sites, and between Internet sites and individual remote users.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp419.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt419.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/6/2004",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      }
+    ],
+    "vendor": {
+      "name": "Blue Ridge Networks",
+      "website_url": "http://www.blueridgenetworks.com",
+      "address_lines": [
+        "14120 Parke Long Court",
+        "Chantilly, VA 20151",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tom Gilbert",
+      "contact_email": "tom@blueridgenetworks.com",
+      "contact_phone": "703-631-0700"
+    },
+    "algorithms": []
+  }
+}

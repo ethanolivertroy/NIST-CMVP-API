@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3344"
+  },
+  "certificate": {
+    "certificate_number": "3344",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3344",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3344",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3344.pdf",
+    "vendor_name": "Okta, Inc.",
+    "module_name": "Okta Cryptographic Module for Mobile",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/17/2018, 3/8/2022",
+    "validation_dates": [
+      "12/17/2018",
+      "3/8/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security relevant modification to Cert. #1938.",
+    "description": "The Okta Cryptographic Module for JavaMobile manages functions for secure key management, data integrity, data at rest encryption, and secure communications for the Okta Multifactor Authentication solution.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3344.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/Dec2018Cert.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/17/2018",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "3/8/2022",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Okta, Inc.",
+      "website_url": "http://www.okta.com",
+      "address_lines": [
+        "100 First St. 14th Floor",
+        "San Francisco, CA 94105",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Christopher Niggel",
+      "contact_email": "fedramp@okta.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

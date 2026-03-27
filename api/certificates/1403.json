@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1403"
+  },
+  "certificate": {
+    "certificate_number": "1403",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1403",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1403",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1403.pdf",
+    "vendor_name": "Hewlett-Packard Company",
+    "module_name": "HP OpenCall HLR Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "9/15/2010, 3/28/2013",
+    "validation_dates": [
+      "9/15/2010",
+      "3/28/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The HP OpenCall HLR Cryptographic Module provides cryptographic services that allows the HP OpenCall HLR to protect sensitive application and subscriber data at rest and during transit.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1403.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1403.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/15/2010",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "3/28/2013",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett-Packard Company",
+      "website_url": "http://www.hp.com/go/atalla",
+      "address_lines": [
+        "1160 Enterprise Way",
+        "Cupertino, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Nagesh Kuriyavar",
+      "contact_email": "nagesh.kuriyavar@hp.com",
+      "contact_phone": "402-758-7262"
+    },
+    "algorithms": []
+  }
+}

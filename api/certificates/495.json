@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/495"
+  },
+  "certificate": {
+    "certificate_number": "495",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/495",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/495",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp495.pdf",
+    "vendor_name": "Thales e-Security Inc.",
+    "module_name": "Thales Datacryptor Gigabit",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "1/7/2005, 10/13/2005",
+    "validation_dates": [
+      "1/7/2005",
+      "10/13/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Datacryptor Gigabit is a high performance, integrated security appliance that offers Gigabit Ethernet IPSec encryption. Housed in a tamper evident chassis, the Datacryptor Gigabit has two Gigabit Ethernet ports. Traffic on the local port is received in the clear, while traffic on the remote port has security processing applied to it. Fully compatible with existing IP networks, the Datacryptor Gigabit can be seamlessly deployed into Gigabit Ethernet environments, including IP siteto-site VPNs and storage over IP networks. Its high-speed AES and 3DES IPSec processing eliminates bottlenecks while providing data authentication, confidentiality, and integrity.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp495.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt495.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/7/2005",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "10/13/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Thales e-Security Inc.",
+      "website_url": "http://www.thales-esecurity.com",
+      "address_lines": [
+        "900 South Pine Island Road",
+        "Suite 710",
+        "Plantation, FL 33324",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Juan Asenjo",
+      "contact_email": "juan.asenjo@thales-esecurity.com",
+      "contact_phone": "888-744-4976 x6202"
+    },
+    "algorithms": []
+  }
+}

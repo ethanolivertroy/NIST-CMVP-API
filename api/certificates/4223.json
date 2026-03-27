@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4223"
+  },
+  "certificate": {
+    "certificate_number": "4223",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4223",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4223",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4223.pdf",
+    "vendor_name": "Nokia Corporation",
+    "module_name": "7705 SAR-OS SAR-18/8/X/Ax/Wx/W/H/Hc Data Plane Cryptographic Module (SARDCM)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "5/10/2022, 12/21/2022",
+    "validation_dates": [
+      "5/10/2022",
+      "12/21/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. When installed, initialized and configured as specified in the Security Policy Section 9.1",
+    "description": "The 7705 SAR-OS SAR-18/8/X/Ax/Wx/W/H/Hc Control Plane Cryptographic Module (SARDPCM) provides the cryptographic algorithm functions needed to allow SAR-OS to implement cryptography for those services and protocols that require it.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4223.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2022_010622_0641_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/10/2022",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "12/21/2022",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Nokia Corporation",
+      "website_url": "http://www.nokia.com",
+      "address_lines": [
+        "600 March Road",
+        "Ottawa, ON K2K 2EK",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Hooman",
+      "contact_email": null,
+      "contact_phone": "613-784-3045"
+    },
+    "algorithms": []
+  }
+}

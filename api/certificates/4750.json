@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4750"
+  },
+  "certificate": {
+    "certificate_number": "4750",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4750",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4750",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4750.pdf",
+    "vendor_name": "Cloudlinux Inc., TuxCare division",
+    "module_name": "Kernel Cryptography Module for AlmaLinux 9",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/2/2024, 8/7/2025",
+    "validation_dates": [
+      "8/2/2024",
+      "8/7/2025"
+    ],
+    "sunset_date": "8/1/2029",
+    "caveat": "Interim validation. When operated in approved mode. When installed, initialized and configured as specified in Section 11 of the Security Policy.",
+    "description": "The Linux kernel crypto API implementation provides cryptographic services to Linux kernel space software components and user space via the AF_ALG interface.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4750.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2024_010924_0336.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/2/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "8/7/2025",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Cloudlinux Inc., TuxCare division",
+      "website_url": "http://www.tuxcare.com",
+      "address_lines": [
+        "2318 Louis Road, Suite B",
+        "Palo Alto, CA 94303",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Simon John",
+      "contact_email": "sjohn@tuxcare.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "HMAC",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

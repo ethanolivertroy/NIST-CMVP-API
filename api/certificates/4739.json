@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4739"
+  },
+  "certificate": {
+    "certificate_number": "4739",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4739",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4739",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4739.pdf",
+    "vendor_name": "Oracle Corporation",
+    "module_name": "Oracle Linux 8 Unbreakable Enterprise Kernel (UEK7) Cryptographic Module and Oracle Linux 9 Unbreakable Enterprise Kernel (UEK7) Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/25/2024, 8/22/2025",
+    "validation_dates": [
+      "7/25/2024",
+      "8/22/2025"
+    ],
+    "sunset_date": "7/24/2026",
+    "caveat": "Interim validation. When operated in Approved mode. When installed, initialized and configured as specified in section 11 of the Security Policy.",
+    "description": "Oracle Linux 8 Unbreakable Enterprise Kernel (UEK7) Cryptographic Module and Oracle Linux 9 Unbreakable Enterprise Kernel (UEK7) API provides a C language API for use by other (kernel space and user space) processes that require cryptographic functionality",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4739.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2024_010824_1146.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/25/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "8/22/2025",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Oracle Corporation",
+      "website_url": "http://www.oracle.com",
+      "address_lines": [
+        "2300 Oracle Way",
+        "Austin, TX 78741",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Security Evaluation team",
+      "contact_email": "seceval_us@oracle.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2612"
+  },
+  "certificate": {
+    "certificate_number": "2612",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2612",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2612",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2612.pdf",
+    "vendor_name": "Qualcomm Technologies, Inc.",
+    "module_name": "Qualcomm Pseudo Random Number Generator",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "4/8/2016, 6/12/2017, 2/12/2018, 10/10/2020",
+    "validation_dates": [
+      "4/8/2016",
+      "6/12/2017",
+      "2/12/2018",
+      "10/10/2020"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Qualcomm Pseudo Random Number Generator is a hardware random number generator that provides cryptographic functions through on-chip entropy sources and hash based DRBG.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2612.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertApril2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/8/2016",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "6/12/2017",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "2/12/2018",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "10/10/2020",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Qualcomm Technologies, Inc.",
+      "website_url": "http://www.qualcomm.com",
+      "address_lines": [
+        "5775 Morehouse Dr",
+        "San Diego, CA 92121",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Yin Ling Liong",
+      "contact_email": "yliong@qti.qualcomm.com",
+      "contact_phone": "858-651-7034"
+    },
+    "algorithms": []
+  }
+}

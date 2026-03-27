@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3424"
+  },
+  "certificate": {
+    "certificate_number": "3424",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3424",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3424",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3424.pdf",
+    "vendor_name": "Symantec & CA Technologies, a division of Broadcom",
+    "module_name": "Management Center Virtual Appliance",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/1/2019, 3/22/2021",
+    "validation_dates": [
+      "4/1/2019",
+      "3/22/2021"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in Section 3.1 of the Security Policy",
+    "description": "Symantec Management Center is a powerful, unified management platform that gives you centralized visibility over Symantec’s product portfolio. With a single pane of glass, you can see your Symantec deployments, including ProxySG, SSL Visibility Appliance, Content Analysis, Malware Analysis, and PacketShaper. You can also scale deployments and apply powerful proxy policies throughout your environment that address your specific needs and ensure the consistent application of web security and governance.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3424.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/AprilConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/1/2019",
+        "type": "Initial",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "3/22/2021",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Symantec & CA Technologies, a division of Broadcom",
+      "website_url": "http://www.broadcom.com",
+      "address_lines": [
+        "1320 Ridder Park Dr",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Nicholas Hulse",
+      "contact_email": "diana.robinson@broadcom.com",
+      "contact_phone": "845-502-0912"
+    },
+    "algorithms": []
+  }
+}

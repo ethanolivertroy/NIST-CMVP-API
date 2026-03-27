@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5109"
+  },
+  "certificate": {
+    "certificate_number": "5109",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5109",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5109",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5109.pdf",
+    "vendor_name": "STMicroelectronics",
+    "module_name": "Trusted Platform Module ST33KTPM2X / ST33KTPM2XSPI",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "12/15/2025",
+    "validation_dates": [
+      "12/15/2025"
+    ],
+    "sunset_date": "12/14/2030",
+    "caveat": "When installed, initialized and configured as specified in Section 11 of the Security Policy; When operated in approved mode",
+    "description": "The ST33KTPM2X and ST33KTPM2XSPI Trusted Platform Modules are discrete security modules designed to be integrated into personal computers or any other embedded electronic systems. The security module is used primarily for cryptographic keys generation, keys storage, keys management and secure storage for digital certificates.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Physical security: Level 3",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5109.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/15/2025",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "STMicroelectronics",
+      "website_url": "http://www.st.com",
+      "address_lines": [
+        "10 Rue de Jouanet",
+        "Rennes 35700",
+        "France"
+      ],
+      "country": "France",
+      "contact_name": "Olivier Collart",
+      "contact_email": "olivier.collart@st.com",
+      "contact_phone": "3227245077"
+    },
+    "algorithms": []
+  }
+}

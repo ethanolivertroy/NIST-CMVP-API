@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4157"
+  },
+  "certificate": {
+    "certificate_number": "4157",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4157",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4157",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4157.pdf",
+    "vendor_name": "Christine Wireless, Inc.",
+    "module_name": "Tactical Key Management Device (TKMD)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "2/16/2022",
+    "validation_dates": [
+      "2/16/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The TKMD is a low-cost single unit that implements the TIA Project 25 Over-the-Air Rekey standard to provide a Key Management Facility (KMF) for 500 and up to 3000 Subscriber Radios. The TKMD can be utilized as a stand-alone KMF for use in a campus environment or can be utilized in a network environment where Subscriber Radio configurations can be securely shared between TKMDs. The networked TKMDs can also securely share collections of Cryptographic keys to allow periodic updating of Cryptographic keys. Control of the TKMD is accomplished with a secure (https) connection to a web browser.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4157.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2022_010322_0121_Signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/16/2022",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Christine Wireless, Inc.",
+      "website_url": "http://www.christinewireless.com",
+      "address_lines": [
+        "3079 Saint Johns Lane",
+        "Ellicott City, MD 21042",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Richard Brockway",
+      "contact_email": "richard.brockway@verizon.net",
+      "contact_phone": "410-961-7331"
+    },
+    "algorithms": [
+      "AES"
+    ]
+  }
+}

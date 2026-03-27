@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4690"
+  },
+  "certificate": {
+    "certificate_number": "4690",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4690",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4690",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4690.pdf",
+    "vendor_name": "Eclypses, Inc.",
+    "module_name": "Eclypses Cryptographic Library",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/5/2024",
+    "validation_dates": [
+      "4/5/2024"
+    ],
+    "sunset_date": "4/4/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys); No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The Eclypses Cryptographic Library is a proprietary, general purpose cryptographic library with an API targeted toward high performance and minimal footprint. It was designed to have no dependencies or interactions with the operating system or any other libraries; the only interactions are to perform cryptographic algorithms when requested by application code. It was designed to support a wide range of operating environments with as much common code as possible.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4690.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2024_010524_0757.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/5/2024",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Eclypses, Inc.",
+      "website_url": "http://www.eclypses.com",
+      "address_lines": [
+        "33 Broad Street",
+        "11th Floor",
+        "Boston, MA 02109",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Aron Seader",
+      "contact_email": "fips-certification@eclypses.com",
+      "contact_phone": "719-323-6680"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "SHA"
+    ]
+  }
+}

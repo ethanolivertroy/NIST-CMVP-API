@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1072"
+  },
+  "certificate": {
+    "certificate_number": "1072",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1072",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1072",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1072.pdf",
+    "vendor_name": "RELM Wireless Corporation",
+    "module_name": "FIPSCOM Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 1,
+    "validation_date": "12/24/2008",
+    "validation_dates": [
+      "12/24/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The FIPSCOM is an embedded cryptographic module that provides encryption functions for secure digital communications products. The FIPSCOM can be incorporated into any BK Radio brand subscriber equipment requiring FIPS 140-2, Level 1 security.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1072.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1072.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/24/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "RELM Wireless Corporation",
+      "website_url": "http://www.relm.com",
+      "address_lines": [
+        "7100 Technology Drive",
+        "West Melbourne, FL 32904",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jim Holthaus",
+      "contact_email": "jholthaus@relm.com",
+      "contact_phone": "402-896-6406"
+    },
+    "algorithms": []
+  }
+}

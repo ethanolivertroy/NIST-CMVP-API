@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4677"
+  },
+  "certificate": {
+    "certificate_number": "4677",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4677",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4677",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4677.pdf",
+    "vendor_name": "DataKrypto US, Inc.",
+    "module_name": "DataKrypto Fully Homomorphic Encryption Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "2/22/2024",
+    "validation_dates": [
+      "2/22/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "The DataKrypto Fully Homomorphic Encryption Module is a cryptographic engine for DataKrypto's Fhenom and Fhenom for Images. Fhenom is a fully homomorphic encryption module. Fhenom for Images is a fully homomorphic image encryption module that allows images to be processed while remaining images. Both products use core cryptographic functions to perform secure key management, data integrity and secure communications.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4677.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2024_010324_0738.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/22/2024",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "DataKrypto US, Inc.",
+      "website_url": "http://www.datakrypto.com",
+      "address_lines": [
+        "533 Airport Blvd",
+        "Suite 400",
+        "Burlingame, CA 94010",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Luigi Caramico",
+      "contact_email": "luigi.caramico@datakrypto.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

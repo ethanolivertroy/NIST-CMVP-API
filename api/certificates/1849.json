@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1849"
+  },
+  "certificate": {
+    "certificate_number": "1849",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1849",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1849",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1849.pdf",
+    "vendor_name": "Aruba Networks, Inc.",
+    "module_name": "Aruba AP-60 and AP-61 Wireless Access Points",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "12/6/2012, 1/24/2013, 7/26/2013, 1/23/2014",
+    "validation_dates": [
+      "12/6/2012",
+      "1/24/2013",
+      "7/26/2013",
+      "1/23/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with tamper evident labels installed as indicated in the Security Policy",
+    "description": "Aruba's Wi-Fi access points serve as secure network on-ramps, aggregating wireless user traffic and forwarding it to Aruba's highly secure Mobility Controllers, where per-user role based access controls are applied through an integrated firewall. In FIPS 140-2 Mode, Aruba APs in conjunction with the Mobility Controller support the IEEE 802.11i/WPA2 client standard along with optional Suite B cryptography. Aruba APs also provide wireless intrusion detection/prevention services, support wireless mesh topologies, and have Wi-Fi Alliance certification for IEEE 802.11a/b/g/n.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1849.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0024.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/6/2012",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "1/24/2013",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/26/2013",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "1/23/2014",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Aruba Networks, Inc.",
+      "website_url": "http://www.arubanetworks.com",
+      "address_lines": [
+        "1322 Crossman Avenue",
+        "Sunnyvale, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jon Green",
+      "contact_email": "fips@arubanetworks.com",
+      "contact_phone": "408-227-4500"
+    },
+    "algorithms": []
+  }
+}

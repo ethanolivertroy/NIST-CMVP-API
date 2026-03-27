@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4190"
+  },
+  "certificate": {
+    "certificate_number": "4190",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4190",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4190",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4190.pdf",
+    "vendor_name": "WinMagic Corp",
+    "module_name": "SecureDoc® Cryptographic Engine for Windows",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/4/2022",
+    "validation_dates": [
+      "4/4/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "SecureDoc® Cryptographic Engine for Windows provides cryptographic services for the WinMagic software products running on Windows platforms.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4190.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/4/2022",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "WinMagic Corp",
+      "website_url": "http://www.winmagic.com",
+      "address_lines": [
+        "5770 Hurontario St",
+        "Suite 501",
+        "Mississauga, ON L5R 3G5",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Alexander Mazuruc",
+      "contact_email": "alexm@winmagic.com",
+      "contact_phone": "905-502-7000 ext. 3225"
+    },
+    "algorithms": []
+  }
+}

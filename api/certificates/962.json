@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/962"
+  },
+  "certificate": {
+    "certificate_number": "962",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/962",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/962",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp962.pdf",
+    "vendor_name": "ActivIdentity, Inc.",
+    "module_name": "ActivIdentity Digital Identity Applet Suite V2 for Extended PIV",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "6/12/2008, 6/23/2008, 2/6/2014",
+    "validation_dates": [
+      "6/12/2008",
+      "6/23/2008",
+      "2/6/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "This version of the product can be used over contact and contactless interface (with some restrictions) and can be configured for use with ActivIdentity applet suite v2.6.2 for the support of GSC-IS v2.1, NIST SP800-73-1 Transitional and End-Point Card Edge (for HSPD-12/PIV). The product allows issuance and post-issuance support for PIV End Point Card Edge and Data Model. The validated product is similar to Applet v2.6.2a (FIPS 140-2 Cert. #880), but added the One Time Password applet.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp962.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt962.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/12/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/23/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/6/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "ActivIdentity, Inc.",
+      "website_url": "http://www.actividentity.com",
+      "address_lines": [
+        "6623 Dumbarton Circle",
+        "Fremont, CA 94555",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Stephane Ardiley",
+      "contact_email": "stephane.ardiley@actividentity.com",
+      "contact_phone": "510-745-6288"
+    },
+    "algorithms": []
+  }
+}

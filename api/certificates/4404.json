@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4404"
+  },
+  "certificate": {
+    "certificate_number": "4404",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4404",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4404",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4404.pdf",
+    "vendor_name": "IBM Corporation",
+    "module_name": "IBM Cloud Object Storage System’s™ FIPS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/4/2023, 6/5/2024",
+    "validation_dates": [
+      "1/4/2023",
+      "6/5/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "Cryptographic module used for IBM’s Cloud Object Storage system components",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4404.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2023_010223_0657_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/4/2023",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      },
+      {
+        "date": "6/5/2024",
+        "type": "Update",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "IBM Corporation",
+      "website_url": "http://www.ibm.com",
+      "address_lines": [
+        "222 S Riverside Plz Ste 1700",
+        "Chicago, IL 60606",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jason Cox",
+      "contact_email": "Jason.P.Cox@ibm.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

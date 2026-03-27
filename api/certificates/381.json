@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/381"
+  },
+  "certificate": {
+    "certificate_number": "381",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/381",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/381",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp381.pdf",
+    "vendor_name": "Microsoft Corporation",
+    "module_name": "Windows Server 2003 Enhanced DSS and Diffie-Hellman Cryptographic Provider (DSSENH)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "2/17/2004, 10/25/2005, 10/15/2007",
+    "validation_dates": [
+      "2/17/2004",
+      "10/25/2005",
+      "10/15/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Windows Server 2003 Enhanced DSS and Diffie-Hellman Cryptographic Provider (DSSENH) is a FIPS 140-2 compliant, softwarebased, cryptographic module. DSSENH encapsulates several different cryptographic algorithms (including SHA-1, DES, 3DES, DSA and Diffie- Hellman) in a cryptographic module accessible via the Microsoft CryptoAPI (CAPI).",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp381.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt381.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/17/2004",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "10/25/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/15/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Microsoft Corporation",
+      "website_url": "http://www.microsoft.com",
+      "address_lines": [
+        "One Microsoft Way",
+        "Redmond, WA 98052-6399",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dave Friant",
+      "contact_email": "Friant@microsoft.com",
+      "contact_phone": "425-704-7984"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/751"
+  },
+  "certificate": {
+    "certificate_number": "751",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/751",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/751",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp751.pdf",
+    "vendor_name": "SecureLogix Corporation",
+    "module_name": "ETM® System Software Application C Comm Crypto Module, Version 5.0",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "3/23/2007",
+    "validation_dates": [
+      "3/23/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The ETM System is a PBX/soft switch-independent, easy-to-use platform that supports security and management applications for real-time visibility, security, and control of telecommunications resources across the enterprise. The ETM System's C Language Applications Dynamic Link Library provides Triple DES encryption routines for Windows-based ETM Applications. The C Language DLL is used to secure network communications between the ETM Collection Server and ETM Call Recorder Cache Appliances.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp751.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt751.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/23/2007",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "SecureLogix Corporation",
+      "website_url": "http://www.securelogix.com",
+      "address_lines": [
+        "13750 San Pedro",
+        "Suite 230",
+        "San Antonio, TX 78232",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jane Byrne",
+      "contact_email": "jbyrne@securelogix.com",
+      "contact_phone": "210-402-9669"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4632"
+  },
+  "certificate": {
+    "certificate_number": "4632",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4632",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4632",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4632.pdf",
+    "vendor_name": "DataStax, Inc.",
+    "module_name": "Datastax BC-FJA (Bouncy Castle FIPS Java API)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/9/2023",
+    "validation_dates": [
+      "10/9/2023"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in the Security Policy Section 8 and operated in FIPS mode. The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "The Datastax BC-FJA (Bouncy Castle FIPS Java API) is a software cryptographic module that provides cryptographic functions and services to various Datastax applications via a Java-language API",
+    "security_level_exceptions": [
+      "Physical Security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4632.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2023_011123_0711.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/9/2023",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "DataStax, Inc.",
+      "website_url": "http://www.datastax.com",
+      "address_lines": [
+        "2755 Augustine Drive, 8th Floor",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Pushkala Pattabhiraman",
+      "contact_email": "security@datastax.com",
+      "contact_phone": "+1 650-389-6000"
+    },
+    "algorithms": []
+  }
+}

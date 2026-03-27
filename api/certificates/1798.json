@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1798"
+  },
+  "certificate": {
+    "certificate_number": "1798",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1798",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1798",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1798.pdf",
+    "vendor_name": "Certes Networks, Inc.",
+    "module_name": "CEP10-R, CEP10 VSE and CEP10-C",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "9/6/2012, 3/8/2013",
+    "validation_dates": [
+      "9/6/2012",
+      "3/8/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Certes Networks CEP VSE encryptors are a family of high performance network encryption appliances that offer full line rate multi-layer encryption at speeds from 10 Mbps up to 10 Gbps for Ethernet, IP, and MPLS networks. The CEP VSE family can be centrally managed with the simple drag-and-drop interface of Certes TrustNet Manager. TrustNet Manager provides centralized policy and key management, logging and auditing for the entire network. The CEP10 VSE provides data confidentiality, data integrity and data authentication for network traffic at bit rates from 3 Mbps to 50 Mbps.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1798.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0021.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/6/2012",
+        "type": "Initial",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "3/8/2013",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Certes Networks, Inc.",
+      "website_url": "http://www.certesnetworks.com",
+      "address_lines": [
+        "300 Corporate Center Drive",
+        "Suite 140",
+        "Pittsburgh, PA 15108",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Gary Brunner",
+      "contact_email": "todd.cignetti@certesnetworks.com",
+      "contact_phone": "412-262-2571, ext. 101"
+    },
+    "algorithms": []
+  }
+}

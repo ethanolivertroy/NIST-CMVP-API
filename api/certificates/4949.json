@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4949"
+  },
+  "certificate": {
+    "certificate_number": "4949",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4949",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4949",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4949.pdf",
+    "vendor_name": "CyberArk Software Ltd.",
+    "module_name": "CyberArk Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/23/2025",
+    "validation_dates": [
+      "1/23/2025"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys.",
+    "description": "CyberArk Cryptographic Module is a standards-based cryptographic engine for servers and appliances. The module delivers core cryptographic functions to server platforms and features robust algorithm support, including Suite B algorithms. CyberArk Cryptographic Module offloads secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4949.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/23/2025",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "CyberArk Software Ltd.",
+      "website_url": "http://www.cyberark.com/",
+      "address_lines": [
+        "9 Hapsagot St. Park Ofer 2",
+        "P.O. Box 3143",
+        "Petach-Tikva 4951040",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "[email protected]",
+      "contact_email": "Federal@cyberark.com",
+      "contact_phone": "+1 888-808-9005"
+    },
+    "algorithms": []
+  }
+}

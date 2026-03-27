@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4300"
+  },
+  "certificate": {
+    "certificate_number": "4300",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4300",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4300",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4300.pdf",
+    "vendor_name": "LogRhythm",
+    "module_name": "LogRhythm 7.8.0 AI Engine Server",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/12/2022",
+    "validation_dates": [
+      "9/12/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode with module Cryptographic Primitives Library validated to FIPS 140-2 under Cert. #3197 operating in FIPS mode",
+    "description": "The LogRhythm 7.8.0 AI Engine Server cryptographic module provides cryptographic services to an AI Engine Server. In particular, these services support secure communication with LogRhythm Data Processors and Platform Manager SQL Server databases.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4300.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/September 2022_031022_0652_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/12/2022",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "LogRhythm",
+      "website_url": "http://www.logrhythm.com/",
+      "address_lines": [
+        "4780 Pearl East Circle",
+        "Boulder, CO 80301",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Angie Lawn",
+      "contact_email": "Angie.lawn@logrhythm.com",
+      "contact_phone": "720-881-5400"
+    },
+    "algorithms": []
+  }
+}

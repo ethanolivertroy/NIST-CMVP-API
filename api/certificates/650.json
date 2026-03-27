@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/650"
+  },
+  "certificate": {
+    "certificate_number": "650",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/650",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/650",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp650.pdf",
+    "vendor_name": "Ian Donnelly Systems, Inc.",
+    "module_name": "KEY-UP",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 3,
+    "validation_date": "4/3/2006, 5/18/2009",
+    "validation_dates": [
+      "4/3/2006",
+      "5/18/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "KEY-UP V5.0 security encryption devices for electronic funds transfer applications utilize the latest security specifications mandated by the American National Standard Institute (ANSI) while offering significant performance improvements and lower cost per transaction.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp650.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt650.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/3/2006",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/18/2009",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/18/2009",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Ian Donnelly Systems, Inc.",
+      "website_url": "http://iandonnellysystems.com",
+      "address_lines": [
+        "17752 Preston Road",
+        "Dallas, TX 75252",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ian B. Donnelly",
+      "contact_email": "info@keyup.biz",
+      "contact_phone": "888-980-8887"
+    },
+    "algorithms": []
+  }
+}

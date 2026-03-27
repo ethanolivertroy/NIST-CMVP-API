@@ -1,0 +1,89 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1504"
+  },
+  "certificate": {
+    "certificate_number": "1504",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1504",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1504",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1504.pdf",
+    "vendor_name": "DataLocker Inc.",
+    "module_name": "DataLocker Enterprise, V2.0 (DataLocker DL2)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "2/24/2011, 3/1/2011, 6/10/2016, 7/5/2016, 8/1/2018",
+    "validation_dates": [
+      "2/24/2011",
+      "3/1/2011",
+      "6/10/2016",
+      "7/5/2016",
+      "8/1/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The DataLocker Enterprise (also named DataLocker DL2) is a fully platform independent, portable encrypted hard drive. Compatible with MAC, Windows and Linux systems, the DataLocker operates without any host based software or drivers. It utilizes an embedded LCD touch screen interface for all authentication and administrative functions. The device is fully 256bit AES CBC Mode encrypted via a dedicated crypto engine.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1504.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0003.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/24/2011",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "3/1/2011",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/10/2016",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "7/5/2016",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "8/1/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "DataLocker Inc.",
+      "website_url": "http://www.datalocker.com",
+      "address_lines": [
+        "7300 College Blvd",
+        "Suite 600",
+        "Overland Park, KS 66210",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jay Kim",
+      "contact_email": "legal@datalocker.com",
+      "contact_phone": "913-310-9088"
+    },
+    "algorithms": []
+  }
+}

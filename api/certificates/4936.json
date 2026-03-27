@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4936"
+  },
+  "certificate": {
+    "certificate_number": "4936",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4936",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4936",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4936.pdf",
+    "vendor_name": "Silvus Technologies, Inc.",
+    "module_name": "SC4000 Series Mesh Radio",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "1/6/2025",
+    "validation_dates": [
+      "1/6/2025"
+    ],
+    "sunset_date": "1/5/2027",
+    "caveat": "Interim validation. When operated in approved mode.",
+    "description": "StreamCaster SC4200, SC4400, SL4200 and SM4200 series MIMO MANET radios provide wireless video, audio, and data connectivity. It is self-forming, self-healing, and automatically adapts to dynamic channels without the need for infrastructure. The StreamCaster radio has a powerful built-in web-based network management tool to facilitate monitoring and controlling of a large multi-hop network consisting of many StreamCaster radios.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4936.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/6/2025",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Silvus Technologies, Inc.",
+      "website_url": "http://www.silvustechnologies.com",
+      "address_lines": [
+        "10990 Wilshire Blvd.",
+        "STE 1500",
+        "Los Angeles, CA 90024",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Weijun Zhu",
+      "contact_email": "weijun@silvustechnologies.com",
+      "contact_phone": "310-479-3333"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "SHA"
+    ]
+  }
+}

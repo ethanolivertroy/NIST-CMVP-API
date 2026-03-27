@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/189"
+  },
+  "certificate": {
+    "certificate_number": "189",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/189",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/189",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp189.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "3640 VPN Router with Crypto Accelerator Card 3660 VPN Router with Crypto Accelerator Card",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "12/12/2001, 1/10/2003, 5/24/2005, 5/28/2010, 2/23/2012",
+    "validation_dates": [
+      "12/12/2001",
+      "1/10/2003",
+      "5/24/2005",
+      "5/28/2010",
+      "2/23/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Cisco Secure Integrated VPN is a router that provides data protection on a network providing packet encryption. The module performs all of the functions typical of a router. In addition to the normal routing functions, the module also provides packet encryption. The module is capable of encrypting traffic between one or more modules: providing a secure connection at the packet level.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp189.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt189.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/12/2001",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "1/10/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/24/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/28/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/23/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com/go/securitycert",
+      "address_lines": [
+        "7025-6 Kit Creek Road",
+        "PO Box 14987",
+        "Research Triangle Park, NC 27709-4987",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

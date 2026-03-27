@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1621"
+  },
+  "certificate": {
+    "certificate_number": "1621",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1621",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1621",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1621.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco 7606-S and 7609-S Routers with Supervisor SUP720-3B",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "10/28/2011, 2/9/2012, 2/23/2012, 7/9/2012, 8/16/2013",
+    "validation_dates": [
+      "10/28/2011",
+      "2/9/2012",
+      "2/23/2012",
+      "7/9/2012",
+      "8/16/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with the tamper evident labels and opacity shields installed as indicated in the Security Policy",
+    "description": "The Cisco 7606-S and 7609-S routers are designed for deployment at the network edge, where robust performance and IP/Multiprotocol Label Switching services are necessary to meet the requirements of both enterprises and service providers. It enables Carrier Ethernet service providers to deploy an advanced network infrastructure that supports a range of IP video and triple-play (voice, video, and data) system applications in both the residential and business services markets. They also deliver WAN and metropolitan-area network networking solutions at the enterprise edge.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1621.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0010.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/28/2011",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "2/9/2012",
+        "type": "Update",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "2/23/2012",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/9/2012",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/16/2013",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Drive",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

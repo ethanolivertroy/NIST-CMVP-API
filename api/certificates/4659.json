@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4659"
+  },
+  "certificate": {
+    "certificate_number": "4659",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4659",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4659",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4659.pdf",
+    "vendor_name": "Altus, Inc.",
+    "module_name": "ClioConnect Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/27/2023",
+    "validation_dates": [
+      "11/27/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "ClioConnect Cryptographic Module is a standards-based cryptographic engine for communication between servers and IoT medical carts. The module delivers core cryptographic functions to IoT-enabled medical carts and features robust algorithm support. ClioConnect Cryptographic Module offloads functions for secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation. The module ensures secured data transfer using an encrypted protocol between carts, workstations, and web servers.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4659.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2023_111223_0648_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/27/2023",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Altus, Inc.",
+      "website_url": "http://www.altus-inc.com",
+      "address_lines": [
+        "3731 Northridge Drive NW",
+        "Suite 1",
+        "Walker, MI 49544",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Bridget Conley",
+      "contact_email": "b.conley@altus-inc.com",
+      "contact_phone": "888-537-1311"
+    },
+    "algorithms": []
+  }
+}

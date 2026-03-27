@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4689"
+  },
+  "certificate": {
+    "certificate_number": "4689",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4689",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4689",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4689.pdf",
+    "vendor_name": "Pensando Systems, Inc",
+    "module_name": "Pensando TLS Library",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/3/2024",
+    "validation_dates": [
+      "4/3/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "Pensando TLS Library is a set of standard Transport Layer Security (TLS) functions that are written in the GO programming language. It supports TLS protocol version 1.2 (client and server) and standard cryptographic functions, such as SHA, AES, etc.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4689.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2024_010524_0757.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/3/2024",
+        "type": "Initial",
+        "lab": "ADVANCED DATA SECURITY"
+      }
+    ],
+    "vendor": {
+      "name": "Pensando Systems, Inc",
+      "website_url": "http://pensando.io",
+      "address_lines": [
+        "570 Alder Drive",
+        "Milpitas, CA 95035",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Lei Chen",
+      "contact_email": null,
+      "contact_phone": "408-451-9026"
+    },
+    "algorithms": [
+      "TLS"
+    ]
+  }
+}

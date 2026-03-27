@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5000"
+  },
+  "certificate": {
+    "certificate_number": "5000",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5000",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5000",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5000.pdf",
+    "vendor_name": "Pure Storage, Inc.",
+    "module_name": "FlashBlade Data Encryption Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "4/17/2025",
+    "validation_dates": [
+      "4/17/2025"
+    ],
+    "sunset_date": "4/16/2027",
+    "caveat": "Interim validation",
+    "description": "The FlashBlade Data Encryption Module is the hardware inside the proprietary storage devices responsible for performing XTS-AES-256 encryption and decryption.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5000.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/17/2025",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Pure Storage, Inc.",
+      "website_url": "http://www.purestorage.com",
+      "address_lines": [
+        "2555 Augustine Drive",
+        "Santa Clara, California 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Arturo Escorcia",
+      "contact_email": "pure-certifications@purestorage.com",
+      "contact_phone": "800-379-7873"
+    },
+    "algorithms": [
+      "AES"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/582"
+  },
+  "certificate": {
+    "certificate_number": "582",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/582",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/582",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp582.pdf",
+    "vendor_name": "Oceana Sensor Technologies, Inc.",
+    "module_name": "Fortress Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "10/27/2005",
+    "validation_dates": [
+      "10/27/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Oceana Sensor Technologies Fortress Cryptographic LibraryTM (FCL) is a cryptographically secure interface to applications both internal and external to the OST product. It has many features and supports AES, Triple DES and RSA. It is entirely a software product.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp582.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt582.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/27/2005",
+        "type": "Initial",
+        "lab": "DOMUS"
+      }
+    ],
+    "vendor": {
+      "name": "Oceana Sensor Technologies, Inc.",
+      "website_url": "http://www.oceanasensor.com",
+      "address_lines": [
+        "1632 Corporate Landing Parkway",
+        "Virginia Beach, VA 23454",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Alex Kalasinski",
+      "contact_email": "akalasinsky@oceanasensor.com",
+      "contact_phone": "757-426-3678"
+    },
+    "algorithms": []
+  }
+}

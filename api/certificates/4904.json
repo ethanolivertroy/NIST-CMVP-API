@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4904"
+  },
+  "certificate": {
+    "certificate_number": "4904",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4904",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4904",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4904.pdf",
+    "vendor_name": "Alteryx, Inc.",
+    "module_name": "Alteryx OpenSSL FIPS Provider (fips.dll)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/26/2024",
+    "validation_dates": [
+      "11/26/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The Alteryx OpenSSL FIPS Provider (fips.dll) is a software library which provides a C-language application program interface (API) for use by Alteryx applications which require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4904.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/26/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Alteryx, Inc.",
+      "website_url": "http://www.alteryx.com",
+      "address_lines": [
+        "17200 Laguna Canyon Road",
+        "Irvine, CA 92618",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "Olegario Craig",
+      "contact_email": "ossl-support@alteryx.com",
+      "contact_phone": "888-836-4274"
+    },
+    "algorithms": []
+  }
+}

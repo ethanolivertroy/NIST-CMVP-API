@@ -1,0 +1,88 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4770"
+  },
+  "certificate": {
+    "certificate_number": "4770",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4770",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4770",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4770.pdf",
+    "vendor_name": "Ericsson Enterprise Wireless Solutions, Inc.",
+    "module_name": "Cradlepoint Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/20/2024, 3/2/2026, 3/16/2026",
+    "validation_dates": [
+      "8/20/2024",
+      "3/2/2026",
+      "3/16/2026"
+    ],
+    "sunset_date": "8/19/2026",
+    "caveat": "Interim Validation, No assurance of the minimum strength of generated keys",
+    "description": "The Ericsson Cryptographic Module is a cryptographic library embedded in Ericsson’s Cradlepoint endpoints. The Ericsson Cryptographic Module offers symmetric encryption/decryption, digital signature generation/verification, hashing, cryptographic key generation, random number generation, message authentication, and key establishment functions to secure data-at-rest/data-in-flight and to support secure communications protocols (including TLS 1.2).",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4770.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2024_010924_0336.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/20/2024",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      },
+      {
+        "date": "3/2/2026",
+        "type": "Update",
+        "lab": "Teron Labs"
+      },
+      {
+        "date": "3/16/2026",
+        "type": "Update",
+        "lab": "Teron Labs"
+      }
+    ],
+    "vendor": {
+      "name": "Ericsson Enterprise Wireless Solutions, Inc.",
+      "website_url": "http://www.cradlepoint.com",
+      "address_lines": [
+        "1100 W. Idaho Street, Suite 800",
+        "Boise, ID 83702",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Federal Sales",
+      "contact_email": "federalsales@ericsson.com",
+      "contact_phone": "1-855-813-3385"
+    },
+    "algorithms": [
+      "AES",
+      "DES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

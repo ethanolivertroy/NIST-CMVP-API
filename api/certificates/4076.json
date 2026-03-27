@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4076"
+  },
+  "certificate": {
+    "certificate_number": "4076",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4076",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4076",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4076.pdf",
+    "vendor_name": "Hitachi, Ltd.",
+    "module_name": "Hitachi Virtual Storage Platform (VSP) Encryption Board for NVMe",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "11/22/2021",
+    "validation_dates": [
+      "11/22/2021"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "Hitachi Virtual Storage Platform(VSP) Encryption Board for NVMe provides high speed data at rest encryption for Hitachi storage.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4076.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2021_011221_0923_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/22/2021",
+        "type": "Initial",
+        "lab": "ECSEC Laboratory Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hitachi, Ltd.",
+      "website_url": "https://www.hitachi.com/",
+      "address_lines": [
+        "1 Horiyamashita, Hadano-shi",
+        "Kanagawa-ken 259-1304",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "Storage Systems Development Operation",
+      "contact_email": null,
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

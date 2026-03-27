@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3903"
+  },
+  "certificate": {
+    "certificate_number": "3903",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3903",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3903",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3903.pdf",
+    "vendor_name": "Focus Systems Corporation",
+    "module_name": "MonoCrypt AES Enhanced Crypto Library",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/22/2021",
+    "validation_dates": [
+      "4/22/2021"
+    ],
+    "sunset_date": "4/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "MonoCrypt AES Enhanced Crypto Library (MonocryptAES) is a software module and is defined as a multi-chip standalone module.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3903.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2021_030521_0757_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/22/2021",
+        "type": "Initial",
+        "lab": "ECSEC Laboratory Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Focus Systems Corporation",
+      "website_url": "https://www.focus-s.com/focus-s/en/",
+      "address_lines": [
+        "Focus Gotanda Building 2-7-8 Higashi Gotanda",
+        "Shinagawa-ku",
+        "Tokyo 141-0022",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "IT Innovation Headquarters Business Creation Dept.",
+      "contact_email": null,
+      "contact_phone": "+81-3-5420-2470"
+    },
+    "algorithms": [
+      "AES"
+    ]
+  }
+}

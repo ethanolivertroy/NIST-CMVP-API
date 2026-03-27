@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/426"
+  },
+  "certificate": {
+    "certificate_number": "426",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/426",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/426",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp426.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "1721 and 1760 Modular Access Routers with MOD1700-VPN",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "5/6/2004, 5/25/2004, 5/24/2005, 5/28/2010, 2/23/2012",
+    "validation_dates": [
+      "5/6/2004",
+      "5/25/2004",
+      "5/24/2005",
+      "5/28/2010",
+      "2/23/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Cisco Modular Access Routers are routers that provides data protection on a network providing packet encryption. The modules perform all of the functions typical of a router. In addition to the normal routing functions, the modules also provide packet encryption. The modules are capable of encrypting traffic between one or more modules: providing a secure connection at the packet level.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp426.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt426.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/6/2004",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "5/25/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/24/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/28/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/23/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "7025 Kit Creek Road",
+        "PO Box 14987",
+        "Research Triangle Park, NC 27709-4987",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

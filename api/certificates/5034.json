@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5034"
+  },
+  "certificate": {
+    "certificate_number": "5034",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5034",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5034",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5034.pdf",
+    "vendor_name": "Red Hat, Inc.",
+    "module_name": "Red Hat Enterprise Linux 9 Kernel Cryptographic API",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/30/2025",
+    "validation_dates": [
+      "6/30/2025"
+    ],
+    "sunset_date": "6/29/2030",
+    "caveat": "When operated in approved mode. The module generates random numbers whose strengths are modified by available entropy. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The Red Hat Enterprise Linux 9 Kernel Cryptographic API provides a C language API for use by other (kernel space and user space) processes that require cryptographic functionality",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5034.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/30/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Red Hat, Inc.",
+      "website_url": "http://www.redhat.com",
+      "address_lines": [
+        "100 East Davie Street",
+        "Raleigh, NC 27601",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jaroslav Reznik",
+      "contact_email": "fips140@redhat.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": []
+  }
+}

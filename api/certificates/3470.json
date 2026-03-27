@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3470"
+  },
+  "certificate": {
+    "certificate_number": "3470",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3470",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3470",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3470.pdf",
+    "vendor_name": "Crestron Electronics, Inc.",
+    "module_name": "Crestron Crypto Kernel for OpenSSL",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "6/7/2019, 3/16/2021",
+    "validation_dates": [
+      "6/7/2019",
+      "3/16/2021"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys. This validation entry is a non-security relevant modification to Cert. #3273.",
+    "description": "The Crestron Crypto Kernel for OpenSSL features robust algorithm support, including Suite B algorithm compliance. This module offloads secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3470.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/JuneConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/7/2019",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "3/16/2021",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Crestron Electronics, Inc.",
+      "website_url": "http://www.crestron.com",
+      "address_lines": [
+        "15 Volvo Drive",
+        "Rockleigh, NJ 07647",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "John Pavlik",
+      "contact_email": "jpavlik@crestron.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

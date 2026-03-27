@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2659"
+  },
+  "certificate": {
+    "certificate_number": "2659",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2659",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2659",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2659.pdf",
+    "vendor_name": "L3Harris Technologies, Inc.",
+    "module_name": "eSRVIVR(r) Cockpit Voice and Flight Data Recorder (CVFDR) Encryption Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "6/16/2016, 12/13/2021",
+    "validation_dates": [
+      "6/16/2016",
+      "12/13/2021"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "A software-based AES implementation in a Cockpit Voice and Flight Data Recorder (CVFDR) that supports 128, 192, and 256 bit key lengths. Various data types can be selected for encryption prior to being recorded in a crash-protected module.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2659.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertJune2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/16/2016",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "12/13/2021",
+        "type": "Update",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      }
+    ],
+    "vendor": {
+      "name": "L3Harris Technologies, Inc.",
+      "website_url": "http://www.l3harris.com",
+      "address_lines": [
+        "1025 W. NASA Boulevard",
+        "Melbourne, FL 32919",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Johnson",
+      "contact_email": "David.C.Johnson@l3harris.com",
+      "contact_phone": "616-285-4365"
+    },
+    "algorithms": []
+  }
+}

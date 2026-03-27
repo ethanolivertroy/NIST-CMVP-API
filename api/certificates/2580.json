@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2580"
+  },
+  "certificate": {
+    "certificate_number": "2580",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2580",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2580",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2580.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "FireEye MX Series: MX 900, MX 8400",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "3/14/2016",
+    "validation_dates": [
+      "3/14/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. When installed, initialized and configured as specified in Section 3 of the Security Policy",
+    "description": "The FireEye MX series appliances are mobile management platforms that work in conjunction with the FireEye MTP App to assimilate and disperse threat information to mobile endpoints, and offer integration with MDM solutions for a true detect to fix solution.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2580.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertMarch2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/14/2016",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "1440 McCarthy Ave.",
+        "Milipitas, CA 95035",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Peter Kim",
+      "contact_email": "certifications@fireeye.com",
+      "contact_phone": "408-321-6300"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5028"
+  },
+  "certificate": {
+    "certificate_number": "5028",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5028",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5028",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5028.pdf",
+    "vendor_name": "HID Global",
+    "module_name": "HID Global ActivID Applet 2.7.7 & 2.7.8 on Thales IDCore 3230 Platform",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "6/18/2025",
+    "validation_dates": [
+      "6/18/2025"
+    ],
+    "sunset_date": "6/17/2030",
+    "caveat": "None",
+    "description": "HID Global ActivID Applet 2.7.7 & 2.7.8 on Thales IDCore 3230 Platform cryptographic module, validated to FIPS 140-3 overall Level 2, is a single-chip “contact and contactless” module implementing the Global Platform operational environment, with Card Manager as well as the ActivID Applet Suite.",
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 3",
+      "Operational environment: N/A",
+      "Physical security: Level 3",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5028.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/18/2025",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "HID Global",
+      "website_url": "http://www.hidglobal.com/",
+      "address_lines": [
+        "611 Center Ridge Drive",
+        "Austin, TX 78753",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mike Roselli",
+      "contact_email": "Michael.Rosselli@hidglobal.com",
+      "contact_phone": "408-707-8158"
+    },
+    "algorithms": []
+  }
+}

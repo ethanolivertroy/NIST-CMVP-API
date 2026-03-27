@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/583"
+  },
+  "certificate": {
+    "certificate_number": "583",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/583",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/583",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp583.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "CryptoStor FC2002W SAN Security Appliance",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 3,
+    "validation_date": "10/27/2005, 11/7/2005",
+    "validation_dates": [
+      "10/27/2005",
+      "11/7/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The NeoScale CryptoStor FC2002 appliance, is a Fibre Channel Storage Area Network (SAN) data security appliance that provides data flow control and encryption based on configured policy rules. Operating as a fully transparent, in-line storage appliance, the FC2002 inspects storage traffic and applies information flow controls and strong encryption to the data payload at gigabit rates. Storage data privacy policies are centrally managed, employing access and encryption rules which are easily modified to suit current and evolving storage infrastructures. Deep frame inspection allows access and encryption policies to be dynamically applied at wirespeed. True gigabit throughput with low latency and transparent operation ensures uninterrupted, scalable storage data protection.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp583.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt583.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/27/2005",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "11/7/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "1655 McCarthy Blvd.",
+        "Milpitas, CA 95035",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Rose Quijano-Nguyen",
+      "contact_email": "rquijano@neoscale.com",
+      "contact_phone": "408-473-1313"
+    },
+    "algorithms": []
+  }
+}

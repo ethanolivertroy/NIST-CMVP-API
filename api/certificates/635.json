@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/635"
+  },
+  "certificate": {
+    "certificate_number": "635",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/635",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/635",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp635.pdf",
+    "vendor_name": "TLC-Chamonix, LLC",
+    "module_name": "WirelessWall Client",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "3/3/2006, 5/20/2008",
+    "validation_dates": [
+      "3/3/2006",
+      "5/20/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Cranite WirelessWall Client enables laptop, desktop, and handheld computer users to securely connect to WirelessWall-protected networks. The Client authenticates users, encrypts wireless network traffic, and blocks malicious attacks. Additionally, the Client optionally seamlessly roam from subnet to subnet without re-authenticating. The Client optionally integrates with the Windows logon, providing secure single signon functionality. Cranite's WirelessWall Client is simple to use and is validated to the government's rigorous FIPS-2 security standard.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp635.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt635.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/3/2006",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/20/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "TLC-Chamonix, LLC",
+      "website_url": "http://www.tlc-chamonix.com",
+      "address_lines": [
+        "120 Village Square",
+        "Suite 11",
+        "Orinda, CA 94563",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Phil Smith",
+      "contact_email": "aphilsmith@tlc-chamonix.com",
+      "contact_phone": "877-479-4500"
+    },
+    "algorithms": []
+  }
+}

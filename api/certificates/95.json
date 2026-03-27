@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/95"
+  },
+  "certificate": {
+    "certificate_number": "95",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/95",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/95",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp95.pdf",
+    "vendor_name": "SPYRUS, Inc.",
+    "module_name": "Rosetta Smart Card",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 2,
+    "validation_date": "5/8/2000, 1/1/2014",
+    "validation_dates": [
+      "5/8/2000",
+      "1/1/2014"
+    ],
+    "sunset_date": null,
+    "caveat": "For services provided by the listed FIPS-Approved algorithms",
+    "description": "The SPYRUS Rosetta Smart Card is an ISO 7816 compliant public key smart card based upon the SPYCOS card operating system.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp95.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt95.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/8/2000",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "1/1/2014",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SPYRUS, Inc.",
+      "website_url": "http://www.spyrus.com",
+      "address_lines": [
+        "2355 Oakland Road",
+        "Suite 1",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tom Dickens",
+      "contact_email": "tdickens@spyrus.com",
+      "contact_phone": "408-953-0700"
+    },
+    "algorithms": []
+  }
+}

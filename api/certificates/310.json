@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/310"
+  },
+  "certificate": {
+    "certificate_number": "310",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/310",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/310",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp310.pdf",
+    "vendor_name": "Standard Networks, Inc.",
+    "module_name": "MOVEit Crypto",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "3/11/2003, 3/20/2003, 1/30/2004",
+    "validation_dates": [
+      "3/11/2003",
+      "3/20/2003",
+      "1/30/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "MOVEit Crypto is a 32-bit compact dynamically linked library (DLL) that provides fast encryption services to applications running on Microsoft Windows operating systems. MOVEit Crypto is supported on Windows 95/98/ME/NT 4.0/2000/XP. MOVEit Crypto provides an API featuring NIST-approved AES encryption, SHA-1 hashing, and pseudo-random number generation algorithms. The easy-to-use programming interface allows applications to be written without special code for details like block size, padding mode, and so on. MOVEit Crypto is a member of the MOVEit security and file transfer product family.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp310.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt310.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/11/2003",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "3/20/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/30/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Standard Networks, Inc.",
+      "website_url": "http://www.stdnet.com",
+      "address_lines": [
+        "344 South Yellowstone Drive",
+        "Madison, WI 53705",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Reid MacGuidwin",
+      "contact_email": "reid@stdnet.com",
+      "contact_phone": "608-227-6100"
+    },
+    "algorithms": []
+  }
+}

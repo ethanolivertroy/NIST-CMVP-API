@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4621"
+  },
+  "certificate": {
+    "certificate_number": "4621",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4621",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4621",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4621.pdf",
+    "vendor_name": "Axis Communications AB",
+    "module_name": "Axis Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/2/2023, 8/15/2025",
+    "validation_dates": [
+      "10/2/2023",
+      "8/15/2025"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The Axis cryptographic module based on OpenSSL is a general-purpose cryptographic library that provides FIPS 140-2 approved cryptographic algorithms serving secure communication for Axis network products.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4621.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2023_011123_0711.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/2/2023",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "8/15/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Axis Communications AB",
+      "website_url": "http://www.axis.com",
+      "address_lines": [
+        "Gränden 1",
+        "Lund, Scania 223 69",
+        "Sweden"
+      ],
+      "country": "Sweden",
+      "contact_name": "Andre Bastert",
+      "contact_email": "andre.bastert@axis.com",
+      "contact_phone": "046-272 18 00"
+    },
+    "algorithms": []
+  }
+}

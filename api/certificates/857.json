@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/857"
+  },
+  "certificate": {
+    "certificate_number": "857",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/857",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/857",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp857.pdf",
+    "vendor_name": "Tumbleweed Communications Corp.",
+    "module_name": "Tumbleweed Security Kernel",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "10/26/2007",
+    "validation_dates": [
+      "10/26/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Tumbleweed Security Kernel is a software module implemented as two dynamic libraries that provide all security functionalities for several products of Tumbleweed Communications Corp., including Validation Authority, SecureTransport, and MailGate.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp857.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt857.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/26/2007",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Tumbleweed Communications Corp.",
+      "website_url": "http://www.tumbleweed.com",
+      "address_lines": [
+        "700 Saginaw Drive",
+        "Redwood City, CA 94063",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Stefan Kotes",
+      "contact_email": "stefan.kotes@tumbleweed.com",
+      "contact_phone": "650-216-2082"
+    },
+    "algorithms": []
+  }
+}

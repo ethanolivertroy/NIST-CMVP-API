@@ -1,0 +1,87 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1839"
+  },
+  "certificate": {
+    "certificate_number": "1839",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1839",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1839",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1839.pdf",
+    "vendor_name": "Entrust Datacard Corporation",
+    "module_name": "Entrust Authority™ Security Toolkit for the Java® Platform",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "11/29/2012, 5/28/2014, 1/8/2016, 6/12/2018, 3/19/2019",
+    "validation_dates": [
+      "11/29/2012",
+      "5/28/2014",
+      "1/8/2016",
+      "6/12/2018",
+      "3/19/2019"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Entrust Authority™ Security Toolkit for the Java® Platform enables custom applications to be built using a rich set of APIs that provide encryption, digital signature, and certificate authentication capabilities, as well as the ability to manage the full lifecycles of digital certificate-based identities through integration with the Entrust Authority PKI.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1839.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0023.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/29/2012",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/28/2014",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/8/2016",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/12/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/19/2019",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Entrust Datacard Corporation",
+      "website_url": "http://www.entrust.com",
+      "address_lines": [
+        "One Lincoln Centre",
+        "5400 LBJ Freeway",
+        "Suite 1340",
+        "Dallas, TX 75240",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Entrust Sales",
+      "contact_email": "entrust@entrust.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4849"
+  },
+  "certificate": {
+    "certificate_number": "4849",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4849",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4849",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4849.pdf",
+    "vendor_name": "Brocade Communications Systems LLC",
+    "module_name": "Brocade Fabric OS FIPS Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/23/2024",
+    "validation_dates": [
+      "10/23/2024"
+    ],
+    "sunset_date": "10/22/2029",
+    "caveat": "When operated in approved mode",
+    "description": "The Brocade Fabric OS FIPS Cryptographic Module underpins Brocade’s Fabric Operating System equipment. The Brocade Fabric OS is the software foundation for Brocade’s purpose-built network infrastructure for mission-critical storage.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4849.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/23/2024",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Brocade Communications Systems LLC",
+      "website_url": "http://www.broadcom.com",
+      "address_lines": [
+        "1320 Ridder Park Drive",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Hamid Sobouti",
+      "contact_email": "hamid.sobouti@broadcom.com",
+      "contact_phone": "408-433-7877"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

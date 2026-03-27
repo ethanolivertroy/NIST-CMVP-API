@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5151"
+  },
+  "certificate": {
+    "certificate_number": "5151",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5151",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5151",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5151.pdf",
+    "vendor_name": "FEITIAN Technologies Co., Ltd.",
+    "module_name": "FEITIAN ePass Token Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
+    "validation_date": "1/28/2026",
+    "validation_dates": [
+      "1/28/2026"
+    ],
+    "sunset_date": "1/27/2031",
+    "caveat": "The module generates SSPs (e.g., keys) whose strengths are modified by available entropy, No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "This Module is a secure portable device with advanced smart card technology, it can provide strong authentication and identification to support network login, online transactions, digital signatures, and sensitive data protection.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5151.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/28/2026",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "FEITIAN Technologies Co., Ltd.",
+      "website_url": "http://www.ftsafe.com",
+      "address_lines": [
+        "2580 N First Street, Suite. 130",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Peng jie",
+      "contact_email": "pengjie@ftsafe.com",
+      "contact_phone": "861062304466"
+    },
+    "algorithms": []
+  }
+}

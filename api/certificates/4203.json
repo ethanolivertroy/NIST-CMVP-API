@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4203"
+  },
+  "certificate": {
+    "certificate_number": "4203",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4203",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4203",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4203.pdf",
+    "vendor_name": "Monaco Enterprises Inc.",
+    "module_name": "Monaco Communication Cryptographic Module 1.0",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "4/22/2022, 4/28/2022",
+    "validation_dates": [
+      "4/22/2022",
+      "4/28/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The Monaco Communication Cryptographic Module 1.0 provides FIPS 140-2 level 1 AES-256 encryption for secure RF radio communications.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4203.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/CMVP Certificates (FCVC) April 2022_020522_0649_mmsigned.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/22/2022",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "4/28/2022",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Monaco Enterprises Inc.",
+      "website_url": "http://monaco-inc.com",
+      "address_lines": [
+        "14820 E. Sprague Ave.",
+        "Spokane Valley, WA 99216",
+        "US"
+      ],
+      "country": "US",
+      "contact_name": "John Webster",
+      "contact_email": "eng_mgt@monaco-inc.com",
+      "contact_phone": "509-926-6277"
+    },
+    "algorithms": []
+  }
+}

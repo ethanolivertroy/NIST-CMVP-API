@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/704"
+  },
+  "certificate": {
+    "certificate_number": "704",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/704",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/704",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp704.pdf",
+    "vendor_name": "Utimaco® Safeware AG",
+    "module_name": "SafeGuard Easy",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "9/15/2006",
+    "validation_dates": [
+      "9/15/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "SafeGuard Easy (SGE) is a software product designed to protect user data on all types of Personal Computers (PCs) running Microsoft Windows 2000 or Microsoft Windows XP as operating system. SafeGuard Easy is installed on a PC to prevent unauthorised access to user data stored on hard disk partitions. In this context, user data means all files on hard disk partitions, i.e. data files, program files and even files of the operating system. The protection of the user data stored on hard disk partitions is realised by encryption. Encryption is done on sector level - not on file level.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp704.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt704.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/15/2006",
+        "type": "Initial",
+        "lab": "DOMUS"
+      }
+    ],
+    "vendor": {
+      "name": "Utimaco® Safeware AG",
+      "website_url": "http://www.utimaco.com",
+      "address_lines": [
+        "Hohemarkstraße 22",
+        "Oberursel D-61440",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "US Corporate Headquarters",
+      "contact_email": "sales.us@utimaco.com",
+      "contact_phone": "508- 543-1008"
+    },
+    "algorithms": []
+  }
+}

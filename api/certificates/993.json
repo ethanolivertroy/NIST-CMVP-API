@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/993"
+  },
+  "certificate": {
+    "certificate_number": "993",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/993",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/993",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp993.pdf",
+    "vendor_name": "Oracle Corporation",
+    "module_name": "Key Token",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/6/2008, 5/5/2010",
+    "validation_dates": [
+      "11/6/2008",
+      "5/5/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Key Token is a part of the larger Encrypted Data-At-Rest Solution (EDRS). The primary purpose for this device is to provide secure key storage and key transport between the two other EDRS components. The additional two components that the EDRS includes are the Key Management Station (KMS) and the Encrypting Tape Drive (ETD).",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp993.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt993.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/6/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/5/2010",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Oracle Corporation",
+      "website_url": "http://www.oracle.com",
+      "address_lines": [
+        "500 Eldorado Blvd.",
+        "Bldg 5",
+        "Broomfield, CO 80021",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Hostetter",
+      "contact_email": "david.hostetter@oracle.com",
+      "contact_phone": "303-272-7126"
+    },
+    "algorithms": []
+  }
+}

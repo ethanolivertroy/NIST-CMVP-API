@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5135"
+  },
+  "certificate": {
+    "certificate_number": "5135",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5135",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5135",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5135.pdf",
+    "vendor_name": "Juniper Networks",
+    "module_name": "Juniper Networks EX, QFX and ACX Series",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/15/2026",
+    "validation_dates": [
+      "1/15/2026"
+    ],
+    "sunset_date": "1/14/2031",
+    "caveat": "When installed, initialized and configured as specified in Section 11.1 of the Security Policy.",
+    "description": "Junos® OS automates network operations with streamlined precision, furthers operational efficiency, and frees up valuable time and resources for top-line growth opportunities. Built for reliability, security, and flexibility, Junos OS runs many of the world’s most sophisticated network deployments, giving operators an advantage over those who run competing network operating systems.",
+    "security_level_exceptions": [
+      "Roles, services, and authentication: Level 2",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5135.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/15/2026",
+        "type": "Initial",
+        "lab": "Teron Labs"
+      }
+    ],
+    "vendor": {
+      "name": "Juniper Networks",
+      "website_url": "http://www.juniper.net",
+      "address_lines": [
+        "1133 Innovation Way",
+        "Sunnyvale, California 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Bill Shelton",
+      "contact_email": "Certs-team@juniper.net",
+      "contact_phone": "408-745-2000"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4685"
+  },
+  "certificate": {
+    "certificate_number": "4685",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4685",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4685",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4685.pdf",
+    "vendor_name": "[email protected]",
+    "module_name": "Honeywell Mobility EdgeTM BoringCrypto",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/2/2024",
+    "validation_dates": [
+      "4/2/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "Honeywell Mobility Edge BoringSSL cryptographic module is a library that provides FIPS 140-2 approved cryptographic algorithms for the BoringSSL and other user-space Android applications which require cryptographic functionality. The physical cryptographic boundary is Honeywell Android mobile computer on which this module is installed.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4685.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2024_010524_0757.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/2/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "[email protected]",
+      "website_url": "https://csrc.nist.gov/cdn-cgi/l/email-protection",
+      "address_lines": [
+        "9680 Old Bailes Road",
+        "Fort Mill, SC 29707",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Guo, Leo",
+      "contact_email": "qiang.guo2@honeywell.com",
+      "contact_phone": "+86 51262572511"
+    },
+    "algorithms": []
+  }
+}

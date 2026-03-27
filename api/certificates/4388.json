@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4388"
+  },
+  "certificate": {
+    "certificate_number": "4388",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4388",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4388",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4388.pdf",
+    "vendor_name": "OneSpan",
+    "module_name": "DIGIPASS GO7",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "12/7/2022",
+    "validation_dates": [
+      "12/7/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "Digipass GO 7 is an one-time password (OTP) hardware token a convenient single-button authentication device that boosts security while providing unmatched user acceptance. Digipass GO 7 also supports OneSpan’s multi OTP technology offering enhanced security for organizations who need to secure multiple applications with a single Digipass.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4388.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/7/2022",
+        "type": "Initial",
+        "lab": "SERMA SAFETY AND SECURITY"
+      }
+    ],
+    "vendor": {
+      "name": "OneSpan",
+      "website_url": "http://www.onespan.com",
+      "address_lines": [
+        "ROMEINSESTEENWEG 564C",
+        "Belgium",
+        "Strombeek-Bever 1853",
+        "Belgium"
+      ],
+      "country": "Belgium",
+      "contact_name": "Frederik Mennes",
+      "contact_email": "Frederik.Mennes@onespan.com",
+      "contact_phone": "+32 (0) 557 260 863"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4213"
+  },
+  "certificate": {
+    "certificate_number": "4213",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4213",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4213",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4213.pdf",
+    "vendor_name": "Zhejiang Dahua Technology Co., Ltd.",
+    "module_name": "DHSSL Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "5/6/2022",
+    "validation_dates": [
+      "5/6/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "When Operated in FIPS Mode.",
+    "description": "The module is a set of software libraries, whose purpose is to provide cryptographic algorithm services (such as encryption and decryption services), as well as Transport Layer Security protocol (TLS) v1.0, v1.1, v1.2, certificate management, asymmetric key generation, random number generation and so on. The module provides API interface for application calling. The module can act as a TLS server or TLS client, and interacts with other peers via the TLS protocol.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4213.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2022_010622_0641_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/6/2022",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Zhejiang Dahua Technology Co., Ltd.",
+      "website_url": "http://www.dahuasecurity.com",
+      "address_lines": [
+        "No.1199, Bin’an Road",
+        "Hangzhou, Binjiang",
+        "China"
+      ],
+      "country": "China",
+      "contact_name": "Dahua Sales",
+      "contact_email": "overseas@dahuatech.com",
+      "contact_phone": "+86 571-8768-8883"
+    },
+    "algorithms": []
+  }
+}

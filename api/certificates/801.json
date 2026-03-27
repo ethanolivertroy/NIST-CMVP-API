@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/801"
+  },
+  "certificate": {
+    "certificate_number": "801",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/801",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/801",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp801.pdf",
+    "vendor_name": "Secured User Inc.",
+    "module_name": "SUSK Security Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/23/2007",
+    "validation_dates": [
+      "7/23/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The SUSK Security Module is a software-based cryptographic module. Secured User's product performs all of its work by transparently intercepting and transforming the data stream between entities. All of the cryptographic functionalities of the Secured User product are provided by the central shared library, SUSK Security Module. The cryptographic module offers Transport Layer Security (TLS) services along with bulk encryption and hashing services exclusively to Secured User application. This application is considered as host application to the module.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp801.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt801.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/23/2007",
+        "type": "Initial",
+        "lab": "ICSA"
+      }
+    ],
+    "vendor": {
+      "name": "Secured User Inc.",
+      "website_url": "http://www.identiprise.com",
+      "address_lines": [
+        "11490 Commerce Park Drive",
+        "Suite 240",
+        "Reston, VA 20191",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ken Hetzer",
+      "contact_email": "khetzer@identiprise.com",
+      "contact_phone": "703-964-3164"
+    },
+    "algorithms": []
+  }
+}

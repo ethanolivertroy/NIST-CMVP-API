@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4150"
+  },
+  "certificate": {
+    "certificate_number": "4150",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4150",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4150",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4150.pdf",
+    "vendor_name": "Intel Corporation",
+    "module_name": "Intel® Converged Security and Manageability Engine (CSME) Crypto Module for Tiger Point PCH, Mule Creek Canyon PCH, and Rocket Lake PCH",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware-Hybrid",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "2/10/2022, 8/17/2023",
+    "validation_dates": [
+      "2/10/2022",
+      "8/17/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "Intel® Converged Security and Manageability Engine (CSME) Crypto Module for Tiger Point PCH, Mule Creek Canyon PCH, and Rocket Lake PCH is as a firmware-hybrid cryptographic module. The module consists of both hardware and firmware. The hardware portion is the Offload and Cryptography Subsystem (OCS) and the firmware portion is the Converged Security and Manageability Engine (CSME) Crypto Driver firmware.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4150.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2022_010322_0121_Signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/10/2022",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "8/17/2023",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Intel Corporation",
+      "website_url": "http://www.intel.com",
+      "address_lines": [
+        "2200 Mission College Blvd.",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Prashant Madhukar",
+      "contact_email": "prashant.madhukar@intel.com",
+      "contact_phone": "408-765-2996"
+    },
+    "algorithms": [
+      "SHA"
+    ]
+  }
+}

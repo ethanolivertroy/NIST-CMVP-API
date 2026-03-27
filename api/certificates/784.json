@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/784"
+  },
+  "certificate": {
+    "certificate_number": "784",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/784",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/784",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp784.pdf",
+    "vendor_name": "Check Point Software Technologies Ltd.",
+    "module_name": "Reflex Magnetics Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "6/14/2007, 5/2/2008, 5/28/2009",
+    "validation_dates": [
+      "6/14/2007",
+      "5/2/2008",
+      "5/28/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Reflex Magnetics Cryptographic Library v1.0 provides cryptographic support for the Check Point Software Technologies Ltd software products. The module is used to perform various cryptographic services including pseudo random number generation, and encryption/decryption using symmetric and asymmetric algorithms.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp784.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt784.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/14/2007",
+        "type": "Initial",
+        "lab": "BT"
+      },
+      {
+        "date": "5/2/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/28/2009",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Check Point Software Technologies Ltd.",
+      "website_url": "http://www.checkpoint.com",
+      "address_lines": [
+        "9900 Belward Campus Drive",
+        "Suite 250",
+        "Rockville, MD 20850",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Ambrose",
+      "contact_email": "product_certifications@checkpoint.com",
+      "contact_phone": "703-628-2935"
+    },
+    "algorithms": []
+  }
+}

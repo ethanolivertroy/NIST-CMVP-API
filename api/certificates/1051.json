@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1051"
+  },
+  "certificate": {
+    "certificate_number": "1051",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1051",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1051",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1051.pdf",
+    "vendor_name": "Open Source Software Institute",
+    "module_name": "OpenSSL FIPS Object Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "11/17/2008, 11/20/2009, 12/8/2010, 5/12/2011, 3/7/2012, 3/14/2012, 5/29/2012, 6/21/2012",
+    "validation_dates": [
+      "11/17/2008",
+      "11/20/2009",
+      "12/8/2010",
+      "5/12/2011",
+      "3/7/2012",
+      "3/14/2012",
+      "5/29/2012",
+      "6/21/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When built, installed, protected and initialized as assumed by the Crypto Officer role and as specified in the provided Security Policy. Appendix B of the provided Security Policy specifies the actual distribution tar file containing the source code of this module. There shall be no additions, deletions or alterations to the tar file contents as used during module build. The distribution tar file, shall be verified as specified in Appendix B of the provided Security Policy. Installation and protection shall be completed as specified in Appendix A of the provided Security Policy. Initialization shall be invoked as per Section 2.3 of the provided Security Policy. Any deviation from specified verification, protection, installation and initialization procedures will result in a FIPS 140-2 non-compliant module.",
+    "description": "The OpenSSL FIPS Object Module is a cryptographic library that can be downloaded from www.openssl.org/source/",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1051.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1051.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/17/2008",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "11/20/2009",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/8/2010",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/12/2011",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/7/2012",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/14/2012",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/29/2012",
+        "type": "Update",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "6/21/2012",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Open Source Software Institute",
+      "website_url": "http://www.oss-institute.org",
+      "address_lines": [
+        "3610 Pearl Street",
+        "Hattiesburg, MS 39401",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "John Weathersby",
+      "contact_email": "OpenSSL@oss-institute.org",
+      "contact_phone": "601-427-0152"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1105"
+  },
+  "certificate": {
+    "certificate_number": "1105",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1105",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1105",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1105.pdf",
+    "vendor_name": "AJA Video Systems, Inc.",
+    "module_name": "JPG2K",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "3/26/2009, 1/6/2010, 10/13/2011",
+    "validation_dates": [
+      "3/26/2009",
+      "1/6/2010",
+      "10/13/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The JPG2K is a PCIe card that provides a platform for secure media processing.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1105.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1105.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/26/2009",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "1/6/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/13/2011",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "AJA Video Systems, Inc.",
+      "website_url": "http://www.ajavideo.com",
+      "address_lines": [
+        "443 Crown Point Circle",
+        "Grass Valley, CA 95945",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Fred Dominikus",
+      "contact_email": "fred@aja.com",
+      "contact_phone": "530-274-2048"
+    },
+    "algorithms": []
+  }
+}

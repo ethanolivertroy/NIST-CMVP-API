@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4047"
+  },
+  "certificate": {
+    "certificate_number": "4047",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4047",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4047",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4047.pdf",
+    "vendor_name": "Vocera Communications, Inc.",
+    "module_name": "Vocera Cryptographic Module v3.1",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software-Hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "10/20/2021",
+    "validation_dates": [
+      "10/20/2021"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode.",
+    "description": "Vocera B3000n Badge is a wearable hands-free voice-controlled device that provides easy-to-use and instantaneous communication on a wireless LAN network. The Vocera Cryptographic Module, embedded in the B3000n Badge, ensures protected communications using industry-standard secure wireless communication protocols.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4047.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2021_011121_0730_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/20/2021",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "Vocera Communications, Inc.",
+      "website_url": "http://www.vocera.com",
+      "address_lines": [
+        "525 Race Street",
+        "San Jose, CA 95126",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ammath Keunemany",
+      "contact_email": "akeunemany@vocera.com",
+      "contact_phone": "+1 408-882-4615"
+    },
+    "algorithms": []
+  }
+}

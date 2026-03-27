@@ -1,0 +1,141 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1299"
+  },
+  "certificate": {
+    "certificate_number": "1299",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1299",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1299",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1299.pdf",
+    "vendor_name": "Seagate Technology LLC",
+    "module_name": "Seagate Secure® Enterprise Self-Encrypting Drives FIPS 140 Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 2,
+    "validation_date": "4/26/2010, 9/13/2010, 1/13/2011, 6/5/2012, 10/17/2012, 1/25/2013, 5/22/2013, 2/20/2014, 4/3/2014, 4/23/2014, 9/12/2014, 12/22/2015, 4/5/2016, 6/15/2016",
+    "validation_dates": [
+      "4/26/2010",
+      "9/13/2010",
+      "1/13/2011",
+      "6/5/2012",
+      "10/17/2012",
+      "1/25/2013",
+      "5/22/2013",
+      "2/20/2014",
+      "4/3/2014",
+      "4/23/2014",
+      "9/12/2014",
+      "12/22/2015",
+      "4/5/2016",
+      "6/15/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Seagate Secure® Enterprise Self-Encrypting Drives FIPS 140 Module is embodied in Seagate Cheetah, Constellation ES, Constellation, and Savvio SED model disk drives. The cryptographic module (CM) provides a wide range of cryptographic services using FIPS approved algorithms. Services include hardware-based data encryption, instantaneous user data disposal with cryptographic erase, independently controlled and protected user data LBA bands, and authenticated FW download. The services are provided through an industry-standard TCG Enterprise SSC interface.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1299.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1299.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/26/2010",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "9/13/2010",
+        "type": "Update",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "1/13/2011",
+        "type": "Update",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "6/5/2012",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/17/2012",
+        "type": "Update",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "1/25/2013",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "5/22/2013",
+        "type": "Update",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "2/20/2014",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "4/3/2014",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "4/23/2014",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "9/12/2014",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "12/22/2015",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "4/5/2016",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "6/15/2016",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Seagate Technology LLC",
+      "website_url": "http://www.seagate.com",
+      "address_lines": [
+        "1280 Disc Drive",
+        "Shakopee, MN 55379",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David R Kaiser, PMP",
+      "contact_email": "david.r.kaiser@seagate.com",
+      "contact_phone": "952-402-2356"
+    },
+    "algorithms": []
+  }
+}

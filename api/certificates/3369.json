@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3369"
+  },
+  "certificate": {
+    "certificate_number": "3369",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3369",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3369",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3369.pdf",
+    "vendor_name": "Cord3 Innovation Inc.",
+    "module_name": "Cord3 Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "2/11/2019, 3/1/2019",
+    "validation_dates": [
+      "2/11/2019",
+      "3/1/2019"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized, and configured as specified in the Security Policy Section Secure Operation. When operated in FIPS Mode.",
+    "description": "The Cord3 Cryptographic Module provides protection for individual information assets in support of data-centric security principles that ensure that creation of and access to content adheres to an organizational security policy. Information assets protected using the Cord3 Cryptographic Module are protected against accidental or malicious disclosure while supporting the need-to-share with relevant communities-of-interest.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3369.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FebConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/11/2019",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "3/1/2019",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Cord3 Innovation Inc.",
+      "website_url": "http://cord3inc.com/",
+      "address_lines": [
+        "900 Morrison Drive, Suite 206",
+        "Ottawa, ON K2H 8K7",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Glen Henderson",
+      "contact_email": "Glen.Henderson@cord3inc.com",
+      "contact_phone": "613-808-9979"
+    },
+    "algorithms": []
+  }
+}

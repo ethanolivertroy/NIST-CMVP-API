@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3971"
+  },
+  "certificate": {
+    "certificate_number": "3971",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3971",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3971",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3971.pdf",
+    "vendor_name": "Unisys Corporation",
+    "module_name": "Unisys Linux strongSwan Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/6/2021",
+    "validation_dates": [
+      "7/6/2021"
+    ],
+    "sunset_date": "7/5/2026",
+    "caveat": "When operated in FIPS mode with module Unisys Linux OpenSSL FIPS Object Module validated to FIPS 140-2 under Cert. #3959 operating in FIPS mode",
+    "description": "The module is a software-shared cryptographic library that provides key derivation functions for the Internet Key Exchange (IKE) protocol in the Ubuntu operating system user space. The module is defined as a multi-chip standalone module, as defined by FIPS PUB 140-2. This module implements a KDF for IKEv1 and IKEv2 that complies with the requirements of SP 800-135rev1.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3971.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2021_020821_0740_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/6/2021",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Unisys Corporation",
+      "website_url": "http://www.unisys.com",
+      "address_lines": [
+        "9701 Jeronimo Road",
+        "Irvine, CA 92618",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kevin Lui",
+      "contact_email": "kevin.lui@unisys.com",
+      "contact_phone": "949-517-4018"
+    },
+    "algorithms": []
+  }
+}

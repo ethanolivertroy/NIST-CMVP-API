@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/259"
+  },
+  "certificate": {
+    "certificate_number": "259",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/259",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/259",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp259.pdf",
+    "vendor_name": "Motorola, Inc.",
+    "module_name": "Encryption DLL Module",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "10/8/2002",
+    "validation_dates": [
+      "10/8/2002"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Encryption DLL Module is incorporated into the Motorola Messaging Server, an enterprise system for managing data between a corporate e- mail or data base system and a wireless device, and the Motorola MyMail Desktop Plus, a personal application to manage e- mail between the desktop and a wireless device.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Key Management: Level 3",
+      "Sofware Security: Level 3",
+      "Operating System Security: Tested as meeting Level 1 with Windows NT 4.0, SP 6 (single user mode)"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp259.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt259.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/8/2002",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Motorola, Inc.",
+      "website_url": "http://www.motorola.com",
+      "address_lines": [
+        "200 North Point Center East",
+        "Suite 400",
+        "Alpharetta, GA 30022",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Alfred Adler, Ph.D.",
+      "contact_email": "A.Adler@motorola.com",
+      "contact_phone": "770-521-5128"
+    },
+    "algorithms": []
+  }
+}

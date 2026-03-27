@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/505"
+  },
+  "certificate": {
+    "certificate_number": "505",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/505",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/505",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp505.pdf",
+    "vendor_name": "Meganet Corporation",
+    "module_name": "VME Crypto Engine",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "1/24/2005, 2/4/2005, 5/4/2005, 12/7/2007",
+    "validation_dates": [
+      "1/24/2005",
+      "2/4/2005",
+      "5/4/2005",
+      "12/7/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated with the Microsoft® Base Cryptographic Provider validated to FIPS 140-1 under Certificate #238 operating in FIPS mode for the operating systems specified",
+    "description": "VME Crypto Engine is a suite of tools that make data encryption and decryption easy and reliable. VME Crypto Engine also provides tools that allow you to encrypt and decrypt email messages, chat sessions, files transmitted ftp, and more.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp505.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt505.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/24/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "2/4/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/4/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/7/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Meganet Corporation",
+      "website_url": "http://www.meganet.com",
+      "address_lines": [
+        "350 South Figueroa Street",
+        "Suite 450",
+        "Los Angeles, CA 90071",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Saul Backal",
+      "contact_email": "saul@meganet.com",
+      "contact_phone": "213-620-1666"
+    },
+    "algorithms": []
+  }
+}

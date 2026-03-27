@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3886"
+  },
+  "certificate": {
+    "certificate_number": "3886",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3886",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3886",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3886.pdf",
+    "vendor_name": "Utimaco IS GmbH",
+    "module_name": "CryptoServer CSe-Series",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 3,
+    "validation_date": "4/7/2021, 8/23/2023",
+    "validation_dates": [
+      "4/7/2021",
+      "8/23/2023"
+    ],
+    "sunset_date": "4/6/2026",
+    "caveat": "When operated in FIPS mode",
+    "description": "The CryptoServer CSe-Series is an encapsulated, protected security module realized as a multi-chip embedded cryptographic module per FIPS 140-2. Its realization meets overall FIPS 140-2 Level 3 requirements, with Level 4 \"Physical Security\". The module's primary purpose is to provide secure cryptographic services such as encryption or decryption (for various algorithms like AES and Triple-DES), hashing, signing and verification of data (RSA, ECDSA, DSA), random number generation, on-board secure key generation, key storage and further key management functions in a tamper-protected environment.",
+    "security_level_exceptions": [
+      "Physical Security: Level 4"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3886.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2021_030521_0757_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/7/2021",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      },
+      {
+        "date": "8/23/2023",
+        "type": "Update",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Utimaco IS GmbH",
+      "website_url": "http://www.utimaco.com",
+      "address_lines": [
+        "Germanusstraße 4",
+        "Aachen 52080",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "Erling Wesselhoff",
+      "contact_email": "erling.wesselhoff@utimaco.com",
+      "contact_phone": "+49 241-1696-200"
+    },
+    "algorithms": []
+  }
+}

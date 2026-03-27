@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4261"
+  },
+  "certificate": {
+    "certificate_number": "4261",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4261",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4261",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4261.pdf",
+    "vendor_name": "Huawei Technologies Co., Ltd.",
+    "module_name": "HSSD_V6 Series",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "7/8/2022",
+    "validation_dates": [
+      "7/8/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "HSSD_V6 family module are designed to protect unauthorized access to the user data stored in its NAND Flash memories. The built-in AES HW engines in the cryptographic module’s controller provide on-the-fly encryption and decryption of the user data without performance loss. It also provides instantaneous sanitization of the user data via cryptographic erase.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4261.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2022_010822_0659_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/8/2022",
+        "type": "Initial",
+        "lab": "DEKRA Testing and Certification S.A.U"
+      }
+    ],
+    "vendor": {
+      "name": "Huawei Technologies Co., Ltd.",
+      "website_url": "https://www.huawei.com",
+      "address_lines": [
+        "Huawei Industrial Base",
+        "Bantian, Longgang",
+        "Shenzhen, Guangdong 518129",
+        "China"
+      ],
+      "country": "China",
+      "contact_name": "Tristan Chen",
+      "contact_email": "tristan.chen@huawei.com",
+      "contact_phone": "+86 75528780808"
+    },
+    "algorithms": []
+  }
+}

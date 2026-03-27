@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4782"
+  },
+  "certificate": {
+    "certificate_number": "4782",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4782",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4782",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4782.pdf",
+    "vendor_name": "DocuSign, Inc.",
+    "module_name": "DocuSign QSCD Appliance",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "8/28/2024",
+    "validation_dates": [
+      "8/28/2024"
+    ],
+    "sunset_date": "8/27/2026",
+    "caveat": "Interim validation. When operated in FIPS mode; The module generates cryptographic keys whose strengths are modified by available entropy.",
+    "description": "The DocuSign QSCD Appliance is a digital signature product intended to be used as a Qualified Signature Creation Device (QSCD) in a secure operational environment. It is a highly secure, high capacity network attached HSM. The device consists of COTS hardware, tamper resistance hardware, a hardened operating system, an internal database and server software.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4782.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2024_010924_0336.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/28/2024",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "DocuSign, Inc.",
+      "website_url": "http://www.docusign.com",
+      "address_lines": [
+        "221 Main St.",
+        "Suite 1550",
+        "San Francisco, CA 94105",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Moshe Harel",
+      "contact_email": "Moshe.Harel@docusign.com",
+      "contact_phone": "972-54-2448578"
+    },
+    "algorithms": [
+      "AES",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

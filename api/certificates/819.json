@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/819"
+  },
+  "certificate": {
+    "certificate_number": "819",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/819",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/819",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp819.pdf",
+    "vendor_name": "Wei Dai",
+    "module_name": "Crypto++™ Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "8/13/2007, 8/17/2007",
+    "validation_dates": [
+      "8/13/2007",
+      "8/17/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Crypto++ Library is a free, open source C++ class library providing public key encryption, digital signatures, symmetric ciphers, hash functions, message authentication codes, and other cryptographic algorithms. Both 32-bit and 64-bit variants of the dynamic link library (DLL) are FIPS 140-2 Level 1 validated. The source code of the validated module is available upon request.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp819.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt819.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/13/2007",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "8/17/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Wei Dai",
+      "website_url": "http://www.cryptopp.com",
+      "address_lines": [
+        "13440 SE 24th Street",
+        "Bellevue, WA 98005",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Wei Dai",
+      "contact_email": "cryptopp@weidai.com",
+      "contact_phone": "425-562-9677"
+    },
+    "algorithms": []
+  }
+}

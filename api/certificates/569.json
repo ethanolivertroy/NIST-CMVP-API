@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/569"
+  },
+  "certificate": {
+    "certificate_number": "569",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/569",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/569",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp569.pdf",
+    "vendor_name": "Funk Software, Inc.",
+    "module_name": "Odyssey Security Component and Odyssey Security Component/Portable",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "8/31/2005, 1/13/2006, 2/24/2006",
+    "validation_dates": [
+      "8/31/2005",
+      "1/13/2006",
+      "2/24/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Odyssey Security Component/Portable is Funk Software, Inc.'s general purpose cryptographic library. Wide-ranging algorithm support is provided, making the library suitable for use in applications such as wireless LAN, IPsec, SSL/TLS, EAP, and so on. Assembly language optimizations allow high-speed operation on specific platforms, while the portable (C) version can be used on a large variety of platforms.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp569.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt569.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/31/2005",
+        "type": "Initial",
+        "lab": "Aspect"
+      },
+      {
+        "date": "1/13/2006",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/24/2006",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Funk Software, Inc.",
+      "website_url": "http://www.funk.com",
+      "address_lines": [
+        "222 Third Street",
+        "Cambridge, MA 02142",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Steven Erickson",
+      "contact_email": "fips@funk.com",
+      "contact_phone": "978-371-3980 x112"
+    },
+    "algorithms": []
+  }
+}

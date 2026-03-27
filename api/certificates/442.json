@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/442"
+  },
+  "certificate": {
+    "certificate_number": "442",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/442",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/442",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp442.pdf",
+    "vendor_name": "Vormetric, Inc.",
+    "module_name": "CoreGuard Security Server",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "6/16/2004, 7/27/2004, 1/27/2006",
+    "validation_dates": [
+      "6/16/2004",
+      "7/27/2004",
+      "1/27/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Vormetric CoreGuard Security Server is a comprehensive security solution that combines protection of data at rest, application integrity and host protection. CoreGuard integrates a software module loaded on a server, and a FIPS compliant appliance with user-defined security policies allowing fine-grain data access control and selective encryption of data at rest (AES 128/256 and 3DES), application digital signatures, enforced user authentication, host protection and central management. CoreGuard installs transparently and does not require changes to applications, databases or storage architectures allowing the security to extend to any data across the enterprise.",
+    "security_level_exceptions": [
+      "Cryptographic Module Ports and Interfaces: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Cryptographic Key Management: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp442.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt442.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/16/2004",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "7/27/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "1/27/2006",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Vormetric, Inc.",
+      "website_url": "http://www.vormetric.com",
+      "address_lines": [
+        "3131 Jay Street",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Suhel Khan",
+      "contact_email": "skhan@vormetric.com",
+      "contact_phone": "408-961-6114"
+    },
+    "algorithms": []
+  }
+}

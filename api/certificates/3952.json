@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3952"
+  },
+  "certificate": {
+    "certificate_number": "3952",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3952",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3952",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3952.pdf",
+    "vendor_name": "Adva Network Security GmbH",
+    "module_name": "WCC-PCN-AES100GB-F Encryption Module with FSP 3000R7 Shelf",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "6/8/2021, 9/13/2022, 1/21/2026",
+    "validation_dates": [
+      "6/8/2021",
+      "9/13/2022",
+      "1/21/2026"
+    ],
+    "sunset_date": "6/7/2026",
+    "caveat": "When operated with tamper-evident seals and wire seal installed as indicated in Section 5 of the Security Policy.",
+    "description": "The WCC-PCN-AES100GB-F Encryption Module is a transponder for core telecommunication networks. The module transports plaintext 100GbE or OTU4 client side data services to and from the encrypted network interface. The module is a configuration of the ADVA Fiber Service Platform (FSP) 3000R7 scalable optical data transport system. The encryption module is composed of a WCC-PCN-AES100GB-F card assembly installed in a customer-chosen ADVA FSP 3000R7 shelf. ADVA FSP 3000R7 shelves are available in various form factors to host customer-chosen combinations of modular functionality and density.",
+    "security_level_exceptions": [
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3952.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2021_010721_0718.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/8/2021",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "9/13/2022",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "1/21/2026",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Adva Network Security GmbH",
+      "website_url": "http://www.advasecurity.com",
+      "address_lines": [
+        "Hermann-Dorner-Allee 91",
+        "Berlin 12489",
+        "Germany"
+      ],
+      "country": "Germany",
+      "contact_name": "Uli Schlegel",
+      "contact_email": "uli.schlegel@advasecurity.com",
+      "contact_phone": "+49 30 2636969165"
+    },
+    "algorithms": [
+      "AES"
+    ]
+  }
+}

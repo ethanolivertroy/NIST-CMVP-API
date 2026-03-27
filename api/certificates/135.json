@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/135"
+  },
+  "certificate": {
+    "certificate_number": "135",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/135",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/135",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp135.pdf",
+    "vendor_name": "Neopost Technologies",
+    "module_name": "IJ25 Secure Metering Module (SMM)",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 3,
+    "validation_date": "1/18/2001, 10/3/2006",
+    "validation_dates": [
+      "1/18/2001",
+      "10/3/2006"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The module provides services to a tabletop mailing system designed primarily for the small office/home office environment. Features include manually inserted/removed mail; indicium printed at maximum of 1200 envelopes per hour; internal modem for remote re-crediting; scale interface; Memory Card interface to load slogans, scale rates and class indication; capacity for 10 slogans or advert images; ink jet technology.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp135.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt135.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/18/2001",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "10/3/2006",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Neopost Technologies",
+      "website_url": "http://www.neopost.fr",
+      "address_lines": [
+        "113, rue Jean-Marin Naudin",
+        "Bagneux 92220",
+        "France"
+      ],
+      "country": "France",
+      "contact_name": "Thierry Le Jaoudour",
+      "contact_email": "t.lejaoudour@neopost.com",
+      "contact_phone": "+33 (0) 1 45 36 30 36"
+    },
+    "algorithms": []
+  }
+}

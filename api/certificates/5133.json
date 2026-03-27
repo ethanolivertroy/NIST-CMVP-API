@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5133"
+  },
+  "certificate": {
+    "certificate_number": "5133",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5133",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5133",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5133.pdf",
+    "vendor_name": "Kingston Technology Company, Inc.",
+    "module_name": "IronKey Keypad 200 Series",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "1/14/2026",
+    "validation_dates": [
+      "1/14/2026"
+    ],
+    "sunset_date": "12/15/2029",
+    "caveat": "None",
+    "description": "The IronKey Keypad 200 Series are encrypted storage devices that provide a secure way to store and transfer data. User authentication is self-contained via an onboard keypad. User data is protected by hardware-based 256-bit AES encryption to secure sensitive information in the event that the drive is lost or stolen.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5133.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/14/2026",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Kingston Technology Company, Inc.",
+      "website_url": "http://www.kingston.com/en",
+      "address_lines": [
+        "17600 Newhope Street",
+        "Fountain Valley, CA 92708",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jason J. Chen",
+      "contact_email": "jason_chen@kingston.com",
+      "contact_phone": "714-445-3449"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "HMAC",
+      "KDF",
+      "SHA"
+    ]
+  }
+}

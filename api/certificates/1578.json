@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1578"
+  },
+  "certificate": {
+    "certificate_number": "1578",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1578",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1578",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1578.pdf",
+    "vendor_name": "BlackBerry",
+    "module_name": "BlackBerry OS Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/21/2011, 6/5/2012, 8/16/2012, 1/24/2013, 2/22/2013, 4/11/2014, 1/24/2016, 6/21/2016",
+    "validation_dates": [
+      "7/21/2011",
+      "6/5/2012",
+      "8/16/2012",
+      "1/24/2013",
+      "2/22/2013",
+      "4/11/2014",
+      "1/24/2016",
+      "6/21/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The BlackBerry OS Cryptographic Library is a software module that provides the cryptographic functionality required for secure operation of the BlackBerry® PlayBook™ and devices running the BlackBerry® 10 OS .",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1578.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0007.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/21/2011",
+        "type": "Initial",
+        "lab": "DXC Technology"
+      },
+      {
+        "date": "6/5/2012",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/16/2012",
+        "type": "Update",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "1/24/2013",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/22/2013",
+        "type": "Update",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "4/11/2014",
+        "type": "Update",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "1/24/2016",
+        "type": "Update",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "6/21/2016",
+        "type": "Update",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      }
+    ],
+    "vendor": {
+      "name": "BlackBerry",
+      "website_url": "http://www.blackberry.com",
+      "address_lines": [
+        "295 Phillip Street",
+        "Waterloo, Ontario N2L 3W8",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Security Certifications Team",
+      "contact_email": "certifications@blackberry.com",
+      "contact_phone": "519-888-7465 x 72921"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4129"
+  },
+  "certificate": {
+    "certificate_number": "4129",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4129",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4129",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4129.pdf",
+    "vendor_name": "Cisco Systems, Inc.",
+    "module_name": "Cisco Aironet 1562e/i/d/ps, 2802e/i, 3802e/i/p, 4800 and IW6300H- AC/DC/DCW Wireless LAN Access Points, AireOS Version 8.10MR3 and IOS-XE 17.3",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "1/10/2022, 7/5/2022, 1/6/2023",
+    "validation_dates": [
+      "1/10/2022",
+      "7/5/2022",
+      "1/6/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "The tamper evident seals installed as indicated in the security policy.",
+    "description": "Cisco Aironet Series Wireless Access Points provide highly secure and reliable wireless connections for both indoor and outdoor environments.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4129.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2022_010222_0702_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/10/2022",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "7/5/2022",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "1/6/2023",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc.",
+      "website_url": "http://www.cisco.com",
+      "address_lines": [
+        "170 West Tasman Dr.",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

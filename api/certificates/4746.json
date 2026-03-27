@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4746"
+  },
+  "certificate": {
+    "certificate_number": "4746",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4746",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4746",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4746.pdf",
+    "vendor_name": "Red Hat®, Inc.",
+    "module_name": "Red Hat Enterprise Linux 9 OpenSSL FIPS Provider",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/31/2024",
+    "validation_dates": [
+      "7/31/2024"
+    ],
+    "sunset_date": "7/30/2026",
+    "caveat": "Interim validation. When operated in approved mode. When installed, initialized and configured as specified in Section 11 of the Security Policy. The module generates SSPs (e.g., keys) whose strengths are modified by available entropy.",
+    "description": "The Red Hat Enterprise Linux 9 OpenSSL FIPS Provider provides a C language application program interface (API) for use by other applications that require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4746.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2024_010824_1146.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/31/2024",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Red Hat®, Inc.",
+      "website_url": "http://www.redhat.com",
+      "address_lines": [
+        "100 East Davie Street",
+        "Raleigh, NC 27601",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Jaroslav Reznik",
+      "contact_email": "fips140@redhat.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

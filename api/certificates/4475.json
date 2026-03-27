@@ -1,0 +1,66 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4475"
+  },
+  "certificate": {
+    "certificate_number": "4475",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4475",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4475",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4475.pdf",
+    "vendor_name": "Q-Net Security, Inc.",
+    "module_name": "Q-Box",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "4/14/2023",
+    "validation_dates": [
+      "4/14/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section 5 of the Security Policy",
+    "description": "Complete security is built directly into each module’s silicon. Creating security directly in silicon avoids the use of vulnerable software and/or Operating Systems. The core of the hardware-enabled solution is AES-256 encryption and a novel symmetric key distribution that can provide a unique random key for each packet. QNS devices are placed in-line and nearby the endpoints to be secured. No external key management is necessary. Once deployed, the QNS devices never need to be upgraded or patched.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4475.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2023_010523_0646.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/14/2023",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Q-Net Security, Inc.",
+      "website_url": "http://www.qnetsecurity.com",
+      "address_lines": [
+        "9666 Olive Blvd Suite 750",
+        "St. Louis, MO 63132",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Larry Prince",
+      "contact_email": "lprince@qnetsecurity.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

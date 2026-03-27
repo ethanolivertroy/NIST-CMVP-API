@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5131"
+  },
+  "certificate": {
+    "certificate_number": "5131",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5131",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5131",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5131.pdf",
+    "vendor_name": "Trend Micro Inc.",
+    "module_name": "Trend Micro Java Crypto Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/13/2026, 3/3/2026",
+    "validation_dates": [
+      "1/13/2026",
+      "3/3/2026"
+    ],
+    "sunset_date": "7/28/2029",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Trend Micro Java Crypto Module provides FIPS Approved cryptographic algorithms for Trend Micro’s TippingPoint Security Management System (SMS).",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5131.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/13/2026",
+        "type": "Initial",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      },
+      {
+        "date": "3/3/2026",
+        "type": "Update",
+        "lab": "DEKRA Cybersecurity Certification Laboratory"
+      }
+    ],
+    "vendor": {
+      "name": "Trend Micro Inc.",
+      "website_url": "https://www.trendmicro.com/",
+      "address_lines": [
+        "225 E. John Carpenter Freeway",
+        "Suite 1500",
+        "Irving, TX 75062",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Greg Cooper",
+      "contact_email": "Greg_Cooper@trendmicro.com",
+      "contact_phone": "512-426-8464"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

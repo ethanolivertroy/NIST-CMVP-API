@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5060"
+  },
+  "certificate": {
+    "certificate_number": "5060",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5060",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5060",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5060.pdf",
+    "vendor_name": "Cloudlinux Inc., TuxCare division",
+    "module_name": "Libgcrypt cryptography module for AlmaLinux 9",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "9/17/2025",
+    "validation_dates": [
+      "9/17/2025"
+    ],
+    "sunset_date": "9/16/2030",
+    "caveat": "When operated in approved mode. No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "Libgcrypt is a general purpose crypto library based on the code used in GNU Privacy Guard.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5060.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/17/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Cloudlinux Inc., TuxCare division",
+      "website_url": "http://www.tuxcare.com",
+      "address_lines": [
+        "2318 Louis Road, Suite B",
+        "Palo Alto, CA 94303",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Simon John",
+      "contact_email": "sjohn@tuxcare.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": []
+  }
+}

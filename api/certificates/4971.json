@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4971"
+  },
+  "certificate": {
+    "certificate_number": "4971",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4971",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4971",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4971.pdf",
+    "vendor_name": "Amazon Web Services, Inc.",
+    "module_name": "Amazon Linux 2023 Libgcrypt Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "2/24/2025",
+    "validation_dates": [
+      "2/24/2025"
+    ],
+    "sunset_date": "2/23/2030",
+    "caveat": "When operated in approved mode and installed, initialized and configured as specified in Section 11 of the Security Policy.",
+    "description": "The Amazon Linux 2023 Libgcrypt Cryptographic Module is a software library implementing general purpose cryptographic algorithms.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4971.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/24/2025",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Amazon Web Services, Inc.",
+      "website_url": "http://www.amazon.com",
+      "address_lines": [
+        "1918 8th Ave",
+        "Seattle, WA 98101",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Amazon Linux Security",
+      "contact_email": "aws-fips-external@amazon.com",
+      "contact_phone": "000-000-0000"
+    },
+    "algorithms": []
+  }
+}

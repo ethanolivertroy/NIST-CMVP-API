@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/514"
+  },
+  "certificate": {
+    "certificate_number": "514",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/514",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/514",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp514.pdf",
+    "vendor_name": "WRQ, Inc.",
+    "module_name": "Reflection Security Component (RSC)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "3/15/2005",
+    "validation_dates": [
+      "3/15/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "WRQ Reflection software provides a complete range of terminal-emulation and PC X-server solutions for host access from Windows PCs. Each solution is specifically designed to boost IT efficiency and user productivity and includes full support for popular network security protocols such as Secure Shell, TLS/SSL, and Kerberos.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp514.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt514.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/15/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "WRQ, Inc.",
+      "website_url": "http://www.wrq.com",
+      "address_lines": [
+        "1500 Dexter Avenue North",
+        "Seattle, WA 98109",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Eric Raisters",
+      "contact_email": "ericr@wrq.com",
+      "contact_phone": "206-217-7100"
+    },
+    "algorithms": []
+  }
+}

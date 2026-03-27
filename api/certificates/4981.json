@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4981"
+  },
+  "certificate": {
+    "certificate_number": "4981",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4981",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4981",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4981.pdf",
+    "vendor_name": "Covidence A/S",
+    "module_name": "Covidence FIPS Provider for OpenSSL 3",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "3/3/2025, 7/9/2025",
+    "validation_dates": [
+      "3/3/2025",
+      "7/9/2025"
+    ],
+    "sunset_date": "7/10/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Covidence FIPS Provider for OpenSSL 3 Module is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4981.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/3/2025",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "7/9/2025",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Covidence A/S",
+      "website_url": "http://www.covidence.com",
+      "address_lines": [
+        "Lystrupvej 50",
+        "Risskov 8240",
+        "Denmark"
+      ],
+      "country": "Denmark",
+      "contact_name": "Nikolaj Wehner",
+      "contact_email": "nwe@covidence.com",
+      "contact_phone": "+45 8880 9000"
+    },
+    "algorithms": []
+  }
+}

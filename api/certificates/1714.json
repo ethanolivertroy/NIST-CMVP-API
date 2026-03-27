@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1714"
+  },
+  "certificate": {
+    "certificate_number": "1714",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1714",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1714",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1714.pdf",
+    "vendor_name": "Honeywell Scanning and Mobility (HSM) - USA",
+    "module_name": "Scanning and Mobility FIPS Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/11/2012, 7/12/2012",
+    "validation_dates": [
+      "7/11/2012",
+      "7/12/2012"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Honeywell Scanning and Mobility FIPS Module is a standards-based cryptographic toolkit that supports optimized Elliptic Curve Cryptography and provides application developers with sophisticated tools to flexibly integrate encryption, digital signatures and other security mechanisms into both mobile and server-based applications. The Honeywell Scanning and Mobility FIPS Module is part of the Honeywell Security Architecture, a comprehensive cross-platform security solution which supports multiple cryptographic software and hardware providers with a single common API.",
+    "security_level_exceptions": [
+      "Tested: ARM 920T processor running Hand Held Products BASE firmware 31205423-052 or Hand Held Products Scanner firmware 31205480-025",
+      "ARM 926EJ-S processor running Honeywell Xenon 1902 Cordless Base Firmware or Honeywell Xenon 1902 Cordless Scanner firmware"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1714.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0019.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/11/2012",
+        "type": "Initial",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "7/12/2012",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Honeywell Scanning and Mobility (HSM) - USA",
+      "website_url": "http://www.honeywell.com",
+      "address_lines": [
+        "700 Visions Dr, PO Box 208",
+        "Building A",
+        "Skaneateles Falls, NY 13153-0208",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mike Robinson",
+      "contact_email": "Michael.roinson3@honeywell.com",
+      "contact_phone": "315-554-6387"
+    },
+    "algorithms": []
+  }
+}

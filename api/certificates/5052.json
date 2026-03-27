@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5052"
+  },
+  "certificate": {
+    "certificate_number": "5052",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5052",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5052",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5052.pdf",
+    "vendor_name": "Privoro LLC",
+    "module_name": "SafeCase Security Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware-hybrid",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "8/12/2025",
+    "validation_dates": [
+      "8/12/2025"
+    ],
+    "sunset_date": "8/11/2030",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "Firmware library of approved algorithms for use in Privoro SafeCase and other firmware applications.",
+    "security_level_exceptions": [
+      "Operational environment: N/A",
+      "Physical security: Level 3",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5052.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/12/2025",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Privoro LLC",
+      "website_url": "https://privoro.com/",
+      "address_lines": [
+        "3100 W Ray Rd, Ste 201",
+        "Chandler, Arizona 85226",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mike Fong",
+      "contact_email": "mike.fong@privoro.com",
+      "contact_phone": "844-774-8676-910"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

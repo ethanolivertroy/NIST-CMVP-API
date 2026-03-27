@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2986"
+  },
+  "certificate": {
+    "certificate_number": "2986",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2986",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2986",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf",
+    "vendor_name": "Oberthur Technologies",
+    "module_name": "ID-One PIV on Cosmo V8.1",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "8/10/2017, 11/9/2017",
+    "validation_dates": [
+      "8/10/2017",
+      "11/9/2017"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and initialized to Overall Level 2 per Security Policy",
+    "description": "ID-One PIV on Cosmo V8.1 is the next generation of Personal Identification and Verification cards. It has an AES-256 Security Architecture and support both contact and contactless communications. It supports all features described in FIPS 201-2, SP800-73-4 and SP800-76-2 including Virtual Contact Interface and fingerprint on-card comparison. It can be used as a Smart Card (PIV/CIV) to provide physical and logical access control, or embedded in a hardware token for Derived Credentials. Its additional SAM capabilities make it the ideal portable HSM for the post-issuance management of PIV cards.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: Level 4",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2986.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/AugConsolidatedCert.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/10/2017",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "11/9/2017",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Oberthur Technologies",
+      "website_url": "http://www.oberthur.com",
+      "address_lines": [
+        "4250 Pleasant Valley Rd",
+        "Chantilly, VA 20151",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Christophe Goyet",
+      "contact_email": "c.goyet@oberthur.com",
+      "contact_phone": "+1 703-322-8951"
+    },
+    "algorithms": []
+  }
+}

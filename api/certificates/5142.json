@@ -1,0 +1,72 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5142"
+  },
+  "certificate": {
+    "certificate_number": "5142",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5142",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5142",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5142.pdf",
+    "vendor_name": "Minimus",
+    "module_name": "Minimus Cryptographic Module for Java",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/20/2026",
+    "validation_dates": [
+      "1/20/2026"
+    ],
+    "sunset_date": "7/28/2029",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "Minimus Cryptographic Module for Java is a standards-based cryptographic engine for containers, VMs, and apps that run on cloud native platforms like Docker and Kubernetes.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5142.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/20/2026",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Minimus",
+      "website_url": "http://www.minimus.com",
+      "address_lines": [
+        "10202 Perkins Rowe",
+        "Suite E 160",
+        "Baton Rouge, LA 70810",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "John Morello",
+      "contact_email": "fips@minimus.io",
+      "contact_phone": "225-229-3810"
+    },
+    "algorithms": [
+      "AES",
+      "DRBG",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "KTS",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4875"
+  },
+  "certificate": {
+    "certificate_number": "4875",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4875",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4875",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4875.pdf",
+    "vendor_name": "Geotab Inc.",
+    "module_name": "Geotab Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "11/13/2024",
+    "validation_dates": [
+      "11/13/2024"
+    ],
+    "sunset_date": "11/12/2026",
+    "caveat": "Interim Validation. When installed, initialized and configured as specified in Section 11 of the Security Policy",
+    "description": "Geotab Cryptographic Module provides a library of functions to perform general purpose cryptographic services.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4875.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/13/2024",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Geotab Inc.",
+      "website_url": "http://www.geotab.com",
+      "address_lines": [
+        "2440 Winston Park Drive",
+        "Oakville, Ontario L6H 7V2",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Matthew Roffel",
+      "contact_email": "embeddedsecurity@geotab.com",
+      "contact_phone": "416-434-4309"
+    },
+    "algorithms": [
+      "AES",
+      "HMAC",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

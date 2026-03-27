@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1366"
+  },
+  "certificate": {
+    "certificate_number": "1366",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1366",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1366",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1366.pdf",
+    "vendor_name": "Lexmark International, Inc.",
+    "module_name": "Lexmark PrintCryption",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/21/2010, 8/12/2010",
+    "validation_dates": [
+      "7/21/2010",
+      "8/12/2010"
+    ],
+    "sunset_date": null,
+    "caveat": "Requires Option P/N 30G0829 to enable the PrintCryption firmware.",
+    "description": "The Lexmark PrintCryption is an option for the Lexmark printers that enables the transfer and printing of encrypted print jobs. With the PrintCryption module installed, the printer is capable of decrypting print jobs encrypted with the AES (FIPS 197) algorithm. The Lexmark PrintCryption analyzes the encrypted data stream, determines if the correct key was used to encrypt the data, decrypts the data and allows the confidential document to be printed.",
+    "security_level_exceptions": [
+      "Tested: Lexmark X463de Printer with ARM9 processor on Lexmark Linux v2.6",
+      "Lexmark X651de Printer with IBM750CL processor on Lexmark Linux v2.6"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1366.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1366.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/21/2010",
+        "type": "Initial",
+        "lab": "COACT INC CAFE LAB"
+      },
+      {
+        "date": "8/12/2010",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Lexmark International, Inc.",
+      "website_url": "http://www.lexmark.com",
+      "address_lines": [
+        "740 West New Circle Rd.",
+        "Lexington, KY 40550",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Graydon Dodson",
+      "contact_email": "gdodson@lexmark.com",
+      "contact_phone": "859-232-6483"
+    },
+    "algorithms": []
+  }
+}

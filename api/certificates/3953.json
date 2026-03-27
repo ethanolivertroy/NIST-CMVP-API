@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3953"
+  },
+  "certificate": {
+    "certificate_number": "3953",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3953",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3953",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3953.pdf",
+    "vendor_name": "",
+    "module_name": "",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "6/9/2021, 6/23/2021, 4/18/2022",
+    "validation_dates": [
+      "6/9/2021",
+      "6/23/2021",
+      "4/18/2022"
+    ],
+    "sunset_date": "6/8/2026",
+    "caveat": null,
+    "description": null,
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3953.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/9/2021",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/23/2021",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/18/2022",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "",
+      "website_url": null,
+      "address_lines": [],
+      "country": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

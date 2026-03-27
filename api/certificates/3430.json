@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3430"
+  },
+  "certificate": {
+    "certificate_number": "3430",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3430",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3430",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3430.pdf",
+    "vendor_name": "Securosys SA",
+    "module_name": "Primus HSM",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "4/4/2019, 12/23/2019",
+    "validation_dates": [
+      "4/4/2019",
+      "12/23/2019"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode as specified in the Security Policy",
+    "description": "Securosys' Primus series of hardware security modules (HSM) provide high performance cryptographic operations, creation, storage, and controlled access to encryption keys and certificates in an always active tamper protected appliance. Applications include digital signatures for financial transactions, secure messaging and email, blockchain, crypto currency and crypto asset storage, PKI, elDAS, database and cloud encryption, GDPR, SSL / TLS, and e-government.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3430.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/AprilConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/4/2019",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "12/23/2019",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Securosys SA",
+      "website_url": "http://www.securosys.com",
+      "address_lines": [
+        "Förrlibuckstrasse 70",
+        "Zurich 08005",
+        "Switzerland"
+      ],
+      "country": "Switzerland",
+      "contact_name": "Marcel Dasen",
+      "contact_email": "dasen@securosys.ch",
+      "contact_phone": "+44 552 31 00"
+    },
+    "algorithms": []
+  }
+}

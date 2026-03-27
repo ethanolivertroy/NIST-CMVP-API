@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/431"
+  },
+  "certificate": {
+    "certificate_number": "431",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/431",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/431",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp431.pdf",
+    "vendor_name": "Gemplus Corp.",
+    "module_name": "GemXpresso Pro R3 E64 PK - FIPS",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 3,
+    "validation_date": "5/26/2004, 7/27/2004, 8/5/2004",
+    "validation_dates": [
+      "5/26/2004",
+      "7/27/2004",
+      "8/5/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "GemXpresso Pro R3 E64 PK - FIPS is based on a Gemplus Open OS Smart Card with 64K of EEPROM.. The SmartCard platform has on board Triple DES and RSA algorithms and can provide on board key generation. The module conforms to Java Card V2.1.1 and Global Platform V2.0.1 standards",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp431.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt431.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/26/2004",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "7/27/2004",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/5/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Gemplus Corp.",
+      "website_url": "http://www.Gemplus.com",
+      "address_lines": [
+        "Avenue du Pic de Bretagne",
+        "BP 100, GTmenos Cedex 13881",
+        "France"
+      ],
+      "country": "France",
+      "contact_name": "Luc Astier",
+      "contact_email": "Luc.ASTIER@Gemplus.com",
+      "contact_phone": "+33 (0) 4 42 36 50 00"
+    },
+    "algorithms": []
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4891"
+  },
+  "certificate": {
+    "certificate_number": "4891",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4891",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4891",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4891.pdf",
+    "vendor_name": "Cisco Systems, Inc",
+    "module_name": "CiscoSSL FIPS Provider",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/18/2024",
+    "validation_dates": [
+      "11/18/2024"
+    ],
+    "sunset_date": "11/17/2029",
+    "caveat": "Interim validation. When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "The CiscoSSL FIPS Provider is a firmware library that provides cryptographic services to a vast array of Cisco's networking and collaboration products. The module is comprised of a single object module file called fips.so.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4891.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/18/2024",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Cisco Systems, Inc",
+      "website_url": "https://www.cisco.com/",
+      "address_lines": [
+        "170 West Tasman Drive",
+        "San Jose, CA 95134-1706",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Global Certification Team",
+      "contact_email": "certteam@cisco.com",
+      "contact_phone": "800-553-6387"
+    },
+    "algorithms": []
+  }
+}

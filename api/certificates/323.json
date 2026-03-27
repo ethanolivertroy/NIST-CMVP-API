@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/323"
+  },
+  "certificate": {
+    "certificate_number": "323",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/323",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/323",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp323.pdf",
+    "vendor_name": "IP Dynamics, Inc.",
+    "module_name": "VCN Manager Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "6/6/2003, 6/27/2003",
+    "validation_dates": [
+      "6/6/2003",
+      "6/27/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "IP Dynamics’ VCN Software Suite creates a secure network services layer above the flat Internet address space allowing the creation of dynamic virtual communities, which are the secure, collaborative communications platforms designed for a wide range of intranet, extranet, remote access and collaboration applications.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp323.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt323.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/6/2003",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "6/27/2003",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "IP Dynamics, Inc.",
+      "website_url": "http://www.ipdynamics.com",
+      "address_lines": [
+        "2880 Stevens Creek Boulevard",
+        "San Jose, CA 95128",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Zulfikar Ramzan",
+      "contact_email": "zramzan@ipdynamics.com",
+      "contact_phone": "408-961-6349"
+    },
+    "algorithms": []
+  }
+}

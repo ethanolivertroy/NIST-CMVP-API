@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4980"
+  },
+  "certificate": {
+    "certificate_number": "4980",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4980",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4980",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4980.pdf",
+    "vendor_name": "Kiteworks",
+    "module_name": "Kiteworks Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "3/3/2025",
+    "validation_dates": [
+      "3/3/2025"
+    ],
+    "sunset_date": "7/22/2029",
+    "caveat": "No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The Kiteworks Private Content Network (PCN) empowers organizations to share sensitive content with trusted parties by email, file sharing, file transfer, and other channels at the highest levels of security, governance, and compliance. The Kiteworks Cryptographic Module is an integral component of Kiteworks PCN, making it compatible for environments with strict cryptography requirements.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4980.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/3/2025",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Kiteworks",
+      "website_url": "http://www.kiteworks.com",
+      "address_lines": [
+        "1510 Fashion Island Blvd.",
+        "Suite 100",
+        "San Mateo, CA 94404",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Frank Balonis",
+      "contact_email": "frank.balonis@kiteworks.com",
+      "contact_phone": "+1-650-485-4300"
+    },
+    "algorithms": []
+  }
+}

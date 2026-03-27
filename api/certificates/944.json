@@ -1,0 +1,85 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/944"
+  },
+  "certificate": {
+    "certificate_number": "944",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/944",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/944",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp944.pdf",
+    "vendor_name": "Oberthur Card Systems",
+    "module_name": "Oberthur ID-One Cosmo 128 v5.5 D",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 3,
+    "validation_date": "5/16/2008, 5/20/2008, 6/23/2008, 8/2/2010, 12/7/2011",
+    "validation_dates": [
+      "5/16/2008",
+      "5/20/2008",
+      "6/23/2008",
+      "8/2/2010",
+      "12/7/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "This new generation Oberthur Smart Card programmable module offers a highly secure architecture with state of the art on board cryptographic services that includes NSA SUITE-B cryptography for Top Secret classified information (symmetric encryption, message digest, and digital signature). Additional features include Logical Channels and Delegated Management. The module supports Java Card 2.2.2 and Global Platform 2.1.1.A and offers a full 128KB of EEPROM for customer data and keys. It is available with two communication interfaces (ISO 7816 for contact and ISO 14443 for contactless).",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp944.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt944.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/16/2008",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/20/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/23/2008",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/2/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/7/2011",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Oberthur Card Systems",
+      "website_url": "http://www.oberthurusa.com",
+      "address_lines": [
+        "4250 Pleasant Valley Road",
+        "Chantilly, VA 20151-1221",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Christophe Goyet",
+      "contact_email": "c.goyet@oberthurcs.com",
+      "contact_phone": "703-263-0100"
+    },
+    "algorithms": []
+  }
+}

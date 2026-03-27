@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4528"
+  },
+  "certificate": {
+    "certificate_number": "4528",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4528",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4528",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4528.pdf",
+    "vendor_name": "Apricorn",
+    "module_name": "Apricorn FIPS 140-2 Encryption System Gen 2",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "6/5/2023",
+    "validation_dates": [
+      "6/5/2023"
+    ],
+    "sunset_date": "6/6/2026",
+    "caveat": "When configured as specified in Section 11.1 of the Security Policy",
+    "description": "The AFESG2 is a FIPS 140-2 Level 2 validated complete encryption system. Its software-free design allows interface to any host that supports USB and mass storage. All CSPs (PINs, encryption keys, etc.) are protected and never leave the module boundary for improved security. The device supports 1 Admin, 4 Users and offers a variety of features including forced enrollment, programmable brute force, recovery PINs, 7-16 digit PINs, auto lock, read-only modes, and is compatible with Apricorn’s Aegis Configurator. The AFESG2 is used in the Aegis Fortress, Padlock DT FIPS and Padlock SSD.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4528.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2023_050723_0638 (1).pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/5/2023",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Apricorn",
+      "website_url": "http://www.apricorn.com",
+      "address_lines": [
+        "12191 Kirkham Road",
+        "Poway, CA 92064",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "Victor Nguyen",
+      "contact_email": "vnguyen@apricorn.com",
+      "contact_phone": "858-513-4459"
+    },
+    "algorithms": []
+  }
+}

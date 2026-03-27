@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/787"
+  },
+  "certificate": {
+    "certificate_number": "787",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/787",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/787",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp787.pdf",
+    "vendor_name": "Attachmate Corporation",
+    "module_name": "Attachmate Security Component for Java",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "6/21/2007, 4/29/2008",
+    "validation_dates": [
+      "6/21/2007",
+      "4/29/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Attachmate Security Component for Java provides SSL/TLS and cryptographic services for the Attachmate Reflection for the Web product. Reflection for the Web provides centrally managed terminal emulation within a web browser. This cross-platform, server-based solution connects users to applications on IBM, HP, Unix, and OpenVMS hosts, meeting host access needs while minimizing management costs, maximizing IT flexibility, and ensuring high-level security for administrative, terminal emulation, printer emulation, and file transfer operations.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Roles, Services, and Authentication: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp787.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt787.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/21/2007",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "4/29/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Attachmate Corporation",
+      "website_url": "http://www.attachmate.com",
+      "address_lines": [
+        "1500 Dexter Avenue North",
+        "Seattle, WA 98109",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Steve Poole",
+      "contact_email": "steve.poole@attachmate.com",
+      "contact_phone": "206-217-7500"
+    },
+    "algorithms": []
+  }
+}

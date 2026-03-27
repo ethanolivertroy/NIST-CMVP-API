@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4674"
+  },
+  "certificate": {
+    "certificate_number": "4674",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4674",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4674",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4674.pdf",
+    "vendor_name": "Lightware Visual Engineering Plc.",
+    "module_name": "Lightware Crypto Core",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/26/2024",
+    "validation_dates": [
+      "1/26/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "Lightware Crypto Core is a standards-based cryptographic engine for embedded Linux systems. The module delivers core cryptographic functions to the embedded systems of Taurus product family's hardware devices and features robust algorithm support. Lightware Crypto Core offloads functions for secure key management, data integrity, data at rest encryption, and secure communications to a trusted implementation.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4674.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/January 2024_010224_0801.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/26/2024",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Lightware Visual Engineering Plc.",
+      "website_url": "http://www.lightware.com/",
+      "address_lines": [
+        "Peterdy utca 15.",
+        "Budapest 1071",
+        "Hungary"
+      ],
+      "country": "Hungary",
+      "contact_name": "Gabor Keczan",
+      "contact_email": "architect@lightware.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

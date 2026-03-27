@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4284"
+  },
+  "certificate": {
+    "certificate_number": "4284",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4284",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4284",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4284.pdf",
+    "vendor_name": "Qumulo, Inc.",
+    "module_name": "Qumulo Secure",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software-Hybrid",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "8/28/2022",
+    "validation_dates": [
+      "8/28/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "No assurance of the minimum strength of generated keys",
+    "description": "The Qumulo Secure v1.0 cryptographic module is a component of the Qumulo Core software solution (versions 3.x.x and later). Qumulo Secure offers symmetric encryption/decryption, digital signature generation/verification, hashing, cryptographic key generation, random number generation, message authentication, and key establishment functions to secure data-at-rest/data-in-flight and to support secure communications protocols (including TLS 1.2).",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4284.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2022_010922_0715_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/28/2022",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Qumulo, Inc.",
+      "website_url": "http://www.qumulo.com",
+      "address_lines": [
+        "1501 4th Avenue",
+        "Suite 1600",
+        "Seattle, WA 98101",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Branden Legg",
+      "contact_email": "blegg@qumulo.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

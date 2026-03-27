@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/610"
+  },
+  "certificate": {
+    "certificate_number": "610",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/610",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/610",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp610.pdf",
+    "vendor_name": "Avaya, Inc.",
+    "module_name": "G250 and G250-BRI Branch Office Media Gateways w/FIPS",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "12/23/2005",
+    "validation_dates": [
+      "12/23/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Avaya G250 Branch Office Media Gateway w/FIPS and G250-BRI Branch Media Gateway w/FIPS are complete branch office business communications systems that integrate an IP telephony gateway, an advanced IP WAN router, and a PoE LAN switch into a compact (2U) chassis. Ideally suited for enterprise with distributed branch office locations of 2-10 extensions, the G250 and G250-BRI Gateways replace the complexity and cost of managing disparate key and voice systems with a survivable networked solution that is easy to deploy and can be administered from a central location.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp610.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt610.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/23/2005",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Avaya, Inc.",
+      "website_url": "http://www.avaya.com",
+      "address_lines": [
+        "Atidim Technology Park",
+        "Tel Aviv 61131",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "Pesah Spector",
+      "contact_email": "pspector@avaya.com",
+      "contact_phone": "972-3-6459162"
+    },
+    "algorithms": []
+  }
+}

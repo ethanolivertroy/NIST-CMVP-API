@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5203"
+  },
+  "certificate": {
+    "certificate_number": "5203",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5203",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5203",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5203.pdf",
+    "vendor_name": "OVH SAS",
+    "module_name": "OVHCloud OKMS Provider based on the OpenSSL FIPS Provider",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/21/2026",
+    "validation_dates": [
+      "3/21/2026"
+    ],
+    "sunset_date": "3/10/2030",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The OVHCloud OKMS Provider based on the OpenSSL FIPS Provider is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5203.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/21/2026",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "OVH SAS",
+      "website_url": "https://corporate.ovhcloud.com/en/",
+      "address_lines": [
+        "2 RUE KELLERMANN",
+        "ROUBAIX 59100",
+        "FRANCE"
+      ],
+      "country": "FRANCE",
+      "contact_name": "Data security team",
+      "contact_email": "okms_fips@ovh.net",
+      "contact_phone": "+33 3 20 82 73 32"
+    },
+    "algorithms": []
+  }
+}

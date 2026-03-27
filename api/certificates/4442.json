@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4442"
+  },
+  "certificate": {
+    "certificate_number": "4442",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4442",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4442",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4442.pdf",
+    "vendor_name": "VMware, Inc.",
+    "module_name": "VMware's ESXboot Cryptographic Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "2/23/2023, 4/4/2024",
+    "validation_dates": [
+      "2/23/2023",
+      "4/4/2024"
+    ],
+    "sunset_date": "2/22/2028",
+    "caveat": "When installed, initialized and configured as specified in Section 11 of the Security Policy",
+    "description": "VMware’s ESXboot Cryptographic Module provides FIPS 140-3 Approved cryptographic services for verifying the integrity of ESXi during the boot process.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4442.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2023_010323_0649.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/23/2023",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      },
+      {
+        "date": "4/4/2024",
+        "type": "Update",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "VMware, Inc.",
+      "website_url": "http://www.vmware.com",
+      "address_lines": [
+        "3401 Hillview Ave",
+        "Palo Alto, CA 94304",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "VTAE Team",
+      "contact_email": "vcf.fips@broadcom.com",
+      "contact_phone": "1 (877) 486-9273"
+    },
+    "algorithms": [
+      "HMAC",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

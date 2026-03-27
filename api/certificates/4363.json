@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4363"
+  },
+  "certificate": {
+    "certificate_number": "4363",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4363",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4363",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4363.pdf",
+    "vendor_name": "Saab AB (publ) TransponderTech (SAAB)",
+    "module_name": "SAAB Encrypted Automatic Identification System Cryptographic Module (EAISCM)",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "11/9/2022",
+    "validation_dates": [
+      "11/9/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "None",
+    "description": "The SAAB R5 SUPREME AIS Transponder (also referred to as the R5) is designed for all vessels that follow the Safety of Life at Sea (SOLAS) regulations and advanced applications such as Automatic Identification Systems (AIS). AIS provides information about a vessel to other vessels and coastal authorities automatically. The Encrypted Automatic Identification System Cryptographic Module (EAISCM) expands on the R5’s capabilities by providing an AIS with the capability to transmit and receive encrypted data containing the information required by regulation.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4363.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2022_051222_0640_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/9/2022",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      }
+    ],
+    "vendor": {
+      "name": "Saab AB (publ) TransponderTech (SAAB)",
+      "website_url": "http://saab.com/maritime-traffic-management",
+      "address_lines": [
+        "Låsblecksgatan 3",
+        "Linköping SE-589 41",
+        "Sweden"
+      ],
+      "country": "Sweden",
+      "contact_name": "Johan Lindborg",
+      "contact_email": "info.transpondertech@saabgroup.com",
+      "contact_phone": "Direct +46 13 18 00 00"
+    },
+    "algorithms": []
+  }
+}

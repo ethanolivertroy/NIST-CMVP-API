@@ -1,0 +1,74 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/48"
+  },
+  "certificate": {
+    "certificate_number": "48",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/48",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/48",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp48.pdf",
+    "vendor_name": "SPYRUS, Inc.",
+    "module_name": "FORTEZZA Crypto Card",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "4/23/1999, 5/14/2001, 6/18/2003",
+    "validation_dates": [
+      "4/23/1999",
+      "5/14/2001",
+      "6/18/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "SPYRUS's FORTEZZA is a PC Card that is used to provide cryptographic services.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp48.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt48.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/23/1999",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "5/14/2001",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/18/2003",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SPYRUS, Inc.",
+      "website_url": "http://www.spyrus.com",
+      "address_lines": [
+        "2355 Oakland Road",
+        "Suite 1",
+        "San Jose, CA 95131",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tom Dickens",
+      "contact_email": "tdickens@spyrus.com",
+      "contact_phone": "408-953-0700"
+    },
+    "algorithms": []
+  }
+}

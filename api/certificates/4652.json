@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4652"
+  },
+  "certificate": {
+    "certificate_number": "4652",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4652",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4652",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4652.pdf",
+    "vendor_name": "Google, LLC",
+    "module_name": "Cr50 U2F Cryptographic Library",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Firmware-Hybrid",
+    "embodiment": "Single Chip",
+    "overall_level": 1,
+    "validation_date": "11/6/2023",
+    "validation_dates": [
+      "11/6/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys.",
+    "description": "The Cr50 U2F Cryptographic Library is a firmware-hybrid module residing in the Google, LLC Google Security Chips (GSC) chip. The module is responsible for low-level cryptographic primitives on Google Security Chips (GSC) used in recent versions of Google Chromebooks, and includes functionality for key generation, signature generation, random bit generation, keyed-hashing and signature verification operations in support of U2F-related requests in the Cr50 Chrome OS.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4652.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/November 2023_111223_0648_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/6/2023",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Google, LLC",
+      "website_url": "http://www.google.com",
+      "address_lines": [
+        "1600 Amphitheatre Parkway",
+        "Mountain View, CA 94043",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "FIPS Crypto Officer",
+      "contact_email": "FIPS-crypto-officer@google.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

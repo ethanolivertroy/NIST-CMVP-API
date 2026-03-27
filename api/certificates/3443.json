@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3443"
+  },
+  "certificate": {
+    "certificate_number": "3443",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3443",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3443",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3443.pdf",
+    "vendor_name": "Thales eSecurity",
+    "module_name": "Vormetric Data Security Manager Virtual Appliance Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/26/2019",
+    "validation_dates": [
+      "4/26/2019"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The protocol SSH shall not be used when operated in FIPS mode.",
+    "description": "The Vormetric Data Security Virtual Appliance Module is a multi-chip standalone cryptographic module. The Vormetric Data Security Virtual Appliance Module is the central point of management for the Vormetric Data Security product. It manages keys and policies, and controls Vormetric Transparent Encryption Agents. These agents contain the Vormetric Encryption Expert Cryptographic Module, which has been validated separately from this module.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3",
+      "Physical Security: N/A",
+      "Cryptographic Key Management: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3443.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/AprilConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/26/2019",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      }
+    ],
+    "vendor": {
+      "name": "Thales eSecurity",
+      "website_url": "http://www.thalesesecurity.com",
+      "address_lines": [
+        "2860 Junction Ave",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Sales",
+      "contact_email": "sales@thalesesec.com",
+      "contact_phone": "+1 888 267 3732"
+    },
+    "algorithms": []
+  }
+}

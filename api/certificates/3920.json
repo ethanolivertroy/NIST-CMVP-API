@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3920"
+  },
+  "certificate": {
+    "certificate_number": "3920",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3920",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3920",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3920.pdf",
+    "vendor_name": "Broadcom, Inc.",
+    "module_name": "BCM58200 Series: BCM58201, BCM58202",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 3,
+    "validation_date": "5/3/2021, 5/31/2022",
+    "validation_dates": [
+      "5/3/2021",
+      "5/31/2022"
+    ],
+    "sunset_date": "5/2/2026",
+    "caveat": "The module generates cryptographic keys whose strengths are modified by available entropy",
+    "description": "Highly integrated, low power, security processor with rich peripheral connection options like USB, NFC, Contacted Smart Card, SPI, ADC, MIPI, UART etc.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3920.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2021_010621_0658.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/3/2021",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "5/31/2022",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Broadcom, Inc.",
+      "website_url": "http://www.broadcom.com/",
+      "address_lines": [
+        "270 Innovation Drive",
+        "San Jose, CA 95134",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Wei Hou",
+      "contact_email": "wei.hou@broadcom.com",
+      "contact_phone": "512-651-9549"
+    },
+    "algorithms": []
+  }
+}

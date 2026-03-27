@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4346"
+  },
+  "certificate": {
+    "certificate_number": "4346",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4346",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4346",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4346.pdf",
+    "vendor_name": "Cubic Corporation",
+    "module_name": "Vocality RoIP and DTECH M3-SE Multi-Function Gateway Appliances",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "10/24/2022",
+    "validation_dates": [
+      "10/24/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in Section 3 of the Security Policy and tamper evident seals installed as indicated in the Security Policy; The module generates cryptographic keys whose strengths are modified by available entropy.",
+    "description": "The Vocality ROIP and DTECH M3-SE-MFGW appliances are networked C4ISR solutions for defense, intelligence, security, and commercial missions. The Vocality RoIP appliance provides users with a simple-to-use, small form factor radio gateway solution that allows the connection of legacy push-to-talk and digital radio systems to IP unicast and multicast networks via either Ethernet or an embedded 4G LTE modem. The DTECH M3-SE MFGW offers the capabilities of the ROIP product, but in DTECH’s SE product line which boasts a ruggedized form factor and robust modular power solutions.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4346.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/October 2022_021122_1233_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/24/2022",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Cubic Corporation",
+      "website_url": "http://www.cubic.com",
+      "address_lines": [
+        "9333 Balboa Avenue",
+        "San Diego, CA 92123"
+      ],
+      "country": "San Diego, CA 92123",
+      "contact_name": "Nick Podolak",
+      "contact_email": "Nicholas.Podolak@cubic.com",
+      "contact_phone": "609-560-0824"
+    },
+    "algorithms": []
+  }
+}

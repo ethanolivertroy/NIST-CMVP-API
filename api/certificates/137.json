@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/137"
+  },
+  "certificate": {
+    "certificate_number": "137",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/137",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/137",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp137.pdf",
+    "vendor_name": "Research In Motion Ltd.",
+    "module_name": "BlackBerry 850/857 and BlackBerry 950/957 Cryptographic Kernel",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Firmware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "3/1/2001, 6/3/2002, 8/24/2005",
+    "validation_dates": [
+      "3/1/2001",
+      "6/3/2002",
+      "8/24/2005"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The BlackBerry crypto firmware v2.1, common to both the BlackBerry 850/857 and the BlackBerry 950/957, securely compresses and encrypts messages with Triple-DES. Following this procedure, the ciphertext is transmitted over the Internet to the recipient mail server. Upon receiving the message, the mail server decrypts and decompresses the ciphertext back to the original plaintext. The BlackBerry crypto firmware is messaging-system independent.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp137.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt137.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/1/2001",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "6/3/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/24/2005",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Research In Motion Ltd.",
+      "website_url": "http://www.blackberry.com",
+      "address_lines": [
+        "295 Phillip Street",
+        "Waterloo, Ontario N2L 3W8",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Government Certifications Team",
+      "contact_email": "certifications@rim.com",
+      "contact_phone": "519-888-7465 x2921"
+    },
+    "algorithms": []
+  }
+}

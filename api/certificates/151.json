@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/151"
+  },
+  "certificate": {
+    "certificate_number": "151",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/151",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/151",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp151.pdf",
+    "vendor_name": "SafeNet, Inc.",
+    "module_name": "SafeEnterprise™ Link Encryptor-High Speed Serial Interface (SLE-HSSI)",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "6/4/2001, 7/18/2002, 7/3/2003, 10/19/2004",
+    "validation_dates": [
+      "6/4/2001",
+      "7/18/2002",
+      "7/3/2003",
+      "10/19/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The SLE-HSSI secures data over high speed synchronous data links up to 52MHz, encrypting data at the full data rate, and meeting the HSSI industry standard. It contains the cryptographic module, which is the case containing all electronics, excluding the battery & its holder.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "Software Security: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp151.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt151.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/4/2001",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "7/18/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "7/3/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/19/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SafeNet, Inc.",
+      "website_url": "http://www.safenet-inc.com",
+      "address_lines": [
+        "4690 Millennium Drive",
+        "Belcamp, MD 21017",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Glenn Constable",
+      "contact_email": "gconstable@safenet-inc.com",
+      "contact_phone": "919-462-1900 x212"
+    },
+    "algorithms": []
+  }
+}

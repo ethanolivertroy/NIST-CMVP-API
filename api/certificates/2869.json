@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2869"
+  },
+  "certificate": {
+    "certificate_number": "2869",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2869",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2869",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2869.pdf",
+    "vendor_name": "Aviat Networks, Inc.",
+    "module_name": "Aviat Networks Eclipse Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "3/27/2017, 3/29/2018",
+    "validation_dates": [
+      "3/27/2017",
+      "3/29/2018"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. Installation of components shall be configured per Section 2.2.1 of the Security Policy",
+    "description": "This cryptographic module performs encryption of data carried over a microwave radio link.",
+    "security_level_exceptions": [
+      "Cryptographic Module Specification: Level 3",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2869.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertMar2017.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/27/2017",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/29/2018",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Aviat Networks, Inc.",
+      "website_url": "http://www.aviatnetworks.com",
+      "address_lines": [
+        "860 N. McCarthy Blvd., Suite 200",
+        "Milpitas, CA 95035",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Ruth French",
+      "contact_email": "ruth.french@aviatnet.com",
+      "contact_phone": "+44 7771 978599"
+    },
+    "algorithms": []
+  }
+}

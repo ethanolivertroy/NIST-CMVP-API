@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1136"
+  },
+  "certificate": {
+    "certificate_number": "1136",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1136",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1136",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1136.pdf",
+    "vendor_name": "Aladdin Knowledge Systems, Ltd.",
+    "module_name": "Aladdin eToken PRO (Java) HD and Aladdin eToken Anywhere HD",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Single-chip",
+    "overall_level": 3,
+    "validation_date": "5/22/2009, 7/2/2010, 10/26/2011",
+    "validation_dates": [
+      "5/22/2009",
+      "7/2/2010",
+      "10/26/2011"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "Aladdin eToken PRO (Java) HD offers strong authentication and guaranteed non-repudiation for sensitive applications such a eBanking, stock trading, eCommerce and financial transactions. Aladdin eToken PRO (Java) HD is based on the Athena IDProtect Java Card smart card operating system that is compliant with the Java Card 2.2.2 and Global Platform 2.1.1 specifications and FIPS 140-2 Level 3 (Level 4 for physical security). IDProtect supports FIPS Approved Random Number Generator, TDES, AES, SHA-1, SHA-256, and RSA up to 2048 bits including on board key generation.",
+    "security_level_exceptions": [
+      "Physical Security: Level 4"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1136.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1136.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/22/2009",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "7/2/2010",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/26/2011",
+        "type": "Update",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Aladdin Knowledge Systems, Ltd.",
+      "website_url": "http://www.aladdin.com",
+      "address_lines": [
+        "35 Efal St.",
+        "Kiryat Arie, Petach Tikva",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "Chanan Lavi",
+      "contact_email": "Chanan.Lavi@aladdin.com",
+      "contact_phone": "972-3-9781111"
+    },
+    "algorithms": []
+  }
+}

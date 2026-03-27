@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4439"
+  },
+  "certificate": {
+    "certificate_number": "4439",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4439",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4439",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4439.pdf",
+    "vendor_name": "Skyhigh Security",
+    "module_name": "Skyhigh Security OpenSSL Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "2/15/2023",
+    "validation_dates": [
+      "2/15/2023"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "The Skyhigh Security OpenSSL Module provides FIPS validated cryptographic services for Skyhigh Security products.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4439.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/February 2023_010323_0649.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "2/15/2023",
+        "type": "Initial",
+        "lab": "Gossamer Security Solutions"
+      }
+    ],
+    "vendor": {
+      "name": "Skyhigh Security",
+      "website_url": "http://www.skyhighsecurity.com",
+      "address_lines": [
+        "6000 Headquarters Drive",
+        "Plano, TX 75024",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Product Certifications",
+      "contact_email": "sec_certs@trellix.com",
+      "contact_phone": "888-847-8766"
+    },
+    "algorithms": []
+  }
+}

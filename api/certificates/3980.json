@@ -1,0 +1,82 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3980"
+  },
+  "certificate": {
+    "certificate_number": "3980",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3980",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3980",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3980.pdf",
+    "vendor_name": "Canonical Ltd.",
+    "module_name": "Ubuntu 18.04 OpenSSL Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "7/12/2021, 9/21/2021, 10/18/2021, 11/23/2022",
+    "validation_dates": [
+      "7/12/2021",
+      "9/21/2021",
+      "10/18/2021",
+      "11/23/2022"
+    ],
+    "sunset_date": "7/11/2026",
+    "caveat": "When operated in FIPS mode. The module generates keys whose strengths are modified by available entropy",
+    "description": "OpenSSL is an open-source library of various cryptographic algorithms written mainly in C.",
+    "security_level_exceptions": [
+      "Physical Security: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3980.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/July 2021_020821_0740_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/12/2021",
+        "type": "Initial",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "9/21/2021",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "10/18/2021",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      },
+      {
+        "date": "11/23/2022",
+        "type": "Update",
+        "lab": "atsec information security corporation"
+      }
+    ],
+    "vendor": {
+      "name": "Canonical Ltd.",
+      "website_url": "http://www.canonical.com",
+      "address_lines": [
+        "5th floor, Blue Fin Building",
+        "110 Southwark Street",
+        "London SE1 0SU",
+        "United Kingdom"
+      ],
+      "country": "United Kingdom",
+      "contact_name": "Canonical Certification Team",
+      "contact_email": "security-certifications@lists.canonical.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

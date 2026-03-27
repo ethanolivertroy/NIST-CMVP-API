@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3529"
+  },
+  "certificate": {
+    "certificate_number": "3529",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3529",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3529",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3529.pdf",
+    "vendor_name": "PacketLight Networks Ltd.",
+    "module_name": "PL-2000M, PL-2000AD and PL-2000ADS",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "9/18/2019",
+    "validation_dates": [
+      "9/18/2019"
+    ],
+    "sunset_date": null,
+    "caveat": "When installed, initialized and configured as specified in the Security Policy Section 10 and operated in FIPS mode",
+    "description": "PacketLight's PL-2000M, PL-2000AD and PL-2000ADS Layer-1 encryption solutions ensure the confidentiality and integrity of data, based on GCM-AES-256 encryption standards, supporting Diffie-Hellman (DH) key exchange up to every 1-minute. In addition, the solutions support multiple protocols including 10G/40G/100G Ethernet, 8G/16G/32G Fibre Channel, OTU2/OTU2e/OTU3/OTU4 and STM-64/OC-192",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3529.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/SeptConsolidated.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "9/18/2019",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "PacketLight Networks Ltd.",
+      "website_url": "http://www.packetlight.com",
+      "address_lines": [
+        "27 Habarzel Street",
+        "Tel-Aviv 6971039",
+        "Israel"
+      ],
+      "country": "Israel",
+      "contact_name": "Omri Viner",
+      "contact_email": "oviner@packetlight.com",
+      "contact_phone": "972-3-768-7850"
+    },
+    "algorithms": []
+  }
+}

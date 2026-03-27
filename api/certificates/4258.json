@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4258"
+  },
+  "certificate": {
+    "certificate_number": "4258",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4258",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4258",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4258.pdf",
+    "vendor_name": "Macronix International Co., Ltd.",
+    "module_name": "Macronix ArmorFlash MX78 series",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "6/27/2022, 9/28/2022",
+    "validation_dates": [
+      "6/27/2022",
+      "9/28/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "The output of the DRBG may not be used to generate keys.",
+    "description": "The ArmorFlash is a hardware cryptographic module which implements advanced cryptographic algorithms, including symmetric and asymmetric cryptography. ArmorFlash is a security solution for a wide range of identification, authentication and encryption requirements for automotive, computing and industrial environments, as a device peripheral to the MCU, with the application controlling the storage of the module.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4258.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2022_010722_0704_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/27/2022",
+        "type": "Initial",
+        "lab": "Asia Pacific IT Laboratory, TUV NORD"
+      },
+      {
+        "date": "9/28/2022",
+        "type": "Update",
+        "lab": "Asia Pacific IT Laboratory, TUV NORD"
+      }
+    ],
+    "vendor": {
+      "name": "Macronix International Co., Ltd.",
+      "website_url": "http://www.mxic.com",
+      "address_lines": [
+        "16, Li-Hsin Road, Science Park",
+        "Hsinchu 30078",
+        "Taiwan, R.O.C."
+      ],
+      "country": "Taiwan, R.O.C.",
+      "contact_name": "B.H. Chen",
+      "contact_email": "bhchen@mxic.com.tw",
+      "contact_phone": "+886-3-5786688"
+    },
+    "algorithms": [
+      "DRBG"
+    ]
+  }
+}

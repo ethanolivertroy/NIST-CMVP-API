@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5147"
+  },
+  "certificate": {
+    "certificate_number": "5147",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5147",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5147",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5147.pdf",
+    "vendor_name": "Broadcom Inc.",
+    "module_name": "VMware’s OpenSSL FIPS Provider based on the OpenSSL FIPS Provider",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "1/27/2026",
+    "validation_dates": [
+      "1/27/2026"
+    ],
+    "sunset_date": "3/10/2030",
+    "caveat": "When operated in approved mode. No assurance of the minimum strength of generated SSPs (e.g., keys).",
+    "description": "The VMware’s OpenSSL FIPS Provider based on the OpenSSL FIPS Provider is a software library providing a C-language application program interface (API) for use by applications that require cryptographic functionality",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Life-cycle assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5147.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/27/2026",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Broadcom Inc.",
+      "website_url": "http://www.broadcom.com",
+      "address_lines": [
+        "3401 Hillview Avenue",
+        "Palo Alto, CA 94304",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Madhur Walia",
+      "contact_email": "madhur.walia@broadcom.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

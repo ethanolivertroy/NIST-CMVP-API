@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1049"
+  },
+  "certificate": {
+    "certificate_number": "1049",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1049",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1049",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1049.pdf",
+    "vendor_name": "PGP Corporation",
+    "module_name": "PGP Software Developer's Kit (SDK) Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "10/27/2008, 12/3/2008",
+    "validation_dates": [
+      "10/27/2008",
+      "12/3/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The PGP SDK Cryptographic Module is a FIPS 140-2 validated software only cryptographic module. The module implements the cryptographic functions for PGP products including: PGP Whole Disk Encryption, PGP NetShare, PGP Command Line, PGP Universal, and PGP Desktop. It includes a wide range of field-tested and standards-based encryption, digital signature, and encoding algorithms as well as a variety of secure network protocol implementations. The PGP SDK offers developers this same cryptographic library that is at the heart of PGP products.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1049.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1049.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/27/2008",
+        "type": "Initial",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "12/3/2008",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "PGP Corporation",
+      "website_url": "http://www.pgp.com",
+      "address_lines": [
+        "200 Jefferson Dr.",
+        "Menlo Park, CA 94025",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Vinnie Moscaritolo",
+      "contact_email": "fips140@pgp.com",
+      "contact_phone": "650-319-9000"
+    },
+    "algorithms": []
+  }
+}

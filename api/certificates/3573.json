@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3573"
+  },
+  "certificate": {
+    "certificate_number": "3573",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3573",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3573",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3573.pdf",
+    "vendor_name": "Hewlett PackardR, Enterprise",
+    "module_name": "XP8 Encryption Backend SAS I/O Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "11/25/2019, 6/24/2020, 2/18/2022",
+    "validation_dates": [
+      "11/25/2019",
+      "6/24/2020",
+      "2/18/2022"
+    ],
+    "sunset_date": null,
+    "caveat": "The tamper evident seals installed as indicated in the Security Policy",
+    "description": "The XP8 Encryption Backend SAS I/O Module provides high speed data at rest encryption for HPE storage.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3573.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertNov2019.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/25/2019",
+        "type": "Initial",
+        "lab": "ECSEC Laboratory Inc."
+      },
+      {
+        "date": "6/24/2020",
+        "type": "Update",
+        "lab": "ECSEC Laboratory Inc."
+      },
+      {
+        "date": "2/18/2022",
+        "type": "Update",
+        "lab": "ECSEC Laboratory Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett PackardR, Enterprise",
+      "website_url": "https://www.hpe.com",
+      "address_lines": [
+        "153 Taylor Street",
+        "Littleton, MA 01460",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Mondher Razouane",
+      "contact_email": "Mondher.Razouane@hpe.com",
+      "contact_phone": "+1(916)785-1894"
+    },
+    "algorithms": []
+  }
+}

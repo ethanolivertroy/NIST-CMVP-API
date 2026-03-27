@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1958"
+  },
+  "certificate": {
+    "certificate_number": "1958",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1958",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1958",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1958.pdf",
+    "vendor_name": "SafeNet, Inc.",
+    "module_name": "Luna® G5 Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "6/11/2013, 8/7/2015, 1/22/2016, 5/12/2016, 1/10/2017, 6/23/2017",
+    "validation_dates": [
+      "6/11/2013",
+      "8/7/2015",
+      "1/22/2016",
+      "5/12/2016",
+      "1/10/2017",
+      "6/23/2017"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode and initialized to Overall Level 2 per Security Policy",
+    "description": "Luna® G5 delivers key management in a portable appliance. All key materials are maintained exclusively within the confines of the hardware. The small form-factor and on-board key storage sets the product apart, making it especially attractive to customers who need to physically remove and store the small appliance holding PKI root keys. The appliance directly connects the HSM to the application server via a USB interface.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3",
+      "EMI/EMC: Level 3",
+      "Design Assurance: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1958.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0030.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/11/2013",
+        "type": "Initial",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "8/7/2015",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "1/22/2016",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "5/12/2016",
+        "type": "Update",
+        "lab": "EWA - Canada"
+      },
+      {
+        "date": "1/10/2017",
+        "type": "Update",
+        "lab": "CGI Information Systems & Management Consultants Inc"
+      },
+      {
+        "date": "6/23/2017",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "6/23/2017",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SafeNet, Inc.",
+      "website_url": "http://www.safenet.com",
+      "address_lines": [
+        "20 Colonnade Road",
+        "Suite 200",
+        "Ottawa, Ontario K2E 7M6",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Security and Certifications Team",
+      "contact_email": "SecurityCertifications@gemalto.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

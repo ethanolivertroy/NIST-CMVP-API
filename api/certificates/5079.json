@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5079"
+  },
+  "certificate": {
+    "certificate_number": "5079",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5079",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5079",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5079.pdf",
+    "vendor_name": "Persistent Systems, LLC",
+    "module_name": "Wave Relay® User Space Crypto Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Single Chip",
+    "overall_level": 2,
+    "validation_date": "10/8/2025",
+    "validation_dates": [
+      "10/8/2025"
+    ],
+    "sunset_date": "10/7/2030",
+    "caveat": "When operated in approved mode, No assurance of the minimum strength of generated SSPs (e.g., keys)",
+    "description": "Persistent Systems LLC Wave Relay® User Space Crypto Module is a Software cryptographic module embedded in the Wave Relay® System that provides FIPS Validated cryptographic algorithms which are used by user space system services & protocols (e.g., TLS, IPsec, etc.).",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5079.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/8/2025",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Persistent Systems, LLC",
+      "website_url": "http://www.persistentsystems.com/",
+      "address_lines": [
+        "601 W 26th St",
+        "Suite 905",
+        "New York, New York 10001",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Holmer",
+      "contact_email": "security-certifications@persistentsystems.com",
+      "contact_phone": "212-561-5895"
+    },
+    "algorithms": []
+  }
+}

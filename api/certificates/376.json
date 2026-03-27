@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/376"
+  },
+  "certificate": {
+    "certificate_number": "376",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/376",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/376",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp376.pdf",
+    "vendor_name": "IBM® Corporation",
+    "module_name": "IBM Java JCE 140-2 Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "1/30/2004, 4/5/2004",
+    "validation_dates": [
+      "1/30/2004",
+      "4/5/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The IBM« Java« JCE (Java Cryptographic Extension) FIPS provider (IBMJCEFIPS) for Multi-platforms is a scalable, multi-purpose cryptographic module that supports only FIPS approved cryptographic operations via the Java2 Application Programming Interfaces (APIs).",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp376.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt376.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "1/30/2004",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "4/5/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "IBM® Corporation",
+      "website_url": "http://www.ibm.com",
+      "address_lines": [
+        "11400 Burnet Road",
+        "Austin, TX 78758",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tom Benjamin",
+      "contact_email": "tbenjami@us.ibm.com",
+      "contact_phone": "512-436-1223"
+    },
+    "algorithms": []
+  }
+}

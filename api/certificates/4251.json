@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4251"
+  },
+  "certificate": {
+    "certificate_number": "4251",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4251",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4251",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4251.pdf",
+    "vendor_name": "Allied Telesis",
+    "module_name": "AT-x220, AT-x320, AT-x950 Secure Management Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "6/17/2022",
+    "validation_dates": [
+      "6/17/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode and installed, initialized, and configured as specified in Section 8 of the Security Policy and tamper-evident seals installed as indicated in Section 5",
+    "description": "The AlliedWare Plus OpenSSL FIPS Object Module is a software library which provides cryptographic support for securing the communications and management of the device. The products certified cover AT-x950, AT-x320, and AT-x220 models.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4251.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/June 2022_010722_0704_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/17/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Allied Telesis",
+      "website_url": "http://www.alliedtelesis.com",
+      "address_lines": [
+        "27 Nazareth Avenue, Middleton",
+        "Christchurch 8024",
+        "New Zealand"
+      ],
+      "country": "New Zealand",
+      "contact_name": "Alex Murray",
+      "contact_email": "alex.murray@alliedtelesis.co.nz",
+      "contact_phone": "+64 3 339 9556"
+    },
+    "algorithms": []
+  }
+}

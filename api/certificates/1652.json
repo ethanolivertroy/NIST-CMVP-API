@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1652"
+  },
+  "certificate": {
+    "certificate_number": "1652",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1652",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1652",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1652.pdf",
+    "vendor_name": "Juniper Networks, Inc.",
+    "module_name": "SSG 5 and SSG 20",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "12/15/2011, 7/24/2012, 12/11/2013",
+    "validation_dates": [
+      "12/15/2011",
+      "7/24/2012",
+      "12/11/2013"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode with the tamper evident seals and security devices installed as indicated in the Security Policy",
+    "description": "Juniper Networks integrated security devices are purpose-built to perform essential networking security functions designed on top of robust networking and security real-time operating systems, ScreenOS. These are high-performance platforms that deliver integrated security and LAN/WAN routing across high-density LAN/WAN interfaces, Juniper Networks integrated security devices address the needs of small to medium sized locations, large distributed enterprises, and service providers as well as large and co-located datacenters.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1652.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0012.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/15/2011",
+        "type": "Initial",
+        "lab": "ICSA"
+      },
+      {
+        "date": "7/24/2012",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "12/11/2013",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Juniper Networks, Inc.",
+      "website_url": "http://www.juniper.net/us/en/",
+      "address_lines": [
+        "1194 North Mathilda Ave",
+        "Sunnyvale, CA 94089",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Claudio Baserga",
+      "contact_email": "cbaserga@juniper.net",
+      "contact_phone": "408-936-0961"
+    },
+    "algorithms": []
+  }
+}

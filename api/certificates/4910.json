@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4910"
+  },
+  "certificate": {
+    "certificate_number": "4910",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4910",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4910",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4910.pdf",
+    "vendor_name": "Digital.ai Software, Inc.",
+    "module_name": "Digital.ai Key & Data Protection Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/3/2024",
+    "validation_dates": [
+      "12/3/2024"
+    ],
+    "sunset_date": "12/2/2026",
+    "caveat": "Interim Validation; No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs",
+    "description": "The Digital.ai Key & Data Protection Module is a sophisticated implementation of whitebox cryptography, (Class A safety-critical software per IEC 62304) that ingests cryptographic keys for use in the cryptographic operations performed by methods in the Digital.ai Key & Data Protection Module libraries.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4910.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/3/2024",
+        "type": "Initial",
+        "lab": "Penumbra Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Digital.ai Software, Inc.",
+      "website_url": "http://www.digital.ai",
+      "address_lines": [
+        "555 Fayetteville Street",
+        "Raleigh, NC 27601",
+        "United States"
+      ],
+      "country": "United States",
+      "contact_name": "Lee Ivy",
+      "contact_email": "lee.ivy@digital.ai",
+      "contact_phone": "857-465-7444"
+    },
+    "algorithms": [
+      "AES",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "SHA"
+    ]
+  }
+}

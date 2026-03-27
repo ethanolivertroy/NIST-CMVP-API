@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1627"
+  },
+  "certificate": {
+    "certificate_number": "1627",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1627",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1627",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1627.pdf",
+    "vendor_name": "Communication Devices, Inc.",
+    "module_name": "Port Authority Series",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "11/1/2011, 8/24/2016",
+    "validation_dates": [
+      "11/1/2011",
+      "8/24/2016"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode. The protocols SSH and SNMP shall not be used when operated in FIPS mode",
+    "description": "Secure Out of Band Management appliance with network port, internal modem, and up to 9 serial ports. Allows Secure Out of Band Access to Firewalls, Routers, Network appliances etc.. Supports up to 256 bit AES CFB encryption.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1627.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertList0011.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "11/1/2011",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "8/24/2016",
+        "type": "Update",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      }
+    ],
+    "vendor": {
+      "name": "Communication Devices, Inc.",
+      "website_url": "http://www.commdevices.com",
+      "address_lines": [
+        "#1 Forstmann Court",
+        "Clifton, NJ 07011",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Donald Snook",
+      "contact_email": "donsnook@commdevices.com",
+      "contact_phone": "973-334-1980"
+    },
+    "algorithms": []
+  }
+}

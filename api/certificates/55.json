@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/55"
+  },
+  "certificate": {
+    "certificate_number": "55",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/55",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/55",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp55.pdf",
+    "vendor_name": "Admiral Secure Products, Ltd.",
+    "module_name": "Elliptic Curve Security Module (CLv)",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 2,
+    "validation_date": "6/21/1999, 10/24/2002",
+    "validation_dates": [
+      "6/21/1999",
+      "10/24/2002"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": null,
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp55.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt55.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "6/21/1999",
+        "type": "Initial",
+        "lab": "CYGNACOM SOLUTIONS INC"
+      },
+      {
+        "date": "10/24/2002",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Admiral Secure Products, Ltd.",
+      "website_url": "http://www.admiralsecure.com",
+      "address_lines": [
+        "866 Mantle Crescent",
+        "Mississauga, Ontario L5V 2G3",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Alex Chartier",
+      "contact_email": "achartier@admiralsecure.com",
+      "contact_phone": "905-542-3351"
+    },
+    "algorithms": []
+  }
+}

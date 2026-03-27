@@ -6,16 +6,19 @@
     "historical_modules": "/api/historical-modules.json",
     "modules_in_process": "/api/modules-in-process.json",
     "metadata": "/api/metadata.json",
+    "certificate_detail_template": "/api/certificates/{certificate}.json",
     "algorithms": "/api/algorithms.json"
   },
-  "last_updated": "2026-03-22T04:00:30.734476Z",
+  "last_updated": "2026-03-26T23:35:03.340331Z",
   "total_modules": 1077,
-  "total_historical_modules": 4115,
-  "total_modules_in_process": 331,
-  "total_certificates_with_algorithms": 378,
+  "total_historical_modules": 4125,
+  "total_modules_in_process": 333,
+  "total_certificates_with_algorithms": 375,
+  "total_certificate_details": 5202,
   "features": {
     "security_policy_urls": true,
     "certificate_detail_urls": true,
-    "algorithm_extraction": true
+    "algorithm_extraction": true,
+    "certificate_detail_records": true
   }
 }

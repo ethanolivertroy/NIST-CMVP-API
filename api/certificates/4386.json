@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4386"
+  },
+  "certificate": {
+    "certificate_number": "4386",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4386",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4386",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4386.pdf",
+    "vendor_name": "Apacer Technology Inc.",
+    "module_name": "Apacer TCG SSD SV240 Series",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 2,
+    "validation_date": "12/7/2022",
+    "validation_dates": [
+      "12/7/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "The tamper evident seals installed as indicated in the security policy",
+    "description": "Apacer¡¦s SV240 is a well-balanced solid-state disk (SSD) drive with standard form factor and great performance. Designed in SATA 6 Gb/s interface, the SSD is able to deliver exceptional read/write speed, making it the ideal companion for heavy-loading industrial or server operations. Apacer SV240 SSD provides AES 256 encryption/decryption of data that is stored in NAND flash. The module supports the SATA interface compliant with the Trusted Computing Group (TCG) SSC specification Opal.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4386.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/December 2022_030123_0646_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/7/2022",
+        "type": "Initial",
+        "lab": "Asia Pacific IT Laboratory, TUV NORD"
+      }
+    ],
+    "vendor": {
+      "name": "Apacer Technology Inc.",
+      "website_url": "http://industrial.apacer.com/en-ww",
+      "address_lines": [
+        "1F, No. 32, Zhongcheng Rd., Tucheng Dist.",
+        "New Taipei City 23674",
+        "Taiwan, R.O.C."
+      ],
+      "country": "Taiwan, R.O.C.",
+      "contact_name": "Parker Kuo",
+      "contact_email": "parker_kuo@apacer.com",
+      "contact_phone": "+886-2-2267-8000#5625"
+    },
+    "algorithms": []
+  }
+}

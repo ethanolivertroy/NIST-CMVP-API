@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5013"
+  },
+  "certificate": {
+    "certificate_number": "5013",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5013",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5013",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5013.pdf",
+    "vendor_name": "Hitachi Vantara, Ltd.",
+    "module_name": "Hitachi Storage Hybrid Firmware Encryption Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware-hybrid",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "4/29/2025",
+    "validation_dates": [
+      "4/29/2025"
+    ],
+    "sunset_date": "4/28/2030",
+    "caveat": "No assurance of minimum security of SSPs (e.g., keys, bit strings) that are externally loaded, or of SSPs established with externally loaded SSPs.",
+    "description": "Hitachi Storage Hybrid Firmware Encryption Module provides data at rest encryption for Hitachi storage.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5013.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/29/2025",
+        "type": "Initial",
+        "lab": "ECSEC Laboratory Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hitachi Vantara, Ltd.",
+      "website_url": "https://www.hitachivantara.com/ja-jp",
+      "address_lines": [
+        "292 Yoshida-cho, Totsuka-ku",
+        "Yokoahama-shi, Kanagawa 244-0817",
+        "Japan"
+      ],
+      "country": "Japan",
+      "contact_name": "Hajime Sato",
+      "contact_email": "hajime.sato.kd@hitachi.com",
+      "contact_phone": "81-45-870-1533"
+    },
+    "algorithms": []
+  }
+}

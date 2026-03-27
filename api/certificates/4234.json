@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4234"
+  },
+  "certificate": {
+    "certificate_number": "4234",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4234",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4234",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4234.pdf",
+    "vendor_name": "ICU Medical, Inc.",
+    "module_name": "ICU Medical CE3.0 OpenSSL Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "5/24/2022",
+    "validation_dates": [
+      "5/24/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. No assurance of the minimum strength of generated keys",
+    "description": "ICU Medical CE3.0 OpenSSL Cryptographic Module 2.0.9.1 is used within various ICU Medical Plum360 Infusion Pumps for providing secure communication between Infusion pumps and external server.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4234.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/May 2022_010622_0641_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/24/2022",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "ICU Medical, Inc.",
+      "website_url": "http://www.icumed.com",
+      "address_lines": [
+        "600 N. Field Drive",
+        "Lake Forest, IL 60045",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Chaitanya Srinivasamurthy",
+      "contact_email": "chaitanya.srinivasamurthy@icumed.com",
+      "contact_phone": "224-706-2518"
+    },
+    "algorithms": []
+  }
+}

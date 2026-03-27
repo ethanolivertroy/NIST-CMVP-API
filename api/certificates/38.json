@@ -1,0 +1,70 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/38"
+  },
+  "certificate": {
+    "certificate_number": "38",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/38",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/38",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp38.pdf",
+    "vendor_name": "SafeNet, Inc.",
+    "module_name": "LunaCA",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 2,
+    "validation_date": "12/8/1998, 10/18/2004",
+    "validation_dates": [
+      "12/8/1998",
+      "10/18/2004"
+    ],
+    "sunset_date": null,
+    "caveat": "For services provided by the listed FIPS-Approved algorithms and using Triple DES",
+    "description": "LunaCA is a hardware crypto engine for identification and authentication (I&A) and digital signing; supports encryption/decryption and random number generation. Its target is certification authority systems that require a secure key generation and signing capability. LunCA is a token based on the PCMCIA standard - now known as PC Card.",
+    "security_level_exceptions": [
+      "Software Security: Level 3",
+      "Self Tests: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp38.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt38.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/8/1998",
+        "type": "Initial",
+        "lab": "DOMUS"
+      },
+      {
+        "date": "10/18/2004",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "SafeNet, Inc.",
+      "website_url": "http://www.safenet-inc.com",
+      "address_lines": [
+        "4690 Millennium Drive",
+        "Belcamp, MD 21017",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Randy Kun",
+      "contact_email": "rkun@safenet-inc.com",
+      "contact_phone": "613-723-5077"
+    },
+    "algorithms": []
+  }
+}

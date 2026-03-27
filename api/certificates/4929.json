@@ -1,0 +1,69 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4929"
+  },
+  "certificate": {
+    "certificate_number": "4929",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4929",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4929",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4929.pdf",
+    "vendor_name": "Hewlett Packard Enterprise",
+    "module_name": "Aruba OpenSSL Module",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "12/20/2024",
+    "validation_dates": [
+      "12/20/2024"
+    ],
+    "sunset_date": "12/19/2026",
+    "caveat": "Interim validation. When operated in Approved mode.",
+    "description": "The Aruba OpenSSL Module is an Hewlett Packard Enterprise cryptographic module that provides cryptographic services for the ArubaOS operating system running on the Hewlett Packard Enterprise hardware-based equipment or Hewlett Packard Enterprise virtual appliances.",
+    "security_level_exceptions": [
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4929.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/20/2024",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Hewlett Packard Enterprise",
+      "website_url": "http://www.hpe.com/us/en/networking/",
+      "address_lines": [
+        "1701 E Mossy Oaks Rd",
+        "Spring, TX 77389",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Kevin Micciche",
+      "contact_email": "kevin.micciche@hpe.com",
+      "contact_phone": "404-648-0062"
+    },
+    "algorithms": [
+      "AES",
+      "DSA",
+      "ECDSA",
+      "HMAC",
+      "KAS",
+      "KDF",
+      "RSA",
+      "SHA"
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/985"
+  },
+  "certificate": {
+    "certificate_number": "985",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/985",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/985",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp985.pdf",
+    "vendor_name": "Route1® Inc.",
+    "module_name": "Route1® FIPS Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "7/17/2008",
+    "validation_dates": [
+      "7/17/2008"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "The Route1 FIPS Cryptographic Module lies at the core of Route1®'s MobiNET™ a communications and service delivery platform focused on identity management and entitlement-based access to systems and resources. MobiNET™services are delivered on a number of digital form factors, such as mobile phones, handheld devices and Route1 MobiKEY™ an ultra-portable, smart-card enabled USB device. The Route1 FIPS Cryptographic Module's functionality includes a wide range of data encryption and asymmetric algorithms including AES, the RSA Public Key Cryptosystem, DSA, and the SHA family of message digests.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp985.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt985.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "7/17/2008",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      }
+    ],
+    "vendor": {
+      "name": "Route1® Inc.",
+      "website_url": "http://www.route1.com",
+      "address_lines": [
+        "155 University Avenue",
+        "Suite 1920",
+        "Toronto, Ontario M5H 3B7",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Jerry S. Iwanski",
+      "contact_email": "jiwanski@route1.com",
+      "contact_phone": "416-848-8391"
+    },
+    "algorithms": []
+  }
+}

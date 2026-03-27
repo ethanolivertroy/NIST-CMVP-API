@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4955"
+  },
+  "certificate": {
+    "certificate_number": "4955",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4955",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4955",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4955.pdf",
+    "vendor_name": "",
+    "module_name": "",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Firmware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 2,
+    "validation_date": "01/28/2025",
+    "validation_dates": [],
+    "sunset_date": "1/27/2030",
+    "caveat": null,
+    "description": null,
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4955.pdf"
+      }
+    ],
+    "validation_history": [],
+    "vendor": {
+      "name": "",
+      "website_url": null,
+      "address_lines": [],
+      "country": null,
+      "contact_name": null,
+      "contact_email": null,
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

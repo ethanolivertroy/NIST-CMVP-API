@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/261"
+  },
+  "certificate": {
+    "certificate_number": "261",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/261",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/261",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp261.pdf",
+    "vendor_name": "Pitney Bowes, Inc.",
+    "module_name": "Compliant Meter Postal Security Device",
+    "standard": "FIPS 140-1",
+    "status": "Historical",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 3,
+    "validation_date": "10/11/2002, 10/21/2002, 2/20/2003, 3/7/2003",
+    "validation_dates": [
+      "10/11/2002",
+      "10/21/2002",
+      "2/20/2003",
+      "3/7/2003"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Pitney Bowes Compliant Meter Postal Security Device (PSD) has been designed in compliance with the United States Postal Service (USPS), Information-Based Indicia Program (IBIP). It employs strong encryption, decryption, and digital signature techniques for the protection of customer funds in Pitney Bowes IBIP Metering products. The PSD has been designed to support international postal markets and their rapidly evolving requirements for digital indicia.",
+    "security_level_exceptions": [
+      "Physical Security: Level 3 +EFP"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp261.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt261.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "10/11/2002",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "10/21/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "2/20/2003",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "3/7/2003",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Pitney Bowes, Inc.",
+      "website_url": "http://www.pb.com",
+      "address_lines": [
+        "35 Waterview Drive",
+        "Shelton, CT 06484-8000",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Douglas Clark",
+      "contact_email": "douglas.clark@pb.com",
+      "contact_phone": "203-924-3500"
+    },
+    "algorithms": []
+  }
+}

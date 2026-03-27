@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3887"
+  },
+  "certificate": {
+    "certificate_number": "3887",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3887",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3887",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3887.pdf",
+    "vendor_name": "Integral Memory Plc",
+    "module_name": "Integral Crypto AES 256 Bit USB 3.0",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 3,
+    "validation_date": "4/7/2021",
+    "validation_dates": [
+      "4/7/2021"
+    ],
+    "sunset_date": "4/6/2026",
+    "caveat": "None",
+    "description": "The Integral Crypto / Crypto Dual and Envoy Dual FIPS 140-2 Encrypted USB 3.0 Flash Drive offers the data security of military grade 256-bit hardware encryption and tamper-proof circuitry as well as the environmental resistance of a triple-layer case design, ensuring your sensitive data is completely safe and can be taken with you wherever you go.",
+    "security_level_exceptions": [
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3887.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/April 2021_030521_0757_signed.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/7/2021",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Integral Memory Plc",
+      "website_url": "http://www.integralmemory.com",
+      "address_lines": [
+        "Unit 6 Iron Bridge Close",
+        "Iron Bridge Business Park",
+        "Middlesex",
+        "London NW10 0UF",
+        "UK"
+      ],
+      "country": "UK",
+      "contact_name": "Patrick Warley",
+      "contact_email": "patrick.warley@integralmemory.com",
+      "contact_phone": "+44 (0)2084518704"
+    },
+    "algorithms": [
+      "AES"
+    ]
+  }
+}

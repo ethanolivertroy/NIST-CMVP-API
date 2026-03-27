@@ -1,0 +1,62 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1134"
+  },
+  "certificate": {
+    "certificate_number": "1134",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1134",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/1134",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1134.pdf",
+    "vendor_name": "Mobile Armor, Inc.",
+    "module_name": "Mobile Armor Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "5/22/2009",
+    "validation_dates": [
+      "5/22/2009"
+    ],
+    "sunset_date": null,
+    "caveat": "None",
+    "description": "The Mobile Armor Cryptographic Module 3.0 is a multi-chip standalone software module running on a standard IBM compatible personal computer, an Intel-based Mac, or a mobile device. On the PC, the software module can execute within a Linux, Microsoft Windows or Mac OS X operating system; while on a mobile device the module can be executed within a Windows Mobile Operating System.",
+    "security_level_exceptions": [],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp1134.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt1134.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "5/22/2009",
+        "type": "Initial",
+        "lab": "Leidos Accredited Testing & Evaluation (AT&E) Lab"
+      }
+    ],
+    "vendor": {
+      "name": "Mobile Armor, Inc.",
+      "website_url": "http://www.mobilearmor.com",
+      "address_lines": [
+        "400 South Woods Mill Road",
+        "Suite 300",
+        "St. Louis, MO 63017",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Brian Wood",
+      "contact_email": "wood@mobilearmor.com",
+      "contact_phone": "443-468-1238"
+    },
+    "algorithms": []
+  }
+}

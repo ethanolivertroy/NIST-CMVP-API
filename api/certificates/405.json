@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/405"
+  },
+  "certificate": {
+    "certificate_number": "405",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/405",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/405",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp405.pdf",
+    "vendor_name": "Microsoft Corporation",
+    "module_name": "Windows Server 2003 Kernel Mode Cryptographic Module (FIPS.SYS)",
+    "standard": "FIPS 140-2",
+    "status": "Historical",
+    "module_type": "Software",
+    "embodiment": "Multi-chip standalone",
+    "overall_level": 1,
+    "validation_date": "3/18/2004, 10/7/2005, 10/25/2005, 10/15/2007",
+    "validation_dates": [
+      "3/18/2004",
+      "10/7/2005",
+      "10/25/2005",
+      "10/15/2007"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode",
+    "description": "Microsoft Corporation’s Windows Server 2003 Kernel Mode Cryptographic Module (FIPS.SYS) is a FIPS 140-2 Level 1 compliant, general-purpose, software-based, cryptographic module residing at the Kernel Mode level of the Windows Operating System. It runs as a kernel mode export driver (a kernel-mode DLL) and encapsulates several different cryptographic algorithms in an easy-to-use cryptographic module accessible by other kernel mode drivers. It can be linked into other kernel mode services to permit the use of FIPS 140-2 Level 1 compliant cryptography.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp405.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt405.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/18/2004",
+        "type": "Initial",
+        "lab": "SAIC-VA"
+      },
+      {
+        "date": "10/7/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/25/2005",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/15/2007",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Microsoft Corporation",
+      "website_url": "http://www.microsoft.com",
+      "address_lines": [
+        "One Microsoft Way",
+        "Redmond, WA 98052",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Dave Friant",
+      "contact_email": "Dave.Friant@microsoft.com",
+      "contact_phone": "425-704-7984"
+    },
+    "algorithms": []
+  }
+}

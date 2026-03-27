@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2623"
+  },
+  "certificate": {
+    "certificate_number": "2623",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2623",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/2623",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2623.pdf",
+    "vendor_name": "Veritas Technologies LLC",
+    "module_name": "Veritas Cryptographic Module",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "4/25/2016, 5/10/2016, 6/24/2020, 6/29/2020, 7/7/2020, 3/15/2022",
+    "validation_dates": [
+      "4/25/2016",
+      "5/10/2016",
+      "6/24/2020",
+      "6/29/2020",
+      "7/7/2020",
+      "3/15/2022"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When operated in FIPS mode. The module makes no assurance of the minimum strength of random strings and generated keys. This validation entry is a non-security relevant modification to Cert. #2038.",
+    "description": "The Veritas Cryptographic Module from Veritas provides cryptographic services which are used to encrypt the data at rest and in the secure communication with a trusted third party.",
+    "security_level_exceptions": [
+      "Physical Security: N/A",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp2623.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/FIPS140ConsolidatedCertApril2016.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "4/25/2016",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "5/10/2016",
+        "type": "Update",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "6/24/2020",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "6/29/2020",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "7/7/2020",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      },
+      {
+        "date": "3/15/2022",
+        "type": "Update",
+        "lab": "AEGISOLVE, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "Veritas Technologies LLC",
+      "website_url": "https://www.veritas.com/",
+      "address_lines": [
+        "2625 Augustine Drive",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "David Dillard",
+      "contact_email": "David.Dillard@veritas.com",
+      "contact_phone": null
+    },
+    "algorithms": []
+  }
+}

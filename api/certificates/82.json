@@ -1,0 +1,96 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "historical",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/82"
+  },
+  "certificate": {
+    "certificate_number": "82",
+    "dataset": "historical",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/82",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/82",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp82.pdf",
+    "vendor_name": "Motorola, Inc.",
+    "module_name": "ASTRO Subscriber Encryption Module",
+    "standard": "FIPS 140-1",
+    "status": "Revoked",
+    "module_type": "Hardware",
+    "embodiment": "Multi-chip embedded",
+    "overall_level": 1,
+    "validation_date": "12/22/1999, 3/30/2001, 8/17/2001, 10/4/2001, 5/15/2002, 9/10/2002",
+    "validation_dates": [
+      "12/22/1999",
+      "3/30/2001",
+      "8/17/2001",
+      "10/4/2001",
+      "5/15/2002",
+      "9/10/2002"
+    ],
+    "sunset_date": null,
+    "caveat": "When operated in FIPS mode by selection of the DES algorithm Universal Crypto Module (UCM), (v3.44)",
+    "description": "Encryption modules used in Motorola Astro™ Saber, Astro™ Spectra, Astro™ Consolette, and XTS3000 radios. Provides secure voice and data capabilities as well as APCO Over-the-Air-Rekeying and advanced key management.",
+    "security_level_exceptions": [
+      "Roles and Services: Level 2",
+      "Software Security: Level 3"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp82.pdf"
+      },
+      {
+        "label": "Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/140crt82.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "12/22/1999",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      },
+      {
+        "date": "3/30/2001",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "8/17/2001",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "10/4/2001",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "5/15/2002",
+        "type": "Update",
+        "lab": ""
+      },
+      {
+        "date": "9/10/2002",
+        "type": "Update",
+        "lab": ""
+      }
+    ],
+    "vendor": {
+      "name": "Motorola, Inc.",
+      "website_url": "http://www.mot.com",
+      "address_lines": [
+        "Secure Design Center",
+        "IL02 Room 0509A",
+        "1301 East Algonquin Rd",
+        "Schaumburg, IL 60196",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Geoff Hobar",
+      "contact_email": "geoffhobar@motorola.com",
+      "contact_phone": "847-576-9066"
+    },
+    "algorithms": []
+  }
+}

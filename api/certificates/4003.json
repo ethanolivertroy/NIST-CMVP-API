@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4003"
+  },
+  "certificate": {
+    "certificate_number": "4003",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4003",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4003",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4003.pdf",
+    "vendor_name": "FEITIAN Technologies",
+    "module_name": "OTP Token",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Embedded",
+    "overall_level": 1,
+    "validation_date": "8/3/2021",
+    "validation_dates": [
+      "8/3/2021"
+    ],
+    "sunset_date": "8/2/2026",
+    "caveat": "None",
+    "description": "OTP Token enables strong authentication by positively identifying user with one-time passwords. Simply pressing the button OTP Token generates a secure event synchronous or time-based one-time password, ensuring properly identification and allowing only authorized access to critical applications and sensitive data.",
+    "security_level_exceptions": [
+      "EMI/EMC: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4003.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/August 2021_010921_0733.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "8/3/2021",
+        "type": "Initial",
+        "lab": "UL Verification Services, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "FEITIAN Technologies",
+      "website_url": "http://www.ftsafe.com",
+      "address_lines": [
+        "4633 Old Ironsides Dr.",
+        "STE 450",
+        "Santa Clara, CA 95054",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "Tibi Zhang",
+      "contact_email": "tibi@ftsafe.com",
+      "contact_phone": "408-352-5553"
+    },
+    "algorithms": [
+      "DES"
+    ]
+  }
+}

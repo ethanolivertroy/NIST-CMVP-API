@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4462"
+  },
+  "certificate": {
+    "certificate_number": "4462",
+    "dataset": "active",
+    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4462",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4462",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4462.pdf",
+    "vendor_name": "Oracle Communications",
+    "module_name": "Acme Packet 4600 and Acme Packet 6350",
+    "standard": "FIPS 140-2",
+    "status": "Active",
+    "module_type": "Hardware",
+    "embodiment": "Multi-Chip Stand Alone",
+    "overall_level": 1,
+    "validation_date": "3/29/2023, 1/25/2024",
+    "validation_dates": [
+      "3/29/2023",
+      "1/25/2024"
+    ],
+    "sunset_date": "9/21/2026",
+    "caveat": "When installed, initialized and configured as specified in the Security Policy Section 10.",
+    "description": "The Acme Packet 4600 and 6350 appliances are specifically designed to meet the unique price performance and manageability requirements of the small to medium sized enterprise and remote office/ branch office. Ideal for small site border control and Session Initiation Protocol (SIP) trunking service termination applications, the Acme Packet 4600 and 6350 appliances delivers Oracle’s industry leading ESBC capabilities in a small form factor appliance.",
+    "security_level_exceptions": [
+      "Roles, Services, and Authentication: Level 2",
+      "Design Assurance: Level 3",
+      "Mitigation of Other Attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4462.pdf"
+      },
+      {
+        "label": "Consolidated Certificate",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/certificates/March 2023_030423_0646.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/29/2023",
+        "type": "Initial",
+        "lab": "Acumen Security"
+      },
+      {
+        "date": "1/25/2024",
+        "type": "Update",
+        "lab": "Acumen Security"
+      }
+    ],
+    "vendor": {
+      "name": "Oracle Communications",
+      "website_url": "http://www.oracle.com",
+      "address_lines": [
+        "35 Blue Sky Dr",
+        "Burlington, MA 01803",
+        "USA"
+      ],
+      "country": "USA",
+      "contact_name": "George Guo",
+      "contact_email": "george.guo@oracle.com",
+      "contact_phone": "781-538-7399"
+    },
+    "algorithms": []
+  }
+}
