@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "generated_at": "2026-03-29T03:09:34.326514Z",
     "dataset": "active",
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4246"
   },
   "certificate": {
     "certificate_number": "4246",
     "dataset": "active",
-    "generated_at": "2026-03-26T23:35:03.340331Z",
+    "generated_at": "2026-03-29T03:09:34.326514Z",
     "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4246",
     "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4246",
     "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4246.pdf",

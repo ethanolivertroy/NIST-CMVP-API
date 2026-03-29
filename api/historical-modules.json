@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "generated_at": "2026-03-26T23:35:03.340331Z",
-    "total_modules": 1077,
-    "total_historical_modules": 4125,
+    "generated_at": "2026-03-29T03:09:34.326514Z",
+    "total_modules": 1073,
+    "total_historical_modules": 4131,
     "total_modules_in_process": 333,
     "total_certificates_with_algorithms": 375,
-    "total_certificate_details": 5202,
+    "total_certificate_details": 5204,
     "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/validated-modules/search",
     "modules_in_process_source": "https://csrc.nist.gov/Projects/cryptographic-module-validation-program/modules-in-process/modules-in-process-list",
     "algorithm_source": "crawl4ai",
@@ -970,6 +970,18 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4525.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4525",
+      "detail_available": true
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4520",
+      "Certificate Number": "4520",
+      "Vendor Name": "Cisco Systems, Inc.",
+      "Module Name": "Cisco Catalyst 9600 Series Switches",
+      "Module Type": "Hardware",
+      "Validation Date": "05/11/2023",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp4520.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/4520",
       "detail_available": true
     },
     {
@@ -3598,6 +3610,66 @@
       "Status": "Historical",
       "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3874.pdf",
       "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3874",
+      "detail_available": true
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3873",
+      "Certificate Number": "3873",
+      "Vendor Name": "Trellix",
+      "Module Name": "Network Security Platform Sensor NS9300P",
+      "Module Type": "Hardware",
+      "Validation Date": "03/29/202106/28/202106/29/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3873.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3873",
+      "detail_available": true
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3872",
+      "Certificate Number": "3872",
+      "Vendor Name": "Trellix",
+      "Module Name": "Network Security Platform Sensor NS9300 S",
+      "Module Type": "Hardware",
+      "Validation Date": "03/29/202106/28/202106/29/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3872.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3872",
+      "detail_available": true
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3871",
+      "Certificate Number": "3871",
+      "Vendor Name": "Trellix",
+      "Module Name": "Network Security Platform Sensor NS9100 and NS9200",
+      "Module Type": "Hardware",
+      "Validation Date": "03/29/202106/28/202106/29/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3871.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3871",
+      "detail_available": true
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3870",
+      "Certificate Number": "3870",
+      "Vendor Name": "Trellix",
+      "Module Name": "Network Security Platform Sensor NS7150, NS7250 and NS7350",
+      "Module Type": "Hardware",
+      "Validation Date": "03/29/202106/28/202106/29/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3870.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3870",
+      "detail_available": true
+    },
+    {
+      "Certificate Number_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3869",
+      "Certificate Number": "3869",
+      "Vendor Name": "Trellix",
+      "Module Name": "Network Security Platform Sensor NS7100, NS7200 and NS7300",
+      "Module Type": "Hardware",
+      "Validation Date": "03/29/202106/28/202106/29/2022",
+      "Status": "Historical",
+      "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp3869.pdf",
+      "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/3869",
       "detail_available": true
     },
     {

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "generated_at": "2026-03-29T03:09:34.326514Z",
+    "dataset": "active",
+    "source": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5214"
+  },
+  "certificate": {
+    "certificate_number": "5214",
+    "dataset": "active",
+    "generated_at": "2026-03-29T03:09:34.326514Z",
+    "nist_page_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5214",
+    "certificate_detail_url": "https://csrc.nist.gov/projects/cryptographic-module-validation-program/certificate/5214",
+    "security_policy_url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5214.pdf",
+    "vendor_name": "WinMagic Corp",
+    "module_name": "WinMagic Cryptographic Module for macOS/Linux",
+    "standard": "FIPS 140-3",
+    "status": "Active",
+    "module_type": "Software",
+    "embodiment": "MultiChipStand",
+    "overall_level": 1,
+    "validation_date": "3/27/2026",
+    "validation_dates": [
+      "3/27/2026"
+    ],
+    "sunset_date": "3/26/2031",
+    "caveat": "None",
+    "description": "The WinMagic Cryptographic Module for macOS/Linux 1.0 is a software library, designed to run as a multi-chip standalone embodiment on MacOS/Linux platform. The module leverages cryptographic services for the WinMagic software products.",
+    "security_level_exceptions": [
+      "Physical security: N/A",
+      "Non-invasive security: N/A",
+      "Mitigation of other attacks: N/A"
+    ],
+    "related_files": [
+      {
+        "label": "Security Policy",
+        "url": "https://csrc.nist.gov/CSRC/media/projects/cryptographic-module-validation-program/documents/security-policies/140sp5214.pdf"
+      }
+    ],
+    "validation_history": [
+      {
+        "date": "3/27/2026",
+        "type": "Initial",
+        "lab": "Lightship Security, Inc."
+      }
+    ],
+    "vendor": {
+      "name": "WinMagic Corp",
+      "website_url": "http://www.winmagic.com",
+      "address_lines": [
+        "5770 Hurontario St, Suite 501",
+        "Mississauga, ON L5R 3G5",
+        "Canada"
+      ],
+      "country": "Canada",
+      "contact_name": "Alexander Mazuruc",
+      "contact_email": "alexm@winmagic.com",
+      "contact_phone": "905-502-7000 ext. 3225"
+    },
+    "algorithms": []
+  }
+}

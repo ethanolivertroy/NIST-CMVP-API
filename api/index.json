@@ -9,12 +9,12 @@
     "certificate_detail_template": "/api/certificates/{certificate}.json",
     "algorithms": "/api/algorithms.json"
   },
-  "last_updated": "2026-03-26T23:35:03.340331Z",
-  "total_modules": 1077,
-  "total_historical_modules": 4125,
+  "last_updated": "2026-03-29T03:09:34.326514Z",
+  "total_modules": 1073,
+  "total_historical_modules": 4131,
   "total_modules_in_process": 333,
   "total_certificates_with_algorithms": 375,
-  "total_certificate_details": 5202,
+  "total_certificate_details": 5204,
   "features": {
     "security_policy_urls": true,
     "certificate_detail_urls": true,
